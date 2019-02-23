@@ -1,3 +1,47 @@
 "pools": {
-
+  "Grand Luxxe Tower 1 Circular Pool": {
+    "image": "tower-one-circular-pool.jpg",
+    "hours": "9 AM - 9 PM",
+    "description": "Surrounded by a beautiful lounge deck, this gorgeous round pool is located right next to Grand Luxxe Tower 1."
+  },
+  "Grand Luxxe Tower 1 Infinty Pool": {
+    "image": "tower-1-infinity-pool.jpg",
+    "hours": "9 AM - 9 PM",
+    "description": "Boasting an infinity edge and Jacuzzis nestled into one side, this expansive pool, located directly adjacent to Tower 1 Pool 1 and by Blue Fish, has an activities stand and a lounge deck."
+  },
+  "Grand Luxxe Adults-Only Pool": {
+    "image": "adults-only-pool.jpg",
+    "hours": "9 AM - 9 PM",
+    "description": "Located just off from the Mayan Palace Pool, this oval-shaped, adults-only pool overlooks the ocean."
+  },
+  "Grand Luxxe Punta Pool East": {
+    "image": "punta-pools-east.jpg",
+    "hours": "9 AM - 9 PM",
+    "description": "This distinctive pool boasts a famous spiral shape and expansive lounging area while offering sweeping views of the Ameca River and Bay of Banderas. Featuring a horseshoe-shaped cluster of Jacuzzis, a swim-up bar, and food service by Si Snack."
+  },
+  "Grand Luxxe Punta Pool West": {
+    "image": "punta-pools-west.jpg",
+    "hours": "9 AM - 9 PM",
+    "description": "This petite pool is located between a lovely lagoon and Punta Pool East, and boasts a large, beautiful lounge area. Featuring a swim-up bar and activities stand nearby."
+  },
+  "Grand Luxxe Spa Tower Pools": {
+    "image": "spa-tower-pools.jpg",
+    "hours": "9 AM - 9 PM",
+    "description": "This pool cluster includes several secluded coves and a surrounding lounge, where you can enjoy a beverage or bite from the adjacent restaurant, Fresh Co. Featuring an activities stand and swim-up bar."
+  },
+  "Grand Luxxe Residence Sky Garden Pool": {
+    "image": "sky-garden-pool.jpg",
+    "hours": "9 AM - 9 PM",
+    "description": "Located on top of the Grand Luxxe Residence building, this rectangular pool is surrounded by lounge beds. Guests can enjoy food and beverages from the Fresh Co Sky Garden restaurant."
+  },
+  "Grand Luxxe Tower 5 Sky Lounge Pool": {
+    "image": "tower-five-sky-lounge-pool.jpg",
+    "hours": "9 AM - 9 PM",
+    "description": "This brand-new rooftop pool is perched at the top of Grand Luxxe Tower 5. Located next to Quinto Charcoal Cuisine, this gorgeous pool features an infinity edge, so that its azure waters blend into the vibrant blue of the sky."
+  },
+  "Grand Luxxe Kid's Club Pool": {
+    "image": "kids-club-pool.jpg",
+    "hours": "9 AM - 9 PM",
+    "description": "Grand Luxxe guests can drop their children off at the Grand Luxxe-exclusive Kid’s Club, located just off from the Spa Tower Pool, by Grand Luxxe Tower 3 and 4. Here, they can enjoy some fun in the sun under the supervision of our wonderful Kid’s Club staff."
+  }
 }
