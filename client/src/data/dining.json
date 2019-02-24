@@ -1,17 +1,29 @@
 "dining" : {
+  "heading": "Where to Eat and Drink",
+  "text": "With over 40 restaurants and lounges to choose from, Vidanta Nuevo Vallarta gives guests the opportunity to dine however they like. Options range from high-end eateries to casual restaurants to authentic Mexican spots, and even a gourmet market filled with offerings from all over the world. One thing is for sure—an amazing culinary experience is always just a meal away at Vidanta Nuevo Vallarta.",
+  "featured-dish": {
+    "name": "Tacos al pastor",
+    "text": "Delight in the flavors of authentic Mexico with this Puebla-born dish, made with spit-roasted pork marinated with pineapple.",
+    "restaurant": "Tacos Break"
+  },
   "categories": {
       "fine": {
         "heading": "Flavorful Food for Every Mood",
+        "image": "fine-dining-thumbnail.jpg",
         "text": "Browse our selection of casual dining options at Vidanta Nuevo Vallarta.",
         "venues": [
           {
             "name": "Azur",
             "heading": "French Fare with a Twist",
-            "text": "This beautiful restaurant is the perfect place to explore the flavors of French cuisine, which come in the form of modern, mouthwatering dishes. From bright salads and rich, comforting classics to innovative flavor-forward entrées and decadent desserts, Azur has the flavors to make your palate sing.",
-            "featured_dish": {
+            "text": {
+              "description": "This beautiful restaurant is the perfect place to explore the flavors of French cuisine, which come in the form of modern, mouthwatering dishes. From bright salads and rich, comforting classics to innovative flavor-forward entrées and decadent desserts, Azur has the flavors to make your palate sing.",
+              "thumbnail": "Authentic fine French cuisine in a modern setting",
+              "banner": ""
+            },
+            "featured-dish": {
                               "name": "Escargot",
-                              "featured_dish_text": "This celebrated French appetizer is served with garlic butter and parsley.",
-                              "featured_dish_image": "azur-featured-dish.jpg"
+                              "featured-dish-text": "This celebrated French appetizer is served with garlic butter and parsley.",
+                              "featured-dish-image": "azur-featured-dish.jpg"
                             },
             "location": "At La Plaza, 3rd Floor",
             "times":  {
@@ -19,22 +31,24 @@
                         "hours": "7 AM - 11 PM",
                       },
             "images": {
+                        "banner": "",
                         "carousel": [
-                                    "azur-gallery-1.jpg",
-                                    "azur-gallery-2.jpg",
-                                    "azur-gallery-3.jpg"
-                                  ],
-                        "thumbnail": {
-                          "image": "azur-thumbnail.jpg",
-                          "text": "Authentic fine French cuisine in a modern setting",
-                        }
+                                      "azur-gallery-1.jpg",
+                                      "azur-gallery-2.jpg",
+                                      "azur-gallery-3.jpg"
+                                    ],
+                        "thumbnail": "azur-thumbnail.jpg"
                       }
           },
           {
             "name": "Costa Arena",
             "heading": "California-Inspired Seafood",
-            "text": "Costa Arena offers a wide variety of seafood dishes—prepared in a simple California-cuisine style—served in a breathtaking setting just above the sands bordering Banderas Bay. Dishes are made with the freshest shrimp, scallops, lobster, mussels, fish, crab cakes, and soft-shell crab—served buttered, marinated, seared, stuffed, grilled, breaded, or sautéed.",
-            "featured_dish": {
+            "text": {
+              "description": "Costa Arena offers a wide variety of seafood dishes—prepared in a simple California-cuisine style—served in a breathtaking setting just above the sands bordering Banderas Bay. Dishes are made with the freshest shrimp, scallops, lobster, mussels, fish, crab cakes, and soft-shell crab—served buttered, marinated, seared, stuffed, grilled, breaded, or sautéed.",
+              "thumbnail": "The fresh, ingredient-driven dishes of Californian cuisine with a gorgeous ocean view",
+              "banner": ""
+            },
+            "featured-dish": {
                               "name": "Spicy Tuna Tartare",
                               "text": "Enjoy fresh seafood, including tuna tartare with soy sauce, ginger, and roasted chili pepper-soy sauce",
                               "image": "costa-arena-featured-dish.jpg"
@@ -46,22 +60,24 @@
                       },
             "chef": "Issac Hernandez",
             "images": {
+                        "banner": "",
                         "carousel": [
                                     "costa-arena-gallery-1.jpg",
                                     "costa-arena-gallery-2.jpg",
                                     "costa-arena-gallery-3.jpg"
                                   ],
-                        "thumbnail": {
-                          "image": "costa-arena-thumbnail.jpg",
-                          "text": "The fresh, ingredient-driven dishes of Californian cuisine with a gorgeous ocean view",
-                        }
+                        "thumbnail": "costa-arena-thumbnail.jpg",
                       }
           },
           {
             "name": "Epazote",
             "heading": "A Modern Take on Mexican Cuisine",
-            "text": "At Epazote, Mexican favorites get a modern refresh while maintaining their traditional flavor profiles. Menu options include inspired renditions of cochinita pibil, chiles rellenos, mole, tamales, enchiladas, burritos, and gorditas. Don’t miss the all-new Tasting Menu, complete with a thoughtful wine pairing option.",
-            "featured_dish": {
+            "text": {
+              "description": "At Epazote, Mexican favorites get a modern refresh while maintaining their traditional flavor profiles. Menu options include inspired renditions of cochinita pibil, chiles rellenos, mole, tamales, enchiladas, burritos, and gorditas. Don’t miss the all-new Tasting Menu, complete with a thoughtful wine pairing option.",
+              "thumbnail": "The best of Mexican cuisine, elevated to stun the palate",
+              "banner": ""
+                          },
+            "featured-dish": {
                               "name": "Mixiote Lamb",
                               "text": "This traditional Mexican specialty of lamb stew is slow cooked with maguey leaves for a rich, deep flavor.",
                               "image": "epazote-featured-dish.jpg"
@@ -73,24 +89,25 @@
                       },
             "chef": "Axel Jimenez Lira",
             "images": {
+                        "banner": "",
                         "carousel": [
                                     "epazote-gallery-1.jpg",
                                     "epazote-gallery-2.jpg",
                                     "epazote-gallery-3.jpg",
                                     "epazote-gallery-4.jpg"
                                   ],
-                        "thumbnail": {
-                          "image": "epazote-thumbnail.jpg",
-                          "text": "The best of Mexican cuisine, elevated to stun the palate",
-                        }
+                        "thumbnail": "epazote-thumbnail.jpg",
                       }
           },
           {
             "name": "Gong",
-            "banner_image": "gong-gallery-0.jpg",
             "heading": "Far East Favorites",
-            "text": "Transport yourself to the East and take a tour of the culinary traditions and delicacies of Asia with the flavors of a meal at Gong. Favorites include Peking Duck, lobster rolls, tempura ice cream, and dessert sushi. Or try the teppanyaki dinner, where you can watch your multiple-course dinner prepared on a grill right before you!",
-            "featured_dish": {
+            "text": {
+              "description": "Transport yourself to the East and take a tour of the culinary traditions and delicacies of Asia with the flavors of a meal at Gong. Favorites include Peking Duck, lobster rolls, tempura ice cream, and dessert sushi. Or try the teppanyaki dinner, where you can watch your multiple-course dinner prepared on a grill right before you!",
+              "thumbnail": "A tour of Asia’s brightest flavors and favorite dishes",
+              "banner": ""
+            },
+            "featured-dish": {
                               "name": "Sashimi Gong",
                               "text": "This warm salmon sashimi comes complete with ginger and garlic, seared with olive oil, and a citrus soy sauce.",
                               "image": "gong-featured-dish.jpg"
@@ -102,22 +119,23 @@
                       },
             "chef": "Mitzuo Takahashi",
             "images": {
+                        "banner": "gong-gallery-0.jpg",
                         "carousel": [
                                     "gong-gallery-0.jpg",
                                     "gong-gallery-1.jpg"
                                   ],
-                        "thumbnail": {
-                          "image": "epazote-thumbnail.jpg",
-                          "text": "A tour of Asia’s brightest flavors and favorite dishes",
-                        }
+                        "thumbnail": "epazote-thumbnail.jpg",
                       }
           },
           {
             "name": "Quinto Charcoal Grill",
-            "banner_image": "quinto-banner.jpg",
             "heading": "The Best of Land and Sea",
-            "text": "Situated in the Sky Lounge at the very top of Grand Luxxe’s new Tower 5, Quinto offers guests fine dining service set within a relaxed yet luxurious atmosphere, with breathtaking views of Banderas Bay, the Ameca River, and the Sierra Madre Mountains.",
-            "featured_dish": {
+            "text": {
+              "description": "Situated in the Sky Lounge at the very top of Grand Luxxe’s new Tower 5, Quinto offers guests fine dining service set within a relaxed yet luxurious atmosphere, with breathtaking views of Banderas Bay, the Ameca River, and the Sierra Madre Mountains.",
+              "thumbnail": "This rooftop eatery offers premium cuts, smoky flavors, and stunning views",
+              "banner": ""
+            },
+            "featured-dish": {
                               "name": "Rib Eye Cap",
                               "text": "Any steak aficionado knows the tenderloin is the most tender cut, and the rib eye is the most flavorful. Welcome to the best of both worlds. The rib eye cap is flash-cooked on our charcoal grill to buttery, umami perfection—this is one steak you’ll surely want to savor.",
                               "image": "quinto-featured-dish.jpg"
@@ -129,24 +147,26 @@
                       },
             "chef": "David Vidales",
             "images": {
+                        "banner": "quinto-banner.jpg",
                         "carousel": [
                                     "quinto-gallery-1.jpg",
                                     "quinto-gallery-2.jpg",
                                     "quinto-gallery-3.jpg",
                                     "quinto-gallery-4.jpg"
                                   ],
-                        "thumbnail": {
-                          "image": "quinto-thumbnail.jpg",
-                          "text": "This rooftop eatery offers premium cuts, smoky flavors, and stunning views",
-                        }
+                        "thumbnail": "quinto-thumbnail.jpg",
                       }
           },
+
           {
             "name": "The Burger Custom Made",
-            "banner_image": "burger-banner.jpg",
             "heading": "A Reimagining of the Burger",
-            "text": "At this al fresco restaurant, the quintessential American classic—the burger—gets a bold reinterpretation. Try elevated iterations, including Kobe beef with foie gras, angus beef and lobster, duck and gorgonzola, Mediterranean lamb, Asian salmon, and more. And don’t miss mouthwatering sides like the Parmesan truffle fries!",
-            "featured_dish": {
+            "text": {
+              "description": "At this al fresco restaurant, the quintessential American classic—the burger—gets a bold reinterpretation. Try elevated iterations, including Kobe beef with foie gras, angus beef and lobster, duck and gorgonzola, Mediterranean lamb, Asian salmon, and more. And don’t miss mouthwatering sides like the Parmesan truffle fries!",
+              "thumbnail": "Gourmet burgers with a sophisticated twist",
+              "banner": ""
+            },
+            "featured-dish": {
                                 "name": "Pepper Burger",
                                 "text": "Try a deluxe take on the classic burger with peppercorn sauce, brie cheese, and onion confit.",
                                 "image": "burger-featured-dish.jpg",
@@ -159,24 +179,26 @@
                       },
             "chef": "Oscar Baltazar",
             "images": {
+                        "banner": "burger-banner.jpg",
                         "carousel": [
                                       "burger-gallery-1.jpg",
                                       "burger-gallery-2.jpg",
                                       "burger-gallery-3.jpg",
                                       "burger-gallery-4.jpg"
                         ],
-                        "thumbnail": {
-                          "image": "burger-thumbnail.jpg",
-                          "text": "Gourmet burgers with a sophisticated twist",
-                        }
+                        "thumbnail": "burger-thumbnail.jpg",
                       }
           },
+
           {
             "name": "Tramonto",
-            "banner_image": "tramonto-banner.jpg",
             "heading": "Your Trattoria in Paradise",
-            "text": "This luxurious restaurant offers Italian cuisine and steaks that are sure to delight the most discerning palate, served in a sophisticated setting. Pair a house-made pasta or risotto, or Tramonto’s specialty, prime rib, with a selection from the extensive international wine list.",
-            "featured_dish": {
+            "text": {
+              "description": "This luxurious restaurant offers Italian cuisine and steaks that are sure to delight the most discerning palate, served in a sophisticated setting. Pair a house-made pasta or risotto, or Tramonto’s specialty, prime rib, with a selection from the extensive international wine list.",
+              "thumbnail": "A classic Italian trattoria combined with an American steak house",
+              "banner": ""
+            },
+            "featured-dish": {
                               "name": "Ossobuco",
                               "text": "Take a trip to authentic Italy with this succulent dish consisting of veal shank braised in red wine with vegetables.",
                               "image": "tramonto-featured-dish.jpg"
@@ -188,25 +210,28 @@
                       },
             "chef": "Salvatore Morina",
             "images": {
+                        "banner": "tramonto-banner.jpg",
                         "carousel": ["tramonto-gallery-1.jpg"],
-                        "thumbnail": {
-                          "image": "tramonto-thumbnail.jpg",
-                          "text": "A classic Italian trattoria combined with an American steak house"
-                                     }
+                        "thumbnail": "tramonto-thumbnail.jpg",
                       }
           }
         ]
       },
       "casual": {
                   "heading": "Flavorful Food for Every Mood",
-                  "text": "Browse our selection of casual dining options at Vidanta Nuevo Vallarta.",
+                  "image": "casual-dining-thumbnail.jpg",
+
+                  "description": "Browse our selection of casual dining options at Vidanta Nuevo Vallarta.",
                   "venues": [
                   {
                     "name": "Acqua",
-                    "banner_image": "acqua-banner.jpg",
                     "heading": "Seaside Snacks",
-                    "text": "For a quick bite or delicious drink between pool dips or after an afternoon at the beach, make sure you stop by Acqua. Satisfy your cravings with a menu of classic appetizers and snacks or an icy tropical cocktail.",
-                    "featured_dish": {"name": "", "text": "", "image": ""},
+                    "text": {
+                      "description": "For a quick bite or delicious drink between pool dips or after an afternoon at the beach, make sure you stop by Acqua. Satisfy your cravings with a menu of classic appetizers and snacks or an icy tropical cocktail.",
+                      "thumbnail": "For poolside dining, visit this favorite located by Sea Garden",
+                      "banner": ""
+                    },
+                    "featured-dish": {"name": "", "text": "", "image": ""},
                     "location": "By Sea Garden",
                     "times":  {
                                 "days": "Monday - Sunday",
@@ -214,19 +239,21 @@
                               },
                     "chef": "Karla Colin Valkerplaken",
                     "images": {
+                                "banner": "acqua-banner.jpg",
                                 "carousel": ["acqua-gallery-1.jpg"],
-                                "thumbnail": {
-                                              "image": "acqua-thumbnail.jpg",
-                                              "text": "For poolside dining, visit this favorite located by Sea Garden",
-                                             }
+                                "thumbnail": "acqua-thumbnail.jpg",
                               }
                   },
                   {
                     "name": "Ameca Social House",
-                    "banner_image": "ameca-social-house-banner.jpg",
                     "heading": "Elevated Pub Fare on the Green",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "The Ameca Social House is Vidanta Nuevo Vallarta’s 19th hole restaurant. With a sleek, stylish dining room and a gorgeous patio that offers panoramic views, the Ameca Social House is a favorite dining destination for guests. Dishes vary from classic American to posh takes on pub fare, and the extensive whiskey menu is not to be missed.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "The Tomahawk",
                                       "text": "An impressive French-trimmed bone-in rib eye steak cooked to perfection and paired with garlic mashed potatoes and grilled vegetables.",
                                       "image": "ameca-social-house-featured-dish.jpg"
@@ -238,6 +265,7 @@
                               },
                     "chef": "Hector Illan",
                     "images": {
+                                "banner": "ameca-social-house-banner.jpg",
                                 "carousel": [
                                               "ameca-social-house-gallery-1.jpg",
                                               "ameca-social-house-gallery-1.jpg",
@@ -251,10 +279,14 @@
                   },
                   {
                     "name": "Balance",
-                    "banner_image": "balance-banner.jpg",
                     "heading": "A Healthy Approach to Casual Cuisine",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Balance Snack Bar is the perfect place to recharge after a day of sun-soaked lounging. Balance offers a variety of healthy and delicious food and drinks. Choose from a robust menu of sandwiches, baguettes, salads, juices, or smoothies, or indulge in a creamy gelato.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Chicken Focaccia",
                                       "text": "This savory sandwich features grilled chicken breast, fresh spinach, tomato, bell peppers, melted mozzarella cheese, and pesto on warm focaccia bread.",
                                       "image": "balance-featured-dish.jpg",
@@ -266,6 +298,7 @@
                               },
                     "chef": "Hector Illan",
                     "images": {
+                                "banner": "balance-banner.jpg",
                                 "carousel": [
                                               "balance-gallery-0.jpg",
                                               "balance-gallery-1.jpg"
@@ -278,10 +311,14 @@
                   },
                   {
                     "name": "Balché",
-                    "banner_image": "balché-banner.jpg",
                     "heading": "A Taste of Casual Cool",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Offering a wide variety of sandwiches, burgers, and refreshing cocktails, Balché is ideal for guests spending their day under the sun. This restaurant was named after the ancient Mayans’ sacred drink, “balché.”",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Octopus Tacos al Pastor",
                                       "text": "Try a new and inspired twist on tacos with this dish featuring spicy octopus marinated in chili pepper.",
                                       "image": "balché-featured-dish.jpg",
@@ -293,6 +330,7 @@
                               },
                     "chef": "Laura Reynaga",
                     "images": {
+                                "banner": "balché-banner.jpg",
                                 "carousel": [
                                   "balché-gallery-0.jpg",
                                   "balché-gallery-1.jpg"
@@ -307,8 +345,13 @@
                     "name": "Cafe Del Lago",
                     "banner_image": "cafe-del-lago-banner.jpg",
                     "heading": "Fresh Dishes, Lake Views",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Take in the charm of the Nayarit scenery and the tastes of paradise at this restaurant overlooking the lake at the center of Vidanta Nuevo Vallarta. Stop by for breakfast at an extensive buffet filled with fresh fruit, baked breads, and made-to-order omelettes. Or check out the restaurant in the evening for their famous themed dinner menus!",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Northern Eggs",
                                       "text": "Don’t miss this famous dish of eggs scrambled with machaca and accompanied by refried beans, guacamole, salsa, and flour tortillas.",
                                       "image": "cafe-del-lago-featured-dish.jpg"
@@ -320,6 +363,7 @@
                               },
                     "chef": "Demetrio Rendón",
                     "images": {
+                                "banner": "cafe-del-lago-banner.jpg",
                                 "carousel": ["cafe-del-lago-gallery-1.jpg"],
                                 "thumbnail": {
                                   "image": "cafe-del-lago-thumbnail.jpg",
@@ -330,10 +374,15 @@
 
                   {
                     "name": "Chiringuito",
-                    "banner_image": "burger-banner.jpg",
+                    "banner_image": "chiringuito-banner.jpg",
                     "heading": "Flavorful Spanish Fare",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "You may be vacationing in Mexico, but that’s no reason your taste buds can’t take a trip to Spain! From the complex flavors of authentic paella to the rich and bright tastes of tapas, Chiringuito brings authentic Spanish food—and all of its vivid character—to your plate.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Paella Valenciana",
                                       "text": "This traditional Spanish rice dish is prepared with seafood, pork, and chicken, all seasoned with the distinctive flavor of saffron.",
                                       "image": "chiringuito-featured-dish.jpg"
@@ -345,6 +394,7 @@
                               },
                     "chef": "Maximiliano Torres P.",
                     "images": {
+                                "banner": "chiringuito-banner.jpg",
                                 "carousel": [
                                               "chiringuito-gallery-1.jpg",
                                               "chiringuito-gallery-2.jpg",
@@ -359,10 +409,14 @@
 
                   {
                     "name": "Fresh Co",
-                    "banner_image": "tramonto-banner.jpg",
                     "heading": "Vibrant Food by the Pool",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Take in the beautiful view of the Ameca River and sample fresh, flavorful fare at this delightful snack and light meal spot by the Grand Luxxe Spa Tower Pools.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Crab Cake Pita",
                                       "text": "Keep it light with this sandwich made with pita bread, crab cake, remoulade sauce, and onion.",
                                       "image": "fresh-co-featured-dish.jpg"
@@ -374,6 +428,7 @@
                               },
                     "chef": "Salvatore Morina",
                     "images": {
+                                "banner": "fresh-co-banner.jpg",
                                 "carousel": ["fresh-co-gallery-1.jpg"],
                                 "thumbnail": {
                                   "image": "fresh-co-thumbnail.jpg",
@@ -384,10 +439,14 @@
 
                   {
                     "name": "Havana Moon",
-                    "banner_image": "havana-moon-banner.jpg",
                     "heading": "The Spices of the Caribbean",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Havana Moon is the perfect place to delight in your tropical vacation setting while enjoying a dinner of flavorful dishes, like their famous jerk chicken. Or sip a sangria or tropical drink while you enjoy the expansive seaside views. They also offer live Caribbean music regularly and a spectacular fire show!",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Jerk Chicken",
                                       "text": "This zesty dish features tender chicken rubbed with a kicky Jamaican spice mix.",
                                       "image": "havana-moon-featured-dish.jpg"
@@ -399,6 +458,7 @@
                               },
                     "chef": "Maximiliano Torres P.",
                     "images": {
+                                "banner": "havana-moon-banner.jpg",
                                 "carousel": [
                                               "havana-moon-gallery-1.jpg",
                                               "havana-moon-gallery-2.jpg"
@@ -412,10 +472,14 @@
 
                   {
                     "name": "Il Fornio di Gio",
-                    "banner_image": "il-forno-di-gio-banner.jpg",
                     "heading": "Take-Out and To-Go Pizza",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "When the craving for pizza strikes, you can rely on Il Forno di Gio to satisfy! Based out of the Havana Moon kitchen, this pizza spot specializes in wood-fired pies which get their rich flavor from the special brick oven. Available for takeout or to go, ordered to your room.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Quattro Stagioni",
                                       "text": "A pie with tomato sauce, mozzarella cheese, mushrooms, artichokes, prosciutto, and black olives.",
                                       "image": "il-forno-di-gio-featured-dish.jpg"
@@ -427,6 +491,7 @@
                               },
                     "chef": "Rosalba Martínez",
                     "images": {
+                                "banner": "il-forno-di-gio-banner.jpg",
                                 "carousel": [
                                               "havana-moon-gallery-1.jpg",
                                               "havana-moon-gallery-2.jpg"
@@ -440,10 +505,14 @@
 
                   {
                     "name": "La Cantina",
-                    "banner_image": "la-cantina-banner.jpg",
                     "heading": "Authentic Mexican Comfort Food",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Enjoy the vibrant flavors of Mexico at this colorful and fun eatery modeled after the classic Mexican bar and comfort food restaurant. With playful and unique décor, an extensive selection of margaritas, a beautiful patio with a front-row seat for The Lake Show, air conditioning, and a menu loaded with authentic Mexican favorites, La Cantina offers a fiesta every night. Open for both lunch and dinner.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Los Chapulines",
                                       "text": "Traditional crispy grasshoppers with lime and chili powder, served with handmade corn tortillas and guacamole.",
                                       "image": "la-cantina-featured-dish.jpg"
@@ -456,6 +525,7 @@
                     "days": "Monday - Sunday",
                     "chef": "Julio Cahuich",
                     "images": {
+                                "banner": "la-cantina-banner.jpg",
                                 "carousel": [
                                               "la-cantina-gallery-1.jpg",
                                               "la-cantina-gallery-2.jpg",
@@ -473,8 +543,13 @@
                     "name": "Limón y Sal",
                     "banner_image": "limón-y-sal-banner.jpg",
                     "heading": "A Tour of Fresh Ceviches",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "For a taste of the sea, set your sights on the al fresco eatery Limón y Sal. Here you can find the best of the coast, including lobster tacos, seafood burritos, and a wide selection of ceviches made with fresh fish or shrimp and marinated in lime juice and spices.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Asian Ceviche",
                                       "text": "This ceviche stars fresh salmon seasoned with soy sauce, tamarind, ginger, sesame seeds, chili pepper, and lemongrass.",
                                       "image": "limón-y-sal-featured-dish.jpg",
@@ -486,6 +561,7 @@
                               },
                     "chef": "Oscar Rodriguez",
                     "images": {
+                                "banner": "limón-y-sal-banner.jpg",
                                 "carousel": ["limón-y-sal-gallery-0.jpg"],
                                 "thumbnail": {
                                   "image": "limón-y-sal-thumbnail.jpg",
@@ -495,10 +571,14 @@
                   },
                   {
                     "name": "Mercado Méxio",
-                    "banner_image": "quinto-banner.jpg",
                     "heading": "The Best Resort Shopping",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "At Vidanta Nuevo Vallarta, the idea of “resort shopping” has been completely reimagined from simple souvenirs and travel accessories to a world of designer clothing, fine jewelry, beautiful locally crafted art, gourmet items from a global food market, and an entire gourmet grocery store. Find whatever you need, what you never knew you needed, and more!",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Rib Eye Cap",
                                       "text": "Any steak aficionado knows the tenderloin is the most tender cut, and the rib eye is the most flavorful. Welcome to the best of both worlds. The rib eye cap is flash-cooked on our charcoal grill to buttery, umami perfection—this is one steak you’ll surely want to savor.",
                                       "image": "quinto-featured-dish.jpg"
@@ -510,6 +590,7 @@
                               },
                     "chef": "David Vidales",
                     "images": {
+                                "banner": "limón-y-sal-banner.jpg",
                                 "carousel": [],
                                 "thumbnail": {
                                   "image": "quinto-thumbnail.jpg",
@@ -519,10 +600,14 @@
                   },
                   {
                     "name": "Ola Mulata",
-                    "banner_image": "ola-mulata-banner.jpg",
                     "heading": "Simple, Savory Eats",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Overlooking the Pacific Ocean, Ola Mulata is the perfect place for a leisurely late lunch or an early dinner. This al fresco restaurant offers American favorites like burgers, sandwiches, Philly cheese steaks, and ribs, or Mexican classics like shrimp tacos, chicken fajitas, and quesadillas. Or try the house specialty, the catch of the day, prepared on a traditional open-air grill.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Pescado Zarandeado",
                                       "text": "Savor the fresh tastes of the sea with this delicious snapper dish, cooked to order!",
                                       "image": "ola-mulata-featured-dish.jpg"
@@ -532,6 +617,7 @@
                     "hours": "11 AM – 7 PM",
                     "chef": "Gustavo Rojas",
                     "images": {
+                                "banner": "ola-mulata-banner.jpg",
                                 "carousel": [
                                   "ola-mulata-gallery-1.jpg",
                                   "ola-mulata-gallery-2.jpg"
@@ -547,8 +633,13 @@
                     "name": "Rummba",
                     "banner_image": "rummba-banner.jpg",
                     "heading": "A Bite in Paradise",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Guests at Vidanta Nuevo Vallarta can enjoy a delicious meal in a casual setting by visiting this restaurant by Sea Garden. Don’t miss their famous breakfast buffet, boasting every savory and sweet morning delight you could desire.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Mole Enchiladas",
                                       "text": "For a taste of Authentic Mexico, indulge in these decadent enchiladas drizzled in rich mole sauce.",
                                       "image": "rummba-featured-dish.jpg"
@@ -560,6 +651,7 @@
                               },
                     "chef": "Maribel Aguirre",
                     "images": {
+                                "banner": "rummba-banner.jpg",
                                 "carousel": ["rummba-gallery-1.jpg"],
                                 "thumbnail": {
                                   "image": "rummba-thumbnail.jpg",
@@ -569,10 +661,14 @@
                   },
                   {
                     "name": "Samba",
-                    "banner_image": "samba-banner.jpg",
                     "heading": "Something for Everyone",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "For poolside dining that will please every taste, be sure to visit Samba. Known for their delicious breakfast buffet and international lunch and dinner menus, Samba has a wide range of flavorful options served in an open-air dining room.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Chicken Salad",
                                       "text": "A classic lunch staple made with lettuce, green asparagus, sunflower seeds, crispy beets, and herb-marinated chicken breast",
                                       "image": "samba-featured-dish.jpg"
@@ -584,6 +680,7 @@
                               },
                     "chef": "Giovanni De la Paz",
                     "images": {
+                                "banner": "samba-banner.jpg",
                                 "carousel": ["samba-gallery-1.jpg"],
                                 "thumbnail": {
                                   "image": "samba-thumbnail.jpg",
@@ -596,8 +693,13 @@
                     "name": "Si Snack",
                     "banner_image": "si-snack-banner.jpg",
                     "heading": "Snack by the Water",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "This luxurious restaurant offers Italian cuisine and steaks that are sure to delight the most discerning palate, served in a sophisticated setting. Pair a house-made pasta or risotto, or Tramonto’s specialty, prime rib, with a selection from the extensive international wine list.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Mediterranean Tartine",
                                       "text": "This savory open-faced snack features marinated vegetables, goat cheese, tapenade, arugula, and serrano ham.",
                                       "image": "si-snack-featured-dish.jpg"
@@ -609,6 +711,7 @@
                               },
                     "chef": "Felipe Hernández",
                     "images": {
+                                "banner": "si-snack-banner.jpg",
                                 "carousel": [
                                             "si-snack-gallery-1.jpg",
                                             "si-snack-gallery-2.jpg"
@@ -622,13 +725,17 @@
 
                   {
                     "name": "Sweet Paris",
-                    "banner_image": "sweet-paris-banner.jpg",
                     "heading": "Sweet and Savory Crêpes",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Sweet Paris is on a mission to revive the art of eating crêpes. With a menu of classic entrée and dessert crêpes, fresh paninis, soups, salads, and café drinks, Sweet Paris is your go-to destination for a taste of authentic Parisian street food. Take your crêpe outside to eat on the patio overlooking the lake in front of La Plaza.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "The Houstonian Crêpe",
                                       "text": "Rise and shine with bacon, sausage, potatoes, mozzarella, and scrambled eggs wrapped in a fresh hot crêpe.",
-                                      "image": "tramonto-featured-dish.jpg",
+                                      "image": "sweet-paris-featured-dish.jpg",
                                      },
                     "location": "1st floor of La Plaza",
                     "times":  {
@@ -637,6 +744,7 @@
                               },
                     "chef": "Alberto Sierra",
                     "images": {
+                                "image": "sweet-paris-banner.jpg",
                                 "carousel": [
                                             "sweet-paris-gallery-1.jpg",
                                             "sweet-paris-gallery-2.jpg"
@@ -650,10 +758,14 @@
 
                   {
                     "name": "Sky Garden",
-                    "banner_image": "sky-garden-banner.jpg",
                     "heading": "A Meal with a View",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "This Grand Luxxe Residence Tower-exclusive rooftop restaurant and lounge offers spectacular views along with fresh, delicious bites, and refreshing cocktails. With some of the best vistas on the resort, including views of the lush Ameca River and the Sierra Madres, this unique and luxurious spot also features a gorgeous pool and surrounding loungers and sunbeds.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Cobb Chicken Sandwich",
                                       "text": "Your favorite salad gets reinvented with this delicious sandwich stacked with grilled chicken, egg, blue cheese, avocado, lettuce, tomato, and bacon.",
                                       "image": "sky-garden-featured-dish.jpg"
@@ -665,6 +777,7 @@
                               },
                     "chef": "Christian Jiménez",
                     "images": {
+                                "banner": "sky-garden-banner.jpg",
                                 "carousel": [
                                             "sky-garden-gallery-1.jpg",
                                             "sky-garden-gallery-2.jpg"
@@ -678,10 +791,14 @@
 
                   {
                     "name": "Tacos Break",
-                    "banner_image": "tacos-break-banner.jpg",
                     "heading": "Fast and Casual Mexican Dining",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "If you want to enjoy traditional Mexican cuisine—tacos, quesadillas, volcanes, tortas and “frijoles charros”—in a relaxed and al fresco setting, check out this great restaurant.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Tacos al Pastor",
                                       "text": "Taste the authentic flavors of Mexico with this dish featuring pork that is marinated in dried chilies, spices, and pineapple, slow-roasted on a spit, and then shredded for you to enjoy in fresh tortillas.",
                                       "image": "tacos-break-featured-dish.jpg"
@@ -693,6 +810,7 @@
                               },
                     "chef": "Noe Neri Eugenio",
                     "images": {
+                                "banner": "tacos-break-banner.jpg",
                                 "carousel": [
                                             "tacos-break-gallery-1.jpg",
                                             "tacos-break-gallery-2.jpg"
@@ -708,14 +826,19 @@
 
       "bars" : {
                 "heading": "Cheers To Vacation",
+                "image": "bars-thumbnails.jpg",
+                "tex": {
+                  "description": "",
+                  "thumbnail": "",
+                  "banner": ""
+                },
                 "text": "Browse our selection of lounges and bars at Vidanta Nuevo Vallarta.",
                 "venues": [
                   {
                     "name": "Pools Bar",
-                    "banner_image": "pools-bar-banner.jpg",
                     "heading": "Snack and Sip by the Water",
                     "text": "Why choose between a refreshing drink and a relaxing swim? Take advantage of swim-up service at one of our Pool Bars, and enjoy vacation the way it’s meant to be.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "",
                                       "text": "",
                                       "image": ""
@@ -726,6 +849,7 @@
                                 "hours": "7 AM - 11 PM",
                               },
                     "images": {
+                                "banner": "pools-bar-banner.jpg",
                                 "carousel": ["pool-bars-thumbnail.jpg"],
                                 "thumbnail": {
                                   "image": "pool-bars-thumbnail.jpg",
@@ -736,10 +860,14 @@
 
                   {
                     "name": "Blue Nautique Bar",
-                    "banner_image": "blue-bar-banner.jpg",
                     "heading": "Relaxation on Ice",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "There’s no better way to welcome the relaxation of vacation than with a celebratory tropical drink or ice-cold cerveza. This lobby bar located in Sea Garden offers a quiet place to luxuriate in your paradise surroundings.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "",
                                       "text": "",
                                       "image": ""
@@ -751,6 +879,7 @@
                               },
                     "chef": "",
                     "images": {
+                                "banner": "blue-bar-banner.jpg",
                                 "carousel": ["blue-bar-gallery-1.jpg"],
                                 "thumbnail": {
                                   "image": "blue-bar-thumbnail.jpg",
@@ -761,10 +890,14 @@
 
                   {
                     "name": "Grand Vista Bar",
-                    "banner_image": "grand-vista-bar-banner.jpg",
                     "heading": "A Tour of Spirits",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "After a day filled with adventure, relax with a cocktail on the gorgeous outdoor patio of the Grand Vista Bar in the lobby of The Grand Bliss. The extensive drink and spirit menu features a variety of options from all over the world; select whatever piques your interest and toast to trying something new!",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "",
                                       "text": "",
                                       "image": "",
@@ -776,6 +909,7 @@
                               ],
                     "chef": "",
                     "images": {
+                                "banner": "grand-vista-bar-banner.jpg",
                                 "carousel": ["grand-vista-bar-gallery-1.jpg"],
                                 "thumbnail": {
                                   "image": "grand-vista-bar-thumbnail.jpg",
@@ -786,10 +920,14 @@
 
                   {
                     "name": "Library Bar",
-                    "banner_image": "library-bar-banner.jpg",
                     "heading": "Ahead-of-the-Trend Mixology",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "For a craft cocktail prepared in a chic and urbane setting, visit Library Bar, located in Tramonto restaurant in The Grand Mayan. This lounge is manned by a team of expert mixologists whose inspired flavors mingle beautifully in every drink they carefully create.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "",
                                       "text": "",
                                       "image": ""
@@ -799,6 +937,7 @@
                     "hours": "5:30 PM – 11 PM",
                     "chef": "",
                     "images": {
+                                "banner": "library-bar-banner.jpg",
                                 "carousel": ["library-bar-gallery.jpg"],
                                 "thumbnail": {
                                   "image": "library-bar-thumbnail.jpg",
@@ -809,19 +948,26 @@
 
                   {
                     "name": "Luxxe Bar",
-                    "banner_image": "luxxe-bar-banner.jpg",
                     "heading": "Sip in the Luxury",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "For the vacationer with a discerning palate, Luxxe Bar brings a wide selection of the very best spirits to a posh atmosphere. Located next to Epazote in the Grand Luxxe lobby and frequently featuring live music, this lounge is recipient of the T Award for its extensive array of fine tequilas, available for the sipping.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "",
                                       "text": "",
                                       "image": ""
                                      },
                     "location": "In Grand Luxxe Tower 1, by Epazote",
-                    "days": ["Monday - Sunday", "Friday – Sunday"],
-                    "hours": ["5:30 PM – 1 AM", "11 AM – 11 PM"],
+                    "times":  [
+                                {"days": ["Monday - Sunday", "Friday – Sunday"]},
+                                {"hours": ["5:30 PM – 1 AM", "11 AM – 11 PM"]}
+                              ],
                     "chef": "",
                     "images": {
+                                "banner": "luxxe-bar-banner.jpg",
                                 "carousel": ["luxxe-bar-gallery-1.jpg"],
                                 "thumbnail": {
                                               "image": "luxxe-bar-thumbnail.jpg",
@@ -832,19 +978,26 @@
 
                   {
                     "name": "The Grand Lobby Bar",
-                    "banner_image": "the-grand-lobby-bar-banner.jpg",
                     "heading": "Toast to Paradise",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Located in the lobby of The Grand Mayan, this bar comes to life nightly with live music. Kick back in one of its comfortable lounge areas and enjoy a brew or freshly prepared cocktail and soak up the sweet rhythms of vacation.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "",
                                       "text": "",
                                       "image": ""
                                      },
                     "location": "The Grand Mayan Lobby",
-                    "days": ["Monday - Sunday", "Friday – Sunday"],
-                    "hours": ["3 PM – 11 PM", "11 AM – 11 PM"],
+                    "times":  [
+                                {"days": ["Monday - Sunday", "Friday – Sunday"]},
+                                {"hours": ["3 PM – 11 PM", "11 AM – 11 PM"]}
+                              ],
                     "chef": "",
                     "images": {
+                                "banner": "the-grand-lobby-bar-banner.jpg",
                                 "carousel": [
                                             "the-grand-lobby-bar-gallery-1.jpg",
                                             "the-grand-lobby-bar-gallery-2.jpg"
@@ -858,8 +1011,12 @@
 
                   {
                     "name": "Santuario",
-                    "banner_image": "santuario-banner.jpg",
                     "heading": "Lights, Camera, and Plenty of Action",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "There’s only one place at Vidanta Nuevo Vallarta where you can watch as an artist paints a portrait of the world with just sand, that thousands of years of Mexican history and tradition come to life through dance, that you’ll fall in love with the many sides—and personas—of a lovable clown, and you drink craft cocktails while listening to the hit-filled set of one of the area’s best DJs. That place is Santuario, the sweeping entertainment space seated at the center of Vidanta Nuevo Vallarta. Welcome to the life of the party, all under one thatched roof.",
                     "billboards": [
                       {
@@ -878,13 +1035,16 @@
                         "text": "With its cool Cuban sounds and charismatic rhythms to get your whole body moving, Oasis is a favorite act at Santuario. This five-person band specializes in salsa music and other intoxicating beats of the Caribbean, and they’re known for getting their audiences up on their feet and dancing."
                       }
                     ],
-                    "featured_dish": {"name": "", "text": "", "image": ""},
+                    "featured-dish": {"name": "", "text": "", "image": ""},
                     "location": "By The Grand Mayan Lobby",
-                    "days": "Daily",
-                    "hours": "7 AM to 1 AM",
+                    "times":  [
+                                {"days": "Daily"},
+                                {"hours": "7 AM to 1 AM"}
+                              ],
                     "dress_code": "Formal-Casual",
                     "chef": "",
                     "images": {
+                                "banner": "santuario-banner.jpg",
                                 "carousel": [
                                             "santuario-gallery-1.jpg",
                                             "santuario-gallery-2.jpg",
@@ -902,10 +1062,14 @@
 
                   {
                     "name": "La Isla de Cocos",
-                    "banner_image": "isla-de-cocos-banner.jpg",
                     "heading": "Cocktails for Bahia Sunsets",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "Whether you’re lounging poolside or beachside, indulge in vacation bliss with a tropical drink served in a coconut or a michelada.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "",
                                       "text": "",
                                       "image": ""
@@ -915,6 +1079,7 @@
                     "hours": "11 PM – 7 PM",
                     "chef": "",
                     "images": {
+                                "banner": "isla-de-cocos-banner.jpg",
                                 "carousel": [
                                             "isla-de-cocos-gallery-1.jpg",
                                             "isla-de-cocos-gallery-2.jpg",
@@ -930,14 +1095,19 @@
             },
       "in-room-dining" : {
                 "heading": "Cheers To Vacation",
+                "image": "in-room-thumbnail.jpg",
+                "tex": {
+                  "description": "",
+                  "thumbnail": "",
+                  "banner": ""
+                },
                 "text": "Browse our selection of lounges and bars at Vidanta Nuevo Vallarta.",
                 "venues": [
                   {
                     "name": "Room Service",
-                    "banner_image": "room-service-banner.jpg",
                     "heading": "Take-Out and To-Go Pizza",
                     "text": "When the craving for pizza strikes, you can rely on Il Forno di Gio to satisfy! Based out of the Havana Moon kitchen, this pizza spot specializes in wood-fired pies which get their rich flavor from the special brick oven. Available for takeout or to go, ordered to your room.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Quattro Stagioni",
                                       "text": "A pie with tomato sauce, mozzarella cheese, mushrooms, artichokes, prosciutto, and black olives.",
                                       "image": "room-service-featured-dish.jpg"
@@ -949,6 +1119,7 @@
                               },
                     "chef": "Rosalba Martínez",
                     "images": {
+                                "banner": "room-service-banner.jpg",
                                 "carousel": [
                                               "havana-moon-gallery-1.jpg",
                                               "havana-moon-gallery-2.jpg"
@@ -961,10 +1132,14 @@
                   },
                   {
                     "name": "Il Fornio di Gio",
-                    "banner_image": "il-forno-di-gio-banner.jpg",
                     "heading": "Take-Out and To-Go Pizza",
+                    "tex": {
+                      "description": "",
+                      "thumbnail": "",
+                      "banner": ""
+                    },
                     "text": "When the craving for pizza strikes, you can rely on Il Forno di Gio to satisfy! Based out of the Havana Moon kitchen, this pizza spot specializes in wood-fired pies which get their rich flavor from the special brick oven. Available for takeout or to go, ordered to your room.",
-                    "featured_dish": {
+                    "featured-dish": {
                                       "name": "Quattro Stagioni",
                                       "text": "A pie with tomato sauce, mozzarella cheese, mushrooms, artichokes, prosciutto, and black olives.",
                                       "image": "il-forno-di-gio-featured-dish.jpg"
@@ -976,6 +1151,7 @@
                               },
                     "chef": "Rosalba Martínez",
                     "images": {
+                                "banner": "il-forno-di-gio-banner.jpg",
                                 "carousel": [
                                               "havana-moon-gallery-1.jpg",
                                               "havana-moon-gallery-2.jpg"

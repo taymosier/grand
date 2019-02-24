@@ -1,0 +1,34 @@
+"golf": {
+  "heading": "",
+  "text": "With two of the region’s premier courses—The Nayar Course and the Norman Signature Course—plus the brand-new 10 hole, par-3 The Lakes Course, a world-class golf academy, a beautiful new restaurant, and the longest golf cart suspension bridge in the world, there really is no vacation getaway for golfers that compares to Vidanta Nuevo Vallarta.",
+  "images": {
+    "banner": "",
+    "carousel": [
+
+    ]
+  },
+  "contact": {
+    "text": "Contact Info for Vidanta Golf at Nuevo Vallarta",
+    "phone": "1-866-231-4423",
+    "email": "golfnv@vidantagolf.com"
+  },
+  "courses": [
+    {
+      "name": "The Nayar Course",
+      "text": "A natural and technical masterpiece, this 18-hole, par 70 course is forgiving to beginners, but is rimmed with seven lakes and 49 strategically placed that can challenge the most experienced golferes.",
+      "details": {
+        "heading": "The Nayar Course at Vidanta Nuevo Vallarta",
+        "description": "Surrounded by lush jungle and the Sierra Madre Mountains on one side and the Pacific on the other, The Nayar Course is a joy for every player, from your low to high handicap. But with seven lakes, 49 strategically placed bunkers, and constant, strong crosswinds coming off of the ocean, this course always presents a challenge.",
+        "images": {
+          "banner": "",
+          "carousel": [],
+        }
+      }
+    },
+    {
+      "name": "The Norman Signature Course",
+      "text": "The brand-new, 18-hole Norman Signautre Course baosts a beautiful and enjoyable layout, which can only be accessed by the Ameca Bridge. This course features wall-to-wall paspalum and challenging shots around the greens."
+    }
+  ]
+  }
+}

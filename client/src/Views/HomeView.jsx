@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
 
-export class DefaultChild extends Component {
+export class HomeView extends Component {
   constructor(props){
     super(props);
     this.state = {
