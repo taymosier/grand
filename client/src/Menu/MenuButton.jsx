@@ -6,13 +6,35 @@ export class MenuButton extends Component {
   constructor(props){
     super(props);
     this.state = {
-      option: this.props.option,
-      id: this.props.id,
+      portal: this.props.route,
+      title: this.formatTitle(this.props.name),
+      id: this.generateComponentID(this.props.name, "menu-button", "affter")
     };
   }
-  render(){
-    return(
-      <NavItem className='menuButton' id={this.state.id} >{this.state.option}</NavItem>
-    );
+
+generateComponentID(componentName, descriptor, descriptionLocation){
+    let formattedName = componentName.replace(" ", "-");
+    let formattedDescriptor = descriptor.replace(" ", "-");
+    if(descriptionLocation === "before"){
+      return formattedDescriptor + "-" + formattedName;
+    }
+    if(descriptionLocation === "after"){
+      return formattedName + "-" + formattedDescriptor;
+    }
+    return null;
   }
+
+formatTitle(name){
+    let wordsInNameArray = name.split(" ");
+    for(let i = 0; i < wordsInNameArray; i++){
+      wordsInNameArray[i] = wordsInNameArray[i].toUppercase();
+    }
+    return wordsInNameArray.join(" ");
+}
+
+render(){
+  return(
+    <NavItem className='menuButton' id={this.state.id} >{this.state.option}</NavItem>
+  );
+}
 }

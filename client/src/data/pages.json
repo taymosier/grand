@@ -1,0 +1,64 @@
+{
+  "home": {
+    "address": "/",
+    "content": {
+      "banner": {
+        "image": "grand-luxxe-banner.jpg",
+        "header": "nuevo vallarta",
+        "subheader": "resort hotels"
+      },
+      "text": {
+        "description": "with nine towers of lavish accommodations built along the breathtaking bluffs of the Ameca River, Grand Luxxe at Vidanta Nuevo Vallarta is a paragon of luxury living.",
+        "header": "A Paradise of Luxury",
+        "title": "home"
+      },
+      "images": {
+        "banner": "grand-luxxe-banner.jpg",
+        "gallery": [],
+        "thumbnail": "fine-dining-thumbnail.jpg"
+      }
+    }
+  },
+  "fine dining": {
+    "address": "/dining/fine",
+    "content": {
+      "text": {
+        "banner": {
+          "image": "grand-luxxe-banner.jpg",
+          "header": "nuevo vallarta",
+          "subheader": "fine dining"
+        },
+        "description": "Browse our selection of casual dining options at Vidanta Nuevo Vallarta.",
+        "header": "Flavorful Food for Every Mood",
+        "title": "fine dining"
+      },
+      "images": {
+        "gallery": [],
+        "thumbnail": "fine-dining-thumbnail.jpg"
+      }
+    }
+  },
+  "azur": {
+    "address": "/dining/fine/azur",
+    "content": {
+      "text": {
+        "banner-header": "",
+        "banner-subheader": "",
+        "description": "",
+        "header": "",
+        "title": ""
+      },
+      "images": {
+        "banner": "",
+        "gallery": [],
+        "thumbnail": ""
+      },
+      "location": "At La Plaza, 3rd Floor",
+      "times":  {
+                  "days": "Monday - Sunday",
+                  "hours": "7 AM - 11 PM"
+                }
+
+    }
+  }
+}

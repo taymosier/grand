@@ -16,6 +16,7 @@
             "name": "Azur",
             "heading": "French Fare with a Twist",
             "text": {
+              "title": "",
               "description": "This beautiful restaurant is the perfect place to explore the flavors of French cuisine, which come in the form of modern, mouthwatering dishes. From bright salads and rich, comforting classics to innovative flavor-forward entrées and decadent desserts, Azur has the flavors to make your palate sing.",
               "thumbnail": "Authentic fine French cuisine in a modern setting",
               "banner": ""
@@ -44,6 +45,7 @@
             "name": "Costa Arena",
             "heading": "California-Inspired Seafood",
             "text": {
+              "title": "",
               "description": "Costa Arena offers a wide variety of seafood dishes—prepared in a simple California-cuisine style—served in a breathtaking setting just above the sands bordering Banderas Bay. Dishes are made with the freshest shrimp, scallops, lobster, mussels, fish, crab cakes, and soft-shell crab—served buttered, marinated, seared, stuffed, grilled, breaded, or sautéed.",
               "thumbnail": "The fresh, ingredient-driven dishes of Californian cuisine with a gorgeous ocean view",
               "banner": ""
@@ -73,6 +75,7 @@
             "name": "Epazote",
             "heading": "A Modern Take on Mexican Cuisine",
             "text": {
+              "title": "",
               "description": "At Epazote, Mexican favorites get a modern refresh while maintaining their traditional flavor profiles. Menu options include inspired renditions of cochinita pibil, chiles rellenos, mole, tamales, enchiladas, burritos, and gorditas. Don’t miss the all-new Tasting Menu, complete with a thoughtful wine pairing option.",
               "thumbnail": "The best of Mexican cuisine, elevated to stun the palate",
               "banner": ""
@@ -103,6 +106,7 @@
             "name": "Gong",
             "heading": "Far East Favorites",
             "text": {
+              "title": "",
               "description": "Transport yourself to the East and take a tour of the culinary traditions and delicacies of Asia with the flavors of a meal at Gong. Favorites include Peking Duck, lobster rolls, tempura ice cream, and dessert sushi. Or try the teppanyaki dinner, where you can watch your multiple-course dinner prepared on a grill right before you!",
               "thumbnail": "A tour of Asia’s brightest flavors and favorite dishes",
               "banner": ""
@@ -131,6 +135,7 @@
             "name": "Quinto Charcoal Grill",
             "heading": "The Best of Land and Sea",
             "text": {
+              "title": "",
               "description": "Situated in the Sky Lounge at the very top of Grand Luxxe’s new Tower 5, Quinto offers guests fine dining service set within a relaxed yet luxurious atmosphere, with breathtaking views of Banderas Bay, the Ameca River, and the Sierra Madre Mountains.",
               "thumbnail": "This rooftop eatery offers premium cuts, smoky flavors, and stunning views",
               "banner": ""
@@ -162,6 +167,7 @@
             "name": "The Burger Custom Made",
             "heading": "A Reimagining of the Burger",
             "text": {
+              "title": "",
               "description": "At this al fresco restaurant, the quintessential American classic—the burger—gets a bold reinterpretation. Try elevated iterations, including Kobe beef with foie gras, angus beef and lobster, duck and gorgonzola, Mediterranean lamb, Asian salmon, and more. And don’t miss mouthwatering sides like the Parmesan truffle fries!",
               "thumbnail": "Gourmet burgers with a sophisticated twist",
               "banner": ""
@@ -194,6 +200,7 @@
             "name": "Tramonto",
             "heading": "Your Trattoria in Paradise",
             "text": {
+              "title": "",
               "description": "This luxurious restaurant offers Italian cuisine and steaks that are sure to delight the most discerning palate, served in a sophisticated setting. Pair a house-made pasta or risotto, or Tramonto’s specialty, prime rib, with a selection from the extensive international wine list.",
               "thumbnail": "A classic Italian trattoria combined with an American steak house",
               "banner": ""
@@ -227,6 +234,7 @@
                     "name": "Acqua",
                     "heading": "Seaside Snacks",
                     "text": {
+                      "title": "",
                       "description": "For a quick bite or delicious drink between pool dips or after an afternoon at the beach, make sure you stop by Acqua. Satisfy your cravings with a menu of classic appetizers and snacks or an icy tropical cocktail.",
                       "thumbnail": "For poolside dining, visit this favorite located by Sea Garden",
                       "banner": ""
@@ -248,6 +256,7 @@
                     "name": "Ameca Social House",
                     "heading": "Elevated Pub Fare on the Green",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -281,6 +290,7 @@
                     "name": "Balance",
                     "heading": "A Healthy Approach to Casual Cuisine",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -313,6 +323,7 @@
                     "name": "Balché",
                     "heading": "A Taste of Casual Cool",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -346,6 +357,7 @@
                     "banner_image": "cafe-del-lago-banner.jpg",
                     "heading": "Fresh Dishes, Lake Views",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -377,6 +389,7 @@
                     "banner_image": "chiringuito-banner.jpg",
                     "heading": "Flavorful Spanish Fare",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -411,6 +424,7 @@
                     "name": "Fresh Co",
                     "heading": "Vibrant Food by the Pool",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -441,6 +455,7 @@
                     "name": "Havana Moon",
                     "heading": "The Spices of the Caribbean",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -474,6 +489,7 @@
                     "name": "Il Fornio di Gio",
                     "heading": "Take-Out and To-Go Pizza",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -507,6 +523,7 @@
                     "name": "La Cantina",
                     "heading": "Authentic Mexican Comfort Food",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -544,6 +561,7 @@
                     "banner_image": "limón-y-sal-banner.jpg",
                     "heading": "A Tour of Fresh Ceviches",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -573,6 +591,7 @@
                     "name": "Mercado Méxio",
                     "heading": "The Best Resort Shopping",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -602,6 +621,7 @@
                     "name": "Ola Mulata",
                     "heading": "Simple, Savory Eats",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -634,6 +654,7 @@
                     "banner_image": "rummba-banner.jpg",
                     "heading": "A Bite in Paradise",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -663,6 +684,7 @@
                     "name": "Samba",
                     "heading": "Something for Everyone",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -694,6 +716,7 @@
                     "banner_image": "si-snack-banner.jpg",
                     "heading": "Snack by the Water",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -727,6 +750,7 @@
                     "name": "Sweet Paris",
                     "heading": "Sweet and Savory Crêpes",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -760,6 +784,7 @@
                     "name": "Sky Garden",
                     "heading": "A Meal with a View",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -793,6 +818,7 @@
                     "name": "Tacos Break",
                     "heading": "Fast and Casual Mexican Dining",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -828,6 +854,7 @@
                 "heading": "Cheers To Vacation",
                 "image": "bars-thumbnails.jpg",
                 "tex": {
+                  "title": "",
                   "description": "",
                   "thumbnail": "",
                   "banner": ""
@@ -862,6 +889,7 @@
                     "name": "Blue Nautique Bar",
                     "heading": "Relaxation on Ice",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -892,6 +920,7 @@
                     "name": "Grand Vista Bar",
                     "heading": "A Tour of Spirits",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -903,10 +932,10 @@
                                       "image": "",
                                      },
                     "location": "In Grand Luxxe Tower 1, Ground Floor",
-                    "times":  [
-                                {"days": "Monday - Sunday"},
-                                {"hours": "5:30 PM – 11 PM"}
-                              ],
+                    "times":  {
+                                "days": "Monday - Sunday",
+                                "hours": "5:30 PM – 11 PM"
+                              },
                     "chef": "",
                     "images": {
                                 "banner": "grand-vista-bar-banner.jpg",
@@ -922,6 +951,7 @@
                     "name": "Library Bar",
                     "heading": "Ahead-of-the-Trend Mixology",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -950,6 +980,7 @@
                     "name": "Luxxe Bar",
                     "heading": "Sip in the Luxury",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -980,6 +1011,7 @@
                     "name": "The Grand Lobby Bar",
                     "heading": "Toast to Paradise",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -1013,6 +1045,7 @@
                     "name": "Santuario",
                     "heading": "Lights, Camera, and Plenty of Action",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -1064,6 +1097,7 @@
                     "name": "La Isla de Cocos",
                     "heading": "Cocktails for Bahia Sunsets",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""
@@ -1097,6 +1131,7 @@
                 "heading": "Cheers To Vacation",
                 "image": "in-room-thumbnail.jpg",
                 "tex": {
+                  "title": "",
                   "description": "",
                   "thumbnail": "",
                   "banner": ""
@@ -1134,6 +1169,7 @@
                     "name": "Il Fornio di Gio",
                     "heading": "Take-Out and To-Go Pizza",
                     "tex": {
+                      "title": "",
                       "description": "",
                       "thumbnail": "",
                       "banner": ""

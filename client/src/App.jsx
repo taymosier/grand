@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Container, Row } from 'reactstrap';
 
 import './App.css';
+import routes from './data/routes.json';
+import pages from './data/pages.json'
 
 import { Menu } from './Menu/Menu';
 import { Footer } from './Components/Footer';
@@ -18,41 +20,21 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      banner: 'grand-luxxe-banner.jpg',
-      active: 'home',
-      text: '',
-      subheading: ''
+      activeView: pages.home.content.title,
+      mainContent: pages.home.content.main,
+      banner: pages.home.content.banner,
+      currentViewAddress: pages.home.address
     };
   }
-  render() {
-    //TODO - add subheading prop to Banner component
-    //     - set Banner props based on the active view selected
-    //    
-    const defaultState = {
-      "banner": "",
-      "active": "",
-      "text": {
-        "heading": "",
-        "description": "",
-      },
-      "billboards": [
-        {
-          "heading": "",
-          "images": ""
-        },
-        {
-          "heading": "",
-          "images": ""
-        }
-      ]
-    };
-    return (
+
+render() {
+  return (
       <Container className="parent">
         <Row>
           <Banner src={this.state.banner}/>
         </Row>
         <Row>
-          <Menu />
+          <Menu routes={routes} activeViewRoute={this.state.activeViewAddress} />
           <Portal />
         </Row>
         <Row>
