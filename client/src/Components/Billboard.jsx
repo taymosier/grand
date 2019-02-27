@@ -8,7 +8,10 @@ export class Billboard extends Component {
     super(props);
   }
   this.state = {
-
+    "image": "",
+    "subheader": "",
+    "header": "",
+    "flavor": ""
   };
   render(){
     return(

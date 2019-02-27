@@ -1,40 +1,23 @@
 import React, {Component} from 'react';
 import { NavItem } from 'reactstrap';
 
+import {generateComponentID, formatTitle} from '../helpers/dynamicCSS.js';
+
 
 export class MenuButton extends Component {
   constructor(props){
     super(props);
     this.state = {
+      active: "home",
       portal: this.props.route,
-      title: this.formatTitle(this.props.name),
-      id: this.generateComponentID(this.props.name, "menu-button", "affter")
+      name: this.props.name,
+      id: this.props.name+"-menu-button"
     };
   }
 
-generateComponentID(componentName, descriptor, descriptionLocation){
-    let formattedName = componentName.replace(" ", "-");
-    let formattedDescriptor = descriptor.replace(" ", "-");
-    if(descriptionLocation === "before"){
-      return formattedDescriptor + "-" + formattedName;
-    }
-    if(descriptionLocation === "after"){
-      return formattedName + "-" + formattedDescriptor;
-    }
-    return null;
+  render(){
+    return(
+      <NavItem className='menuButton' id={this.state.id} onClick={() => {this.props.setPage(this.state.name)}}>{this.state.name}</NavItem>
+    );
   }
-
-formatTitle(name){
-    let wordsInNameArray = name.split(" ");
-    for(let i = 0; i < wordsInNameArray; i++){
-      wordsInNameArray[i] = wordsInNameArray[i].toUppercase();
-    }
-    return wordsInNameArray.join(" ");
-}
-
-render(){
-  return(
-    <NavItem className='menuButton' id={this.state.id} >{this.state.option}</NavItem>
-  );
-}
 }

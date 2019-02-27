@@ -1,3 +1,71 @@
+
+
+
+
+{
+  "name": "fine dining",
+  "address": "/dining/fine",
+  "content": {
+    "text": {
+      "banner": {
+        "image": "grand-luxxe-banner.jpg",
+        "header": "nuevo vallarta",
+        "subheader": "fine dining"
+      },
+      "description": "Browse our selection of casual dining options at Vidanta Nuevo Vallarta.",
+      "header": "Flavorful Food for Every Mood",
+      "title": "fine dining"
+    },
+    "images": {
+      "gallery": [],
+      "thumbnail": "fine-dining-thumbnail.jpg"
+    }
+  }
+},
+{
+  "name": "azur",
+  "address": "/dining/fine/azur",
+  "content": {
+    "text": {
+      "banner-header": "",
+      "banner-subheader": "",
+      "description": "",
+      "header": "",
+      "title": ""
+    },
+    "images": {
+      "banner": "",
+      "gallery": [],
+      "thumbnail": ""
+    },
+    "location": "At La Plaza, 3rd Floor",
+    "times":  {
+                "days": "Monday - Sunday",
+                "hours": "7 AM - 11 PM"
+              }
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "costa arena": {
   "address": "/dining/fine/costa-arena",
   "content": {

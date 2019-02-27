@@ -1,5 +1,5 @@
 {
-  "home": {
+  "home" : {
     "address": "/",
     "content": {
       "banner": {
@@ -9,8 +9,7 @@
       },
       "text": {
         "description": "with nine towers of lavish accommodations built along the breathtaking bluffs of the Ameca River, Grand Luxxe at Vidanta Nuevo Vallarta is a paragon of luxury living.",
-        "header": "A Paradise of Luxury",
-        "title": "home"
+        "header": "A Paradise of Luxury"
       },
       "images": {
         "banner": "grand-luxxe-banner.jpg",
@@ -19,18 +18,18 @@
       }
     }
   },
-  "fine dining": {
-    "address": "/dining/fine",
+
+  "dining" : {
+    "address": "/dining",
     "content": {
+      "banner": {
+        "image": "dining-banner.jpg",
+        "header": "nuevo vallarta",
+        "subheader": "dining"
+      },
       "text": {
-        "banner": {
-          "image": "grand-luxxe-banner.jpg",
-          "header": "nuevo vallarta",
-          "subheader": "fine dining"
-        },
-        "description": "Browse our selection of casual dining options at Vidanta Nuevo Vallarta.",
-        "header": "Flavorful Food for Every Mood",
-        "title": "fine dining"
+        "description": "",
+        "header": "Where to Eat and Drink"
       },
       "images": {
         "gallery": [],
@@ -38,27 +37,239 @@
       }
     }
   },
-  "azur": {
-    "address": "/dining/fine/azur",
+
+  "rooms" : {
+    "address": "/rooms",
     "content": {
+      "banner": {
+        "image": "rooms-banner.jpg",
+        "header": "nuevo vallarta",
+        "subheader": "rooms & suites"
+      },
       "text": {
-        "banner-header": "",
-        "banner-subheader": "",
         "description": "",
-        "header": "",
-        "title": ""
+        "header": "Grand Luxxe Accommodations"
       },
       "images": {
-        "banner": "",
+        "gallery": [],
+        "thumbnail": "fine-dining-thumbnail.jpg"
+      },
+      "billboards": {
+        "title": "Rooms & Suites",
+        "tagline": "Three Bedroom Presidential Villa",
+        "flavor_text": "This beautiful villa features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs, and a private terrace with a plunge pool.",
+        "image": "three-bedroom-presidential-villa-thumbnail.jpg",
+        "action-link": "/rooms/three-bedroom-presidential-villa"
+      }
+    }
+  },
+
+  "getting here" : {
+    "address": "/getting-here",
+    "content": {
+      "banner": {
+        "image": "getting-here-banner.jpg",
+        "header": "nuevo vallarta",
+        "subheader": "getting here"
+      },
+      "text": {
+        "description": "with nine towers of lavish accommodations built along the breathtaking bluffs of the Ameca River, Grand Luxxe at Vidanta Nuevo Vallarta is a paragon of luxury living.",
+        "header": "A Paradise of Luxury"
+      },
+      "images": {
+        "banner": "grand-luxxe-banner.jpg",
+        "gallery": [],
+        "thumbnail": "fine-dining-thumbnail.jpg"
+      }
+    }
+  },
+
+  "what to do" : {
+    "address": "/what-to-do",
+    "content": {
+      "banner": {
+        "image": "what-to-do-banner.jpg",
+        "header": "what to do",
+        "subheader": "nuevo vallarta"
+      },
+      "text": {
+        "description": "Every day spent at Vidanta Nuevo Vallarta is an opportunity for guests of all ages to experience new things, explore the culture of Mexico, or just soak up the sun in paradise. The resort offers a wide variety of activities to try, as well as a variety of beautiful pools and water features to explore. Vidanta Nuevo Vallarta is also home to some of the best resort shopping in Mexico.",
+        "header": "Always an Adventure",
+        "subheader": ""
+      },
+      "images": {
+        "banner": "grand-luxxe-banner.jpg",
+        "gallery": [],
+        "thumbnail": "fine-dining-thumbnail.jpg"
+      },
+      "billboards": {
+        "0": {
+          "title": "Nuevo Vallarta",
+          "tagline": "Pools",
+          "flavor_text": "With a host of different pools, an Aqua Park, and a Lazy River, this resort is a paradise for those who love spending their vacation at the pool.",
+          "image": "punta-pool-east.jpg",
+          "action-link": "/what-to-do/pools"
+        },
+        "1": {
+          "title": "Nuevo Vallarta",
+          "tagline": "Activities",
+          "flavor_text": "Find an array of ways to spend your days with the resort activities, including options for kids, adults, and the whole family.",
+          "image": "activities-thumbnail.jpg",
+          "action-link": "/what-to-do/activities"
+        },
+        "2": {
+          "title": "Nuevo Vallarta",
+          "tagline": "Shopping",
+          "flavor_text": "At the center of Vidanta Nuevo Vallarta’s shopping experience is La Plaza, a three-story facility filled with specialty boutiques, food counters, a bazaar, and so much more.",
+          "image": "shopping-thumbnail.jpg",
+          "action-link": "/what-to-do/shopping"
+        }
+      }
+    }
+  },
+
+  "golf" : {
+    "address": "/golf",
+    "content": {
+      "banner": {
+        "image": "golf-banner.jpg",
+        "header": "nuevo vallarta",
+        "subheader": "resort hotels"
+      },
+      "text": {
+        "description": "With two of the region’s premier courses—The Nayar Course and the Norman Signature Course—plus the brand-new 10 hole, par-3 The Lakes Course, a world-class golf academy, a beautiful new restaurant, and the longest golf cart suspension bridge in the world, there really is no vacation getaway for golfers that compares to Vidanta Nuevo Vallarta..",
+        "header": "A Golfer’s Paradise"
+      },
+      "images": {
         "gallery": [],
         "thumbnail": ""
       },
-      "location": "At La Plaza, 3rd Floor",
-      "times":  {
-                  "days": "Monday - Sunday",
-                  "hours": "7 AM - 11 PM"
-                }
+      "billboards": {
+        "0": {
+          "title": "",
+          "tagline": "The Nayar Course",
+          "flavor_text": "A natural and technical masterpiece, this 18-hole, par 70 course is forgiving to beginners, but is rimmed with seven lakes and 49 strategically placed bunkers that can challenge the most experienced golfers.",
+          "image": "the-nayar-course-thumbnail.jpg",
+          "action-link": "/golf/the-nayar-course"
+        },
+        "1": {
+          "title": "",
+          "tagline": "The Norman Signature Course",
+          "flavor_text": "The brand-new, 18-hole Norman Signature Course boasts a beautiful and enjoyable layout, which can only be accessed by the Ameca Bridge. This course features wall-to-wall paspalum and challenging shots around the greens.",
+          "image": "the-norman-signature-course-thumbnail.jpg",
+          "action-link": "/golf/the-norman-signature-course"
+        },
+        "2": {
+          "title": "",
+          "tagline": "The Lakes Course",
+          "flavor_text": "The newest addition to the golf offerings at Vidanta Nuevo Vallarta, this beautiful 10 hole, par-3 course showcases views of some of the resort’s most beloved landmarks while you play. It’s also the region’s only lit course, offering play until 11 PM.",
+          "image": "the-lakes-course-thumbnail.jpg",
+          "action-link": "/what-to-do/the-lakes-course"
+        },
+        "todo" : {
+          "0": "add image carousel",
+          "1": "add pro shop component",
+          "2": "add tournaments link billboard",
+          "3": "add golf academy component"
+        }
+      }
+    }
+  },
 
+  "spa" : {
+    "address": "/spa",
+    "content": {
+      "banner": {
+        "image": "spa-banner.jpg",
+        "header": "nuevo vallarta",
+        "subheader": "resort hotels"
+      },
+      "text": {
+        "description": "Vacation is about restful and renewing relaxation. It’s about indulging in peace and taking a moment to enjoy the clarity of being removed from your busy home life. At Vidanta Nuevo Vallarta, we help you embrace that serenity and harness the revitalizing powers of paradise with two beautiful, well-appointed spas.",
+        "header": "Pure Pampering"
+      },
+      "images": {
+        "gallery": [],
+        "thumbnail": "fine-dining-thumbnail.jpg"
+      },
+      "billboards": {
+        "0": {
+          "title": "Brio",
+          "tagline": "Brio Spa",
+          "flavor_text": "Open to all guests, Brio Spa is a sophisticated reimagining of the French approach to spas. Here you can luxuriate in an atmosphere of utter tranquility and unwind with lavish treatments formulated for relaxation.",
+          "image": "brio-spa-thumbnail.jpg",
+          "action-link": "/spa/brio"
+        },
+        "1": {
+          "title": "",
+          "tagline": "Spatium",
+          "flavor_text": "Available for the exclusive use of Grand Luxxe guests, Spatium elevates the spa experience to luxurious new heights with a gorgeous indoor/outdoor facility and the latest relaxation techniques and treatments.",
+          "image": "spatium-thumbnail.jpg",
+          "action-link": "/spa/spatium"
+        },
+        "2": {
+          "title": "",
+          "tagline": "The Wellness Program",
+          "flavor_text": "Wellness isn’t just a state of being: it’s a transformative journey. We’re excited to offer guests at Vidanta Nuevo Vallarta the opportunity to embrace this journey with The Wellness Program, a comprehensive curriculum meant to usher in utter comfort and balance for the mind, body, and spirit. The program offers two different curated paths toward wellbeing—The Spa, Fitness & Nutrition Program and the Joy Squad Activities Program. Contact your concierge if you’d like to experience The Wellness Program on your next visit to Vidanta Nuevo Vallarta.",
+          "image": "wellness-thumbnail.jpg",
+          "action-link": ""
+        }
+      }
+    }
+  },
+  "entertainment" : {
+    "address": "/entertainment",
+    "content": {
+      "banner": {
+        "image": "entertainment-banner.jpg",
+        "header": "entertainment",
+        "subheader": "nuevo vallarta"
+      },
+      "text": {
+        "description": "As the evening settles in, that’s when Vidanta Nuevo Vallarta bursts to life. Intoxicating live music; vibrant displays of acrobatics, dance, clowning, and artistry; dazzling light shows utilizing the latest in digital effects; festive celebrations of food, culture, and fun—this is your vacation and this destination provides a myriad of ways to enrich and enliven every moment of it. It’s time to embrace the magic and marvels playing out all around you!",
+        "header": "Let the Show Begin"
+      },
+      "images": {
+        "gallery": [],
+        "thumbnail": "fine-dining-thumbnail.jpg"
+      },
+      "billboards": {
+        "0": {
+          "title": "",
+          "tagline": "Santuario",
+          "flavor_text": "At the heart of Vidanta Nuevo Vallarta is Santuario, a sprawling 75,000-square-foot, indoor-outdoor entertainment pavilion. Santuario offers a nightly lineup of acts for the whole family, including acrobatics, dance performances, musical acts, sand artists, and more. It also features multiple bars, lounges, and lounge decks, perfect for kicking back and enjoying the evening.",
+          "image": "brio-spa-thumbnail.jpg",
+          "action-link": "/entertainment/santuario"
+        },
+        "1": {
+          "title": "",
+          "tagline": "Lake Show",
+          "flavor_text": "Add some dazzle to your stay at Vidanta Nuevo Vallarta by checking out The Lake Show. Every 30 minutes after sunset, the lake by La Cantina and Gong erupts in an amazing display of lights, fountains, special effects, and music. Plus, every show is different, so you can stop by night after night to enjoy the astounding sights.",
+          "image": "spatium-thumbnail.jpg",
+          "action-link": ""
+        },
+        "2": {
+          "title": "",
+          "tagline": "Theme Nights",
+          "flavor_text": "Experience Mexican culture, performances by local dancers and singers, and film nights for the whole family with the weekly Theme Nights at The Grand Bliss beach at Vidanta Nuevo Vallarta. Theme Nights vary by season, but a typical weekly lineup includes the live performances and buffet of Monday Beach Party, Mexican food and mariachi of Sabores de México, and Family Movie Night.",
+          "image": "wellness-thumbnail.jpg",
+          "action-link": ""
+        },
+        "3": {
+          "title": "",
+          "tagline": "Live Music",
+          "flavor_text": "Vidanta Nuevo Vallarta is proud to showcase the talents of some of Riviera Nayarit’s top musicians with live music throughout the resort. From jazz, to Cuban, to classical piano, to mariachi, you can find these acts performing at Santuario, Havana Moon, Azur, The Grand Lobby Bar, Luxxe Bar, and La Cantina. Ask your concierge for the schedule of live music during your stay.",
+          "image": "wellness-thumbnail.jpg",
+          "action-link": ""
+        },
+        "4": {
+          "title": "",
+          "tagline": "No Better Place to Celebrate",
+          "flavor_text": "The Holidays are better at Vidanta! We’re always eager to make your stay as special as possible for you and your family, and holidays are no exception. At Nuevo Vallarta, we’re proud to host special events, activities, and celebrations for the following holidays:",
+          "image": "wellness-thumbnail.jpg",
+          "action-link": ""
+        }
+      }
     }
   }
 }

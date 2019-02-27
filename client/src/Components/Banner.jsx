@@ -5,11 +5,22 @@ export class Banner extends Component {
   constructor(props){
     super(props);
     this.state = {
-      "image": this.props.src.image,
-      "header": this.props.src.header,
-      "subheader": this.props.src.subheader
+      "image": this.props.banner_info.image,
+      "header": this.props.banner_info.header,
+      "subheader": this.props.banner_info.subheader
     };
   }
+
+  componentDidUpdate(){
+    if(this.state.image !== this.props.banner_info.image ){
+      this.setState({
+        "image": this.props.banner_info.image,
+        "header": this.props.banner_info.header,
+        "subheader": this.props.banner_info.subheader
+      })
+    }
+  }
+
   render(){
     return(
       <Col className="banner-container" xl="12" lg="12" md="12" sm="12">
