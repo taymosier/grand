@@ -23,7 +23,7 @@ export class Menu extends Component {
       buttonList.push(button);
     }
     return(
-      <Col className="menu-container" xl={{ size: 2, offset: 1 }} lg={{ size: 12, offset: 0 }} md="3">
+      <Col className="menu-container" xl={{ size: 12, offset: 0 }} lg={{ size: 12, offset: 0 }} md="12">
         <Nav className="menu" vertical>
           {buttonList}
         </Nav>

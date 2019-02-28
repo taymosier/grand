@@ -31,13 +31,7 @@ export class Portal extends Component {
 
   render(){
     return(
-      <Col className="portal"
-        xl={{ size: 8, offset: 4 }}
-        lg={{ size: 12, offset: 0 }}
-        md="12"
-        sm="12">
         <ActiveView activeView={this.state.activeView} content={this.state.page.content}/>
-      </Col>
     );
   }
 }

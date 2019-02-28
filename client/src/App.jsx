@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row } from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 
 import './App.css';
 import routes from './data/routes.json';
@@ -16,11 +16,17 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
+
+    };
+    this.setPage = this.setPage.bind(this);
+  }
+
+  componentDidMount(){
+    this.setState({
       activeView: "home",
       pageContents: pages.home,
       currentViewAddress: pages.home.address
-    };
-    this.setPage = this.setPage.bind(this);
+    })
   }
 
   setPage(page){
@@ -42,11 +48,21 @@ render() {
   return (
       <Container className="parent">
         <Row>
-          <Banner banner_info={this.state.pageContents.content.banner}/>
+        { this.state.pageContents
+          ? <Banner banner_info={this.state.pageContents.content.banner}/>
+          : null
+        }
         </Row>
         <Row>
-          <Menu activeViewRoute={this.state.currentViewAddress} route={routes} setPage={this.setPage}/>
-          <Portal activeView={this.state.activeView} page={this.state.pageContents}/>
+          <Col xl={{ size: 2, offset: 1 }}>
+            <Menu activeViewRoute={this.state.currentViewAddress} route={routes} setPage={this.setPage}/>
+          </Col>
+          <Col xl={9}>
+          {this.state.pageContents
+            ? <Portal activeView={this.state.activeView} page={this.state.pageContents}/>
+            : null
+          }
+          </Col>
         </Row>
         <Row>
           <Footer />

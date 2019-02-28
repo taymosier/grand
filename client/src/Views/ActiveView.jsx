@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { BillboardContainer } from "../Components/BillboardContainer";
+
 export class ActiveView extends Component {
   constructor(props){
     super(props);
@@ -9,7 +11,6 @@ export class ActiveView extends Component {
   }
 
   componentDidMount(){
-    console.log("ActiveView received mounted with props: ")
     console.log(this.props)
     if(this.props.content){
       this.setState({
@@ -21,7 +22,6 @@ export class ActiveView extends Component {
   componentDidUpdate(){
     try{
       if(this.props.content !== this.state.content){
-        console.log("ActiveView received updated props")
         this.setState({
           content: this.props.content
         })
@@ -34,7 +34,18 @@ export class ActiveView extends Component {
   render(){
     return(
       <div className="default-child">
-        {this.props.content.text.description}
+        {this.props.content.text.header !== undefined
+          ? <h1 className="page-header">{this.props.content.text.header}</h1>
+          : null
+        }
+        {this.props.content.text.description !== undefined
+          ? <div className="page-description">{this.props.content.text.description}</div>
+          : null
+        }
+        {this.state.content.billboards !== undefined
+          ? <BillboardContainer billboards={this.state.content.billboards} />
+          : null
+        }
       </div>
     );
   }
