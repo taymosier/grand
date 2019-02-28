@@ -14,7 +14,7 @@ export class Portal extends Component {
 
   componentDidMount(){
     console.log("ActiveView received mounted with props: ")
-    console.log(this.props)
+    console.log(this.props.page.content)
   }
 
   componentDidUpdate(){

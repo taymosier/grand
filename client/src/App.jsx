@@ -57,7 +57,7 @@ render() {
           <Col xl={{ size: 2, offset: 1 }}>
             <Menu activeViewRoute={this.state.currentViewAddress} route={routes} setPage={this.setPage}/>
           </Col>
-          <Col xl={9}>
+          <Col xl={8}>
           {this.state.pageContents
             ? <Portal activeView={this.state.activeView} page={this.state.pageContents}/>
             : null

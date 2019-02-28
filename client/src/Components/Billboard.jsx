@@ -60,7 +60,10 @@ export class Billboard extends Component {
           </div>
           <div className="billboard-text-container">
             <div className="billboard-title">{this.state.title}</div>
-            <div className="billboard-tagline">{this.state.tagline}</div>
+            {this.state.tagline
+              ? <div className="billboard-tagline">{this.state.tagline}</div>
+              : null
+            }
             <div className="billboard-flavor_text">{this.state.flavor_text}</div>
           </div>
         </div>

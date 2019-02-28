@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 
 import { BillboardContainer } from "../Components/BillboardContainer";
+import { ThumbnailGridContainer } from "../Components/ThumbnailGridContainer";
+
 
 export class ActiveView extends Component {
   constructor(props){
     super(props);
     this.state = {
-      content: "",
+      content: this.props.content,
     };
   }
 
@@ -44,6 +46,10 @@ export class ActiveView extends Component {
         }
         {this.state.content.billboards !== undefined
           ? <BillboardContainer billboards={this.state.content.billboards} />
+          : null
+        }
+        {this.state.content.images.thumbnails !== undefined
+          ? <ThumbnailGridContainer thumbnails={this.state.content.images.thumbnails} />
           : null
         }
       </div>

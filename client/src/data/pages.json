@@ -13,7 +13,7 @@
       },
       "images": {
         "gallery": [],
-        "thumbnail": "fine-dining-thumbnail.jpg"
+        "thumbnails": []
       },
       "billboards": {
         "0" : {
@@ -27,8 +27,8 @@
         "1" : {
           "title": "Where To Swim",
           "name": "pools",
-          "tagline": "Three Bedroom Presidential Villa",
-          "flavor_text": "This beautiful villa features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs, and a private terrace with a plunge pool.",
+          "tagline": "Grand Luxxe Pools",
+          "flavor_text": "Swim in a rooftop oasis, luxuriate in a Jacuzzi overlooking the Bay of Banderas, or kick back next to a trio of pristine pools.",
           "image": "punta-pool-east.jpg",
           "action_link": "/"
         }
@@ -50,29 +50,54 @@
       },
       "images": {
         "gallery": [],
-        "thumbnail": "fine-dining-thumbnail.jpg"
+        "thumbnails": [
+          {
+            "image": "fine-dining-thumbnail.jpg",
+            "text": {
+              "title": "Fine Dining",
+              "flavor": "Choose from an array of gourmet restaurants helmed by some of the world’s best chefs."
+            }
+          },
+          {
+            "image": "bars-thumbnails.jpg",
+            "text": {
+              "title": "Bars and Lounges",
+              "flavor": "From elegant lounges to lively bars with live music, find the right setting for your evening."
+            }
+          },
+          {
+            "image": "in-room-thumbnail.jpg",
+            "text": {
+              "title": "In-Room Dining",
+              "flavor": "Eat like royalty from the comfort of your own room thanks to our extensive room service menu."
+            }
+          },
+          {
+            "image": "casual-dining-thumbnail.jpg",
+            "text": {
+              "title": "Casual Dining",
+              "flavor": "Mexican, American, international—find the cuisine you crave from our wide selection of eateries."
+            }
+          }
+        ]
       },
       "billboards": {
-        "title": "Rooms & Suites",
-        "name": "rooms",
-        "tagline": "Three Bedroom Presidential Villa",
-        "flavor_text": "This beautiful villa features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs, and a private terrace with a plunge pool.",
-        "image": "three-bedroom-presidential-villa-thumbnail.jpg",
-        "action_link": "/rooms/three-bedroom-presidential-villa"
-      },
-      "billboards": {
-        "title": "Rooms & Suites",
-        "tagline": "Three Bedroom Presidential Villa",
-        "flavor_text": "This beautiful villa features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs, and a private terrace with a plunge pool.",
-        "image": "three-bedroom-presidential-villa-thumbnail.jpg",
-        "action_link": "/rooms/three-bedroom-presidential-villa"
-      },
-      "billboards": {
-        "title": "Rooms & Suites",
-        "tagline": "Three Bedroom Presidential Villa",
-        "flavor_text": "This beautiful villa features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs, and a private terrace with a plunge pool.",
-        "image": "three-bedroom-presidential-villa-thumbnail.jpg",
-        "action_link": "/rooms/three-bedroom-presidential-villa"
+        "0" : {
+          "title": "",
+          "name": "dining-intro",
+          "tagline": "",
+          "flavor_text": "With over 40 restaurants and lounges to choose from, Vidanta Nuevo Vallarta gives guests the opportunity to dine however they like. Options range from high-end eateries to casual restaurants to authentic Mexican spots, and even a gourmet market filled with offerings from all over the world. One thing is for sure—an amazing culinary experience is always just a meal away at Vidanta Nuevo Vallarta.",
+          "image": "dining-billboard-0.jpg",
+          "action_link": "/rooms/three-bedroom-presidential-villa"
+        },
+        "1" : {
+          "title": "Must-Taste Dish",
+          "name": "featured-restaurant",
+          "tagline": "Tacos al pastor",
+          "flavor_text": "Delight in the flavors of authentic Mexico with this Puebla-born dish, made with spit-roasted pork marinated with pineapple.",
+          "image": "dining-billboard-1.jpg",
+          "action_link": "/dining/casua;/tacos-break"
+        }
       }
     }
   },
@@ -91,14 +116,17 @@
       },
       "images": {
         "gallery": [],
-        "thumbnail": "fine-dining-thumbnail.jpg"
+        "thumbnails": []
       },
       "billboards": {
-        "title": "Rooms & Suites",
-        "tagline": "Three Bedroom Presidential Villa",
-        "flavor_text": "This beautiful villa features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs, and a private terrace with a plunge pool.",
-        "image": "three-bedroom-presidential-villa-thumbnail.jpg",
-        "action_link": "/rooms/three-bedroom-presidential-villa"
+        "0" : {
+          "title": "Rooms & Suites",
+          "name": "rooms",
+          "tagline": "Grand Luxxe Three Bedroom Presidential Villa",
+          "flavor_text": "This expansive villa features two gourmet kitchens, two living rooms, three bedrooms, three and a half bathrooms with three Jacuzzi tubs, and two private terraces with two plunge pools.",
+          "image": "three-bedroom-presidential-villa-gallery-1.jpg",
+          "action_link": "/rooms/three-bedroom-presidential-villa"
+        }
       }
     }
   },
@@ -121,7 +149,7 @@
       },
       "images": {
         "gallery": [],
-        "thumbnail": "fine-dining-thumbnail.jpg"
+        "thumbnails": []
       },
       "billboards": {
         "title": "Rooms & Suites",
@@ -149,7 +177,7 @@
       "images": {
         "banner": "grand-luxxe-banner.jpg",
         "gallery": [],
-        "thumbnail": "fine-dining-thumbnail.jpg"
+        "thumbnails": []
       }
     }
   },
@@ -170,7 +198,7 @@
       "images": {
         "banner": "grand-luxxe-banner.jpg",
         "gallery": [],
-        "thumbnail": "fine-dining-thumbnail.jpg"
+        "thumbnails": []
       },
       "billboards": [
         {
@@ -217,19 +245,73 @@
       "images": {
         "banner": "pools-banner.jpg",
         "gallery": [],
-        "thumbnail": "pools-thumbnail.jpg"
-      },
-      "grid": [
-        ["Grand Luxxe Tower 1 Circular Pool","circular-pool.jpg"],
-        ["Grand Luxxe Tower 1 Infinity Pool","infinity-pool.jpg"],
-        ["Grand Luxxe Adults-Only Pool","adults-only-pool.jpg"],
-        ["Grand Luxxe Punta Pool East","punta-pool-east.jpg"],
-        ["Grand Luxxe Punta Pool West","punta-pool-west.jpg"],
-        ["Grand Luxxe Spa Tower Pools","spa-tower-pools.jpg"],
-        ["Grand Luxxe Residence Sky Garden Pool","sky-garden-pool.jpg"],
-        ["Grand Luxxe Tower 5 Sky Lounge Pool","sky-lounge-pool.jpg"],
-        ["Grand Luxxe Kid’s Club Pool","kids-club-pool.jpg"]
-      ]
+        "thumbnails": [
+          {
+            "image": "circular-pool.jpg",
+            "text": {
+              "title": "Grand Luxxe Tower 1 Circular Pool",
+              "flavor": "Surrounded by a beautiful lounge deck, this gorgeous round pool is located right next to Grand Luxxe Tower 1."
+            }
+          },
+          {
+            "image": "infinity-pool.jpg",
+            "text": {
+              "title": "Grand Luxxe Tower 1 Infinity Pool",
+              "flavor": "Boasting an infinity edge and Jacuzzis nestled into one side, this expansive pool, located directly adjacent to Tower 1 Pool 1 and by Blue Fish, has an activities stand and a lounge deck."
+            }
+          },
+          {
+            "image": "adults-only-pool.jpg",
+            "text": {
+              "title": "grand luxxe tower 1 circular pool",
+              "flavor": "Located just off from the Mayan Palace Pool, this oval-shaped, adults-only pool overlooks the ocean."
+            }
+          },
+          {
+            "image": "punta-pool-east.jpg",
+            "text": {
+              "title": "Grand Luxxe Adults-Only Pool",
+              "flavor": "This distinctive pool boasts a famous spiral shape and expansive lounging area while offering sweeping views of the Ameca River and Bay of Banderas. Featuring a horseshoe-shaped cluster of Jacuzzis, a swim-up bar, and food service by Si Snack."
+
+            }
+          },
+          {
+            "image": "punta-pool-west.jpg",
+            "text": {
+              "title": "Grand Luxxe Punta Pool West",
+              "flavor": "This petite pool is located between a lovely lagoon and Punta Pool East, and boasts a large, beautiful lounge area. Featuring a swim-up bar and activities stand nearby."
+            }
+          },
+          {
+            "image": "spa-tower-pools.jpg",
+            "text": {
+              "title": "Grand Luxxe Spa Tower Pools",
+              "flavor": "This pool cluster includes several secluded coves and a surrounding lounge, where you can enjoy a beverage or bite from the adjacent restaurant, Fresh Co. Featuring an activities stand and swim-up bar."
+            }
+          },
+          {
+            "image": "sky-garden-pool.jpg",
+            "text": {
+              "title": "Grand Luxxe Residence Sky Garden Pool",
+              "flavor": "Located on top of the Grand Luxxe Residence building, this rectangular pool is surrounded by lounge beds. Guests can enjoy food and beverages from the Fresh Co Sky Garden restaurant."
+            }
+          },
+          {
+            "image": "sky-lounge-pool.jpg",
+            "text": {
+              "title": "Grand Luxxe Tower 5 Sky Lounge Pool",
+              "flavor": "This brand-new rooftop pool is perched at the top of Grand Luxxe Tower 5. Located next to Quinto Charcoal Cuisine, this gorgeous pool features an infinity edge, so that its azure waters blend into the vibrant blue of the sky."
+            }
+          },
+          {
+            "image": "kids-club-pool.jpg",
+            "text": {
+              "title": "Grand Luxxe Kid’s Club Pool",
+              "flavor": "Grand Luxxe guests can drop their children off at the Grand Luxxe-exclusive Kid’s Club, located just off from the Spa Tower Pool, by Grand Luxxe Tower 3 and 4. Here, they can enjoy some fun in the sun under the supervision of our wonderful Kid’s Club staff."
+            }
+          }
+        ]
+      }
     }
   },
 
@@ -246,8 +328,8 @@
         "header": "A Golfer’s Paradise"
       },
       "images": {
-        "gallery": [],
-        "thumbnail": ""
+        "gallery": ["golf-gallery-1.jpg", "golf-gallery-2.jpg", "golf-gallery-3.jpg", "golf-gallery-4.jpg", "golf-gallery-5.jpg", "golf-gallery-6.jpg", "golf-gallery-7.jpg"],
+        "thumbnails": []
       },
       "billboards": [
         {
@@ -303,7 +385,7 @@
       },
       "images": {
         "gallery": ["the-nayar-course-gallery-1.jpg", "the-nayar-course-gallery-2.jpg", "the-nayar-course-gallery-3.jpg", "the-nayar-course-gallery-4.jpg", "the-nayar-course-gallery-5.jpg", "the-nayar-course-gallery-6.jpg", "the-nayar-course-gallery-7.jpg"],
-        "thumbnail": ""
+        "thumbnails": []
       },
       "billboards": {
         "0": {
@@ -330,8 +412,8 @@
         "header": "Pure Pampering"
       },
       "images": {
-        "gallery": [],
-        "thumbnail": "fine-dining-thumbnail.jpg"
+        "gallery": ["spa-gallery-1.jpg", "spa-gallery-2.jpg", "spa-gallery-3.jpg", "spa-gallery-4.jpg", "spa-gallery-5.jpg", "spa-gallery-6.jpg", "spa-gallery-7.jpg"],
+        "thumbnails": []
       },
       "billboards": {
         "0": {
@@ -373,7 +455,7 @@
       },
       "images": {
         "gallery": [],
-        "thumbnail": "fine-dining-thumbnail.jpg"
+        "thumbnail": []
       },
       "billboards": {
         "0": {
@@ -414,7 +496,7 @@
       },
       "images": {
         "gallery": [],
-        "thumbnail": "fine-dining-thumbnail.jpg"
+        "thumbnail": []
       },
       "billboards": {
         "0": {

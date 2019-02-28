@@ -1,3 +1,7 @@
+body {
+  font-family: "Advent Pro";
+}
+
 .App {
   text-align: center;
 }
@@ -99,34 +103,38 @@
 }
 
 .billboard {
-  margin: 25px 0;
-  min-width: 100%;
-  max-width: 100%;
+  background: #F6F4F3;
+  margin: 25px 5%;
+  min-width: 90%;
+  max-width: 90%;
   max-height: 400px;
   min-height: 400px;
+  box-shadow: 5px 7px 15px darkgray;
 }
 
 .billboard-flavor_text {
-  font-size: 18px;
+  font-size: 24px;
+  padding: 20px 0 0 0;
+  font-weight: 400;
+  letter-spacing: .8px;
 }
 
 .billboard-image {
-  margin: 20px auto;
-  min-height: 344px;
-  max-height: 344px;
-  min-width: 540px;
-  max-width: 540px;
-
+  margin: 0 auto;
+  min-width: 500px;
+  max-width: 100%;
+  max-height: 320px;
+  box-shadow: 0px 0px 10px 4px grey;
 }
 
 .billboard-image-container {
-  padding: 30px 0 0 0;
+  margin: 2.5% 0 0 0;
+  padding: 0 0 0 0;
   text-align: center;
   float: left;
-  min-height: 100%;
-  min-width: 50%;
-  max-height: 100%;
-  max-width: 50%;
+  min-width: 49%;
+  max-width: 49%;
+  max-height: 320px;
 }
 
 .billboard-tagline {
@@ -134,26 +142,27 @@
   padding-bottom: 18px;
   letter-spacing: 0.8px;
   font-size: 20px;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   font-style: normal;
 }
 
 .billboard-text-container {
-  padding: 50px 5% 0 15.5%;
-  margin-left: 50%;
+  padding: 0;
+  margin: 0 2.5% 0 57.5%;
   min-height: 360px;
-  min-width: 50%;
+  min-width: 40%;
   max-height: 360px;
-  max-width: 50%;
+  max-width: 40%;
 }
 
 .billboard-title {
+  padding: 20px 0 0 0;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #868686;
   font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: normal;
   font-style: normal;
 }
@@ -163,7 +172,6 @@
   position: inherit;
   min-width: 90%;
   min-height: 100%;
-  background: lightyellow;
 }
 
 .footer {
@@ -172,16 +180,21 @@
 }
 
 .menu {
-  background: #f4f1e6;
+  padding: 10px 0 0 0;
+  background: #F6F4F3;
   height: 100vh;
 }
 
 .page-description {
-  font-size: 18px;
-  padding: 35px 15% 0 15%;
+  font-size: 28px;
+  letter-spacing: .65px;
+  padding: 15px 12.5% 0 12.5%;
 }
 
 .page-header {
+  font-family: "Advent Pro";
+  font-weight: 600;
+  letter-spacing: .25em;
   padding: 25px 0 0 0;
   min-width: 100%;
   text-align: center;
@@ -206,7 +219,7 @@
 }
 
 .menuButton:hover {
-  background: black;
+  background: #c6c6c6;
   font-size: 28px;
   color: white;
   transition: .18s ease-in .25s;
@@ -224,6 +237,106 @@
   /* width: 80.125vw; */
   min-height: 87vh;
   background: ligtslategrey;
+}
+
+.thumbnail-container {
+  margin: 10px;
+  float:left;
+  min-height: 320px;
+  max-height: 320px;
+  max-width: 40%;
+  min-width: 40%;
+  overflow:hidden;
+  text-align: center;
+  vertical-align: top;
+  box-shadow: 5px 2px 5px 2px grey;
+}
+
+.thumbnail-container img {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 320px;
+  z-index: 1;
+  opacity: .95;
+}
+
+.thumbnail-grid {
+  margin: 0 0% 0 7.5%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.thumbnail-filter {
+  position: absolute;
+  min-height: 320px;
+  max-height: 320px;
+  min-width: 40%;
+  max-width: 40%;
+  background: black;
+  opacity: 0;
+  z-index: 50;
+  transition: .15s linear;
+}
+
+.thumbnail-filter:hover {
+  opacity: .6;
+  transition: .3s ease-in;
+}
+
+.thumbnail-filter:hover ~ .thumbnail-title{
+  top: -260px;
+  font-size: 28px;
+  -webkit-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .3s ease-in;
+}
+
+.thumbnail-filter:hover ~ .thumbnail-flavor_text{
+  opacity: 1;
+  -webkit-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+.thumbnail-title {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  position: relative;
+  margin: 0 25%;
+  min-width: 50%;
+  max-width: 50%;
+  max-height: 40px;
+  top: -300px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  transition: .15s linear;
+}
+
+.thumbnail-flavor_text {
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  color: white;
+  padding: 0 5%;
+  min-width: 80%;
+  max-width: 80%;
+  top: -250px;
+  right: 0;
+  left: 10%;
+  bottom: 0;
+  z-index: 60;
+  opacity: 0;
+  transition: .15s linear;
+}
+
+.thumbnail-flavor_text:hover {
+  opacity: 1;
+  -webkit-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in;
 }
 
 @keyframes App-logo-spin {
