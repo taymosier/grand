@@ -1,58 +1,75 @@
 import React, { Component } from 'react';
-import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
+import { CarouselImage } from "./CarouselImage";
 
 export class ImageCarousel extends Component {
   constructor(props){
     super(props);
     this.state = {
       activeIndex: 0,
-      items: []
+      images: this.props.galleryImages,
+      slides: this.generateSlides(this.props.galleryImages),
     };
-    this.next = this.next.bind(this);
-    this.previous = this.previous.bind(this);
-    this.goToIndex = this.goToIndex.bind(this);
-    this.onExiting = this.onExiting.bind(this);
-    this.onExited = this.onExited.bind(this);
+    this.generateSlides = this.generateSlides.bind(this);
+    this.navigateToPreviousImage = this.navigateToPreviousImage.bind(this);
+    this.navigateToNextImage = this.navigateToNextImage.bind(this);
   }
 
-  onExiting() {
-    this.animating = true;
+generateSlides(images){
+  let slides = [];
+  if(images !== undefined){
+    slides = images.map((image) => {
+      return(
+      <CarouselImage
+        src={image.src}
+        folder={image.folder}
+        altText={image.src}
+        caption={image.caption}
+      />);
+    });
+    return slides
+  } else {
+    return ""
   }
+}
 
-  onExited() {
-    this.animating = false;
-  }
+navigateToPreviousImage(){
+  this.setState({
+    activeIndex: this.state.activeIndex -1
+  })
+}
 
-  next() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === items.length - 1 ? 0 : this.state.activeIndex + 1;
-    this.setState({ activeIndex: nextIndex });
-  }
+navigateToNextImage(){
+  this.setState({
+    activeIndex: this.state.activeIndex + 1
+  })
+}
 
-  previous() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === 0 ? items.length - 1 : this.state.activeIndex - 1;
-    this.setState({ activeIndex: nextIndex });
+componentDidUpdate(){
+  if(this.state.images !== this.props.galleryImages ){
+    this.setState({
+      activeIndex: 0,
+      images: this.props.galleryImages,
+      slides: this.generateSlides(this.props.galleryImages),
+    })
   }
-
-  goToIndex(newIndex) {
-    if (this.animating) return;
-    this.setState({ activeIndex: newIndex });
-  }
+}
 
   render(){
-    const { activeIndex } = this.state.activeIndex;
     return(
-      <Carousel
-        activeIndex={activeIndex}
-        next={this.next}
-        previous={this.previous}
-      >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-        {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-      </Carousel>
-    );
+      <div className="carousel">
+      {this.state.slides !== undefined && this.state.slides.length !== 0 && this.state.activeIndex !== 0
+        ? <div className="carousel-back-nav-button" onClick={()=>{this.navigateToPreviousImage()}}></div>
+        : null
+      }
+      { this.state.slides !== undefined
+        ? <div className="carousel-image-container" onClick={() =>{this.navigateToNextImage()}}>{this.state.slides[this.state.activeIndex]}</div>
+        : null
+      }
+      {this.state.slides !== undefined && this.state.slides.length !== 0 && this.state.activeIndex !== this.state.slides.length-1
+        ? <div className="carousel-forward-nav-button" onClick={() =>{this.navigateToNextImage()}}></div>
+        : null
+      }
+      </div>
+    )
   }
 }

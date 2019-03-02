@@ -16,7 +16,7 @@ export class Billboard extends Component {
   }
 
   componentDidMount(){
-    this.state = {
+    this.setState({
       "contents": this.props.contents,
       "name": this.formatNameForID(this.props.contents.name),
       "title": this.props.contents.title,
@@ -24,7 +24,7 @@ export class Billboard extends Component {
       "image": this.props.contents.image,
       "flavor_text": this.props.contents.flavor_text,
       "button_link": this.props.contents.action_link
-    };
+    });
   }
 
   componentDidUpdate(){
@@ -54,7 +54,7 @@ export class Billboard extends Component {
         <div className="billboard" id={this.state.name}>
           <div className="billboard-image-container">
             { this.state.image
-              ? <img className="billboard-image" src={require("../../public/images/billboards/"+this.state.image)}/>
+              ? <img className="billboard-image" src={require("../../public/images/billboards/"+this.state.image)} alt={this.state.image}/>
               : null
             }
           </div>

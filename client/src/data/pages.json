@@ -328,7 +328,32 @@
         "header": "A Golfer’s Paradise"
       },
       "images": {
-        "gallery": ["golf-gallery-1.jpg", "golf-gallery-2.jpg", "golf-gallery-3.jpg", "golf-gallery-4.jpg", "golf-gallery-5.jpg", "golf-gallery-6.jpg", "golf-gallery-7.jpg"],
+        "gallery": [
+          { "src": "golf-gallery-1.jpg",
+            "altText": "golf image",
+            "folder": "golf/"
+          },
+          {"src": "golf-gallery-2.jpg",
+            "altText": "golf image",
+            "folder": "golf/"
+          },
+          {"src": "golf-gallery-3.jpg",
+            "altText": "golf image",
+            "folder": "golf/"
+          },
+          {"src": "golf-gallery-4.jpg",
+            "altText": "golf image",
+            "folder": "golf/"
+          },
+          {"src": "golf-gallery-5.jpg",
+            "altText": "golf image",
+            "folder": "golf/"
+          },
+          {"src": "golf-gallery-6.jpg",
+            "altText": "golf image",
+            "folder": "golf/"
+          }
+        ],
         "thumbnails": []
       },
       "billboards": [
@@ -412,7 +437,36 @@
         "header": "Pure Pampering"
       },
       "images": {
-        "gallery": ["spa-gallery-1.jpg", "spa-gallery-2.jpg", "spa-gallery-3.jpg", "spa-gallery-4.jpg", "spa-gallery-5.jpg", "spa-gallery-6.jpg", "spa-gallery-7.jpg"],
+        "gallery": [
+          { "src": "spa-gallery-1.jpg",
+            "altText": "spa image",
+            "folder": "spa/"
+          },
+          {"src": "spa-gallery-2.jpg",
+            "altText": "spa image",
+            "folder": "spa/"
+          },
+          {"src": "spa-gallery-3.jpg",
+            "altText": "spa image",
+            "folder": "spa/"
+          },
+          {"src": "spa-gallery-4.jpg",
+            "altText": "spa image",
+            "folder": "spa/"
+          },
+          {"src": "spa-gallery-5.jpg",
+            "altText": "spa image",
+            "folder": "spa/"
+          },
+          {"src": "spa-gallery-6.jpg",
+            "altText": "spa image",
+            "folder": "spa/"
+          },
+          {"src": "spa-gallery-7.jpg",
+            "altText": "spa image",
+            "folder": "spa/"
+          }
+        ],
         "thumbnails": []
       },
       "billboards": {

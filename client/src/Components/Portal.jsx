@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Col } from 'reactstrap';
-
 import { ActiveView } from "../Views/ActiveView"
 
 export class Portal extends Component {

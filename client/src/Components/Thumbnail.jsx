@@ -26,7 +26,7 @@ export class Thumbnail extends Component {
     return(
       <div className="thumbnail-container">
         <div className="thumbnail-filter"></div>
-          <img src={require("../../public/images/thumbnails/" + this.state.content.image)}></img>
+          <img src={require("../../public/images/thumbnails/" + this.state.content.image)} alt={this.state.content.image}></img>
           <div className="thumbnail-title">
             <p>{this.state.content.text.title}</p>
           </div>

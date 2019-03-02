@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import { BillboardContainer } from "../Components/BillboardContainer";
 import { ThumbnailGridContainer } from "../Components/ThumbnailGridContainer";
+import { ImageCarousel } from '../Components/ImageCarousel';
 
 
 export class ActiveView extends Component {
@@ -41,7 +42,11 @@ export class ActiveView extends Component {
           : null
         }
         {this.props.content.text.description !== undefined
-          ? <div className="page-description">{this.props.content.text.description}</div>
+          ? <div className="page-description"><p>{this.props.content.text.description}</p></div>
+          : null
+        }
+        {this.state.content.images.gallery !== [] || this.state.content.images.gallery !== undefined
+          ? <ImageCarousel galleryImages={this.state.content.images.gallery} />
           : null
         }
         {this.state.content.billboards !== undefined

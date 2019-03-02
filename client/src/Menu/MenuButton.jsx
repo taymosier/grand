@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import { NavItem } from 'reactstrap';
 
-import {generateComponentID, formatTitle} from '../helpers/dynamicCSS.js';
-
-
 export class MenuButton extends Component {
   constructor(props){
     super(props);

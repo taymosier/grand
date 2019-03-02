@@ -167,6 +167,38 @@ body {
   font-style: normal;
 }
 
+.carousel {
+  margin: auto;
+  max-width: 70%;
+  max-height: 700px;
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+.carousel-back-nav-button {
+  max-width: 25px;
+  max-height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  background: black;
+  float: left;
+}
+
+.carousel-forward-nav-button {
+  max-width: 25px;
+  max-height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  margin: 0 0 0 30px;
+  background: black;
+}
+
+.carousel-image-container {
+  margin: auto;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
 .default-child {
   margin: 25px 0 0 0;
   position: inherit;
@@ -189,6 +221,10 @@ body {
   font-size: 28px;
   letter-spacing: .65px;
   padding: 15px 12.5% 0 12.5%;
+}
+
+.page-description p{
+  text-align: center;
 }
 
 .page-header {

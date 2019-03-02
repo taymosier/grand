@@ -31,7 +31,7 @@ export class Banner extends Component {
         <h2 className="banner-subheader">{this.state.subheader}</h2>
         </div>
       </div>
-        <img className="banner" src={require("../../public/images/banners/"+this.state.image)}/>
+        <img className="banner" src={require("../../public/images/banners/"+this.state.image)} alt={this.state.image}/>
       </Col>
     );
   }

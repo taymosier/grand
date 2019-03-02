@@ -2,14 +2,12 @@ import React, { Component } from 'react';
 import { Col, Nav } from 'reactstrap';
 
 import { MenuButton } from './MenuButton';
-import pages from '../data/pages.json';
 
 export class Menu extends Component {
   constructor(props){
     super(props);
     this.state = {
       currentView: ""
-
     };
   }
 
