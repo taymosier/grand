@@ -1,0 +1,251 @@
+{
+  "example" : {
+    "parent": "lvl2item",
+    "root": "rootMenuItem",
+    "link": "/url/to/linked/page",
+    "id": "nameOfPageBeingLinked"
+  },
+
+  "fine": {
+    "azur" : {
+      "parent": "fine",
+      "root": "dining",
+      "link": "/dining/fine/azur",
+      "id": "nameOfPageBeingLinked"
+    },
+
+    "costa arena" : {
+      "parent": "fine",
+      "root": "dining",
+      "link": "/dining/fine/costa-arena",
+      "id": "nameOfPageBeingLinked"
+    },
+
+    "epazote" : {
+      "parent": "fine",
+      "root": "dining",
+      "link": "/dining/fine/epazote",
+      "id": "nameOfPageBeingLinked"
+    },
+    "gong" : {
+      "parent": "fine",
+      "root": "dining",
+      "link": "/dining/fine/gong",
+      "id": "nameOfPageBeingLinked"
+    },
+
+    "quinto charcoal grill" : {
+      "parent": "fine",
+      "root": "dining",
+      "link": "/dining/fine/quinto-charcoal-grill",
+      "id": "nameOfPageBeingLinked"
+    },
+
+    "the burger custom made" : {
+      "parent": "fine",
+      "root": "dining",
+      "link": "/dining/fine/the-burger-custom-made",
+      "id": "nameOfPageBeingLinked"
+    },
+
+    "tramonto" : {
+      "parent": "fine",
+      "root": "dining",
+      "link": "/dining/fine/tramonto",
+      "id": "nameOfPageBeingLinked"
+    }
+  },
+
+  "casual": {
+    "parent": "dining",
+    "azur" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/acqua",
+      "id": "nameOfPageBeingLinked"
+    },
+
+    "ameca social house" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/ameca-social-house",
+      "id": "ameca social house"
+    },
+
+    "balance" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/balance",
+      "id": "balance"
+    },
+
+    "balche" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/balche",
+      "id": "balche"
+    },
+
+    "cafe del lago" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/cafe-del-lago",
+      "id": "cafe del lago"
+    },
+
+    "chiringuito" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/chiringuito",
+      "id": "chiringuito"
+    },
+
+    "fresh co" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/fresh co",
+      "id": "fresh co"
+    },
+
+    "havana moon" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/haavana-moon",
+      "id": "havana moon"
+    },
+
+    "il fornio di gio" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/il-fornio-di-gio",
+      "id": "il fornio di gio"
+    },
+
+    "la cantina" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/la-cantina",
+      "id": "la cantina"
+    },
+    "limon y sal" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/limon-y-sal",
+      "id": "limon y sal"
+    },
+
+    "mercado mexico" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/mercado-mexico",
+      "id": "mercado mexico"
+    },
+
+    "rummba" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/rummba",
+      "id": "rummba"
+    },
+
+    "samba" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/samba",
+      "id": "samba"
+    },
+
+    "si snack" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/si-snack",
+      "id": "si snack"
+    },
+
+    "sweet paris" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/sweet-paris",
+      "id": "sweet paris"
+    },
+
+    "sky garden" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/sky-garden",
+      "id": "sky garden"
+    },
+
+    "tacos break" : {
+      "parent": "casual",
+      "root": "dining",
+      "link": "/dining/casual/tacos-break",
+      "id": "tacos break"
+    },
+  },
+
+  "bars and lounges": {
+    "parent": "dining",
+    "pools bar" : {
+      "parent": "bars and lounges",
+      "root": "dining",
+      "link": "/dining/bars/pools-bar",
+      "id": "pools bar"
+    },
+
+    "blue nautique bar" : {
+      "parent": "bars and lounges",
+      "root": "dining",
+      "link": "/dining/bars/blue-nautique-bar",
+      "id": "blue nautique bar"
+    },
+
+    "grand vista bar" : {
+      "parent": "bars and lounges",
+      "root": "dining",
+      "link": "/dining/bars/epazote",
+      "id": "grand vista bar"
+    },
+    "library bar" : {
+      "parent": "bars and lounges",
+      "root": "dining",
+      "link": "/dining/bars/library-bar",
+      "id": "library bar"
+    },
+    "luxxe bar" : {
+      "parent": "bars and lounges",
+      "root": "dining",
+      "link": "/dining/bars/luxxe-bar",
+      "id": "luxxe bar"
+    },
+    "the grand lobby bar" : {
+      "parent": "bars and lounges",
+      "root": "dining",
+      "link": "/dining/bars/the-grand-lobby-bar",
+      "id": "the grand lobby bar"
+    },
+    "santuario" : {
+      "parent": "bars and lounges",
+      "root": "dining",
+      "link": "/dining/bars/santuario",
+      "id": "santuario"
+    },
+    "la isla de cocos" : {
+      "parent": "bars and lounges",
+      "root": "dining",
+      "link": "/dining/bars/la-isla-de-cocos",
+      "id": "la isla de cocos"
+    },
+  },
+
+  "in room dining": {
+    "parent": "dining",
+    "il fornio di gio" : {
+      "parent": "in room dining",
+      "root": "dining",
+      "link": "/dining/casual/il-fornio-di-gio",
+      "id": "il fornio di gio"
+    }
+  }
+
+}

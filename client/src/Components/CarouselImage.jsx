@@ -21,6 +21,10 @@ export class CarouselImage extends Component {
   }
 
   render(){
-    return(<img className="carousel-image" src={require("../../public/images/galleries/" + this.state.srcFolder + this.state.src)} alt={this.state.altText} />)
+    try {
+      return(<img className="carousel-image" src={require("../../public/images/galleries/" + this.state.srcFolder + this.state.src)} alt={this.state.altText} />)
+    } catch(e){
+      return null
+    }
   }
 }

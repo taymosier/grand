@@ -17,7 +17,7 @@ export class BillboardContainer extends Component {
     let billboards = [];
     for(let item in billboardContents){
       try{
-        billboards.push(<Billboard contents={billboardContents[item]} />)
+        billboards.push(<Billboard contents={billboardContents[item]} key={billboardContents[item].name}/>)
       } catch(e){
         console.log(this.state)
       }

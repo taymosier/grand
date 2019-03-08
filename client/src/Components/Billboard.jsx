@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Col } from 'reactstrap';
 
 export class Billboard extends Component {
   constructor(props){
@@ -52,20 +53,34 @@ export class Billboard extends Component {
   render(){
     return(
         <div className="billboard" id={this.state.name}>
-          <div className="billboard-image-container">
+          <Col
+            xl={{ size: 6, offset: 0 }}
+            lg={{ size: 5, offset: 0 }}
+            md={{ size: 12, offset: 0 }}
+            className="billboard-image-container"
+          >
             { this.state.image
               ? <img className="billboard-image" src={require("../../public/images/billboards/"+this.state.image)} alt={this.state.image}/>
               : null
             }
-          </div>
-          <div className="billboard-text-container">
+          </Col>
+          <Col
+            xl={{ size: 4, offset: 7 }}
+            lg={{ size: 5, offset: 6 }}
+            md={{ size: 10, offset: 1 }}
+            className="billboard-text-container"
+          >
             <div className="billboard-title">{this.state.title}</div>
             {this.state.tagline
-              ? <div className="billboard-tagline">{this.state.tagline}</div>
+              ? <svg viewBox="0 0 195 25" className="billboard-tagline">
+                  <text x="0" y="20">{this.state.tagline}</text>
+                </svg>
               : null
             }
-            <div className="billboard-flavor_text">{this.state.flavor_text}</div>
-          </div>
+            <div className="billboard-flavor_text-container">
+              <p className="billboard-flavor_text">{this.state.flavor_text}</p>
+            </div>
+          </Col>
         </div>
     );
   }

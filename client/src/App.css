@@ -82,12 +82,6 @@ body {
 
 .banner-subheader-container {
   background: transparent;
-  min-height: 110px;
-  min-width: 40vw;
-  width: 40vw;
-  top: 225px;
-  left: 0vw;
-  position: absolute;
 }
 
 .banner-subheader {
@@ -105,59 +99,57 @@ body {
 .billboard {
   background: #F6F4F3;
   margin: 25px 5%;
-  min-width: 90%;
+  min-width: 50%;
   max-width: 90%;
   max-height: 400px;
-  min-height: 400px;
+  min-height: 20vw;
+  height: 23vw;
   box-shadow: 5px 7px 15px darkgray;
 }
 
 .billboard-flavor_text {
-  font-size: 24px;
-  padding: 20px 0 0 0;
-  font-weight: 400;
-  letter-spacing: .8px;
+  font-size: 1.05em;
+  padding: 0;
+  line-height: 1.15;
+}
+
+.billboard-flavor_text-container {
+  min-height: 100%;
+  padding: 0;
+  font-weight: 600;
+  letter-spacing: .7px;
+  line-height: 1.15;
 }
 
 .billboard-image {
   margin: 0 auto;
-  min-width: 500px;
+  min-width: 0%;
   max-width: 100%;
-  max-height: 320px;
   box-shadow: 0px 0px 10px 4px grey;
 }
 
 .billboard-image-container {
-  margin: 2.5% 0 0 0;
-  padding: 0 0 0 0;
-  text-align: center;
+  text-align: left;
   float: left;
-  min-width: 49%;
-  max-width: 49%;
-  max-height: 320px;
 }
 
 .billboard-tagline {
   margin: 0;
-  padding-bottom: 18px;
+  padding-bottom: 10px;
   letter-spacing: 0.8px;
-  font-size: 20px;
-  font-size: 1.75rem;
+  font-size: .95em;
   font-weight: 600;
   font-style: normal;
 }
 
 .billboard-text-container {
-  padding: 0;
-  margin: 0 2.5% 0 57.5%;
-  min-height: 360px;
-  min-width: 40%;
-  max-height: 360px;
-  max-width: 40%;
+  padding: .9vw 0 0 0;
+  min-height: 100%;
+  max-height: 100%;
 }
 
 .billboard-title {
-  padding: 20px 0 0 0;
+  padding: 30px 0 0 0;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #868686;
@@ -175,26 +167,13 @@ body {
   min-height: fit-content;
 }
 
-.carousel-back-nav-button {
-  max-width: 25px;
-  max-height: 25px;
-  min-width: 25px;
-  min-height: 25px;
-  background: black;
-  float: left;
-}
-
-.carousel-forward-nav-button {
-  max-width: 25px;
-  max-height: 25px;
-  min-width: 25px;
-  min-height: 25px;
-  margin: 0 0 0 30px;
-  background: black;
+.carousel-message p {
+  max-width: fit-content;
+  margin: 5px auto;
 }
 
 .carousel-image-container {
-  margin: auto;
+  margin: 2.5vw auto 0 auto;
   max-width: fit-content;
   max-height: fit-content;
 }
@@ -212,9 +191,25 @@ body {
 }
 
 .menu {
-  padding: 10px 0 0 0;
+  padding: 0;
+}
+
+.menuButton {
   background: #F6F4F3;
-  height: 100vh;
+  border-bottom: 1px solid black;
+  box-shadow: .75px 1px 3.5px .2px black;
+  color: #777670;
+  font-family: "Advent Pro";
+  font-size: 24px;
+  font-weight: 500;
+  margin: 12.5px 5px 0 3px;
+  padding: 7px 0 .25em 20px;
+  position:relative;
+  transition: .2s linear;
+}
+
+.menu-container {
+  margin: 25px 0 0 0;
 }
 
 .page-description {
@@ -241,18 +236,6 @@ body {
   box-shadow: .5px 1px 3.5px black;
 }
 
-.menuButton {
-  position:relative;
-  border-bottom: 1px solid black;
-  box-shadow: .75px 1px 3.5px .2px black;
-  color: #777670;
-  font-family: "Advent Pro";
-  font-size: 24px;
-  font-weight: 500;
-  margin: 5px 5px 0 3px;
-  padding: 7px 0 .25em 20px;
-  transition: .2s linear;
-}
 
 .menuButton:hover {
   background: #c6c6c6;
@@ -319,21 +302,6 @@ body {
   transition: .3s ease-in;
 }
 
-.thumbnail-filter:hover ~ .thumbnail-title{
-  top: -260px;
-  font-size: 28px;
-  -webkit-transition: .2s ease-in;
-  -o-transition: .2s ease-in;
-  transition: .3s ease-in;
-}
-
-.thumbnail-filter:hover ~ .thumbnail-flavor_text{
-  opacity: 1;
-  -webkit-transition: .2s ease-in;
-  -o-transition: .2s ease-in;
-  transition: .2s ease-in;
-}
-
 .thumbnail-title {
   text-align: center;
   font-size: 22px;
@@ -368,18 +336,1389 @@ body {
   transition: .15s linear;
 }
 
-.thumbnail-flavor_text:hover {
-  opacity: 1;
-  -webkit-transition: .2s ease-in;
-  -o-transition: .2s ease-in;
-  transition: .2s ease-in;
+
+@media (min-width: 420px) and (max-width: 575px){
+  .banner {
+    max-height: 440px;
+    min-height: 440px;
+    height: 440px;
+    max-width: 100vw;
+    min-width: 100vw;
+    width: 100vw;
+  }
+
+  .banner-break {
+    margin: 0 0 0 5vw;
+    position: absolute;
+    border-bottom: 2px solid white;
+    box-shadow: 4px 1.5px 3px .8px white;
+    border-radius: 20%;
+    min-width: 30vw;
+    min-height: 1px;
+    top: 120px;
+    width: 30vw;
+  }
+
+  .banner-container {
+    background: lightblue;
+    height: 440px;
+    margin: 10px 0 0 0;
+    max-width: 99.125vw;
+    padding: 0;
+    width: 99.125vw;
+    z-index: 5;
+  }
+
+  .banner-header {
+    letter-spacing: 7.5px;
+    font-family: "Advent Pro";
+    font-size: 90px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .banner-header-container {
+    background: transparent;
+    min-height: 110px;
+    min-width: 40vw;
+    width: 40vw;
+    top: 65px;
+    left: 30vw;
+    position: absolute;
+  }
+
+  .banner-subheader-container {
+    background: transparent;
+    min-height: 110px;
+    min-width: 40vw;
+    width: 40vw;
+    top: 225px;
+    left: 0vw;
+    position: absolute;
+  }
+
+  .banner-subheader {
+    letter-spacing: 2.5px;
+    font-family: "Advent Pro";
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .billboard {
+    background: #F6F4F3;
+    margin: 25px 5%;
+    min-width: 50%;
+    max-width: 90%;
+    max-height: 400px;
+    min-height: 20vw;
+    height: 23vw;
+    box-shadow: 5px 7px 15px darkgray;
+  }
+
+  .billboard-flavor_text {
+    font-size: 1.05em;
+    padding: 0;
+    line-height: 1.15;
+  }
+
+  .billboard-flavor_text-container {
+    min-height: 100%;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: .7px;
+    line-height: 1.15;
+  }
+
+  .billboard-image {
+    margin: 0 auto;
+    min-width: 0%;
+    max-width: 100%;
+    max-height: 320px;
+    box-shadow: 0px 0px 10px 4px grey;
+  }
+
+  .billboard-image-container {
+    margin: 2.65vw 2.5% 0 2.5%;
+    padding: 0 0 0 2.5vw;
+    text-align: left;
+    float: left;
+    min-width: 25%;
+    max-width: 49%;
+    min-height: 25%;
+    max-height: 100%;
+  }
+
+  .billboard-tagline {
+    margin: 0;
+    padding-bottom: 10px;
+    letter-spacing: 0.8px;
+    font-size: .95em;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .billboard-text-container {
+    padding: .9vw 0 0 0;
+    min-height: 100%;
+    max-height: 100%;
+  }
+
+  .billboard-title {
+    padding: 30px 0 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #868686;
+    font-size: 14px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .carousel {
+    margin: auto;
+    max-width: 70%;
+    max-height: 700px;
+    min-width: fit-content;
+    min-height: fit-content;
+  }
+
+  .carousel-message p {
+    max-width: fit-content;
+    margin: 5px auto;
+  }
+
+  .carousel-image-container {
+    margin: 2.5vw auto 0 auto;
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+
+  .default-child {
+    margin: 25px 0 0 0;
+    position: inherit;
+    min-width: 90%;
+    min-height: 100%;
+  }
+
+  .footer {
+    background: lightgray;
+    height: 15vh;
+  }
+
+  .menu {
+    padding: 0;
+  }
+
+  .menuButton {
+    background: #F6F4F3;
+    border-bottom: 1px solid black;
+    box-shadow: .75px 1px 3.5px .2px black;
+    color: #777670;
+    font-family: "Advent Pro";
+    font-size: 24px;
+    font-weight: 500;
+    margin: 12.5px 5px 0 3px;
+    padding: 7px 0 .25em 20px;
+    position:relative;
+    transition: .2s linear;
+  }
+
+  .menu-container {
+    margin: 25px 0 0 0;
+  }
+
+  .page-description {
+    font-size: 28px;
+    letter-spacing: .65px;
+    padding: 15px 12.5% 0 12.5%;
+  }
+
+  .page-description p{
+    text-align: center;
+  }
+
+  .page-header {
+    font-family: "Advent Pro";
+    font-weight: 600;
+    letter-spacing: .25em;
+    padding: 25px 0 0 0;
+    min-width: 100%;
+    text-align: center;
+  }
+
+  #home-button {
+    margin: 1px 5px 0 3px;
+    box-shadow: .5px 1px 3.5px black;
+  }
+
+
+  .menuButton:hover {
+    background: #c6c6c6;
+    font-size: 28px;
+    color: white;
+    transition: .18s ease-in .25s;
+  }
+
+  .menuToggleIcon {
+    height: 40px;
+    width: 50px;
+  }
+
+  .menuToggleIcon line {
+    stroke: black;
+    stroke-width: 5;
+  }
+
+  .parent {
+    overflow-x: hidden;
+    min-width: 99.125vw;
+    min-height: 100vh;
+    position: absolute;
+  }
+
+  .portal {
+    position: absolute;
+    /* width: 80.125vw; */
+    min-height: 87vh;
+    background: ligtslategrey;
+  }
+
+  .thumbnail-container {
+    margin: 10px;
+    float:left;
+    min-height: 320px;
+    max-height: 320px;
+    max-width: 40%;
+    min-width: 40%;
+    overflow:hidden;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 5px 2px 5px 2px grey;
+  }
+
+  .thumbnail-container img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 320px;
+    z-index: 1;
+    opacity: .95;
+  }
+
+  .thumbnail-grid {
+    margin: 0 0% 0 7.5%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .thumbnail-filter {
+    position: absolute;
+    min-height: 320px;
+    max-height: 320px;
+    min-width: 40%;
+    max-width: 40%;
+    background: black;
+    opacity: 0;
+    z-index: 50;
+    transition: .15s linear;
+  }
+
+  .thumbnail-filter:hover {
+    opacity: .6;
+    transition: .3s ease-in;
+  }
+
+  .thumbnail-filter:hover ~ .thumbnail-title{
+    top: -260px;
+    font-size: 28px;
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .3s ease-in;
+  }
+
+  .thumbnail-filter:hover ~ .thumbnail-flavor_text{
+    opacity: 1;
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in;
+  }
+
+  .thumbnail-title {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    position: relative;
+    margin: 0 25%;
+    min-width: 50%;
+    max-width: 50%;
+    max-height: 40px;
+    top: -300px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    transition: .15s linear;
+  }
+
+  .thumbnail-flavor_text {
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    padding: 0 5%;
+    min-width: 80%;
+    max-width: 80%;
+    top: -250px;
+    right: 0;
+    left: 10%;
+    bottom: 0;
+    z-index: 60;
+    opacity: 0;
+    transition: .15s linear;
+  }
+
+  .thumbnail-flavor_text:hover {
+    opacity: 1;
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media (min-width: 576px) and (max-width: 767px){
+  .banner {
+    max-height: 440px;
+    min-height: 440px;
+    height: 440px;
+    max-width: 100vw;
+    min-width: 100vw;
+    width: 100vw;
   }
-  to {
-    transform: rotate(360deg);
+
+  .banner-break {
+    margin: 0 0 0 5vw;
+    position: absolute;
+    border-bottom: 2px solid white;
+    box-shadow: 4px 1.5px 3px .8px white;
+    border-radius: 20%;
+    min-width: 30vw;
+    min-height: 1px;
+    top: 120px;
+    width: 30vw;
   }
+
+  .banner-container {
+    background: lightblue;
+    height: 440px;
+    margin: 10px 0 0 0;
+    max-width: 99.125vw;
+    padding: 0;
+    width: 99.125vw;
+    z-index: 5;
+  }
+
+  .banner-header {
+    letter-spacing: 7.5px;
+    font-family: "Advent Pro";
+    font-size: 90px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .banner-header-container {
+    background: transparent;
+    min-height: 110px;
+    min-width: 40vw;
+    width: 40vw;
+    top: 65px;
+    left: 30vw;
+    position: absolute;
+  }
+
+  .banner-subheader-container {
+    background: transparent;
+    min-height: 110px;
+    min-width: 40vw;
+    width: 40vw;
+    top: 225px;
+    left: 0vw;
+    position: absolute;
+  }
+
+  .banner-subheader {
+    letter-spacing: 2.5px;
+    font-family: "Advent Pro";
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .billboard {
+    background: #F6F4F3;
+    margin: 25px 5%;
+    min-width: 50%;
+    max-width: 90%;
+    max-height: 400px;
+    min-height: 20vw;
+    height: 23vw;
+    box-shadow: 5px 7px 15px darkgray;
+  }
+
+  .billboard-flavor_text {
+    font-size: 1.05em;
+    padding: 0;
+    line-height: 1.15;
+  }
+
+  .billboard-flavor_text-container {
+    min-height: 100%;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: .7px;
+    line-height: 1.15;
+  }
+
+  .billboard-image {
+    margin: 0 auto;
+    min-width: 0%;
+    max-width: 100%;
+    max-height: 320px;
+    box-shadow: 0px 0px 10px 4px grey;
+  }
+
+  .billboard-image-container {
+    margin: 2.65vw 2.5% 0 2.5%;
+    padding: 0 0 0 2.5vw;
+    text-align: left;
+    float: left;
+    min-width: 25%;
+    max-width: 49%;
+    min-height: 25%;
+    max-height: 100%;
+  }
+
+  .billboard-tagline {
+    margin: 0;
+    padding-bottom: 10px;
+    letter-spacing: 0.8px;
+    font-size: .95em;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .billboard-text-container {
+    padding: .9vw 0 0 0;
+    min-height: 100%;
+    max-height: 100%;
+  }
+
+  .billboard-title {
+    padding: 30px 0 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #868686;
+    font-size: 14px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .carousel {
+    margin: auto;
+    max-width: 70%;
+    max-height: 700px;
+    min-width: fit-content;
+    min-height: fit-content;
+  }
+
+  .carousel-message p {
+    max-width: fit-content;
+    margin: 5px auto;
+  }
+
+  .carousel-image-container {
+    margin: 2.5vw auto 0 auto;
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+
+  .default-child {
+    margin: 25px 0 0 0;
+    position: inherit;
+    min-width: 90%;
+    min-height: 100%;
+  }
+
+  .footer {
+    background: lightgray;
+    height: 15vh;
+  }
+
+  .menu {
+    padding: 0;
+  }
+
+  .menuButton {
+    background: #F6F4F3;
+    border-bottom: 1px solid black;
+    box-shadow: .75px 1px 3.5px .2px black;
+    color: #777670;
+    font-family: "Advent Pro";
+    font-size: 24px;
+    font-weight: 500;
+    margin: 12.5px 5px 0 3px;
+    padding: 7px 0 .25em 20px;
+    position:relative;
+    transition: .2s linear;
+  }
+
+  .menu-container {
+    margin: 25px 0 0 0;
+  }
+
+  .page-description {
+    font-size: 28px;
+    letter-spacing: .65px;
+    padding: 15px 12.5% 0 12.5%;
+  }
+
+  .page-description p{
+    text-align: center;
+  }
+
+  .page-header {
+    font-family: "Advent Pro";
+    font-weight: 600;
+    letter-spacing: .25em;
+    padding: 25px 0 0 0;
+    min-width: 100%;
+    text-align: center;
+  }
+
+  #home-button {
+    margin: 1px 5px 0 3px;
+    box-shadow: .5px 1px 3.5px black;
+  }
+
+
+  .menuButton:hover {
+    background: #c6c6c6;
+    font-size: 28px;
+    color: white;
+    transition: .18s ease-in .25s;
+  }
+
+  .parent {
+    overflow-x: hidden;
+    min-width: 99.125vw;
+    min-height: 100vh;
+    position: absolute;
+  }
+
+  .portal {
+    position: absolute;
+    /* width: 80.125vw; */
+    min-height: 87vh;
+    background: ligtslategrey;
+  }
+
+  .thumbnail-container {
+    margin: 10px;
+    float:left;
+    min-height: 320px;
+    max-height: 320px;
+    max-width: 40%;
+    min-width: 40%;
+    overflow:hidden;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 5px 2px 5px 2px grey;
+  }
+
+  .thumbnail-container img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 320px;
+    z-index: 1;
+    opacity: .95;
+  }
+
+  .thumbnail-grid {
+    margin: 0 0% 0 7.5%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .thumbnail-filter {
+    position: absolute;
+    min-height: 320px;
+    max-height: 320px;
+    min-width: 40%;
+    max-width: 40%;
+    background: black;
+    opacity: 0;
+    z-index: 50;
+    transition: .15s linear;
+  }
+
+  .thumbnail-filter:hover {
+    opacity: .6;
+    transition: .3s ease-in;
+  }
+
+  .thumbnail-filter:hover ~ .thumbnail-title{
+    top: -260px;
+    font-size: 28px;
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .3s ease-in;
+  }
+
+  .thumbnail-filter:hover ~ .thumbnail-flavor_text{
+    opacity: 1;
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in;
+  }
+
+  .thumbnail-title {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    position: relative;
+    margin: 0 25%;
+    min-width: 50%;
+    max-width: 50%;
+    max-height: 40px;
+    top: -300px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    transition: .15s linear;
+  }
+
+  .thumbnail-flavor_text {
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    padding: 0 5%;
+    min-width: 80%;
+    max-width: 80%;
+    top: -250px;
+    right: 0;
+    left: 10%;
+    bottom: 0;
+    z-index: 60;
+    opacity: 0;
+    transition: .15s linear;
+  }
+
+  .thumbnail-flavor_text:hover {
+    opacity: 1;
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+  .banner {
+    max-height: 30vw;
+    min-height: 30vw;
+    height: 35vw;
+    max-width: 100vw;
+    min-width: 100vw;
+    width: 100vw;
+  }
+
+  .banner-break {
+    margin: 0 0 0 17.5vw;
+    position: absolute;
+    border-bottom: 2px solid white;
+    box-shadow: 4px 1.5px 3px .8px white;
+    border-radius: 20%;
+    min-width: 40vw;
+    min-height: 1px;
+    top: 80px;
+    width: 40vw;
+  }
+
+  .banner-container {
+    background: lightblue;
+    height: 30vw;
+    margin: 10px 0 0 0;
+    max-width: 99.125vw;
+    padding: 0;
+    width: 99.125vw;
+    z-index: 5;
+  }
+
+  .banner-header {
+    letter-spacing: 7.5px;
+    font-family: "Advent Pro";
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .banner-header-container {
+    background: transparent;
+    min-height: 110px;
+    min-width: 75vw;
+    width: 75vw;
+    top: 35px;
+    left: 12.5vw;
+    position: absolute;
+  }
+
+  .banner-subheader-container {
+    letter-spacing: 7.5px;
+    font-family: "Advent Pro";
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+    margin: 15px 0 0 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .banner-subheader {
+    letter-spacing: 2.5px;
+    font-family: "Advent Pro";
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .billboard {
+    background: #F6F4F3;
+    margin: 20px 5%;
+    min-width: 50%;
+    max-width: 90%;
+    max-height: 400px;
+    min-height: 20vw;
+    height: 40vw;
+    box-shadow: 5px 7px 15px darkgray;
+  }
+
+  .billboard-flavor_text {
+    font-size: 1.05em;
+    padding: 0;
+    line-height: 1.15;
+  }
+
+  .billboard-flavor_text-container {
+    min-height: 100%;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: .7px;
+    line-height: 1.15;
+  }
+
+  .billboard-image {
+    margin: 0 auto;
+    min-width: 0%;
+    max-width: 100%;
+    max-height: 110px;
+    box-shadow: 0px 0px 10px 4px grey;
+  }
+
+  .billboard-image-container {
+    margin: 2.65vw 2.5% 0 2.5%;
+    padding: 0 0 0 2.5vw;
+    text-align: left;
+    float: left;
+  }
+
+  .billboard-tagline {
+    margin: 0;
+    padding-bottom: 10px;
+    letter-spacing: 0.8px;
+    font-size: .75em;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .billboard-tagline svg text {
+    y: 20;
+  }
+
+  .billboard-tagline svg text {
+    y: 15;
+  }
+
+  .billboard-text-container {
+    padding: .9vw 0 0 0;
+    min-height: 100%;
+    max-height: 100%;
+  }
+
+  .billboard-title {
+    padding: 2.5px 0 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #868686;
+    font-size: 12px;
+    font-size: 1.05rem;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .carousel {
+    margin: auto;
+    max-width: 70%;
+    max-height: 700px;
+    min-width: fit-content;
+    min-height: fit-content;
+  }
+
+  .carousel-message p {
+    max-width: fit-content;
+    margin: 5px auto;
+  }
+
+  .carousel-image-container {
+    margin: 2.5vw auto 0 auto;
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+
+  .carousel-image-container img {
+    max-height: 30vw;
+  }
+
+  .default-child {
+    margin: 25px 0 0 0;
+    position: inherit;
+    min-width: 90%;
+    min-height: 100%;
+  }
+
+  .footer {
+    background: lightgray;
+    height: 15vh;
+  }
+
+  .menu {
+    padding: 0;
+  }
+
+  .menuButton {
+    background: #F6F4F3;
+    border-bottom: 1px solid black;
+    box-shadow: 0.75px 1px 3.5px 0.2px black;
+    color: #777670;
+    font-family: "Advent Pro";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 7.5px 5px 0 0;
+    padding: 7px 4.5px .25em 4.5px;
+    position: relative;
+    transition: .2s linear;
+  }
+
+  .menuButton:hover {
+    background: #c6c6c6;
+    font-size: 22px;
+    color: white;
+    transition: .18s ease-in .25s;
+  }
+
+  .menu-container {
+    margin: 25px 0 0 0;
+  }
+
+  .page-description {
+    font-size: 23px;
+    letter-spacing: .60px;
+    line-height: .95;
+    padding: 5px 5% 0 5%;
+  }
+
+  .page-description p{
+    text-align: center;
+  }
+
+  .page-header {
+    font-family: "Advent Pro";
+    font-size: 2.15rem;
+    font-weight: 600;
+    letter-spacing: .075em;
+    padding: 15px 0 0 0;
+    min-width: 100%;
+    text-align: center;
+  }
+
+  #home-button {
+    margin: 1px 5px 0 3px;
+    box-shadow: .5px 1px 3.5px black;
+  }
+
+
+
+  .parent {
+    overflow-x: hidden;
+    min-width: 99.125vw;
+    min-height: 100vh;
+    position: absolute;
+  }
+
+  .portal {
+    position: absolute;
+    /* width: 80.125vw; */
+    min-height: 87vh;
+    background: ligtslategrey;
+  }
+
+  .thumbnail-container {
+    margin: 10px;
+    float:left;
+    min-height: 18vw;
+    max-height: 18vw;
+    max-width: 40%;
+    min-width: 40%;
+    overflow:hidden;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 5px 2px 5px 2px grey;
+  }
+
+  .thumbnail-container img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 18vw;
+    z-index: 1;
+    opacity: .95;
+  }
+
+  .thumbnail-grid {
+    margin: 0 0% 0 7.5%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .thumbnail-filter {
+    position: absolute;
+    min-height: 18vw;
+    max-height: 18vw;
+    min-width: 40%;
+    max-width: 40%;
+    background: black;
+    opacity: .6;
+    z-index: 50;
+    transition: .15s linear;
+  }
+
+  .thumbnail-title {
+    font-size: 22px;
+    position: relative;
+    margin: 0;
+    min-width: 100%;
+    max-height: 40px;
+    top: -185px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+
+  .thumbnail-title p {
+    padding: 0;
+  }
+
+  .thumbnail-flavor_text {
+    bottom: 0;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 0;
+    min-width: 100%;
+    opacity: 1;
+    padding: 0;
+    right: 0;
+    text-align: center;
+    top: -165px;
+    z-index: 60;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .banner {
+    max-height: 30vw;
+    min-height: 30vw;
+    height: 35vw;
+    max-width: 100vw;
+    min-width: 100vw;
+    width: 100vw;
+  }
+
+  .banner-break {
+    margin: 0 0 0 10vw;
+    position: absolute;
+    border-bottom: 2px solid white;
+    box-shadow: 4px 1.5px 3px .8px white;
+    border-radius: 20%;
+    min-width: 30vw;
+    min-height: 1px;
+    top: 90px;
+    width: 30vw;
+  }
+
+  .banner-container {
+    background: lightblue;
+    height: 30vw;
+    margin: 10px 0 0 0;
+    max-width: 99.125vw;
+    padding: 0;
+    width: 99.125vw;
+    z-index: 5;
+  }
+
+  .banner-header {
+    letter-spacing: 7.5px;
+    font-family: "Advent Pro";
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .banner-header-container {
+    background: transparent;
+    min-height: 110px;
+    min-width: 50vw;
+    width: 50vw;
+    top: 65px;
+    left: 25vw;
+    position: absolute;
+  }
+
+  .banner-subheader-container {
+    letter-spacing: 7.5px;
+    font-family: "Advent Pro";
+    font-size: 60px;
+    font-weight: 100;
+    color: white;
+    margin: 35px 0 0 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .banner-subheader {
+    letter-spacing: 2.5px;
+    font-family: "Advent Pro";
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .billboard {
+    background: #F6F4F3;
+    margin: 25px 5%;
+    min-width: 50%;
+    max-width: 90%;
+    max-height: 400px;
+    min-height: 20vw;
+    height: 23vw;
+    box-shadow: 5px 7px 15px darkgray;
+  }
+
+  .billboard-flavor_text {
+    font-size: .9em;
+    padding: 0;
+    line-height: 1.15;
+  }
+
+  .billboard-flavor_text-container {
+    min-height: 100%;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: .7px;
+    line-height: 1.15;
+  }
+
+  .billboard-image {
+    margin: 0 auto;
+    min-width: 0%;
+    max-width: 100%;
+    max-height: 18vw;
+    box-shadow: 0px 0px 10px 4px grey;
+  }
+
+  .billboard-image-container {
+    margin: 2.05vw 2.5% 0 2.5%;
+    padding: 0 0 0 2.5vw;
+    text-align: left;
+    float: left;
+    min-height: 25%;
+    max-height: 100%;
+  }
+
+  .billboard-tagline {
+    margin: 0;
+    padding-bottom: 10px;
+    letter-spacing: 0.8px;
+    font-size: .925em;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .billboard-text-container {
+    padding: .9vw 0 0 0;
+    min-height: 100%;
+    max-height: 100%;
+  }
+
+  .billboard-title {
+    padding: .92vw 0 0 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #868686;
+    font-size: 13px;
+    font-size: 1.15rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: .85;
+  }
+
+  .carousel {
+    margin: auto;
+    max-width: 70%;
+    max-height: 700px;
+    min-width: fit-content;
+    min-height: fit-content;
+  }
+
+  .carousel-message p {
+    max-width: fit-content;
+    margin: 5px auto;
+  }
+
+  .carousel-image-container {
+    margin: 2.5vw auto 0 auto;
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+
+  .carousel-image-container img {
+    max-height: 31.5vw;
+  }
+
+  .default-child {
+    margin: 25px 0 0 0;
+    position: inherit;
+    min-width: 90%;
+    min-height: 100%;
+  }
+
+  .footer {
+    background: lightgray;
+    height: 15vh;
+  }
+
+  .menu {
+    padding: 0;
+  }
+
+  .menuButton {
+    background: #F6F4F3;
+    border-bottom: 1px solid black;
+    box-shadow: 0.75px 1px 3.5px 0.2px black;
+    color: #777670;
+    font-family: "Advent Pro";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 12.5px 5px 0 0px;
+    padding: 7px 0 .25em 15px;
+    position: relative;
+    transition: .2s linear;
+  }
+
+  .menu-container {
+    margin: 25px 0 0 45px;
+  }
+
+  .page-description {
+    font-size: 23px;
+    letter-spacing: .60px;
+    line-height: .95;
+    padding: 5px 12.5% 0 12.5%;
+  }
+
+  .page-description p{
+    margin: 0 0 1.75rem 0;
+    text-align: center;
+  }
+
+  .page-header {
+    font-family: "Advent Pro";
+    font-size: 2.15rem;
+    font-weight: 600;
+    letter-spacing: .15em;
+    padding: 15px 0 0 0;
+    min-width: 100%;
+    text-align: center;
+  }
+
+  #home-button {
+    margin: 1px 5px 0 3px;
+    box-shadow: .5px 1px 3.5px black;
+  }
+
+
+  .menuButton:hover {
+    background: #c6c6c6;
+    font-size: 28px;
+    color: white;
+    transition: .18s ease-in .25s;
+  }
+
+  .parent {
+    overflow-x: hidden;
+    min-width: 99.125vw;
+    min-height: 100vh;
+    position: absolute;
+  }
+
+  .portal {
+    position: absolute;
+    /* width: 80.125vw; */
+    min-height: 87vh;
+    background: ligtslategrey;
+  }
+
+  .thumbnail-container {
+    margin: 10px;
+    float:left;
+    min-height: 18vw;
+    max-height: 18vw;
+    max-width: 40%;
+    min-width: 40%;
+    overflow:hidden;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 5px 2px 5px 2px grey;
+  }
+
+  .thumbnail-container img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 18vw;
+    z-index: 1;
+    opacity: .95;
+  }
+
+  .thumbnail-grid {
+    margin: 0 0% 0 7.5%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .thumbnail-filter {
+    position: absolute;
+    min-height: 18vw;
+    max-height: 18vw;
+    min-width: 40%;
+    max-width: 40%;
+    background: black;
+    opacity: .6;
+    z-index: 50;
+    transition: .15s linear;
+  }
+
+  .thumbnail-flavor_text {
+    bottom: 0;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 0;
+    min-width: 100%;
+    opacity: 1;
+    padding: 0;
+    right: 0;
+    text-align: center;
+    top: -200px;
+    z-index: 60;
+  }
+
+  .thumbnail-title {
+    font-size: 22px;
+    position: relative;
+    margin: 0;
+    min-width: 100%;
+    max-height: 40px;
+    top: -185px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+
+  .thumbnail-title p {
+    padding: 0;
+  }
+
+}
+
+
+@media (min-width: 1200px){
+
+  .banner-subheader-container {
+    margin: 20px 0 0 0;
+  }
+
+  .billboard-image-container {
+    margin: 2.65vw 2.5% 0 2.5%;
+    padding: 0 0 0 2.5vw;
+    text-align: left;
+    float: left;
+  }
+
+  .billboard-image{
+    max-height: 17vw;
+  }
+
+  .menuToggler {
+    display: none;
+  }
+
+
 }

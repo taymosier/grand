@@ -6,50 +6,55 @@ export class ImageCarousel extends Component {
     super(props);
     this.state = {
       activeIndex: 0,
+      imageFolder: this.props.imageFolder.toString()+"/",
       images: this.props.galleryImages,
-      slides: this.generateSlides(this.props.galleryImages),
+      slides: this.generateSlides(this.props.galleryImages, (this.props.imageFolder.toString()+"/")),
     };
     this.generateSlides = this.generateSlides.bind(this);
-    this.navigateToPreviousImage = this.navigateToPreviousImage.bind(this);
     this.navigateToNextImage = this.navigateToNextImage.bind(this);
   }
 
-generateSlides(images){
+generateSlides(images, folder){
   let slides = [];
   if(images !== undefined){
-    slides = images.map((image) => {
-      return(
-      <CarouselImage
-        src={image.src}
-        folder={image.folder}
-        altText={image.src}
-        caption={image.caption}
-      />);
-    });
-    return slides
-  } else {
-    return ""
+   slides = images.map((image, i, src) => {
+     i = i+1;
+     return(
+     <CarouselImage
+       src={image.src}
+       folder={folder}
+       altText={image.src}
+       caption={image.caption}
+     />);
+   });
+   if(slides[slides.length-1] === "end"){
+     slides = slides.slice(0,-1);
+   }
+   return slides;
   }
 }
 
-navigateToPreviousImage(){
-  this.setState({
-    activeIndex: this.state.activeIndex -1
-  })
-}
-
 navigateToNextImage(){
-  this.setState({
-    activeIndex: this.state.activeIndex + 1
-  })
+  let nextSlideIndex = this.state.activeIndex + 1;
+  //because the last slide array index would be length-1
+  if(nextSlideIndex === this.state.slides.length){
+    this.setState({
+      activeIndex: 0
+    })
+  } else {
+    this.setState({
+      activeIndex: this.state.activeIndex + 1
+    })
+  }
 }
 
 componentDidUpdate(){
   if(this.state.images !== this.props.galleryImages ){
     this.setState({
       activeIndex: 0,
+      imageFolder: this.props.imageFolder.toString()+"/",
       images: this.props.galleryImages,
-      slides: this.generateSlides(this.props.galleryImages),
+      slides: this.generateSlides(this.props.galleryImages, (this.props.imageFolder.toString()+"/")),
     })
   }
 }
@@ -57,18 +62,14 @@ componentDidUpdate(){
   render(){
     return(
       <div className="carousel">
-      {this.state.slides !== undefined && this.state.slides.length !== 0 && this.state.activeIndex !== 0
-        ? <div className="carousel-back-nav-button" onClick={()=>{this.navigateToPreviousImage()}}></div>
-        : null
-      }
-      { this.state.slides !== undefined
-        ? <div className="carousel-image-container" onClick={() =>{this.navigateToNextImage()}}>{this.state.slides[this.state.activeIndex]}</div>
-        : null
-      }
-      {this.state.slides !== undefined && this.state.slides.length !== 0 && this.state.activeIndex !== this.state.slides.length-1
-        ? <div className="carousel-forward-nav-button" onClick={() =>{this.navigateToNextImage()}}></div>
-        : null
-      }
+        { this.state.slides !== undefined
+          ? <div className="carousel-image-container" onClick={() =>{this.navigateToNextImage()}}>{this.state.slides[this.state.activeIndex]}</div>
+          : null
+        }
+        { this.state.slides !== undefined && this.state.slides.length > 0
+          ? <div className="carousel-message" onClick={() =>{this.navigateToNextImage()}}><p>click image to browse</p></div>
+          : null
+        }
       </div>
     )
   }

@@ -1,0 +1,115 @@
+{
+  "2lvl" : {
+    "parent": "rootlvlitem",
+    "link": "/url/to/linked/page",
+    "id": "nameOfPageBeingLinked"
+  },
+
+  "rooms": {
+      "three bedroom presidential villa": {
+        "parent": "rooms",
+        "link": "/rooms/three-bedroom-presidential-villa",
+        "id": "three bedroom presidential villa"
+      }
+  },
+
+  "dining": {
+    "fine" : {
+      "parent": "dining",
+      "link": "/dining/fine",
+      "id": "nameOfPageBeingLinked"
+    },
+
+    "casual" : {
+      "parent": "dining",
+      "link": "/dining/casual",
+      "id": "nameOfPageBeingLinked"
+    },
+
+    "bars and lounges": {
+      "parent": "dining",
+      "link": "/dining/bars-and-lounges",
+      "id": "nameOfPageBeingLinked"
+    },
+
+    "in room dining": {
+      "parent": "dining",
+      "link": "/dining/in-room",
+      "id": "nameOfPageBeingLinked"
+    }
+  },
+
+  "what to do": {
+    "shopping": {
+      "parent": "what to do",
+      "link": "/what-to-do/shopping",
+      "id": "shopping"
+    },
+
+    "activities": {
+      "parent": "what to do",
+      "link": "/what-to-do/activities",
+      "id": "shopping"
+    },
+
+    "pools": {
+      "parent": "what to do",
+      "link": "/what-to-do/pools",
+      "id": "pools"
+    }
+  },
+
+  "golf": {
+    "the nayar course": {
+      "parent": "golf",
+      "link": "/golf/the-nayar-course",
+      "id": "shopping"
+    },
+
+    "the norman signature course": {
+      "parent": "golf",
+      "link": "/golf/the-norman-signature-course",
+      "id": "shopping"
+    },
+
+    "the jack nicklaus academy of golf": {
+      "parent": "golf",
+      "link": "/golf/the-jack-nicklaus-academy-of-golf",
+      "id": "shopping"
+    },
+
+    "tournaments": {
+      "parent": "golf",
+      "link": "/golf/tournaments",
+      "id": "tournaments"
+    }
+  },
+
+  "spa": {
+    "spatium": {
+      "parent": "spa",
+      "link": "/spa/spatium",
+      "id": "spatium"
+    },
+
+    "brio spa": {
+      "parent": "spa",
+      "link": "/spa/brio-spa",
+      "id": "brio spa"
+    }
+  },
+
+  "entertainmenet": {
+    "santuario": {
+      "parent": "entertainment",
+      "link": "/entertainment/santuario",
+      "id": "santuario"
+    },
+
+    "the parks": {
+      "parent": "entertainment",
+      "link": "/entertainment/the-parks",
+      "id": "the-parks"
+    }
+  }
+}

@@ -10,11 +10,11 @@ export class ActiveView extends Component {
     super(props);
     this.state = {
       content: this.props.content,
+      pageName: this.props.activeView
     };
   }
 
   componentDidMount(){
-    console.log(this.props)
     if(this.props.content){
       this.setState({
         content: this.props.content
@@ -26,7 +26,8 @@ export class ActiveView extends Component {
     try{
       if(this.props.content !== this.state.content){
         this.setState({
-          content: this.props.content
+          content: this.props.content,
+          pageName: this.props.activeView
         })
       }
     } catch(e){
@@ -46,7 +47,7 @@ export class ActiveView extends Component {
           : null
         }
         {this.state.content.images.gallery !== [] || this.state.content.images.gallery !== undefined
-          ? <ImageCarousel galleryImages={this.state.content.images.gallery} />
+          ? <ImageCarousel galleryImages={this.state.content.images.gallery} imageFolder={this.state.content.images.gallery[0].folder}/>
           : null
         }
         {this.state.content.billboards !== undefined

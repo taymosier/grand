@@ -15,13 +15,11 @@ export class ThumbnailGridContainer extends Component {
     let thumbnailsList = [];
     for(let thumbnail in thumbnails){
       try{
-        console.log(thumbnails[thumbnail])
         thumbnailsList.push(<Thumbnail content={thumbnails[thumbnail]} />)
       } catch(e){
-        console.log(this.state)
+        console.log("error: " + this.state)
       }
     }
-    console.log("returning thumbnail components")
     return thumbnailsList;
   }
 
