@@ -50,6 +50,7 @@ export class Billboard extends Component {
     return null;
   }
 
+
   render(){
     return(
         <div className="billboard" id={this.state.name}>

@@ -137,7 +137,7 @@
           "tagline": "",
           "flavor_text": "With over 40 restaurants and lounges to choose from, Vidanta Nuevo Vallarta gives guests the opportunity to dine however they like. Options range from high-end eateries to casual restaurants to authentic Mexican spots, and even a gourmet market filled with offerings from all over the world. One thing is for sure—an amazing culinary experience is always just a meal away at Vidanta Nuevo Vallarta.",
           "image": "dining-billboard-0.jpg",
-          "action_link": "/rooms/three-bedroom-presidential-villa"
+          "action_link": ""
         },
         "1" : {
           "title": "Must-Taste Dish",
@@ -145,7 +145,7 @@
           "tagline": "Tacos al pastor",
           "flavor_text": "Delight in the flavors of authentic Mexico with this Puebla-born dish, made with spit-roasted pork marinated with pineapple.",
           "image": "dining-billboard-1.jpg",
-          "action_link": "/dining/casua;/tacos-break"
+          "action_link": "/dining/casual/tacos-break"
         }
       }
     }
@@ -537,7 +537,7 @@
   },
 
   "acqua" : {
-    "address": "/dining/fine/acqua",
+    "address": "/dining/casual/acqua",
     "content": {
       "banner": {
         "image": "acqua-banner.jpg",
@@ -550,34 +550,33 @@
       },
       "images": {
         "gallery": [
-          {"src": "acqua-gallery-1.jpg", "altText": "acqua image", "folder": "/dining/casusal/acqua"},
+          {"src": "acqua-gallery-1.jpg", "altText": "acqua image", "folder": "/dining/casusal/acqua/"},
           {"src": "acqua-gallery-2.jpg", "altText": "acqua image", "folder": "/dining/casusalacqua/"},
           {"src": "acqua-gallery-3.jpg", "altText": "acqua image", "folder": "/dining/casusalacqua/"}
         ]
       },
       "billboards": {
         "0" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By Sea Garden Monday – Sunday 11 AM – 7 PM Chef: Karla Colin Valkerplaken","image": "","action_link": "" } }
-
     }
   },
 
-  "ameca social house" : {
-    "address": "/dining/fine/ameca-social-house",
+  "ameca-social-house" : {
+    "address": "/dining/casual/ameca-social-house",
     "content": {
       "banner": {
         "image": "ameca-social-house-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "ameca social house",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "The Ameca Social House is Vidanta Nuevo Vallarta’s 19th hole restaurant. With a sleek, stylish dining room and a gorgeous patio that offers panoramic views, the Ameca Social House is a favorite dining destination for guests. Dishes vary from classic American to posh takes on pub fare, and the extensive whiskey menu is not to be missed.",
+        "header": "Elevated Pub Fare on the Green"
       },
       "images": {
         "gallery": [
-          {"src": "ameca-social-house-gallery-1.jpg", "altText": "ameca-social-house image", "folder": "/dining/casusal/ameca-social-house/"},
-          {"src": "ameca-social-house-gallery-2.jpg", "altText": "ameca-social-house image", "folder": "/dining/casusal/ameca-social-house/"},
-          {"src": "ameca-social-house-gallery-3.jpg", "altText": "ameca-social-house image", "folder": "/dining/casusal/ameca-social-house/"}
+          {"src": "ameca-social-house-gallery-1.jpg", "altText": "ameca-social-house image", "folder": "dining/casual/ameca-social-house"},
+          {"src": "ameca-social-house-gallery-2.jpg", "altText": "ameca-social-house image", "folder": "dining/casual/ameca-social-house"},
+          {"src": "ameca-social-house-gallery-3.jpg", "altText": "ameca-social-house image", "folder": "dining/casual/ameca-social-house"}
         ]
       },
       "billboards": {
@@ -588,7 +587,7 @@
   },
 
   "balance" : {
-    "address": "/dining/fine/balance",
+    "address": "/dining/casual/balance",
     "content": {
       "banner": {
         "image": "balance-banner.jpg",
@@ -596,14 +595,13 @@
         "subheader": ""
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "Balance Snack Bar is the perfect place to recharge after a day of sun-soaked lounging. Balance offers a variety of healthy and delicious food and drinks. Choose from a robust menu of sandwiches, baguettes, salads, juices, or smoothies, or indulge in a creamy gelato.",
+        "header": "A Healthy Approach to Casual Cuisine"
       },
       "images": {
         "gallery": [
-          {"src": "balance-gallery-1.jpg", "altText": "balance image", "folder": "/dining/casusal/balance/"},
-          {"src": "balance-gallery-2.jpg", "altText": "balance image", "folder": "/dining/casusal/balance/"},
-          {"src": "balance-gallery-3.jpg", "altText": "balance image", "folder": "/dining/casusal/balance/"}
+          {"src": "balance-gallery-1.jpg", "altText": "balance image", "folder": "dining/casual/balance"},
+          {"src": "balance-gallery-2.jpg", "altText": "balance image", "folder": "dining/casual/balance"}
         ]
       },
       "billboards": {
@@ -613,22 +611,21 @@
   },
 
   "balche" : {
-    "address": "/dining/fine/balche",
+    "address": "/dining/casual/balche",
     "content": {
       "banner": {
         "image": "balche-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "Balché",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "Offering a wide variety of sandwiches, burgers, and refreshing cocktails, Balché is ideal for guests spending their day under the sun. This restaurant was named after the ancient Mayans’ sacred drink, “balché.”",
+        "header": "A Taste of Casual Cool"
       },
       "images": {
         "gallery": [
-          {"src": "balche-gallery-1.jpg", "altText": "balche image", "folder": "/dining/casusal/balche/"},
-          {"src": "balche-gallery-2.jpg", "altText": "balche image", "folder": "/dining/casusal/balche/"},
-          {"src": "balche-gallery-3.jpg", "altText": "balche image", "folder": "/dining/casusal/balche/"}
+          {"src": "balche-gallery-1.jpg", "altText": "balche image", "folder": "dining/casusal/balche"},
+          {"src": "balche-gallery-2.jpg", "altText": "balche image", "folder": "dining/casusal/balche"}
         ]
       },
       "billboards": {
@@ -665,22 +662,22 @@
   },
 
   "chiringuito" : {
-    "address": "/dining/fine/chiringuito",
+    "address": "/dining/casual/chiringuito",
     "content": {
       "banner": {
         "image": "chiringuito-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "chiringuito",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "You may be vacationing in Mexico, but that’s no reason your taste buds can’t take a trip to Spain! From the complex flavors of authentic paella to the rich and bright tastes of tapas, Chiringuito brings authentic Spanish food—and all of its vivid character—to your plate.",
+        "header": "Flavorful Spanish Fare"
       },
       "images": {
         "gallery": [
-          {"src": "chiringuito-gallery-1.jpg", "altText": "chiringuito image", "folder": "/dining/casusal/chiringuito"},
-          {"src": "chiringuito-gallery-2.jpg", "altText": "chiringuito image", "folder": "/dining/casusal/chiringuito"},
-          {"src": "chiringuito-gallery-3.jpg", "altText": "chiringuito image", "folder": "/dining/casusal/chiringuito"}
+          {"src": "chiringuito-gallery-1.jpg", "altText": "chiringuito image", "folder": "dining/casusal/chiringuito"},
+          {"src": "chiringuito-gallery-2.jpg", "altText": "chiringuito image", "folder": "dining/casusal/chiringuito"},
+          {"src": "chiringuito-gallery-3.jpg", "altText": "chiringuito image", "folder": "dining/casusal/chiringuito"}
         ]
       },
       "billboards": {
@@ -695,22 +692,22 @@
     "content": {
       "banner": {
         "image": "fresh-co-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "fresh co",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "Take in the beautiful view of the Ameca River and sample fresh, flavorful fare at this delightful snack and light meal spot by the Grand Luxxe Spa Tower Pools.",
+        "header": "Vibrant Food by the Pool"
       },
       "images": {
         "gallery": [
-          {"src": "fresh-co-gallery-1.jpg", "altText": "fresh-co image", "folder": "/dining/casusal/fresh-co"},
-          {"src": "fresh-co-gallery-2.jpg", "altText": "fresh-co image", "folder": "/dining/casusal/fresh-co"},
-          {"src": "fresh-co-gallery-3.jpg", "altText": "fresh-co image", "folder": "/dining/casusal/fresh-co"}
+          {"src": "fresh-co-gallery-1.jpg", "altText": "fresh-co image", "folder": "dining/casusal/fresh-co"},
+          {"src": "fresh-co-gallery-2.jpg", "altText": "fresh-co image", "folder": "dining/casusal/fresh-co"},
+          {"src": "fresh-co-gallery-3.jpg", "altText": "fresh-co image", "folder": "dining/casusal/fresh-co"}
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "crab-cake-pita","tagline": "Crab Cake Pita","flavor_text": "Keep it light with this sandwich made with pita bread, crab cake, remoulade sauce, and onion.","image": "chiringuito-billboard.jpg","action_link": "" },
+        "0" : {"title": "Featured Dish","name": "crab-cake-pita","tagline": "Crab Cake Pita","flavor_text": "Keep it light with this sandwich made with pita bread, crab cake, remoulade sauce, and onion.","image": "fresh-co-billboard.jpg","action_link": "" },
         "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At Grand Luxxe Spa Tower Pools Monday – Sunday 7 AM – 5:30 PM Chef: Christian Jiménez","image": "","action_link": "" }
       }
     }
@@ -721,18 +718,18 @@
     "content": {
       "banner": {
         "image": "havana-moon-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "havana moon",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "Havana Moon is the perfect place to delight in your tropical vacation setting while enjoying a dinner of flavorful dishes, like their famous jerk chicken. Or sip a sangria or tropical drink while you enjoy the expansive seaside views. They also offer live Caribbean music regularly and a spectacular fire show!",
+        "header": "The Spices of the Caribbean"
       },
       "images": {
         "gallery": [
-          {"src": "havana-moon-gallery-1.jpg", "altText": "acqua image", "folder": "/dining/casusal/havana-moon"},
-          {"src": "havana-moon-gallery-2.jpg", "altText": "acqua image", "folder": "/dining/casusal/havana-moon"},
-          {"src": "havana-moon-gallery-3.jpg", "altText": "acqua image", "folder": "/dining/casusal/havana-moon"}
+          {"src": "havana-moon-gallery-1.jpg", "altText": "acqua image", "folder": "dining/casual/havana-moon"},
+          {"src": "havana-moon-gallery-2.jpg", "altText": "acqua image", "folder": "dining/casual/havana-moon"},
+          {"src": "havana-moon-gallery-3.jpg", "altText": "acqua image", "folder": "dining/casual/havana-moon"}
         ]
       },
       "billboards": {
@@ -769,22 +766,24 @@
   },
 
   "la cantina" : {
-    "address": "/dining/fine/la-cantina",
+    "address": "/dining/casual/la-cantina",
     "content": {
       "banner": {
         "image": "la-cantina-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "la cantina",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "Enjoy the vibrant flavors of Mexico at this colorful and fun eatery modeled after the classic Mexican bar and comfort food restaurant. With playful and unique décor, an extensive selection of margaritas, a beautiful patio with a front-row seat for The Lake Show, air conditioning, and a menu loaded with authentic Mexican favorites, La Cantina offers a fiesta every night. Open for both lunch and dinner.",
+        "header": "Authentic Mexican Comfort Food"
       },
       "images": {
         "gallery": [
-          {"src": "la-cantina-gallery-1.jpg", "altText": "la-cantina image", "folder": "la-cantina/"},
-          {"src": "acqua-gallery-2.jpg", "altText": "la-cantina image", "folder": "la-cantina/"},
-          {"src": "acqua-gallery-3.jpg", "altText": "la-cantina image", "folder": "la-cantina/"}
+          {"src": "la-cantina-gallery-1.jpg", "altText": "la-cantina image", "folder": "/dining/casual/la-cantina"},
+          {"src": "la-cantina-gallery-2.jpg", "altText": "la-cantina image", "folder": "/dining/casual/la-cantina"},
+          {"src": "la-cantina-gallery-3.jpg", "altText": "la-cantina image", "folder": "/dining/casual/la-cantina"},
+          {"src": "la-cantina-gallery-4.jpg", "altText": "la-cantina image", "folder": "/dining/casual/la-cantina"},
+          {"src": "la-cantina-gallery-5.jpg", "altText": "la-cantina image", "folder": "/dining/casual/la-cantina"}
         ]
       },
       "billboards": {
@@ -854,18 +853,18 @@
     "content": {
       "banner": {
         "image": "ola-mulata-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "ola mulata",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "Overlooking the Pacific Ocean, Ola Mulata is the perfect place for a leisurely late lunch or an early dinner. This al fresco restaurant offers American favorites like burgers, sandwiches, Philly cheese steaks, and ribs, or Mexican classics like shrimp tacos, chicken fajitas, and quesadillas. Or try the house specialty, the catch of the day, prepared on a traditional open-air grill.",
+        "header": "Simple, Savory Eats"
       },
       "images": {
         "gallery": [
-          {"src": "ola-mulata-gallery-1.jpg", "altText": "ola-mulata image", "folder": "ola-mulata/"},
-          {"src": "ola-mulata-gallery-2.jpg", "altText": "ola-mulata image", "folder": "ola-mulata/"},
-          {"src": "ola-mulata-gallery-3.jpg", "altText": "ola-mulata image", "folder": "ola-mulata/"}
+          {"src": "ola-mulata-gallery-1.jpg", "altText": "ola-mulata image", "folder": "dining/casual/ola-mulata"},
+          {"src": "ola-mulata-gallery-2.jpg", "altText": "ola-mulata image", "folder": "dining/casual/ola-mulata"},
+          {"src": "ola-mulata-gallery-3.jpg", "altText": "ola-mulata image", "folder": "dining/casual/ola-mulata"}
         ]
       },
       "billboards": {
@@ -880,18 +879,18 @@
     "content": {
       "banner": {
         "image": "rummba-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "Rummba",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "Guests at Vidanta Nuevo Vallarta can enjoy a delicious meal in a casual setting by visiting this restaurant by Sea Garden. Don’t miss their famous breakfast buffet, boasting every savory and sweet morning delight you could desire.",
+        "header": "A Bite in Paradise"
       },
       "images": {
         "gallery": [
-          {"src": "rummba-gallery-1.jpg", "altText": "rummba image", "folder": "rummba/"},
-          {"src": "rummba-gallery-2.jpg", "altText": "rummba image", "folder": "rummba/"},
-          {"src": "rummba-gallery-3.jpg", "altText": "rummba image", "folder": "rummba/"}
+          {"src": "rummba-gallery-1.jpg", "altText": "rummba image", "folder": "dining/casual/rummba"},
+          {"src": "rummba-gallery-2.jpg", "altText": "rummba image", "folder": "dining/casual/rummba"},
+          {"src": "rummba-gallery-3.jpg", "altText": "rummba image", "folder": "dining/casual/rummba"}
         ]
       },
       "billboards": {
@@ -906,18 +905,18 @@
     "content": {
       "banner": {
         "image": "samba-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "samba",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "For poolside dining that will please every taste, be sure to visit Samba. Known for their delicious breakfast buffet and international lunch and dinner menus, Samba has a wide range of flavorful options served in an open-air dining room.",
+        "header": "Something for Everyone"
       },
       "images": {
         "gallery": [
-          {"src": "samba-gallery-1.jpg", "altText": "samba image", "folder": "samba/"},
-          {"src": "samba-gallery-2.jpg", "altText": "samba image", "folder": "samba/"},
-          {"src": "samba-gallery-3.jpg", "altText": "samba image", "folder": "samba/"}
+          {"src": "samba-gallery-1.jpg", "altText": "samba image", "folder": "dining/casual/samba"},
+          {"src": "samba-gallery-2.jpg", "altText": "samba image", "folder": "dining/casual/samba"},
+          {"src": "samba-gallery-3.jpg", "altText": "samba image", "folder": "dining/casual/samba"}
         ]
       },
       "billboards": {
@@ -932,18 +931,18 @@
     "content": {
       "banner": {
         "image": "si-snack-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "si snack",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "Score the quick and satisfying bite or delicious drink you’re looking for when relaxing by the Grand Luxxe Punta Pools with poolside service by Si Snack. Whether you’re craving salad, a sandwich, or small bites, Si Snack has you covered. And don’t miss out on Si Bar next door!",
+        "header": "Snack by the Water"
       },
       "images": {
         "gallery": [
-          {"src": "si-snack-gallery-1.jpg", "altText": "si-snack image", "folder": "si-snack/"},
-          {"src": "si-snack-gallery-2.jpg", "altText": "si-snack image", "folder": "si-snack/"},
-          {"src": "si-snack-gallery-3.jpg", "altText": "si-snack image", "folder": "si-snack/"}
+          {"src": "si-snack-gallery-1.jpg", "altText": "si-snack image", "folder": "dining/casual/si-snack"},
+          {"src": "si-snack-gallery-2.jpg", "altText": "si-snack image", "folder": "dining/casual/si-snack"},
+          {"src": "si-snack-gallery-3.jpg", "altText": "si-snack image", "folder": "dining/casual/si-snack"}
         ]
       },
       "billboards": {
@@ -958,18 +957,18 @@
     "content": {
       "banner": {
         "image": "sweet-paris-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "sweet paris",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "Sweet Paris is on a mission to revive the art of eating crêpes. With a menu of classic entrée and dessert crêpes, fresh paninis, soups, salads, and café drinks, Sweet Paris is your go-to destination for a taste of authentic Parisian street food. Take your crêpe outside to eat on the patio overlooking the lake in front of La Plaza.",
+        "header": "Sweet and Savory Crêpes"
       },
       "images": {
         "gallery": [
-          {"src": "sweet-paris-gallery-1.jpg", "altText": "sweet-paris image", "folder": "sweet-paris/"},
-          {"src": "sweet-paris-gallery-2.jpg", "altText": "sweet-paris image", "folder": "sweet-paris/"},
-          {"src": "sweet-paris-gallery-3.jpg", "altText": "sweet-paris image", "folder": "sweet-paris/"}
+          {"src": "sweet-paris-gallery-1.jpg", "altText": "sweet-paris image", "folder": "dining/casual/sweet-paris"},
+          {"src": "sweet-paris-gallery-2.jpg", "altText": "sweet-paris image", "folder": "dining/casual/sweet-paris"},
+          {"src": "sweet-paris-gallery-3.jpg", "altText": "sweet-paris image", "folder": "dining/casual/sweet-paris"}
         ]
       },
       "billboards": {
@@ -984,18 +983,18 @@
     "content": {
       "banner": {
         "image": "sky-garden-banner.jpg",
-        "header": "",
-        "subheader": ""
+        "header": "Fresh Co Sky Garden",
+        "subheader": "nuevo vallarta"
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "This Grand Luxxe Residence Tower-exclusive rooftop restaurant and lounge offers spectacular views along with fresh, delicious bites, and refreshing cocktails. With some of the best vistas on the resort, including views of the lush Ameca River and the Sierra Madres, this unique and luxurious spot also features a gorgeous pool and surrounding loungers and sunbeds.",
+        "header": "A Meal with a View"
       },
       "images": {
         "gallery": [
-          {"src": "sky-garden-gallery-1.jpg", "altText": "sky-garden image", "folder": "sky-garden/"},
-          {"src": "sky-garden-gallery-2.jpg", "altText": "sky-garden image", "folder": "sky-garden/"},
-          {"src": "sky-garden-gallery-3.jpg", "altText": "sky-garden image", "folder": "sky-garden/"}
+          {"src": "sky-garden-gallery-1.jpg", "altText": "sky-garden image", "folder": "dining/casual/sky-garden"},
+          {"src": "sky-garden-gallery-2.jpg", "altText": "sky-garden image", "folder": "dining/casual/sky-garden"},
+          {"src": "sky-garden-gallery-3.jpg", "altText": "sky-garden image", "folder": "dining/casual/sky-garden"}
         ]
       },
       "billboards": {
@@ -1014,14 +1013,14 @@
         "subheader": ""
       },
       "text": {
-        "description": "",
-        "header": ""
+        "description": "If you want to enjoy traditional Mexican cuisine—tacos, quesadillas, volcanes, tortas and “frijoles charros”—in a relaxed and al fresco setting, check out this great restaurant.",
+        "header": "Fast and Casual Mexican Dining"
       },
       "images": {
         "gallery": [
-          {"src": "tacos-break-gallery-1.jpg", "altText": "tacos-break image", "folder": "tacos-break/"},
-          {"src": "tacos-break-gallery-2.jpg", "altText": "tacos-break image", "folder": "tacos-break/"},
-          {"src": "tacos-break-gallery-3.jpg", "altText": "tacos-break image", "folder": "tacos-break/"}
+          {"src": "tacos-break-gallery-1.jpg", "altText": "tacos-break image", "folder": "dining/casual/tacos-break"},
+          {"src": "tacos-break-gallery-2.jpg", "altText": "tacos-break image", "folder": "dining/casual/tacos-break"},
+          {"src": "tacos-break-gallery-3.jpg", "altText": "tacos-break image", "folder": "dining/casual/tacos-break"}
         ]
       },
       "billboards": {
@@ -1108,7 +1107,7 @@
     }
   },
 
-  "pool-bars" : {
+  "pool bars" : {
       "address": "/pool-bars",
       "content": {
         "banner": {
@@ -1121,14 +1120,14 @@
           "header": "Snack and Sip by the Water"
         },
         "images": {
-          "gallery": [{"src": "pool-bars-gallery-1.jpg", "altText": "page image", "folder": "pool-bars/"}],
-          "thumbnails": [{"image": "", "text": { "title": "", "flavor": ""} }]
+          "gallery": [{"src": "pool-bars-gallery-1.jpg", "altText": "page image", "folder": "dining/bars/pool-bars"}],
+          "thumbnails": []
         },
         "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Pools","flavor_text": "Monday – Sunday 11 AM – 7 PM","image": "","action_link": "/url" } }
       }
     },
 
-  "blue-nautique-bar" : {
+  "blue nautique bar" : {
       "address": "/blue-nautique-bar",
       "content": {
         "banner": {
@@ -1141,14 +1140,14 @@
           "header": "Relaxation on Ice"
         },
         "images": {
-          "gallery": [{"src": "blue-nautique-bar-gallery-1.jpg", "altText": "blue nautique bar image", "folder": "blue-nautique-bar/"}],
-          "thumbnails": [{"image": "", "text": { "title": "", "flavor": ""} }]
+          "gallery": [{"src": "blue-nautique-bar-gallery-1.jpg", "altText": "blue nautique bar image", "folder": "dining/bars/blue-nautique-bar"}],
+          "thumbnails": []
         },
         "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Sea Garden","flavor_text": "Monday – Sunday 5 PM – 1 AM","image": "","action_link": "" } }
       }
     },
 
-  "the-grand-vista-bar" : {
+  "the grand vista bar" : {
       "address": "/the-grand-vista-bar",
       "content": {
         "banner": {
@@ -1161,14 +1160,14 @@
           "header": "A Tour of Spirits"
         },
         "images": {
-          "gallery": [{"src": "the-grand-vista-bar-gallery-1.jpg", "altText": "the grand vista bar image", "folder": "the-grand-vista-bar/"}],
-          "thumbnails": [{"image": "", "text": { "title": "", "flavor": ""} }]
+          "gallery": [{"src": "the-grand-vista-bar-gallery-1.jpg", "altText": "the grand vista bar image", "folder": "dining/bars/the-grand-vista-bar/"}],
+          "thumbnails": []
         },
         "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "The Grand Bliss Lobby","flavor_text": "Monday – Thursday 3 PM – 11 PM Friday – Sunday 11 AM to 11 PM","image": "","action_link": "" } }
       }
     },
 
-  "library-bar" : {
+  "library bar" : {
       "address": "/library-bar",
       "content": {
         "banner": {
@@ -1181,37 +1180,37 @@
           "header": "Ahead-of-the-Trend Mixology"
         },
         "images": {
-          "gallery": [{"src": "library-bar-gallery-1.jpg", "altText": "library bar image", "folder": "library-bar/"}],
-          "thumbnails": [{"image": "", "text": { "title": "", "flavor": ""} }]
+          "gallery": [{"src": "library-bar-gallery-1.jpg", "altText": "library bar image", "folder": "library-bar"}],
+          "thumbnails": []
         },
         "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Inside Tramonto, Located in The Grand Mayan","flavor_text": "Monday – Sunday 5:30 PM – 11 PM","image": "","action_link": "" } }
       }
     },
 
-    "luxxe-bar" : {
-        "address": "/luxxe-bar",
-        "content": {
-          "banner": {
-            "image": "luxxe-bar-banner.jpg",
-            "header": "luxxe bar",
-            "subheader": "nuevo vallarta"
-          },
-          "text": {
-            "description": "",
-            "header": ""
-          },
-          "images": {
-            "gallery": [
-              {"src": "luxxe-bar-gallery-1.jpg", "altText": "luxxe bar image", "folder": "luxxe-bar/"},
-              {"src": "luxxe-bar-gallery-2.jpg", "altText": "luxxe bar image", "folder": "luxxe-bar/"}
-            ],
-            "thumbnails": [{"image": "", "text": { "title": "", "flavor": ""} }]
-          },
-          "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "In Grand Luxxe Tower 1, by Epazote","flavor_text": "Monday – Thursday 5:30 PM – 1 AM Friday – Sunday 11:00 AM – 1 AM","image": "","action_link": "" } }
-        }
-      },
-  "the-grand-lobby-bar" : {
-      "address": "/address",
+    "luxxe bar" : {
+      "address": "/luxxe-bar",
+      "content": {
+        "banner": {
+          "image": "luxxe-bar-banner.jpg",
+          "header": "luxxe bar",
+          "subheader": "nuevo vallarta"
+        },
+        "text": {
+          "description": "",
+          "header": ""
+        },
+        "images": {
+          "gallery": [
+            {"src": "luxxe-bar-gallery-1.jpg", "altText": "luxxe bar image", "folder": "dining/bars/luxxe-bar"},
+            {"src": "luxxe-bar-gallery-2.jpg", "altText": "luxxe bar image", "folder": "dining/bars/luxxe-bar"}
+          ],
+          "thumbnails": [{"image": "", "text": { "title": "", "flavor": ""} }]
+        },
+        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "In Grand Luxxe Tower 1, by Epazote","flavor_text": "Monday – Thursday 5:30 PM – 1 AM Friday – Sunday 11:00 AM – 1 AM","image": "","action_link": "" } }
+      }
+  },
+  "the grand lobby bar" : {
+      "address": "/the-grand-lobby-bar",
       "content": {
         "banner": {
           "image": "the-grand-lobby-bar-bar-banner.jpg",
@@ -1219,8 +1218,8 @@
           "subheader": "nuevo vallarta"
         },
         "text": {
-          "description": "",
-          "header": ""
+          "description": "Located in the lobby of The Grand Mayan, this bar comes to life nightly with live music. Kick back in one of its comfortable lounge areas and enjoy a brew or freshly prepared cocktail and soak up the sweet rhythms of vacation.",
+          "header": "Toast to Paradise"
         },
         "images": {
           "gallery": [
@@ -1264,21 +1263,21 @@
         }
       }
     },
-    "la-isla-de-cocos" : {
+    "la isla de cocos" : {
         "address": "/address",
         "content": {
           "banner": {
-            "image": "",
-            "header": "",
-            "subheader": ""
+            "image": "la-isla-de-cocos-banner.jpg",
+            "header": "la isla de cocos",
+            "subheader": "nuevo vallarta"
           },
           "text": {
-            "description": "",
-            "header": ""
+            "description": "Whether you’re lounging poolside or beachside, indulge in vacation bliss with a tropical drink served in a coconut or a michelada.",
+            "header": "Cocktails for Bahia Sunsets"
           },
           "images": {
             "gallery": [{"src": "", "altText": "page image", "folder": "page/"}],
-            "thumbnails": [{"image": "", "text": { "title": "", "flavor": ""} }]
+            "thumbnails": []
           },
           "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "","flavor_text": "","image": "","action_link": "/url" } }
         }
@@ -1835,6 +1834,31 @@
           "action_link": ""
         }
       }
+    }
+  },
+
+  "whats new" : {
+    "address": "/whats-new",
+    "content": {
+      "banner": {
+        "image": "whats-new-banner.jpg",
+        "header": "nuevo vallarta",
+        "subheader": "what's new"
+      },
+      "text": {
+        "description": "",
+        "header": "the latest resort updates"
+      },
+      "images": {
+        "gallery": [{"src": "", "altText": "page image", "folder": "page/"}],
+        "thumbnails": [{"image": "", "text": { "title": "", "flavor": ""} }]
+      },
+      "billboards": {
+        "0" : {"title": "","name": "","tagline": "Almaverde","flavor_text": "See where Vidanta Nuevo Vallarta sources its produce straight from the vine! This 40-acre farm yields over 65 types of fruits and vegetables that are used throughout the resort!","image": "whats-new-billboard-1.jpg","action_link": "/url" },
+        "1" : {"title": "","name": "","tagline": "Grand Luxxe Tower 5 & Quinto","flavor_text": "This stunning new tower offers amazing views of the resort, Ameca River, Sierra Madres, and Banderas Bay from its brand-new rooftop restaurant","image": "whats-new-billboard-2.jpg","action_link": "/url" },
+        "2" : {"title": "","name": "","tagline": "The Tequila Tour","flavor_text": "Become a tequila connoisseur and learn the finer points about Mexico’s national spirit in this fun outdoor tour offering a tequila tasting, cocktail lessons, and barbecue.","image": "whats-new-billboard-3.jpg","action_link": "/url" }
+
+       }
     }
   }
 }

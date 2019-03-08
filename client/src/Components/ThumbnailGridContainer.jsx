@@ -41,10 +41,14 @@ export class ThumbnailGridContainer extends Component {
     }
   }
   render(){
-    return(
-      <div className="thumbnail-grid">
-        {this.state.thumbnails}
-      </div>
-    );
+    try {
+      return(
+        <div className="thumbnail-grid">
+          {this.state.thumbnails}
+        </div>
+      );
+    } catch(e){
+      console.log("thumbnail container error")
+    }
   }
 }

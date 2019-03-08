@@ -36,6 +36,12 @@ export class ActiveView extends Component {
   }
 
   render(){
+    let imageFolder
+    if(this.state.content.images.gallery[0] !== undefined){
+      imageFolder = this.state.content.images.gallery[0].folder;
+    } else {
+      imageFolder = "";
+    }
     return(
       <div className="default-child">
         {this.props.content.text.header !== undefined
@@ -47,7 +53,7 @@ export class ActiveView extends Component {
           : null
         }
         {this.state.content.images.gallery !== [] || this.state.content.images.gallery !== undefined
-          ? <ImageCarousel galleryImages={this.state.content.images.gallery} imageFolder={this.state.content.images.gallery[0].folder}/>
+          ? <ImageCarousel galleryImages={this.state.content.images.gallery} imageFolder={imageFolder}/>
           : null
         }
         {this.state.content.billboards !== undefined

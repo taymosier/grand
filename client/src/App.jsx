@@ -23,9 +23,9 @@ class App extends Component {
 
   componentDidMount(){
     this.setState({
-      activeView: "acqua",
-      pageContents: pages["acqua"],
-      currentViewAddress: pages["acqua"].address,
+      activeView: "in room",
+      pageContents: pages["in room"],
+      currentViewAddress: pages["in room"].address,
       screenSize: helpers.determineScreenSize()
     })
   }
