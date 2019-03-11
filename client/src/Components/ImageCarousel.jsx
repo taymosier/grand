@@ -27,7 +27,14 @@ generateSlides(images, folder){
        caption={image.caption}
      />);
    });
-   if(slides[slides.length-1] === "end"){
+   //this is too ambiguous, the CarouselImage component returns "end" only
+   //when certain conditions are met. Those conditions are not listed here
+   // and you would have to know to look in CarouselImage.jsx to see what those conditions
+   // are.
+   let lastSlide = slides[slides.length-1];
+
+   if(lastSlide === "end"){
+     //removes last item in slides array.
      slides = slides.slice(0,-1);
    }
    return slides;

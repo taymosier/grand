@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import { BillboardContainer } from "../Components/BillboardContainer";
 import { ThumbnailGridContainer } from "../Components/ThumbnailGridContainer";
 import { ImageCarousel } from '../Components/ImageCarousel';
+import { ContactFormToggleButton } from '../Components/Contact/ContactFormToggleButton';
+import { ContactForm } from '../Components/Contact/ContactForm';
 
 
 export class ActiveView extends Component {
@@ -10,8 +12,10 @@ export class ActiveView extends Component {
     super(props);
     this.state = {
       content: this.props.content,
-      pageName: this.props.activeView
+      pageName: this.props.activeView,
+      contactFormVisible: false
     };
+    this.toggle = this.toggle.bind(this);
   }
 
   componentDidMount(){
@@ -35,6 +39,12 @@ export class ActiveView extends Component {
     }
   }
 
+  toggle(){
+    this.setState({
+      contactFormVisible: !this.state.contactFormVisible
+    })
+  }
+
   render(){
     let imageFolder
     if(this.state.content.images.gallery[0] !== undefined){
@@ -44,6 +54,8 @@ export class ActiveView extends Component {
     }
     return(
       <div className="default-child">
+      <ContactFormToggleButton toggleContactForm={this.toggle}/>
+        <ContactForm toggle={this.toggle} visible={this.state.contactFormVisible}/>
         {this.props.content.text.header !== undefined
           ? <h1 className="page-header">{this.props.content.text.header}</h1>
           : null

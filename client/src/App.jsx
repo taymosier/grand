@@ -17,15 +17,19 @@ const helpers = require('./helpers/dynamicCSS.js');
 class App extends Component {
   constructor(){
     super();
-    this.state = {};
+    this.state = {
+      contactForm: false
+    };
     this.setPage = this.setPage.bind(this);
+    this.toggleContactForm = this.toggleContactForm.bind(this);
   }
 
   componentDidMount(){
     this.setState({
-      activeView: "in room",
-      pageContents: pages["in room"],
-      currentViewAddress: pages["in room"].address,
+      activeView: "home",
+      pageContents: pages["home"],
+      currentViewAddress: pages["home"].address,
+      contactForm: false,
       screenSize: helpers.determineScreenSize()
     })
   }
@@ -46,10 +50,18 @@ class App extends Component {
     }
   }
 
+  toggleContactForm(){
+    let toggle = !this.state.contactForm;
+    this.setState({
+      contactForm: toggle
+    });
+  }
+
 render() {
   return (
       <Container className="parent">
         <Row>
+
         { this.state.pageContents
           ? <Banner banner_info={this.state.pageContents.content.banner}/>
           : null
@@ -73,13 +85,13 @@ render() {
             md={{ size: 8, offset: 0 }}
           >
           {this.state.pageContents
-            ? <Portal activeView={this.state.activeView} page={this.state.pageContents}/>
+            ? <Portal activeView={this.state.activeView} page={this.state.pageContents} toggleContactForm={this.toggleContactForm}/>
             : null
           }
           </Col>
         </Row>
         <Row>
-          <Footer />
+          <Footer></Footer>
         </Row>
       </Container >
     );
