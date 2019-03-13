@@ -20,7 +20,7 @@ export class RegistrationProcessInfoModal extends Component {
   render(){
     return(
       <Modal className="registration-info-container" isOpen={this.state.isOpen} toggle={this.toggle} id="registrationInfoContainer">
-        <ModalHeader toggle={this.toggle} className="contact-form-header"></ModalHeader>
+        <ModalHeader toggle={this.toggle} className="registration-process-header"></ModalHeader>
         <ModalBody >
           <Col className="registration-step-container" xl={{ size: 2, offset: 0 }} lg={{ size: 3, offset: 0 }} md={{ size: 3, offset: 0 }} sm={{ size: 3, offset: 0 }}>
             <div className="registration-step-image-container"></div>
@@ -31,7 +31,7 @@ Note: We will send a link to our booking form when we inform you that your date 
           <Col className="registration-step-container" xl={{ size: 2, offset: 0 }} lg={{ size: 3, offset: 0 }} md={{ size: 3, offset: 0 }} sm={{ size: 3, offset: 0 }}>
             <div className="registration-step-image-container"></div>
             <h3>Step #2: Book It</h3>
-            <p>Make sure you can get airfare and then fill out the Booking Form (we will send a link to you) or call us at 616-855-4468. We will usually book it for you and have a confirmation number in short order.</p>
+            <p>Make sure you can get airfare and then fill out the Booking Form (we will send a link to you) or call us at xxx-xxx-xxxx. We will usually book it for you and have a confirmation number in short order.</p>
           </Col>
           <Col className="registration-step-container" xl={{ size: 2, offset: 0 }} lg={{ size: 3, offset: 0 }} md={{ size: 3, offset: 0 }} sm={{ size: 3, offset: 0 }}>
             <div className="registration-step-image-container"></div>

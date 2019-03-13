@@ -6,9 +6,12 @@ import routes from './data/routes.json';
 import pages from './data/pages.json'
 
 import { Menu } from './Menu/Menu';
+import { MenuModalToggleButton } from './Menu/MenuModalToggleButton';
+import { MenuModal } from './Menu/MenuModal';
 import { Footer } from './Components/Footer';
 import { Banner } from './Components/Banner';
 import { Portal } from './Components/Portal';
+
 
 const helpers = require('./helpers/dynamicCSS.js');
 
@@ -18,10 +21,12 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      contactForm: false
+      contactForm: false,
+      menuModal: false
     };
     this.setPage = this.setPage.bind(this);
     this.toggleContactForm = this.toggleContactForm.bind(this);
+    this.toggleMenuModal = this.toggleMenuModal.bind(this);
   }
 
   componentDidMount(){
@@ -42,6 +47,7 @@ class App extends Component {
           activeView: page,
           pageContents: pages[page],
           currentViewAddress: pages[page].address,
+          menuModal: false,
           screenSize: helpers.determineScreenSize()
         })
       } catch (e){
@@ -57,6 +63,12 @@ class App extends Component {
     });
   }
 
+  toggleMenuModal(){
+    this.setState({
+      menuModal: !this.state.menuModal
+    })
+  }
+
 render() {
   return (
       <Container className="parent">
@@ -69,14 +81,20 @@ render() {
         </Row>
         <Row>
           <Col
+          className="menu-column"
             xl={{ size: 2, offset: 1 }}
             lg={{ size: 3, offset: 0 }}
-            md={{ size: 3, offset: 0 }}
-            sm={{ size: 2, offset: 0 }}
+            md={{ size: 12, offset: 0 }}
+            sm={{ size: 12, offset: 0 }}
+            xs={{ size: 12, offset: 0 }}
           >
           {helpers.determineScreenSize() === "xsmall"
-           ? <Menu collapsed={true} activeView={this.state.activeView} route={routes} setPage={this.setPage}/>
+           ? <MenuModalToggleButton toggle={this.toggleMenuModal}/>
            : <Menu collapsed={false} activeView={this.state.activeView} route={routes} setPage={this.setPage}/>
+          }
+          {helpers.determineScreenSize() === "xsmall"
+           ? <MenuModal isOpen={this.state.menuModal} toggle={this.toggleMenuModal}  activeView={this.state.activeView} setPage={this.setPage}/>
+           : null
           }
           </Col>
           <Col

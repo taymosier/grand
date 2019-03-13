@@ -202,83 +202,7 @@ body {
   max-width: 41.67vw;
 }
 
-#contactForm .modal-content{
-  font-family: "Segoe UI", sans-serif;
-  box-shadow: 2px 2px 15px 5px black;
-  background:#e6edf2;
-  border: none;
-}
 
-.contact-form{
-  min-width: 70vw;
-  font-size: 22px;
-  box-shadow: 0px 2px 6px 3.5px gray;
-  margin: 5vw 0 0 15vw;
-  border: none;
-}
-
-.contact-form-close-button{
-  margin: 1.25% 40%;
-  box-shadow: 3px 3px 4px -1.5px gray;
-  background: #868686;
-  border: none;
-  font-size: 19px;
-  letter-spacing: .8px;
-
-}
-
-.contact-form-content {
-  border: none
-}
-
-.contact-form-header {
-  align-self: center;
-}
-
-.contact-form input{
-  font-size: 19px;
-  font-weight: bold;
-  letter-spacing: .925px;
-}
-
-.contact-form-fields-container {
-  min-height: 100%;
-}
-
-.contact-form-left-col {
-  float: left;
-  min-height: 100%;
-  border: .5px solid silver;
-  border-radius: 2.5%;
-  box-shadow: 10px 7px 10px .5px gray;
-  background: #F5F3F2;
-}
-
-.contact-form-right-col {
-  float: none;
-  border: .5px solid silver;
-  box-shadow: 10px 7px 10px .5px gray;
-  border-radius: 2.5%;
-  background: #F5F3F2;
-}
-
-
-#contactFormToggleButton {
-  background: #F6F4F3;
-  box-shadow: 3px 2px 4px -1.5px grey;
-  color: #777670;
-  font-size: 28px;
-  left: 3.5%;
-  line-height: 1.05;
-  margin-left: 85%;
-  max-width: 180px;
-  min-height: 100px;
-  min-width: 2.25%;
-  overflow-wrap: break-word;
-  position: fixed;
-  top: 70vh;
-
-}
 
 .default-child {
   margin: 25px 0 0 0;
@@ -490,6 +414,396 @@ body {
   transition: .15s linear;
 }
 
+@media (max-width: 420px) {
+
+  .addressBreak {
+    max-width: 85vw;
+  }
+
+  .banner {
+    max-height: 200px;
+    min-height: 200px;
+    height: 200px;
+    max-width: 100vw;
+    min-width: 100vw;
+    width: 100vw;
+  }
+
+  .banner-break {
+    margin: 5px 0 0 35vw;
+    position: absolute;
+    background: white;
+    opacity: .5;
+    border-bottom: none;
+    box-shadow: 4px 1.5px 15px 1.8px white;
+    border-radius: 20%;
+    min-width: 30vw;
+    min-height: 1px;
+    top: 40px;
+    width: 30vw;
+  }
+
+  .banner-container {
+    background: lightblue;
+    height: 200px;
+    margin: 10px 0 0 0;
+    max-width: 99.125vw;
+    padding: 0;
+    width: 99.125vw;
+    z-index: 5;
+  }
+
+  .banner-header-container {
+    background: transparent;
+    min-height: 110px;
+    min-width: 40vw;
+    width: 100%;
+    top: 55px;
+    left: 0;
+    position: absolute;
+  }
+
+
+  .banner-header {
+    letter-spacing: 7.5px;
+    font-family: "Advent Pro";
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .banner-subheader {
+    letter-spacing: 2.5px;
+    font-family: "Advent Pro";
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+    margin: 15px 0 0 0;
+    padding: 0px 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .billboard {
+    background: #F6F4F3;
+    margin: 25px 5%;
+    min-width: 50%;
+    max-width: 90%;
+    max-height: fit-content;
+    min-height: fit-content;
+    padding: 0px 10px 0 10px;
+    height: 23vw;
+    box-shadow: 5px 7px 15px darkgrey;
+  }
+
+  .billboard-flavor_text-container {
+    min-height: 100%;
+    padding: 5px 5px 5px 10px;
+    font-weight: 600;
+    letter-spacing: .7px;
+    line-height: 1.15;
+  }
+
+  .billboard-image-container {
+    margin: 20px 0;
+  }
+
+  .billboard-image {
+    margin: 0 10%;
+    min-width: 0%;
+    max-width: 80%;
+    box-shadow: 0px 0px 10px 4px grey;
+  }
+
+  .billboard-tagline {
+    padding: 10px;
+    font-size: .8em;
+  }
+
+  .billboard-text-container {
+    padding: .9vw 0 0 0;
+    min-height: 100%;
+    max-height: fit-content;
+  }
+
+  .billboard-title {
+    padding: 30px 0 0 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #868686;
+    font-size: 14px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .carousel-image-container img {
+    max-height: 48vw;
+  }
+
+  #contactForm {
+    margin: 40px 0 0 0;
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  #contactFormToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    font-size: 22px;
+    left: 55vw;
+    line-height: 1.05;
+    margin-left: 25px;
+    max-width: 35vw;
+    min-height: 80px;
+    min-width: 30vw;
+    overflow-wrap: break-word;
+    top: -85px;
+  }
+
+  .menuButton {
+    background: #F6F4F3;
+    border-bottom: 1px solid black;
+    box-shadow: 0.75px 1px 3.5px 0.2px black;
+    color: #777670;
+    font-family: "Advent Pro";
+    font-size: 24px;
+    min-width: 70vw;
+    font-weight: 500;
+    margin: 12.5px 5px 0 3px;
+    padding: 7px 0 .25em 20px;
+    position: relative;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+  }
+
+  .menu-column {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+    max-height: fit-content;
+  }
+
+  .menu-column .navbar {
+    padding: 0;
+  }
+
+  .menu-container {
+    margin: 4px;
+    padding: 0;
+  }
+  #menuModal {
+    margin: 50px 0 0 0;
+  }
+
+  #menuModal .modal-header {
+    height: 50px;
+  }
+
+  #menuModal .menu-close-button {
+    position: absolute;
+    left: 80vw;
+  }
+
+  .menuToggleIcon {
+    height: 40px;
+    width: 50px;
+    padding: 0;
+  }
+
+  .menuToggleIcon line {
+    stroke: black;
+    stroke-width: 5;
+  }
+
+  #menuToggleModalButton {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 30000;
+
+  }
+
+  .menuToggler {
+    display: none;
+  }
+
+  .page-description {
+    padding: 15px 0 0 0;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .95px;
+  }
+
+  .page-header {
+    font-family: "Advent Pro";
+    font-weight: 600;
+    letter-spacing: .25em;
+    padding: 25px 0 0 0;
+    min-width: 100%;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  #registrationInfoContainer .modal-body{
+    padding: 0 10px;
+
+  }
+
+  #registrationInfoContainer .registration-step-container{
+    padding: 0 10px;
+    margin: 15px 0 5px 0px;
+  }
+
+  #registrationProcessInfoToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    font-size: 22px;
+    left: 18vw;
+    /* top: 0; */
+    line-height: 1.05;
+    margin-left: 10vw;
+    max-width: 35vw;
+    position: unset;
+    min-height: 80px;
+    min-width: 30vw;
+    overflow-wrap: break-word;
+    /* top: -94px; */
+  }
+
+  .thumbnail-container {
+    margin: 10px 0 5px 0;
+    float: left;
+    min-height: 100px;
+    max-height: 250px;
+    max-width: 200%;
+    min-width: 100%;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 5px 2px 5px 2px grey;
+  }
+
+  .thumbnail-filter {
+    position: absolute;
+    min-height: 250px;
+    max-height: 250px;
+    min-width: 100%;
+    max-width: 100%;
+    background: black;
+    opacity: .5;
+    z-index: 50;
+  }
+
+  .thumbnail-flavor_text {
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    padding: 0 5%;
+    min-width: 80%;
+    max-width: 80%;
+    top: -275px;
+    right: 0;
+    left: 10%;
+    bottom: 0;
+    z-index: 60;
+    opacity: 1;
+  }
+
+  .thumbnail-grid {
+    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 575px) {
+  #contactForm .modal-content{
+    font-family: "Segoe UI", sans-serif;
+    box-shadow: 2px 2px 15px 5px black;
+    background:#e6edf2;
+    border: none;
+  }
+
+  .contact-form{
+    min-width: 70vw;
+    font-size: 22px;
+    box-shadow: 0px 2px 6px 3.5px gray;
+    margin: 5vw 0 0 15vw;
+    border: none;
+  }
+
+  .contact-form-close-button{
+    margin: 1.25% 40%;
+    box-shadow: 3px 3px 4px -1.5px gray;
+    background: #868686;
+    border: none;
+    font-size: 19px;
+    letter-spacing: .8px;
+
+  }
+
+  .contact-form-content {
+    border: none
+  }
+
+  .contact-form-header {
+    align-self: center;
+  }
+
+  .contact-form input{
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .925px;
+  }
+
+  .contact-form-fields-container {
+    min-height: 100%;
+  }
+
+  .contact-form-left-col {
+    float: none;
+    min-height: 100%;
+    border: .5px solid silver;
+    border-radius: 2.5%;
+    box-shadow: 10px 7px 10px .5px gray;
+    background: #F5F3F2;
+  }
+
+  .contact-form-right-col {
+    float: none;
+    border: .5px solid silver;
+    box-shadow: 10px 7px 10px .5px gray;
+    border-radius: 2.5%;
+    background: #F5F3F2;
+  }
+
+
+  #contactFormToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    font-size: 28px;
+    left: 3.5%;
+    line-height: 1.05;
+    margin-left: 85%;
+    max-width: 180px;
+    min-height: 100px;
+    min-width: 2.25%;
+    overflow-wrap: break-word;
+    position: fixed;
+    top: 70vh;
+
+  }
+}
+
 
 @media (min-width: 420px) and (max-width: 575px){
   .banner {
@@ -655,6 +969,8 @@ body {
     max-width: fit-content;
     max-height: fit-content;
   }
+
+
 
   .default-child {
     margin: 25px 0 0 0;
@@ -1370,6 +1686,84 @@ body {
     max-height: 30vw;
   }
 
+  #contactForm .modal-content{
+    font-family: "Segoe UI", sans-serif;
+    box-shadow: 2px 2px 15px 5px black;
+    background:#e6edf2;
+    border: none;
+  }
+
+  .contact-form{
+    min-width: 70vw;
+    font-size: 22px;
+    box-shadow: 0px 2px 6px 3.5px gray;
+    margin: 5vw 0 0 15vw;
+    border: none;
+  }
+
+  .contact-form-close-button{
+    margin: 1.25% 40%;
+    box-shadow: 3px 3px 4px -1.5px gray;
+    background: #868686;
+    border: none;
+    font-size: 19px;
+    letter-spacing: .8px;
+
+  }
+
+  .contact-form-content {
+    border: none
+  }
+
+  .contact-form-header {
+    align-self: center;
+  }
+
+  .contact-form input{
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .925px;
+  }
+
+  .contact-form-fields-container {
+    min-height: 100%;
+  }
+
+  .contact-form-left-col {
+    float: left;
+    min-height: 100%;
+    border: .5px solid silver;
+    border-radius: 2.5%;
+    box-shadow: 10px 7px 10px .5px gray;
+    background: #F5F3F2;
+  }
+
+  .contact-form-right-col {
+    float: none;
+    border: .5px solid silver;
+    box-shadow: 10px 7px 10px .5px gray;
+    border-radius: 2.5%;
+    background: #F5F3F2;
+  }
+
+
+  #contactFormToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    font-size: 28px;
+    left: 3.5%;
+    line-height: 1.05;
+    margin-left: 85%;
+    max-width: 180px;
+    min-height: 100px;
+    min-width: 2.25%;
+    overflow-wrap: break-word;
+    position: fixed;
+    top: 70vh;
+
+  }
+
   .default-child {
     margin: 25px 0 0 0;
     position: inherit;
@@ -1436,8 +1830,6 @@ body {
     margin: 1px 5px 0 3px;
     box-shadow: .5px 1px 3.5px black;
   }
-
-
 
   .parent {
     overflow-x: hidden;
@@ -1696,6 +2088,84 @@ body {
     max-height: 31.5vw;
   }
 
+  #contactForm .modal-content{
+    font-family: "Segoe UI", sans-serif;
+    box-shadow: 2px 2px 15px 5px black;
+    background:#e6edf2;
+    border: none;
+  }
+
+  .contact-form{
+    min-width: 70vw;
+    font-size: 22px;
+    box-shadow: 0px 2px 6px 3.5px gray;
+    margin: 5vw 0 0 15vw;
+    border: none;
+  }
+
+  .contact-form-close-button{
+    margin: 1.25% 40%;
+    box-shadow: 3px 3px 4px -1.5px gray;
+    background: #868686;
+    border: none;
+    font-size: 19px;
+    letter-spacing: .8px;
+
+  }
+
+  .contact-form-content {
+    border: none
+  }
+
+  .contact-form-header {
+    align-self: center;
+  }
+
+  .contact-form input{
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .925px;
+  }
+
+  .contact-form-fields-container {
+    min-height: 100%;
+  }
+
+  .contact-form-left-col {
+    float: left;
+    min-height: 100%;
+    border: .5px solid silver;
+    border-radius: 2.5%;
+    box-shadow: 10px 7px 10px .5px gray;
+    background: #F5F3F2;
+  }
+
+  .contact-form-right-col {
+    float: none;
+    border: .5px solid silver;
+    box-shadow: 10px 7px 10px .5px gray;
+    border-radius: 2.5%;
+    background: #F5F3F2;
+  }
+
+
+  #contactFormToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    font-size: 28px;
+    left: 3.5%;
+    line-height: 1.05;
+    margin-left: 85%;
+    max-width: 180px;
+    min-height: 100px;
+    min-width: 2.25%;
+    overflow-wrap: break-word;
+    position: fixed;
+    top: 70vh;
+
+  }
+
   .default-child {
     margin: 25px 0 0 0;
     position: inherit;
@@ -1868,6 +2338,84 @@ body {
 
   .billboard-image{
     max-height: 17vw;
+  }
+
+  #contactForm .modal-content{
+    font-family: "Segoe UI", sans-serif;
+    box-shadow: 2px 2px 15px 5px black;
+    background:#e6edf2;
+    border: none;
+  }
+
+  .contact-form{
+    min-width: 70vw;
+    font-size: 22px;
+    box-shadow: 0px 2px 6px 3.5px gray;
+    margin: 5vw 0 0 15vw;
+    border: none;
+  }
+
+  .contact-form-close-button{
+    margin: 1.25% 40%;
+    box-shadow: 3px 3px 4px -1.5px gray;
+    background: #868686;
+    border: none;
+    font-size: 19px;
+    letter-spacing: .8px;
+
+  }
+
+  .contact-form-content {
+    border: none
+  }
+
+  .contact-form-header {
+    align-self: center;
+  }
+
+  .contact-form input{
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .925px;
+  }
+
+  .contact-form-fields-container {
+    min-height: 100%;
+  }
+
+  .contact-form-left-col {
+    float: left;
+    min-height: 100%;
+    border: .5px solid silver;
+    border-radius: 2.5%;
+    box-shadow: 10px 7px 10px .5px gray;
+    background: #F5F3F2;
+  }
+
+  .contact-form-right-col {
+    float: left;
+    border: .5px solid silver;
+    box-shadow: 10px 7px 10px .5px gray;
+    border-radius: 2.5%;
+    background: #F5F3F2;
+  }
+
+
+  #contactFormToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    font-size: 28px;
+    left: 3.5%;
+    line-height: 1.05;
+    margin-left: 85%;
+    max-width: 180px;
+    min-height: 100px;
+    min-width: 2.25%;
+    overflow-wrap: break-word;
+    position: fixed;
+    top: 70vh;
+
   }
 
   .menuToggler {
