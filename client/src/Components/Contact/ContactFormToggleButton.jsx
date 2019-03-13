@@ -9,7 +9,7 @@ export class ContactFormToggleButton extends Component {
 
   render(){
     return(
-      <Button className="contact-form-toggle-button" onClick={this.props.toggleContactForm}>Toggle Me</Button>
+      <Button className="button-toggle" id="contactFormToggleButton" onClick={this.props.toggleContactForm}>Check Availability</Button>
     );
   }
 }

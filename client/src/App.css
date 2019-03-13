@@ -203,14 +203,17 @@ body {
 }
 
 #contactForm .modal-content{
-  background:#f9ede3;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 2px 2px 15px 5px black;
+  background:#e6edf2;
   border: none;
 }
 
 .contact-form{
   min-width: 70vw;
-  font-size: 24px;
+  font-size: 22px;
   box-shadow: 0px 2px 6px 3.5px gray;
+  margin: 5vw 0 0 15vw;
   border: none;
 }
 
@@ -226,6 +229,10 @@ body {
 
 .contact-form-content {
   border: none
+}
+
+.contact-form-header {
+  align-self: center;
 }
 
 .contact-form input{
@@ -256,8 +263,21 @@ body {
 }
 
 
-.contact-form-toggle-button {
-  box-shadow: 6px 2px 4px -1.5px gray;
+#contactFormToggleButton {
+  background: #F6F4F3;
+  box-shadow: 3px 2px 4px -1.5px grey;
+  color: #777670;
+  font-size: 28px;
+  left: 3.5%;
+  line-height: 1.05;
+  margin-left: 85%;
+  max-width: 180px;
+  min-height: 100px;
+  min-width: 2.25%;
+  overflow-wrap: break-word;
+  position: fixed;
+  top: 70vh;
+
 }
 
 .default-child {
@@ -313,6 +333,22 @@ body {
   text-align: center;
 }
 
+#registrationProcessInfoToggleButton {
+  background: #F6F4F3;
+  box-shadow: 3px 2px 4px -1.5px grey;
+  color: #777670;
+  font-size: 28px;
+  left: 3.5%;
+  top: 57.5vh;
+  line-height: 1.05;
+  margin-left: 85%;
+  max-width: 180px;
+  min-height: 100px;
+  min-width: 2.25%;
+  overflow-wrap: break-word;
+  position: fixed;
+}
+
 #home-button {
   margin: 1px 5px 0 3px;
   box-shadow: .5px 1px 3.5px black;
@@ -338,6 +374,42 @@ body {
   /* width: 80.125vw; */
   min-height: 87vh;
   background: ligtslategrey;
+}
+
+#registrationInfoContainer {
+  max-width: 80vw;
+  margin: 10vw 0 0 10vw;
+  box-shadow: 2px 2px 15px 5px black;
+}
+
+#registrationInfoContainer .modal-content {
+  background:#e6edf2;
+}
+
+.registration-steps-close-button {
+  margin: 20px 0 20px 40%;
+  max-width: 20%;
+  min-width: 20%;
+}
+
+.registration-step-container {
+  font-family: "Segoe UI", sans-serif;
+  background: #F5F3F2;
+  float: left;
+  min-height: 100%;
+  text-align: center;
+  box-shadow: 2.5px 1px 7.5px 2px grey;
+  margin: 25px 0 1vw 5vw;
+}
+
+.registration-step-container h3 {
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+.registration-step-container p {
+  font-size: 18px;
+  letter-spacing: .9px;
 }
 
 .thumbnail-container {

@@ -4,7 +4,11 @@ import { BillboardContainer } from "../Components/BillboardContainer";
 import { ThumbnailGridContainer } from "../Components/ThumbnailGridContainer";
 import { ImageCarousel } from '../Components/ImageCarousel';
 import { ContactFormToggleButton } from '../Components/Contact/ContactFormToggleButton';
+import { RegistrationProcessInfoButton } from '../Components/RegistrationProcessInfoButton';
+
 import { ContactForm } from '../Components/Contact/ContactForm';
+
+import { RegistrationProcessInfoModal } from "../Components/RegistrationProcessInfoModal";
 
 
 export class ActiveView extends Component {
@@ -13,9 +17,11 @@ export class ActiveView extends Component {
     this.state = {
       content: this.props.content,
       pageName: this.props.activeView,
-      contactFormVisible: false
+      contactFormVisible: false,
+      registrationInfoVisible: false
     };
     this.toggle = this.toggle.bind(this);
+    this.toggleRegistrationProcessInfo = this.toggleRegistrationProcessInfo.bind(this);
   }
 
   componentDidMount(){
@@ -45,6 +51,12 @@ export class ActiveView extends Component {
     })
   }
 
+  toggleRegistrationProcessInfo(){
+    this.setState({
+      registrationInfoVisible: !this.state.registrationInfoVisible
+    })
+  }
+
   render(){
     let imageFolder
     if(this.state.content.images.gallery[0] !== undefined){
@@ -55,7 +67,9 @@ export class ActiveView extends Component {
     return(
       <div className="default-child">
       <ContactFormToggleButton toggleContactForm={this.toggle}/>
+      <RegistrationProcessInfoButton toggleRegistrationProcessInfo={this.toggleRegistrationProcessInfo}/>
         <ContactForm toggle={this.toggle} visible={this.state.contactFormVisible}/>
+        <RegistrationProcessInfoModal toggle={this.toggleRegistrationProcessInfo} visible={this.state.registrationInfoVisible} />
         {this.props.content.text.header !== undefined
           ? <h1 className="page-header">{this.props.content.text.header}</h1>
           : null

@@ -13,6 +13,7 @@ export class ContactForm extends Component {
         lastName: "",
         email: "",
         phone: "",
+        roomType: "",
         streetAddress: "",
         mailingAddress: "",
         city: "",
@@ -42,9 +43,12 @@ export class ContactForm extends Component {
   }
 
   render(){
+    let rooms = [];
+    rooms.push("Available Rooms")
+    rooms.push("Three Bedroom Presidential Villa");
     return(
         <Modal isOpen={this.state.isOpen} toggle={this.toggle} className="contact-form" id="contactForm">
-          <ModalHeader toggle={this.toggle}>Contact Form</ModalHeader>
+          <ModalHeader toggle={this.toggle} className="contact-form-header">For questions or to begin the reservation process, please fill out the form below</ModalHeader>
           <ModalBody >
             <Form className="contact-form-fields-container">
               <Col className="contact-form-left-col" xl={{ size: 4, offset: 1 }} lg={6}>
@@ -52,6 +56,7 @@ export class ContactForm extends Component {
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "lastName", value: this.state.formFields.lastName, type: "text", placeholder: "Last Name", hasLabel: false, label: ""}} />
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "email", value: this.state.formFields.email, type: "email", placeholder: "Email", hasLabel: false, label: ""}} />
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "phone", value: this.state.formFields.phone, type: "number", placeholder: "Phone Number", hasLabel: false, label: ""}} />
+                <ContactFormGroup onChange={this.onFieldChange} field={{name: "roomType", value: this.state.formFields.roomType, type: "select", placeholder: "Phone Number", hasLabel: false, label: "", options: rooms}} />
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "comments", value: this.state.formFields.comments, type: "textarea", placeholder: "", hasLabel: true, label: "Comments"}} />
               </Col>
               <Col className="contact-form-right-col" xl={{ size: 5, offset: 6 }} lg={6}>

@@ -24,13 +24,22 @@ export class ContactFormGroup extends Component {
   }
   render(){
     let value = this.state.value;
+    let dropDownOptions = []
+    for(let item in this.props.field.options){
+      dropDownOptions.push(<option>{this.props.field.options[item]}</option>)
+    }
     return(
       <FormGroup>
         {this.state.hasLabel
           ? <Label for={this.state.name}>{this.state.label}</Label>
           : null
         }
-        <Input type={this.state.type} name={this.state.name} id={this.state.id} placeholder={this.state.placeholder} onChange={this.props.onChange} value={this.state.value}></Input>
+        <Input type={this.state.type} name={this.state.name} id={this.state.id} placeholder={this.state.placeholder} onChange={this.props.onChange} value={this.state.value}>
+        {this.props.field.options
+          ? dropDownOptions
+          : null
+        }
+        </Input>
       </FormGroup>
     )
   }
