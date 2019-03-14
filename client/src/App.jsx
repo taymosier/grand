@@ -22,7 +22,8 @@ class App extends Component {
     super();
     this.state = {
       contactForm: false,
-      menuModal: false
+      menuModal: false,
+      screenSize: helpers.determineScreenSize()
     };
     this.setPage = this.setPage.bind(this);
     this.toggleContactForm = this.toggleContactForm.bind(this);
@@ -47,6 +48,7 @@ class App extends Component {
           activeView: page,
           pageContents: pages[page],
           currentViewAddress: pages[page].address,
+          contactForm: false,
           menuModal: false,
           screenSize: helpers.determineScreenSize()
         })
@@ -88,11 +90,11 @@ render() {
             sm={{ size: 12, offset: 0 }}
             xs={{ size: 12, offset: 0 }}
           >
-          {helpers.determineScreenSize() === "xsmall"
-           ? <MenuModalToggleButton toggle={this.toggleMenuModal}/>
-           : <Menu collapsed={false} activeView={this.state.activeView} route={routes} setPage={this.setPage}/>
+          {this.state.screenSize === "xsmall" || this.state.screenSize === "small" || this.state.screenSize === "medium"
+            ? <MenuModalToggleButton toggle={this.toggleMenuModal}/>
+            : <Menu collapsed={false} activeView={this.state.activeView} route={routes} setPage={this.setPage}/>
           }
-          {helpers.determineScreenSize() === "xsmall"
+          {this.state.screenSize !== "xsmall" || this.state.screenSize !== "small" || this.state.screenSize === "medium"
            ? <MenuModal isOpen={this.state.menuModal} toggle={this.toggleMenuModal}  activeView={this.state.activeView} setPage={this.setPage}/>
            : null
           }
@@ -100,7 +102,7 @@ render() {
           <Col
             xl={{ size: 8, offset: 0 }}
             lg={{ size: 9, offset: 0 }}
-            md={{ size: 8, offset: 0 }}
+            md={{ size: 12, offset: 0 }}
           >
           {this.state.pageContents
             ? <Portal activeView={this.state.activeView} page={this.state.pageContents} toggleContactForm={this.toggleContactForm}/>

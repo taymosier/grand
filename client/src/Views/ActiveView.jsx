@@ -37,7 +37,8 @@ export class ActiveView extends Component {
       if(this.props.content !== this.state.content){
         this.setState({
           content: this.props.content,
-          pageName: this.props.activeView
+          pageName: this.props.activeView,
+          contactFormVisible: false
         })
       }
     } catch(e){

@@ -51,7 +51,7 @@ export class ContactForm extends Component {
           <ModalHeader toggle={this.toggle} className="contact-form-header">For questions or to begin the reservation process, please fill out the form below</ModalHeader>
           <ModalBody >
             <Form className="contact-form-fields-container">
-              <Col className="contact-form-left-col" xl={{ size: 5, offset: 1 }} lg={{ size: 4, offset: 1 }} md={{ size: 4, offset: 1 }} xs={{ size: 12, offset: 0 }}>
+              <Col className="contact-form-left-col" xl={{ size: 5, offset: 1 }} lg={{ size: 10, offset: 1 }} md={{ size: 10, offset: 1 }} xs={{ size: 12, offset: 0 }}>
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "firstName", value: this.state.formFields.firstName, type: "text", placeholder: "First Name", hasLabel: true, label: ""}} />
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "lastName", value: this.state.formFields.lastName, type: "text", placeholder: "Last Name", hasLabel: false, label: ""}} />
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "email", value: this.state.formFields.email, type: "email", placeholder: "Email", hasLabel: false, label: ""}} />
@@ -59,7 +59,7 @@ export class ContactForm extends Component {
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "roomType", value: this.state.formFields.roomType, type: "select", placeholder: "Phone Number", hasLabel: false, label: "", options: rooms}} />
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "comments", value: this.state.formFields.comments, type: "textarea", placeholder: "", hasLabel: true, label: "Comments"}} />
               </Col>
-              <Col className="contact-form-right-col" xl={{ size: 4, offset: 1 }} lg={{ size: 4, offset: 1 }} md={{ size: 4, offset: 1 }} xs={{ size: 12, offset: 0 }}>
+              <Col className="contact-form-right-col" xl={{ size: 4, offset: 1 }} lg={{ size: 10, offset: 1 }} md={{ size: 10, offset: 1 }} xs={{ size: 12, offset: 0 }}>
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "arrivalDate", value: this.state.formFields.arrivalDate, type: "date", placeholder: "", hasLabel: true, label: "Desired Arrival Date"}} />
                 <ContactFormGroup onChange={this.onFieldChange} field={{name: "departureDate", value: this.state.formFields.departureDate, type: "date", placeholder: "", hasLabel: true, label: "Desired Departure Date"}} />
                 <div className="addressBreak" />
