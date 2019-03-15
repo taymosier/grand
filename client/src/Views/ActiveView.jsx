@@ -84,11 +84,11 @@ export class ActiveView extends Component {
           : null
         }
         {this.state.content.billboards !== undefined
-          ? <BillboardContainer billboards={this.state.content.billboards} />
+          ? <BillboardContainer billboards={this.state.content.billboards} setPage={this.props.setPage}/>
           : null
         }
         {this.state.content.images.thumbnails !== undefined
-          ? <ThumbnailGridContainer thumbnails={this.state.content.images.thumbnails} />
+          ? <ThumbnailGridContainer thumbnails={this.state.content.images.thumbnails} setPage={this.props.setPage}/>
           : null
         }
       </div>

@@ -42,7 +42,7 @@ class App extends Component {
 
   setPage(page){
     if(this.state.activeView !== page){
-      console.log('you clicked a different button')
+      console.log('you clicked ' + page)
       try{
         this.setState({
           activeView: page,
@@ -105,7 +105,7 @@ render() {
             md={{ size: 12, offset: 0 }}
           >
           {this.state.pageContents
-            ? <Portal activeView={this.state.activeView} page={this.state.pageContents} toggleContactForm={this.toggleContactForm}/>
+            ? <Portal activeView={this.state.activeView} page={this.state.pageContents} setPage={this.setPage} toggleContactForm={this.toggleContactForm}/>
             : null
           }
           </Col>

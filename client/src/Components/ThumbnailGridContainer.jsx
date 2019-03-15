@@ -15,7 +15,7 @@ export class ThumbnailGridContainer extends Component {
     let thumbnailsList = [];
     for(let thumbnail in thumbnails){
       try{
-        thumbnailsList.push(<Thumbnail content={thumbnails[thumbnail]} />)
+        thumbnailsList.push(<Thumbnail content={thumbnails[thumbnail]} setPage={this.props.setPage}/>)
       } catch(e){
         console.log("error: " + this.state)
       }

@@ -20,6 +20,7 @@ export class RegistrationProcessInfoModal extends Component {
   render(){
     return(
       <Modal className="registration-info-container" isOpen={this.state.isOpen} toggle={this.toggle} id="registrationInfoContainer">
+      <Button className="registration-steps-close-button" onClick={this.props.toggle}>Close</Button>
         <ModalHeader toggle={this.toggle} className="registration-process-header"></ModalHeader>
         <ModalBody >
           <Col className="registration-step-container" xl={{ size: 2, offset: 0 }} lg={{ size: 3, offset: 0 }} md={{ size: 10, offset: 1 }} sm={{ size: 10, offset: 1 }}>
@@ -44,7 +45,6 @@ Note: We will send a link to our booking form when we inform you that your date 
             <p>We provide all the paperwork and information to get there and to be treated as the guests of owners at the exclusive Mayan resorts. Your only job now is to remember your swimming suit.</p>
           </Col>
         </ModalBody>
-        <Button className="registration-steps-close-button" onClick={this.props.toggle}>Close</Button>
       </Modal >
     );
   }

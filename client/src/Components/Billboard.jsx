@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col } from 'reactstrap';
+import { Button, Col } from 'reactstrap';
 
 export class Billboard extends Component {
   constructor(props){
@@ -11,7 +11,7 @@ export class Billboard extends Component {
       "tagline": this.props.contents.tagline,
       "image": this.props.contents.image,
       "flavor_text": this.props.contents.flavor_text,
-      "button_link": this.props.contents.action_link
+      "link": this.props.contents.link
     };
     this.formatNameForID = this.formatNameForID.bind(this);
   }
@@ -24,7 +24,7 @@ export class Billboard extends Component {
       "tagline": this.props.contents.tagline,
       "image": this.props.contents.image,
       "flavor_text": this.props.contents.flavor_text,
-      "button_link": this.props.contents.action_link
+      "link": this.props.contents.link
     });
   }
 
@@ -37,7 +37,7 @@ export class Billboard extends Component {
         "tagline": this.props.contents.tagline,
         "image": this.props.contents.image,
         "flavor_text": this.props.contents.flavor_text,
-        "button_link": this.props.contents.action_link
+        "link": this.props.contents.link
       })
     }
   }
@@ -82,6 +82,10 @@ export class Billboard extends Component {
               <p className="billboard-flavor_text">{this.state.flavor_text}</p>
             </div>
           </Col>
+          {this.state.link !== "" && this.state.link !== undefined
+           ? <Button className="billboard-button" onClick={() => {this.props.setPage(this.state.link)}}>Learn More</Button>
+           : null
+          }
         </div>
     );
   }

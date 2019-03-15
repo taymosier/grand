@@ -15,7 +15,7 @@
         "gallery": [{"src": "", "altText": "page image", "folder": "page/"}],
         "thumbnails": [{"image": "", "text": { "title": "", "flavor": ""} }]
       },
-      "billboards": {"0" : {"title": "","name": "","tagline": "","flavor_text": "","image": "page-billboard-0.jpg","action_link": "/url" } }
+      "billboards": {"0" : {"title": "","name": "","tagline": "","flavor_text": "","image": "page-billboard-0.jpg","link": "/url" } }
     }
   },
 
@@ -71,7 +71,7 @@
           "tagline": "Grand Luxxe Rooms & Suites",
           "flavor_text": "From beautiful rooms to posh lofts and sweeping suites, Grand Luxxe at Vidanta Nuevo Vallarta offers a wide range of high-end accommodations.",
           "image": "rooms-billboard.jpg",
-          "action_link": "/rooms/"
+          "link": "rooms"
         },
         "1" : {
           "title": "Where To Swim",
@@ -79,7 +79,7 @@
           "tagline": "Grand Luxxe Pools",
           "flavor_text": "Swim in a rooftop oasis, luxuriate in a Jacuzzi overlooking the Bay of Banderas, or kick back next to a trio of pristine pools.",
           "image": "punta-pool-east.jpg",
-          "action_link": "/"
+          "link": "pools"
         }
       }
     }
@@ -107,28 +107,32 @@
             "text": {
               "title": "Fine Dining",
               "flavor": "Choose from an array of gourmet restaurants helmed by some of the world’s best chefs."
-            }
+            },
+            "link": "fine"
           },
           {
             "image": "bars-thumbnails.jpg",
             "text": {
               "title": "Bars and Lounges",
               "flavor": "From elegant lounges to lively bars with live music, find the right setting for your evening."
-            }
+            },
+            "link": "bars"
           },
           {
             "image": "in-room-thumbnail.jpg",
             "text": {
               "title": "In-Room Dining",
               "flavor": "Eat like royalty from the comfort of your own room thanks to our extensive room service menu."
-            }
+            },
+            "link": "in room"
           },
           {
             "image": "casual-dining-thumbnail.jpg",
             "text": {
               "title": "Casual Dining",
               "flavor": "Mexican, American, international—find the cuisine you crave from our wide selection of eateries."
-            }
+            },
+            "link": "casual"
           }
         ]
       },
@@ -139,7 +143,7 @@
           "tagline": "",
           "flavor_text": "With over 40 restaurants and lounges to choose from, Vidanta Nuevo Vallarta gives guests the opportunity to dine however they like. Options range from high-end eateries to casual restaurants to authentic Mexican spots, and even a gourmet market filled with offerings from all over the world. One thing is for sure—an amazing culinary experience is always just a meal away at Vidanta Nuevo Vallarta.",
           "image": "dining-billboard-0.jpg",
-          "action_link": ""
+          "link": ""
         },
         "1" : {
           "title": "Must-Taste Dish",
@@ -147,7 +151,7 @@
           "tagline": "Tacos al pastor",
           "flavor_text": "Delight in the flavors of authentic Mexico with this Puebla-born dish, made with spit-roasted pork marinated with pineapple.",
           "image": "dining-billboard-1.jpg",
-          "action_link": "/dining/casual/tacos-break"
+          "link": "tacos break"
         }
       }
     }
@@ -177,49 +181,56 @@
             "text": {
               "title": "Azur",
               "flavor": "Authentic fine French cuisine in a modern setting"
-            }
+            },
+            "link": "azur"
           },
           {
             "image": "fine-dining/costa-arena-thumbnail.jpg",
             "text": {
               "title": "Costa Arena",
               "flavor": "The fresh, ingredient-driven dishes of Californian cuisine with a gorgeous ocean view"
-            }
+            },
+            "link": "costa arena"
           },
           {
             "image": "fine-dining/epazote-thumbnail.jpg",
             "text": {
               "title": "Epazote",
               "flavor": "The best of Mexican cuisine, elevated to stun the palate"
-            }
+            },
+            "link": "epazote"
           },
           {
             "image": "fine-dining/gong-thumbnail.jpg",
             "text": {
               "title": "Gong",
               "flavor": "A tour of Asia’s brightest flavors and favorite dishes"
-            }
+            },
+            "link": "gong"
           },
           {
             "image": "fine-dining/quinto-charcoal-grill-thumbnail.jpg",
             "text": {
               "title": "Quinto Charcoal Grill",
               "flavor": "This rooftop eatery offers premium cuts, smoky flavors, and stunning views"
-            }
+            },
+            "link": "quinto charcoal grill"
           },
           {
             "image": "fine-dining/the-burger-custom-made-thumbnail.jpg",
             "text": {
               "title": "The Burger Custom Made",
               "flavor": "Gourmet burgers with a sophisticated twist"
-            }
+            },
+            "link": ""
           },
           {
             "image": "fine-dining/tramonto-thumbnail.jpg",
             "text": {
               "title": "Tramonto",
               "flavor": "Choose from an array of gourmet restaurants helmed by some of the world’s best chefs."
-            }
+            },
+            "link": "tramonto"
           }
         ]
       },
@@ -247,8 +258,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "escargot","tagline": "Escargot","flavor_text": "This celebrated French appetizer is served with garlic butter and parsley.","image": "azur-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At La Plaza, 3rd Floor Monday – Sunday 7 AM – 11 PM","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "escargot","tagline": "Escargot","flavor_text": "This celebrated French appetizer is served with garlic butter and parsley.","image": "azur-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At La Plaza, 3rd Floor Monday – Sunday 7 AM – 11 PM","image": "","link": "" }
       }
     }
   },
@@ -273,8 +284,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "spicy-tuna-tartare","tagline": "Spicy Tuna Tartare","flavor_text": "Enjoy fresh seafood, including tuna tartare with soy sauce, ginger, and roasted chili pepper-soy sauce..","image": "costa-arena-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By the Grand Luxxe Punta Pool Monday – Sunday 11 AM – 11 PM Chef: Issac Hernandez","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "spicy-tuna-tartare","tagline": "Spicy Tuna Tartare","flavor_text": "Enjoy fresh seafood, including tuna tartare with soy sauce, ginger, and roasted chili pepper-soy sauce..","image": "costa-arena-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By the Grand Luxxe Punta Pool Monday – Sunday 11 AM – 11 PM Chef: Issac Hernandez","image": "","link": "" }
       }
     }
   },
@@ -293,8 +304,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "mixiote-lamb","tagline": "Mixiote Lamb","flavor_text": "This traditional Mexican specialty of lamb stew is slow cooked with maguey leaves for a rich, deep flavor.","image": "epazote-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "In Grand Luxxe Tower 1, Ground Floor Monday – Sunday 5:30 PM – 11 PM Chef: Axel Jimenez Lira","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "mixiote-lamb","tagline": "Mixiote Lamb","flavor_text": "This traditional Mexican specialty of lamb stew is slow cooked with maguey leaves for a rich, deep flavor.","image": "epazote-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "In Grand Luxxe Tower 1, Ground Floor Monday – Sunday 5:30 PM – 11 PM Chef: Axel Jimenez Lira","image": "","link": "" }
       }
     }
   },
@@ -315,8 +326,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "sashimi-gong","tagline": "Sashimi Gong","flavor_text": "This warm salmon sashimi comes complete with ginger and garlic, seared with olive oil, and a citrus soy sauce.","image": "gong-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By the Grand Mayan Monday – Sunday 5:30 PM – 11 PM Chef: Mitzuo Takahashi","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "sashimi-gong","tagline": "Sashimi Gong","flavor_text": "This warm salmon sashimi comes complete with ginger and garlic, seared with olive oil, and a citrus soy sauce.","image": "gong-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By the Grand Mayan Monday – Sunday 5:30 PM – 11 PM Chef: Mitzuo Takahashi","image": "","link": "" }
       }
     }
   },
@@ -334,8 +345,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "rib-eye-cap","tagline": "Rib Eye Cap","flavor_text": "Any steak aficionado knows the tenderloin is the most tender cut, and the rib eye is the most flavorful. Welcome to the best of both worlds. The rib eye cap is flash-cooked on our charcoal grill to buttery, umami perfection—this is one steak you’ll surely want to savor.","image": "quinto-charcoal-grill-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Sky Lounge at Grand Luxxe Tower 5 Monday – Sunday 11 AM – 11 PM Chef: David Vidales","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "rib-eye-cap","tagline": "Rib Eye Cap","flavor_text": "Any steak aficionado knows the tenderloin is the most tender cut, and the rib eye is the most flavorful. Welcome to the best of both worlds. The rib eye cap is flash-cooked on our charcoal grill to buttery, umami perfection—this is one steak you’ll surely want to savor.","image": "quinto-charcoal-grill-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Sky Lounge at Grand Luxxe Tower 5 Monday – Sunday 11 AM – 11 PM Chef: David Vidales","image": "","link": "" }
       }
     }
   },
@@ -353,8 +364,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "pepper-burger","tagline": "Pepper Burger","flavor_text": "Try a deluxe take on the classic burger with peppercorn sauce, brie cheese, and onion confit.","image": "the-burger-custom-made-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Sky Lounge at Grand Luxxe Tower 5 Monday – Sunday 5:30 PM – 11 PM Chef: David Vidales","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "pepper-burger","tagline": "Pepper Burger","flavor_text": "Try a deluxe take on the classic burger with peppercorn sauce, brie cheese, and onion confit.","image": "the-burger-custom-made-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Sky Lounge at Grand Luxxe Tower 5 Monday – Sunday 5:30 PM – 11 PM Chef: David Vidales","image": "","link": "" }
       }
     }
   },
@@ -377,8 +388,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "ossobuco","tagline": "Ossobuco","flavor_text": "Take a trip to authentic Italy with this succulent dish consisting of veal shank braised in red wine with vegetables.","image": "tramonto-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "tramonto-hours","tagline": "By the Grand Mayan Lobby","flavor_text": "Take a trip to authentic Italy with this succulent dish consisting of veal shank braised in red wine with vegetables.","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "ossobuco","tagline": "Ossobuco","flavor_text": "Take a trip to authentic Italy with this succulent dish consisting of veal shank braised in red wine with vegetables.","image": "tramonto-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "tramonto-hours","tagline": "By the Grand Mayan Lobby","flavor_text": "Take a trip to authentic Italy with this succulent dish consisting of veal shank braised in red wine with vegetables.","image": "","link": "" }
       }
     }
   },
@@ -404,133 +415,152 @@
             "text": {
               "title": "Acqua",
               "flavor": "For poolside dining, visit this favorite located by Sea Garden"
-            }
+            },
+            "link": "acqua"
           },
           {
             "image": "casual/ameca-social-house-thumbnail.jpg",
             "text": {
-              "title": "Costa Arena",
+              "title": "Ameca Social House",
               "flavor": "A refined take on pub fare in a stunning setting overlooking the Ameca River"
-            }
+            },
+            "link": "ameca social house"
           },
           {
             "image": "casual/balance-thumbnail.jpg",
             "text": {
               "title": "balance",
               "flavor": "Healthy cuisine—including salads and smoothies—in a casual atmosphere"
-            }
+            },
+            "link": "balance"
           },
           {
             "image": "casual/balche-thumbnail.jpg",
             "text": {
               "title": "balché",
               "flavor": "Fresh appetizers, classic American and Mexican dishes, and tropical drinks"
-            }
+            },
+            "link": "balche"
           },
           {
             "image": "casual/limón-y-sal-thumbnail.jpg",
             "text": {
               "title": "Limón y Sal",
               "flavor": "Vibrant ceviches featuring local seafood, served in a lush garden setting"
-            }
+            },
+            "link": "limon y sal"
           },
           {
             "image": "casual/café-del-lago-thumbnail.jpg",
             "text": {
               "title": "Café del Lago",
               "flavor": "An expansive breakfast buffet and à la carte dinner with breathtaking views"
-            }
+            },
+            "link": "cafe del lago"
           },
           {
             "image": "casual/chiringuito-thumbnail.jpg",
             "text": {
               "title": "chiringuito",
               "flavor": "A variety of Spanish tapas and classic paella dishes in an al fresco atmosphere"
-            }
+            },
+            "link": "chiringuito"
           },
           {
             "image": "casual/fresh-co-thumbnail.jpg",
             "text": {
               "title": "Fresh Co",
               "flavor": "From wraps and sandwiches to small dishes, delight in fresh food served poolside"
-            }
+            },
+            "link": "fresh co"
           },
           {
             "image": "casual/havana-moon-thumbnail.jpg",
             "text": {
               "title": "Havana Moon",
               "flavor": "The flavors and spices of Cuban cooking in a lively atmosphere"
-            }
+            },
+            "link": "havana moon"
           },
           {
             "image": "casual/il-forno-di-gio-thumbnail.jpg",
             "text": {
               "title": "Il forno di Gio",
               "flavor": "Fresh-baked wood-fired pizzas for take-out or delivery"
-            }
+            },
+            "link": "il forno di gio"
           },
           {
             "image": "casual/la-cantina-thumbnail.jpg",
             "text": {
               "title": "La Cantina",
               "flavor": "Celebrate your visit to Mexico with authentic cuisine and fresh margaritas"
-            }
+            },
+            "link": "la cantina"
           },
           {
             "image": "casual/mercado-mexico-thumbnail.jpg",
             "text": {
               "title": "Mercado Mexico`",
               "flavor": "Dine on Mexican street food, or antojitos, at La Plaza"
-            }
+            },
+            "link": "mercado mexico"
           },
           {
             "image": "casual/ola-mulata-thumbnail.jpg",
             "text": {
               "title": "Ola Mulata",
               "flavor": "Classic savory dishes, like quesadillas and burgers, or the famously fresh Catch of the Day"
-            }
+            },
+            "link": "ola mulata"
           },
           {
             "image": "casual/rummba-thumbnail.jpg",
             "text": {
               "title": "Rummba",
               "flavor": "A wide variety of delicious casual dishes, including American favorites"
-            }
+            },
+            "link": "rummba"
           },
           {
             "image": "casual/samba-thumbnail.jpg",
             "text": {
               "title": "Samba",
               "flavor": "Dine overlooking the pool from a menu full of international delicacies"
-            }
+            },
+            "link": "samba"
           },
           {
             "image": "casual/si-snack-thumbnail.jpg",
             "text": {
               "title": "Si Snack",
               "flavor": "From drinks to appetizers, get everything you need to refuel after a day by the pool"
-            }
+            },
+            "link": "si snack"
           },
           {
             "image": "casual/sweet-paris-thumbnail.jpg",
             "text": {
               "title": "Sweet Paris",
               "flavor": "A wide selection of sweet and savory crêpes in a café environment"
-            }
+            },
+            "link": "sweet paris"
           },
           {
             "image": "casual/sky-garden-thumbnail.jpg",
             "text": {
               "title": "Sky Garden",
               "flavor": "Fresh dishes served in a heavenly rooftop lounge and pool setting"
-            }
+            },
+            "link": "sky garden"
           },
           {
             "image": "casual/tacos-break-thumbnail.jpg",
             "text": {
               "title": "Tacos Break",
               "flavor": "Traditional Mexican cuisine, including tacos, quesadillas, volcanes, and tortas"
-            }
+            },
+            "link": "tacos break"
           }
         ]
       },
@@ -558,7 +588,7 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By Sea Garden Monday – Sunday 11 AM – 7 PM Chef: Karla Colin Valkerplaken","image": "","action_link": "" } }
+        "0" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By Sea Garden Monday – Sunday 11 AM – 7 PM Chef: Karla Colin Valkerplaken","image": "","link": "" } }
     }
   },
 
@@ -582,8 +612,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "the-tomahawk","tagline": "The Tomahawk","flavor_text": "An impressive French-trimmed bone-in rib eye steak cooked to perfection and paired with garlic mashed potatoes and grilled vegetables.","image": "ameca-social-house-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At Grand Luxxe Residence Tower Monday – Sunday 6 AM – 10 PM Chef: Hector Illan","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "the-tomahawk","tagline": "The Tomahawk","flavor_text": "An impressive French-trimmed bone-in rib eye steak cooked to perfection and paired with garlic mashed potatoes and grilled vegetables.","image": "ameca-social-house-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At Grand Luxxe Residence Tower Monday – Sunday 6 AM – 10 PM Chef: Hector Illan","image": "","link": "" }
       }
     }
   },
@@ -607,7 +637,7 @@
         ]
       },
       "billboards": {
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "In The Grand Mayan by Brio Monday – Sunday 7:15 AM – 10:45 PM Chef: Hector Illan","image": "","action_link": "" }
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "In The Grand Mayan by Brio Monday – Sunday 7:15 AM – 10:45 PM Chef: Hector Illan","image": "","link": "" }
       }
     }
   },
@@ -631,8 +661,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "octopus-tacos-al-pastor","tagline": "Octopus Tacos al Pastor","flavor_text": "Try a new and inspired twist on tacos with this dish featuring spicy octopus marinated in chili pepper.","image": "balche-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At the Mayan Palace Pool Monday – Sunday 11 AM – 6 PM Chef: Laura Reynaga","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "octopus-tacos-al-pastor","tagline": "Octopus Tacos al Pastor","flavor_text": "Try a new and inspired twist on tacos with this dish featuring spicy octopus marinated in chili pepper.","image": "balche-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At the Mayan Palace Pool Monday – Sunday 11 AM – 6 PM Chef: Laura Reynaga","image": "","link": "" }
       }
     }
   },
@@ -655,8 +685,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "northern-eggs","tagline": "Northern Eggs","flavor_text": "Don’t miss this famous dish of eggs scrambled with machaca and accompanied by refried beans, guacamole, salsa, and flour tortillas.","image": "cafe-del-lago-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By La Plaza Monday – Sunday 7 AM – 12 PM Chef: Demetrio Rendón","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "northern-eggs","tagline": "Northern Eggs","flavor_text": "Don’t miss this famous dish of eggs scrambled with machaca and accompanied by refried beans, guacamole, salsa, and flour tortillas.","image": "cafe-del-lago-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By La Plaza Monday – Sunday 7 AM – 12 PM Chef: Demetrio Rendón","image": "","link": "" }
       }
     }
   },
@@ -681,8 +711,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "paella-valenciana","tagline": "Paella Valenciana","flavor_text": "This traditional Spanish rice dish is prepared with seafood, pork, and chicken, all seasoned with the distinctive flavor of saffron.","image": "fresh-co-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By The Grand Bliss Pool Monday – Sunday 11 AM – 11 PM Chef: Maximiliano Torres P.","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "paella-valenciana","tagline": "Paella Valenciana","flavor_text": "This traditional Spanish rice dish is prepared with seafood, pork, and chicken, all seasoned with the distinctive flavor of saffron.","image": "fresh-co-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By The Grand Bliss Pool Monday – Sunday 11 AM – 11 PM Chef: Maximiliano Torres P.","image": "","link": "" }
       }
     }
   },
@@ -708,8 +738,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "crab-cake-pita","tagline": "Crab Cake Pita","flavor_text": "Keep it light with this sandwich made with pita bread, crab cake, remoulade sauce, and onion.","image": "fresh-co-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At Grand Luxxe Spa Tower Pools Monday – Sunday 7 AM – 5:30 PM Chef: Christian Jiménez","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "crab-cake-pita","tagline": "Crab Cake Pita","flavor_text": "Keep it light with this sandwich made with pita bread, crab cake, remoulade sauce, and onion.","image": "fresh-co-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At Grand Luxxe Spa Tower Pools Monday – Sunday 7 AM – 5:30 PM Chef: Christian Jiménez","image": "","link": "" }
       }
     }
   },
@@ -734,8 +764,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "jerk-chicken","tagline": "Jerk Chicken","flavor_text": "This zesty dish features tender chicken rubbed with a kicky Jamaican spice mix.","image": "havana-moon-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By The Grand Bliss Pool Monday – Sunday 5:30 PM – 11 PM Chef: Idelfonso Navarrete","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "jerk-chicken","tagline": "Jerk Chicken","flavor_text": "This zesty dish features tender chicken rubbed with a kicky Jamaican spice mix.","image": "havana-moon-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By The Grand Bliss Pool Monday – Sunday 5:30 PM – 11 PM Chef: Idelfonso Navarrete","image": "","link": "" }
       }
     }
   },
@@ -758,8 +788,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "quattro-stagioni","tagline": "Quattro Stagioni","flavor_text": "A pie with tomato sauce, mozzarella cheese, mushrooms, artichokes, prosciutto, and black olives.","image": "il-forno-di-gio-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Based Out of the Havana Moon Kitchen Monday – Sunday 11 AM – 11 PM Chef: Chef: Rosalba Martínez","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "quattro-stagioni","tagline": "Quattro Stagioni","flavor_text": "A pie with tomato sauce, mozzarella cheese, mushrooms, artichokes, prosciutto, and black olives.","image": "il-forno-di-gio-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Based Out of the Havana Moon Kitchen Monday – Sunday 11 AM – 11 PM Chef: Chef: Rosalba Martínez","image": "","link": "" }
       }
     }
   },
@@ -786,8 +816,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "los-chapulines","tagline": "Los Chapulines","flavor_text": "Traditional crispy grasshoppers with lime and chili powder, served with handmade corn tortillas and guacamole.","image": "la-cantina-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Next to The Grand Mayan Monday – Sunday 12 PM – 1 AM Chef: Julio Cahuich","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "los-chapulines","tagline": "Los Chapulines","flavor_text": "Traditional crispy grasshoppers with lime and chili powder, served with handmade corn tortillas and guacamole.","image": "la-cantina-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Next to The Grand Mayan Monday – Sunday 12 PM – 1 AM Chef: Julio Cahuich","image": "","link": "" }
       }
     }
   },
@@ -811,8 +841,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "asian-ceviche","tagline": "Asian Ceviche","flavor_text": "This ceviche stars fresh salmon seasoned with soy sauce, tamarind, ginger, sesame seeds, chili pepper, and lemongrass.","image": "limon-y-sal-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By Café del Lago Monday – Sunday 11 AM – 6 PM Chef: Oscar Rodriguez","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "asian-ceviche","tagline": "Asian Ceviche","flavor_text": "This ceviche stars fresh salmon seasoned with soy sauce, tamarind, ginger, sesame seeds, chili pepper, and lemongrass.","image": "limon-y-sal-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By Café del Lago Monday – Sunday 11 AM – 6 PM Chef: Oscar Rodriguez","image": "","link": "" }
       }
     }
   },
@@ -838,8 +868,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "escargot","tagline": "Escargot","flavor_text": "This celebrated French appetizer is served with garlic butter and parsley.","image": "mercado-mexico-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Sky Lounge at Grand Luxxe Tower 5 Monday – Sunday 11 AM – 11 PM Chef: David Vidales","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "escargot","tagline": "Escargot","flavor_text": "This celebrated French appetizer is served with garlic butter and parsley.","image": "mercado-mexico-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Sky Lounge at Grand Luxxe Tower 5 Monday – Sunday 11 AM – 11 PM Chef: David Vidales","image": "","link": "" }
       }
     }
   },
@@ -865,8 +895,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "pescado-zarandeado","tagline": "Pescado Zarandeado","flavor_text": "Savor the fresh tastes of the sea with this delicious snapper dish, cooked to order!","image": "ola-mulata-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By The Grand Mayan Aqua Park Monday – Sunday 11 AM – 7 PM Chef: Gustavo Rojas","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "pescado-zarandeado","tagline": "Pescado Zarandeado","flavor_text": "Savor the fresh tastes of the sea with this delicious snapper dish, cooked to order!","image": "ola-mulata-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By The Grand Mayan Aqua Park Monday – Sunday 11 AM – 7 PM Chef: Gustavo Rojas","image": "","link": "" }
       }
     }
   },
@@ -889,8 +919,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "mole-enchiladas","tagline": "Mole Enchiladas","flavor_text": "For a taste of Authentic Mexico, indulge in these decadent enchiladas drizzled in rich mole sauce.","image": "rummba-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By Sea Garden Monday – Sunday 7 AM – 11 PM Chef: Maribel Aguirre","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "mole-enchiladas","tagline": "Mole Enchiladas","flavor_text": "For a taste of Authentic Mexico, indulge in these decadent enchiladas drizzled in rich mole sauce.","image": "rummba-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By Sea Garden Monday – Sunday 7 AM – 11 PM Chef: Maribel Aguirre","image": "","link": "" }
       }
     }
   },
@@ -914,8 +944,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "chicken-salad","tagline": "Chicken Salad","flavor_text": "A classic lunch staple made with lettuce, green asparagus, sunflower seeds, crispy beets, and herb-marinated chicken breast.","image": "samba-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By The Grand Mayan Pool Monday – Sunday 7 PM – 11 PM Chef: Giovanni De la Paz","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "chicken-salad","tagline": "Chicken Salad","flavor_text": "A classic lunch staple made with lettuce, green asparagus, sunflower seeds, crispy beets, and herb-marinated chicken breast.","image": "samba-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "By The Grand Mayan Pool Monday – Sunday 7 PM – 11 PM Chef: Giovanni De la Paz","image": "","link": "" }
       }
     }
   },
@@ -940,8 +970,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "mediterranean-tartine","tagline": "Mediterranean Tartine","flavor_text": "This celebrated French appetizer is served with garlic butter and parsley.","image": "si-snack-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At Grand Luxxe Punta Pools Monday – Sunday 12 PM – 6 PM Chef: Felipe Hernández","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "mediterranean-tartine","tagline": "Mediterranean Tartine","flavor_text": "This celebrated French appetizer is served with garlic butter and parsley.","image": "si-snack-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "At Grand Luxxe Punta Pools Monday – Sunday 12 PM – 6 PM Chef: Felipe Hernández","image": "","link": "" }
       }
     }
   },
@@ -965,8 +995,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "the-houstonian-crêpe","tagline": "The Houstonian Crêpe","flavor_text": "Rise and shine with bacon, sausage, potatoes, mozzarella, and scrambled eggs wrapped in a fresh hot crêpe.","image": "sweet-paris-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "1st floor of La Plaza Monday – Sunday 7:15 AM – 10:45 PM Chef: Alberto Sierra","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "the-houstonian-crêpe","tagline": "The Houstonian Crêpe","flavor_text": "Rise and shine with bacon, sausage, potatoes, mozzarella, and scrambled eggs wrapped in a fresh hot crêpe.","image": "sweet-paris-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "1st floor of La Plaza Monday – Sunday 7:15 AM – 10:45 PM Chef: Alberto Sierra","image": "","link": "" }
       }
     }
   },
@@ -991,8 +1021,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "cobb-chicken-sandwich","tagline": "Cobb Chicken Sandwich","flavor_text": "This celebrated French appetizer is served with garlic butter and parsley.","image": "sky-garden-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "The Roof of Grand Luxxe Residence Tower Monday – Sunday 11 AM – 6 PM Chef: Christian Jiménez","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "cobb-chicken-sandwich","tagline": "Cobb Chicken Sandwich","flavor_text": "This celebrated French appetizer is served with garlic butter and parsley.","image": "sky-garden-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "The Roof of Grand Luxxe Residence Tower Monday – Sunday 11 AM – 6 PM Chef: Christian Jiménez","image": "","link": "" }
       }
     }
   },
@@ -1017,8 +1047,8 @@
         ]
       },
       "billboards": {
-        "0" : {"title": "Featured Dish","name": "tacos-al-pastor","tagline": "Tacos al Pastor","flavor_text": "Taste the authentic flavors of Mexico with this dish featuring pork that is marinated in dried chilies, spices, and pineapple, slow-roasted on a spit, and then shredded for you to enjoy in fresh tortillas.","image": "tacos-break-billboard.jpg","action_link": "" },
-        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Mercado México Monday – Sunday 1 PM – 10:45 PM Chef: Noe Neri Eugenio","image": "","action_link": "" }
+        "0" : {"title": "Featured Dish","name": "tacos-al-pastor","tagline": "Tacos al Pastor","flavor_text": "Taste the authentic flavors of Mexico with this dish featuring pork that is marinated in dried chilies, spices, and pineapple, slow-roasted on a spit, and then shredded for you to enjoy in fresh tortillas.","image": "tacos-break-billboard.jpg","link": "" },
+        "1" : {"title": "Location & Hours","name": "hours","tagline": "Location & Hours","flavor_text": "Mercado México Monday – Sunday 1 PM – 10:45 PM Chef: Noe Neri Eugenio","image": "","link": "" }
       }
     }
   },
@@ -1043,56 +1073,64 @@
             "text": {
               "title": "Pool Bars",
               "flavor": "Cool off in your favorite pool"
-            }
+            },
+            "link": "pool bars"
           },
           {
             "image": "bars/blue-nautique-bar-thumbnail.jpg",
             "text": {
               "title": "Blue Nautique Bar",
               "flavor": "Enjoy a tropical drink or cold cerveza in this Sea Garden lobby lounge"
-            }
+            },
+            "link": "blue nautique bar"
           },
           {
             "image": "bars/the-grand-vista-bar-thumbnail.jpg",
             "text": {
               "title": "The Grand Vista Bar",
               "flavor": "Sip on a craft cocktail or fine wine at this sophisticated lounge"
-            }
+            },
+            "link": "grand vista bar"
           },
           {
             "image": "bars/library-bar-thumbnail.jpg",
             "text": {
               "title": "Library Bar",
               "flavor": "Located within Tramonto, choose from a selection of great wines and cocktails"
-            }
+            },
+            "link": "library bar"
           },
           {
             "image": "bars/luxxe-bar-thumbnail.jpg",
             "text": {
               "title": "Luxxe Bar",
               "flavor": "Boasting a huge selection of tequilas in an elegant, art-filled environment"
-            }
+            },
+            "link": "luxxe bar"
           },
           {
             "image": "bars/the-grand-lobby-bar-thumbnail.jpg",
             "text": {
               "title": "The Grand Lobby Bar",
               "flavor": "The perfect place to take in live music and enjoy a post-dinner margarita"
-            }
+            },
+            "link": "the grand lobby bar"
           },
           {
             "image": "bars/santuario-thumbnail.jpg",
             "text": {
               "title": "Santuario",
               "flavor": "Specialty cocktails and classic drinks to sip while enjoying live entertainment"
-            }
+            },
+            "link": "santuario"
           },
           {
             "image": "bars/la-isla-de-cocos-thumbnail.jpg",
             "text": {
               "title": "La Isla de Cocos",
               "flavor": "Stop by on your way to the beach and enjoy a fresh cocktail served in a coconut"
-            }
+            },
+            "link": "la isla de cocos"
           }
         ]
       },
@@ -1116,7 +1154,7 @@
           "gallery": [{"src": "pool-bars-gallery-1.jpg", "altText": "page image", "folder": "dining/bars/pool-bars"}],
           "thumbnails": []
         },
-        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Pools","flavor_text": "Monday – Sunday 11 AM – 7 PM","image": "","action_link": "/url" } }
+        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Pools","flavor_text": "Monday – Sunday 11 AM – 7 PM","image": "","link": "/url" } }
       }
     },
 
@@ -1138,7 +1176,7 @@
           ],
           "thumbnails": []
         },
-        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Sea Garden","flavor_text": "Monday – Sunday 5 PM – 1 AM","image": "","action_link": "" } }
+        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Sea Garden","flavor_text": "Monday – Sunday 5 PM – 1 AM","image": "","link": "" } }
       }
     },
 
@@ -1158,7 +1196,7 @@
           "gallery": [{"src": "the-grand-vista-bar-gallery-1.jpg", "altText": "the grand vista bar image", "folder": "dining/bars/the-grand-vista-bar"}],
           "thumbnails": []
         },
-        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "The Grand Bliss Lobby","flavor_text": "Monday – Thursday 3 PM – 11 PM Friday – Sunday 11 AM to 11 PM","image": "","action_link": "" } }
+        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "The Grand Bliss Lobby","flavor_text": "Monday – Thursday 3 PM – 11 PM Friday – Sunday 11 AM to 11 PM","image": "","link": "" } }
       }
     },
 
@@ -1178,7 +1216,7 @@
           "gallery": [{"src": "library-bar-gallery-1.jpg", "altText": "library bar image", "folder": "dining/bars/library-bar"}],
           "thumbnails": []
         },
-        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Inside Tramonto, Located in The Grand Mayan","flavor_text": "Monday – Sunday 5:30 PM – 11 PM","image": "","action_link": "" } }
+        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Inside Tramonto, Located in The Grand Mayan","flavor_text": "Monday – Sunday 5:30 PM – 11 PM","image": "","link": "" } }
       }
     },
 
@@ -1201,7 +1239,7 @@
           ],
           "thumbnails": []
         },
-        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "In Grand Luxxe Tower 1, by Epazote","flavor_text": "Monday – Thursday 5:30 PM – 1 AM Friday – Sunday 11:00 AM – 1 AM","image": "","action_link": "" } }
+        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "In Grand Luxxe Tower 1, by Epazote","flavor_text": "Monday – Thursday 5:30 PM – 1 AM Friday – Sunday 11:00 AM – 1 AM","image": "","link": "" } }
       }
   },
   "the grand lobby bar" : {
@@ -1223,7 +1261,7 @@
           ],
           "thumbnails": []
         },
-        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "The Grand Mayan Lobby","flavor_text": "Monday – Thursday 3 PM – 11 PM Friday – Sunday 11 AM to 11 PM","image": "","action_link": "" } }
+        "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "The Grand Mayan Lobby","flavor_text": "Monday – Thursday 3 PM – 11 PM Friday – Sunday 11 AM to 11 PM","image": "","link": "" } }
       }
     },
   "santuario" : {
@@ -1251,10 +1289,10 @@
           "thumbnails": []
         },
         "billboards": {
-          "0" : {"title": "","name": "","tagline": "Santuario by Day","flavor_text": "At 7 AM, Santuario opens and guests can greet the day with strong coffee, fresh fruit smoothies, and yummy pastries on any of the lounges or terraces that fill the space. The structure is also the first place that greets most guests during their vacation, being the gateway to the parking area and taxi pick up and drop off.","image": "santuario-billboard-1.jpg","action_link": "" },
-          "1" : {"title": "","name": "","tagline": "Santuario by Night","flavor_text": "Every night, Santuario boasts a different assortment of astounding acts, from traditional dance, to jazz, to singers, to acrobatics, and live art preparation. Guests can enjoy these performances on the main lounge, or relax with a drink prepared by Santuario’s expert mixologists on any of the many side lounges or terraces. And after the acts wrap up for the night, a DJ mixes live music until close. Acts change nightly, so see your concierge for a schedule of that evening’s performances.","image": "santuario-billboard-2.jpg","action_link": "" },
-          "2" : {"title": "","name": "text-out-of-bounds","tagline": "Performer Profile: Oasis Brightens Your Nights","flavor_text": "With its cool Cuban sounds and charismatic rhythms to get your whole body moving, Oasis is a favorite act at Santuario. This five-person band specializes in salsa music and other intoxicating beats of the Caribbean, and they’re known for getting their audiences up on their feet and dancing.","image": "santuario-billboard-3.jpg","action_link": "" },
-          "3" : {"title": "Featured Cocktail","name": "cocktail","tagline": "","flavor_text": "Embrace vacation with this zesty drink from Santuario, starring the smoky flavor of mezcal blended with citrus and ginger for a bit of a kick.","image": "santuario-billboard-4.jpg","action_link": "" }
+          "0" : {"title": "","name": "santuario-day","tagline": "Santuario by Day","flavor_text": "At 7 AM, Santuario opens and guests can greet the day with strong coffee, fresh fruit smoothies, and yummy pastries on any of the lounges or terraces that fill the space. The structure is also the first place that greets most guests during their vacation, being the gateway to the parking area and taxi pick up and drop off.","image": "santuario-billboard-1.jpg","link": "" },
+          "1" : {"title": "","name": "santuario-night","tagline": "Santuario by Night","flavor_text": "Every night, Santuario boasts a different assortment of astounding acts, from traditional dance, to jazz, to singers, to acrobatics, and live art preparation. Guests can enjoy these performances on the main lounge, or relax with a drink prepared by Santuario’s expert mixologists on any of the many side lounges or terraces. And after the acts wrap up for the night, a DJ mixes live music until close. Acts change nightly, so see your concierge for a schedule of that evening’s performances.","image": "santuario-billboard-2.jpg","link": "" },
+          "2" : {"title": "","name": "text-out-of-bounds","tagline": "Performer Profile: Oasis Brightens Your Nights","flavor_text": "With its cool Cuban sounds and charismatic rhythms to get your whole body moving, Oasis is a favorite act at Santuario. This five-person band specializes in salsa music and other intoxicating beats of the Caribbean, and they’re known for getting their audiences up on their feet and dancing.","image": "santuario-billboard-3.jpg","link": "" },
+          "3" : {"title": "Featured Cocktail","name": "cocktail","tagline": "","flavor_text": "Embrace vacation with this zesty drink from Santuario, starring the smoky flavor of mezcal blended with citrus and ginger for a bit of a kick.","image": "santuario-billboard-4.jpg","link": "" }
         }
       }
     },
@@ -1278,7 +1316,7 @@
             ],
             "thumbnails": []
           },
-          "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Located in front of The Grand Bliss pool","flavor_text": "Monday – Sunday 11 PM – 7 PM","image": "","action_link": "" } }
+          "billboards": {"0" : {"title": "Location & Hours","name": "hours","tagline": "Located in front of The Grand Bliss pool","flavor_text": "Monday – Sunday 11 PM – 7 PM","image": "","link": "" } }
         }
       },
 
@@ -1340,7 +1378,7 @@
           "tagline": "Grand Luxxe Three Bedroom Presidential Villa",
           "flavor_text": "This expansive villa features two gourmet kitchens, two living rooms, three bedrooms, three and a half bathrooms with three Jacuzzi tubs, and two private terraces with two plunge pools.",
           "image": "three-bedroom-presidential-villa-gallery-1.jpg",
-          "action_link": "/rooms/three-bedroom-presidential-villa"
+          "link": "three bedroom presidential villa"
         }
       }
     }
@@ -1404,9 +1442,7 @@
         ],
         "thumbnails": []
       },
-      "billboards": {
-        "0" : {}
-      }
+      "billboards": {}
     }
   },
 
@@ -1455,9 +1491,7 @@
         ],
         "thumbnails": []
       },
-      "billboards": {
-        "0": {}
-      }
+      "billboards": {}
     }
   },
 
@@ -1507,7 +1541,7 @@
           "tagline": "Pools",
           "flavor_text": "With a host of different pools, an Aqua Park, and a Lazy River, this resort is a paradise for those who love spending their vacation at the pool.",
           "image": "punta-pool-east.jpg",
-          "action_link": "/what-to-do/pools"
+          "link": "pools"
         },
         {
           "name": "activities-billboard",
@@ -1515,7 +1549,7 @@
           "tagline": "Activities",
           "flavor_text": "Find an array of ways to spend your days with the resort activities, including options for kids, adults, and the whole family.",
           "image": "activities-billboard.jpg",
-          "action_link": "/what-to-do/activities"
+          "link": "activities"
         },
         {
           "name": "shoppping-billboard",
@@ -1523,7 +1557,7 @@
           "tagline": "Shopping",
           "flavor_text": "At the center of Vidanta Nuevo Vallarta’s shopping experience is La Plaza, a three-story facility filled with specialty boutiques, food counters, a bazaar, and so much more.",
           "image": "shopping-billboard.jpg",
-          "action_link": "/what-to-do/shopping"
+          "link": "shopping"
         }
       ]
     }
@@ -1543,7 +1577,6 @@
         "subheader": ""
       },
       "images": {
-        "banner": "pools-banner.jpg",
         "gallery": [],
         "thumbnails": [
           {
@@ -1662,21 +1695,21 @@
           "tagline": "The Nayar Course",
           "flavor_text": "A natural and technical masterpiece, this 18-hole, par 70 course is forgiving to beginners, but is rimmed with seven lakes and 49 strategically placed bunkers that can challenge the most experienced golfers.",
           "image": "the-nayar-course-billboard.jpg",
-          "action_link": "/golf/the-nayar-course"
+          "link": "the nayar course"
         },
         {
           "title": "",
           "tagline": "The Norman Signature Course",
           "flavor_text": "The brand-new, 18-hole Norman Signature Course boasts a beautiful and enjoyable layout, which can only be accessed by the Ameca Bridge. This course features wall-to-wall paspalum and challenging shots around the greens.",
           "image": "the-norman-signature-course-billboard.jpg",
-          "action_link": "/golf/the-norman-signature-course"
+          "link": "the norman signature course"
         },
         {
           "title": "",
           "tagline": "The Lakes Course",
           "flavor_text": "The newest addition to the golf offerings at Vidanta Nuevo Vallarta, this beautiful 10 hole, par-3 course showcases views of some of the resort’s most beloved landmarks while you play. It’s also the region’s only lit course, offering play until 11 PM.",
           "image": "the-lakes-course-billboard.jpg",
-          "action_link": "/what-to-do/the-lakes-course"
+          "link": "the lakes course"
         }
       ]
     }
@@ -1727,9 +1760,7 @@
         ],
         "thumbnails": []
       },
-      "billboards": {
-        "0": {}
-      }
+      "billboards": {}
     }
   },
 
@@ -1778,9 +1809,7 @@
         ],
         "thumbnails": []
       },
-      "billboards": {
-        "0": {}
-      }
+      "billboards": {}
     }
   },
 
@@ -1835,14 +1864,14 @@
           "tagline": "Brio Spa",
           "flavor_text": "Open to all guests, Brio Spa is a sophisticated reimagining of the French approach to spas. Here you can luxuriate in an atmosphere of utter tranquility and unwind with lavish treatments formulated for relaxation.",
           "image": "brio-spa-billboard.jpg",
-          "action_link": "/spa/brio"
+          "link": "brio spa"
         },
         "1": {
           "title": "",
           "tagline": "Spatium",
           "flavor_text": "Available for the exclusive use of Grand Luxxe guests, Spatium elevates the spa experience to luxurious new heights with a gorgeous indoor/outdoor facility and the latest relaxation techniques and treatments.",
           "image": "spatium-billboard.jpg",
-          "action_link": "/spa/spatium"
+          "link": "spatium"
         },
         "2": {
           "name": "the wellness program",
@@ -1850,7 +1879,7 @@
           "tagline": "The Wellness Program",
           "flavor_text": "Wellness isn’t just a state of being: it’s a transformative journey. We’re excited to offer guests at Vidanta Nuevo Vallarta the opportunity to embrace this journey with The Wellness Program, a comprehensive curriculum meant to usher in utter comfort and balance for the mind, body, and spirit. The program offers two different curated paths toward wellbeing—The Spa, Fitness & Nutrition Program and the Joy Squad Activities Program. Contact your concierge if you’d like to experience The Wellness Program on your next visit to Vidanta Nuevo Vallarta.",
           "image": "wellness-billboard.jpg",
-          "action_link": ""
+          "link": ""
         }
       }
     }
@@ -1877,14 +1906,14 @@
           "tagline": "spatium",
           "flavor_text": "Located in the lush jungle outside of Grand Luxxe Residence Tower, Spatium fuses ancient healing and beauty treatments with cutting-edge facilities to create a new, elevated experience in pampering. The environment seamlessly incorporates the innately relaxing effects of nature with its unique indoor and outdoor design, creating a haven of relaxation—also known as complete paradise!",
           "image": "spatium-billboard-1.jpg",
-          "action_link": ""
+          "link": ""
         },
         "1": {
           "title": "",
           "tagline": "Hydrotherapy Annex",
           "flavor_text": "Available for the exclusive use of Grand Luxxe guests, Spatium elevates the spa experience to luxurious new heights with a gorgeous indoor/outdoor facility and the latest relaxation techniques and treatments.",
           "image": "spatium-billboard.jpg",
-          "action_link": ""
+          "link": ""
         }
       }
     }
@@ -1912,14 +1941,14 @@
           "tagline": "",
           "flavor_text": "Located in The Grand Mayan, Brio takes the classic French art of spa and reimagines it into a space filled with unique architectural elements, offering a wide variety of revitalizing and therapeutic treatments for the face, body, and soul. Spa facilities include outdoor relaxation palapas, Jacuzzis, and cold plunge tubs to be enjoyed before or after treatments.",
           "image": "brio-spa-billboard-1.jpg",
-          "action_link": ""
+          "link": ""
         },
         "1": {
           "title": "",
           "tagline": "The Healing Powers of the Temazcal",
           "flavor_text": "For those looking to embrace the cultural roots of Mexico in their wellness journey, Brio Nuevo Vallarta offers a truly singular experience: the purifying ritual of the Temazcal. According to traditional beliefs, this ancient sweat lodge allows one to remove impurities from their body and spirit during a Shaman-guided ritual. Contact Brio to schedule your Temazcal ritual.",
           "image": "brio-spa-billboard-1.jpg",
-          "action_link": ""
+          "link": ""
         }
       }
     }
@@ -1948,7 +1977,7 @@
           "tagline": "Santuario",
           "flavor_text": "At the heart of Vidanta Nuevo Vallarta is Santuario, a sprawling 75,000-square-foot, indoor-outdoor entertainment pavilion. Santuario offers a nightly lineup of acts for the whole family, including acrobatics, dance performances, musical acts, sand artists, and more. It also features multiple bars, lounges, and lounge decks, perfect for kicking back and enjoying the evening.",
           "image": "santuario-billboard.jpg",
-          "action_link": "/entertainment/santuario"
+          "link": "santuario"
         },
         "1": {
           "title": "",
@@ -1956,7 +1985,7 @@
           "tagline": "Lake Show",
           "flavor_text": "Add some dazzle to your stay at Vidanta Nuevo Vallarta by checking out The Lake Show. Every 30 minutes after sunset, the lake by La Cantina and Gong erupts in an amazing display of lights, fountains, special effects, and music. Plus, every show is different, so you can stop by night after night to enjoy the astounding sights.",
           "image": "the-lake-show-billboard.jpg",
-          "action_link": ""
+          "link": ""
         },
         "2": {
           "title": "",
@@ -1964,21 +1993,21 @@
           "tagline": "Theme Nights",
           "flavor_text": "Experience Mexican culture, performances by local dancers and singers, and film nights for the whole family with the weekly Theme Nights at The Grand Bliss beach at Vidanta Nuevo Vallarta. Theme Nights vary by season, but a typical weekly lineup includes the live performances and buffet of Monday Beach Party, Mexican food and mariachi of Sabores de México, and Family Movie Night.",
           "image": "theme-nights-billboard.jpg",
-          "action_link": ""
+          "link": ""
         },
         "3": {
           "title": "",
           "tagline": "Live Music",
           "flavor_text": "Vidanta Nuevo Vallarta is proud to showcase the talents of some of Riviera Nayarit’s top musicians with live music throughout the resort. From jazz, to Cuban, to classical piano, to mariachi, you can find these acts performing at Santuario, Havana Moon, Azur, The Grand Lobby Bar, Luxxe Bar, and La Cantina. Ask your concierge for the schedule of live music during your stay.",
           "image": "live-music-billboard.jpg",
-          "action_link": ""
+          "link": ""
         },
         "4": {
           "title": "",
           "tagline": "No Better Place to Celebrate",
           "flavor_text": "The Holidays are better at Vidanta! We’re always eager to make your stay as special as possible for you and your family, and holidays are no exception. At Nuevo Vallarta, we’re proud to host special events, activities, and celebrations for the following holidays:",
           "image": "holidays-billboard.jpg",
-          "action_link": ""
+          "link": ""
         }
       }
     }
@@ -2003,13 +2032,13 @@
       "billboards": {
         "0" : {"title": "","name": "","tagline": "",
           "flavor_text": "It’s your vacation, so why not spend it doing the types of things you love to do? At Vidanta Nuevo Vallarta, you’ll find a wide variety of activities, from sports tournaments and classes to arts and crafts or poolside trivia, all run by our amazing activities team, the Joy Squad.",
-          "image": "activities-billboard-1.jpg","action_link": "" },
+          "image": "activities-billboard-1.jpg","link": "" },
         "1" : {"title": "","name": "","tagline": "Joy Squad",
                "flavor_text": "Throughout the resort you might recognize the bright shirts and warm smiles of our Joy Squad. They’re here to make sure your vacation is filled with fun, excitement, and new experiences. Stop by any Activities Stand to say hello and see what great adventures are on the schedule for the day!",
-               "image": "activities-billboard-2.jpg","action_link": "/url" },
-        "2" : {"title": "","name": "","tagline": "**Activities Carousel Needed**","flavor_text": "Become a tequila connoisseur and learn the finer points about Mexico’s national spirit in this fun outdoor tour offering a tequila tasting, cocktail lessons, and barbecue.","image": "whats-new-billboard-3.jpg","action_link": "/url" },
-        "3" : {"title": "","name": "","tagline": "Kid's Club","flavor_text": "Kid’s Club is your vacation go-to for fun for the little ones! Located by The Grand Mayan wave pool, Kid’s Club offers an assortment of amazing activities, including water activities at the on-premise pool, for children ages 5 to 12. All of these activities are supervised by our expert staff. Kid’s Club also has weekly theme nights where, for an additional fee, you can drop off your children and enjoy an evening at the resort while they make new friends and try new things at events like Pirate Night or Pajama Party. There is also a Grand Luxxe-exclusive Kid’s Club located by Grand Luxxe Tower 4.","image": "activities-billboard-4.jpg","action_link": "" },
-        "4" : {"title": "","name": "","tagline": "Explore Mexico","flavor_text": "For those looking for additional adventures, there are a variety of on- and off-resort experiences offered by outside companies. On the beach, you can try your hand at kayaking, stand-up paddle boarding, or surfing. Or you can explore the scenery of the Riviera Nayarit region with off-site excursions like zip-lining in the jungle, whale watching, or deep-sea fishing. Simply visit the travel concierge in your resort hotel lobby to coordinate one of these exciting day trips.","image": "activities-billboard-5.jpg","action_link": "" }
+               "image": "activities-billboard-2.jpg","link": "" },
+        "2" : {"title": "","name": "","tagline": "**Activities Carousel Needed**","flavor_text": "Become a tequila connoisseur and learn the finer points about Mexico’s national spirit in this fun outdoor tour offering a tequila tasting, cocktail lessons, and barbecue.","image": "whats-new-billboard-3.jpg","link": "" },
+        "3" : {"title": "","name": "","tagline": "Kid's Club","flavor_text": "Kid’s Club is your vacation go-to for fun for the little ones! Located by The Grand Mayan wave pool, Kid’s Club offers an assortment of amazing activities, including water activities at the on-premise pool, for children ages 5 to 12. All of these activities are supervised by our expert staff. Kid’s Club also has weekly theme nights where, for an additional fee, you can drop off your children and enjoy an evening at the resort while they make new friends and try new things at events like Pirate Night or Pajama Party. There is also a Grand Luxxe-exclusive Kid’s Club located by Grand Luxxe Tower 4.","image": "activities-billboard-4.jpg","link": "" },
+        "4" : {"title": "","name": "","tagline": "Explore Mexico","flavor_text": "For those looking for additional adventures, there are a variety of on- and off-resort experiences offered by outside companies. On the beach, you can try your hand at kayaking, stand-up paddle boarding, or surfing. Or you can explore the scenery of the Riviera Nayarit region with off-site excursions like zip-lining in the jungle, whale watching, or deep-sea fishing. Simply visit the travel concierge in your resort hotel lobby to coordinate one of these exciting day trips.","image": "activities-billboard-5.jpg","link": "" }
 
        }
     }
@@ -2032,9 +2061,9 @@
         "thumbnails": []
       },
       "billboards": {
-        "0" : {"title": "","name": "","tagline": "Almaverde","flavor_text": "See where Vidanta Nuevo Vallarta sources its produce straight from the vine! This 40-acre farm yields over 65 types of fruits and vegetables that are used throughout the resort!","image": "whats-new-billboard-1.jpg","action_link": "/url" },
-        "1" : {"title": "","name": "","tagline": "Grand Luxxe Tower 5 & Quinto","flavor_text": "This stunning new tower offers amazing views of the resort, Ameca River, Sierra Madres, and Banderas Bay from its brand-new rooftop restaurant","image": "whats-new-billboard-2.jpg","action_link": "/url" },
-        "2" : {"title": "","name": "","tagline": "The Tequila Tour","flavor_text": "Become a tequila connoisseur and learn the finer points about Mexico’s national spirit in this fun outdoor tour offering a tequila tasting, cocktail lessons, and barbecue.","image": "whats-new-billboard-3.jpg","action_link": "/url" }
+        "0" : {"title": "","name": "","tagline": "Almaverde","flavor_text": "See where Vidanta Nuevo Vallarta sources its produce straight from the vine! This 40-acre farm yields over 65 types of fruits and vegetables that are used throughout the resort!","image": "whats-new-billboard-1.jpg","link": "" },
+        "1" : {"title": "","name": "","tagline": "Grand Luxxe Tower 5 & Quinto","flavor_text": "This stunning new tower offers amazing views of the resort, Ameca River, Sierra Madres, and Banderas Bay from its brand-new rooftop restaurant","image": "whats-new-billboard-2.jpg","link": "/url" },
+        "2" : {"title": "","name": "","tagline": "The Tequila Tour","flavor_text": "Become a tequila connoisseur and learn the finer points about Mexico’s national spirit in this fun outdoor tour offering a tequila tasting, cocktail lessons, and barbecue.","image": "whats-new-billboard-3.jpg","link": "" }
 
        }
     }

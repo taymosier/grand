@@ -23,8 +23,14 @@ export class Thumbnail extends Component {
     }
   }
   render(){
+    let link;
+    try{
+      link = this.state.content.link;
+    } catch(e){
+      link = "home"
+    }
     return(
-      <div className="thumbnail-container">
+      <div className="thumbnail-container" onClick={() => {this.props.setPage(link)}}>
         <div className="thumbnail-filter"></div>
           <img src={require("../../public/images/thumbnails/" + this.state.content.image)} alt={this.state.content.image}></img>
           <div className="thumbnail-title">

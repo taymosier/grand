@@ -25,7 +25,7 @@ export class Portal extends Component {
 
   render(){
     return(
-        <ActiveView activeView={this.state.activeView} content={this.state.page.content} toggleContactForm={this.props.toggleContactForm}/>
+        <ActiveView activeView={this.state.activeView} content={this.state.page.content} toggleContactForm={this.props.toggleContactForm} setPage={this.props.setPage}/>
     );
   }
 }

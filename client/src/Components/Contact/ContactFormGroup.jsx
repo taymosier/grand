@@ -23,7 +23,6 @@ export class ContactFormGroup extends Component {
     }
   }
   render(){
-    let value = this.state.value;
     let dropDownOptions = []
     for(let item in this.props.field.options){
       dropDownOptions.push(<option>{this.props.field.options[item]}</option>)

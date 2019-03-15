@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Col, Form, Modal, ModalHeader, ModalBody} from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody} from 'reactstrap';
 
 import { Menu } from './Menu';
 
