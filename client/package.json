@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://taymosier.github.io/grand",
   "dependencies": {
     "body-parser": "^1.18.3",
