@@ -73,9 +73,9 @@ export class Billboard extends Component {
           >
             <div className="billboard-title">{this.state.title}</div>
             {this.state.tagline
-              ? <svg viewBox="0 0 195 25" className="billboard-tagline">
-                  <text x="0" y="20">{this.state.tagline}</text>
-                </svg>
+              ? <div className="billboard-tagline">
+                  {this.state.tagline}
+                </div>
               : null
             }
             <div className="billboard-flavor_text-container">

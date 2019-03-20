@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Col, Container, Row } from 'reactstrap';
 
 
 export class Thumbnail extends Component {
@@ -29,20 +30,24 @@ export class Thumbnail extends Component {
     } catch(e){
       link = "home"
     }
+
+    let style = {
+      "backgroundImage": `url(${require("../../public/images/thumbnails/" + this.state.content.image)})`
+    }
+
     return(
-      <div className="thumbnail-container" onClick={() => {this.props.setPage(link)}}>
-        <div className="thumbnail-filter"></div>
-          <img src={require("../../public/images/thumbnails/" + this.state.content.image)} alt={this.state.content.image}></img>
-          <div className="thumbnail-title">
-            <p>{this.state.content.text.title}</p>
+      <Col className="thumbnail-container" style={style} onClick={() => {this.props.setPage(link)}}>
+        <div className="thumbnail-title">
+        <p>{this.state.content.text.title}</p>
+        </div>
+        {this.state.content.text.flavor !== undefined
+          ? <div className="thumbnail-flavor_text">
+          {this.state.content.text.flavor}
           </div>
-          {this.state.content.text.flavor !== undefined
-            ? <div className="thumbnail-flavor_text">
-            {this.state.content.text.flavor}
-            </div>
-            : null
-          }
-      </div>
+          : null
+        }
+        <div className="thumbnail-filter"></div>
+      </Col>
     );
   }
 }
