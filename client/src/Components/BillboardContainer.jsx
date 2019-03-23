@@ -8,16 +8,17 @@ export class BillboardContainer extends Component {
     super(props);
     this.state = {
       content: "",
-      billboards: ""
+      language: this.props.language,
+      billboards: this.generateBillboards(this.props.billboards, this.props.language)
     };
     this.generateBillboards = this.generateBillboards.bind(this);
   }
 
-  generateBillboards(billboardContents){
+  generateBillboards(billboardContents, language){
     let billboards = [];
     for(let item in billboardContents){
       try{
-        billboards.push(<Billboard contents={billboardContents[item]} key={billboardContents[item].name} setPage={this.props.setPage}/>)
+        billboards.push(<Billboard language={language} contents={billboardContents[item]} key={billboardContents[item].name} setPage={this.props.setPage}/>)
       } catch(e){
         console.log(this.state)
       }
@@ -28,18 +29,19 @@ export class BillboardContainer extends Component {
   componentDidMount(){
     this.setState({
       content: this.props.billboards,
-      billboards: this.generateBillboards(this.props.billboards)
+      language: this.props.language,
+      billboards: this.generateBillboards(this.props.billboards, this.props.language)
     });
   }
 
   componentDidUpdate(){
-    if(this.state.content !== this.props.billboards){
+    if(this.state.content !== this.props.billboards || this.state.language !== this.props.language){
       this.setState({
         content: this.props.billboards,
-        billboards: this.generateBillboards(this.props.billboards)
+        language: this.props.language,
+        billboards: this.generateBillboards(this.props.billboards, this.props.language)
       })
     }
-
   }
 
   render(){

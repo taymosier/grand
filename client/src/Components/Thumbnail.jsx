@@ -38,11 +38,11 @@ export class Thumbnail extends Component {
     return(
       <Col className="thumbnail-container" style={style} onClick={() => {this.props.setPage(link)}}>
         <div className="thumbnail-title">
-        <p>{this.state.content.text.title}</p>
+        <p>{this.state.content.text.title["en"]}</p>
         </div>
-        {this.state.content.text.flavor !== undefined
+        {this.state.content.text.flavor["en"] !== undefined
           ? <div className="thumbnail-flavor_text">
-          {this.state.content.text.flavor}
+          {this.state.content.text.flavor["en"]}
           </div>
           : null
         }

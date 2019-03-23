@@ -6,6 +6,7 @@ export class MenuButton extends Component {
     super(props);
     this.state = {
       active: "home",
+      text: this.props.text,
       portal: this.props.route,
       name: this.props.name,
       id: this.props.name+"-menu-button"
@@ -14,7 +15,7 @@ export class MenuButton extends Component {
 
   render(){
     return(
-      <NavItem className='menuButton' id={this.state.id} onClick={() => {this.props.setPage(this.state.name)}}>{this.state.name}</NavItem>
+      <NavItem className='menuButton' id={this.state.id} onClick={() => {this.props.setPage(this.state.name)}}>{this.state.text}</NavItem>
     );
   }
 }

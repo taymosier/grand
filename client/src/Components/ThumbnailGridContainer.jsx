@@ -5,6 +5,7 @@ export class ThumbnailGridContainer extends Component {
   constructor(props){
     super(props);
     this.state = {
+      language: this.props.language,
       thumbnailsContent: this.props.thumbnails,
       thumbnails: this.generateThumbnails(this.props.thumbnails)
     }
@@ -15,7 +16,7 @@ export class ThumbnailGridContainer extends Component {
     let thumbnailsList = [];
     for(let thumbnail in thumbnails){
       try{
-        thumbnailsList.push(<Thumbnail content={thumbnails[thumbnail]} setPage={this.props.setPage}/>)
+        thumbnailsList.push(<Thumbnail content={thumbnails[thumbnail]} setPage={this.props.setPage} language={this.state.language}/>)
       } catch(e){
         console.log("error: " + this.state)
       }

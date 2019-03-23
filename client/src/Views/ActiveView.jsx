@@ -3,41 +3,40 @@ import React, { Component } from 'react';
 import { BillboardContainer } from "../Components/BillboardContainer";
 import { ThumbnailGridContainer } from "../Components/ThumbnailGridContainer";
 import { ImageCarousel } from '../Components/ImageCarousel';
-import { ContactFormToggleButton } from '../Components/Contact/ContactFormToggleButton';
-import { RegistrationProcessInfoButton } from '../Components/RegistrationProcessInfoButton';
-
-import { ContactForm } from '../Components/Contact/ContactForm';
-
-import { RegistrationProcessInfoModal } from "../Components/RegistrationProcessInfoModal";
-
 
 export class ActiveView extends Component {
   constructor(props){
     super(props);
     this.state = {
+      language: this.props.language,
       content: this.props.content,
       pageName: this.props.activeView,
       contactFormVisible: false,
-      registrationInfoVisible: false
+      registrationInfoVisible: false,
+      setLanguage: this.props.setLanguage,
+      imageGalleryHasContents: this.checkForContents(this.props.content.images.gallery)
     };
-    this.toggle = this.toggle.bind(this);
-    this.toggleRegistrationProcessInfo = this.toggleRegistrationProcessInfo.bind(this);
   }
 
   componentDidMount(){
     if(this.props.content){
       this.setState({
-        content: this.props.content
+        language: this.props.language,
+        content: this.props.content,
+        imageGalleryHasContents: this.checkForContents(this.props.content.images.gallery)
       })
     }
   }
 
+
   componentDidUpdate(){
     try{
-      if(this.props.content !== this.state.content){
+      if(this.props.content !== this.state.content || this.props.language !== this.state.language){
         this.setState({
+          language: this.props.language,
           content: this.props.content,
           pageName: this.props.activeView,
+          imageGalleryHasContents: this.checkForContents(this.props.content.images.gallery),
           contactFormVisible: false
         })
       }
@@ -46,20 +45,15 @@ export class ActiveView extends Component {
     }
   }
 
-  toggle(){
-    this.setState({
-      contactFormVisible: !this.state.contactFormVisible
-    })
-  }
 
-  toggleRegistrationProcessInfo(){
-    this.setState({
-      registrationInfoVisible: !this.state.registrationInfoVisible
-    })
+  checkForContents(array){
+    if(array.length === 0 || array.length === undefined){
+      return {display: "none"};
+    }
+    return null;
   }
-
   render(){
-    let imageFolder
+    let imageFolder;
     if(this.state.content.images.gallery[0] !== undefined){
       imageFolder = this.state.content.images.gallery[0].folder;
     } else {
@@ -67,28 +61,43 @@ export class ActiveView extends Component {
     }
     return(
       <div className="default-child">
-      <ContactFormToggleButton toggleContactForm={this.toggle}/>
-      <RegistrationProcessInfoButton toggleRegistrationProcessInfo={this.toggleRegistrationProcessInfo}/>
-        <ContactForm toggle={this.toggle} visible={this.state.contactFormVisible}/>
-        <RegistrationProcessInfoModal toggle={this.toggleRegistrationProcessInfo} visible={this.state.registrationInfoVisible} />
-        {this.props.content.text.header !== undefined
-          ? <h1 className="page-header">{this.props.content.text.header}</h1>
+
+        {this.props.content.text.header[this.state.language] !== undefined
+          ? <h1 className="page-header">
+              {this.state.content.text.header[this.state.language]}
+            </h1>
           : null
         }
-        {this.props.content.text.description !== undefined
-          ? <div className="page-description"><p>{this.props.content.text.description}</p></div>
+        {this.props.content.text.description[this.state.language] !== undefined
+          ? <div className="page-description">
+              <p>
+                {this.props.content.text.description[this.state.language]}
+              </p>
+            </div>
           : null
         }
         {this.state.content.images.gallery !== [] || this.state.content.images.gallery !== undefined
-          ? <ImageCarousel galleryImages={this.state.content.images.gallery} imageFolder={imageFolder}/>
+          ? <ImageCarousel
+              galleryImages={this.state.content.images.gallery}
+              imageFolder={imageFolder}
+              style={this.state.imageGalleryHasContents}
+            />
           : null
         }
         {this.state.content.billboards !== undefined
-          ? <BillboardContainer billboards={this.state.content.billboards} setPage={this.props.setPage}/>
+          ? <BillboardContainer
+              billboards={this.state.content.billboards}
+              setPage={this.props.setPage}
+              language={this.state.language}
+            />
           : null
         }
         {this.state.content.images.thumbnails !== undefined
-          ? <ThumbnailGridContainer thumbnails={this.state.content.images.thumbnails} setPage={this.props.setPage}/>
+          ? <ThumbnailGridContainer
+              thumbnails={this.state.content.images.thumbnails}
+              setPage={this.props.setPage}
+              language={this.state.language}
+            />
           : null
         }
       </div>

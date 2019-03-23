@@ -7,6 +7,7 @@ export class MenuModal extends Component {
   constructor(props){
     super(props);
     this.state = {
+      language: this.props.language,
       activeView: this.props.activeView,
       isOpen: this.props.isOpen
     }
@@ -24,10 +25,10 @@ export class MenuModal extends Component {
     return(
       <Modal isOpen={this.state.isOpen} toggle={this.toggle} className="menu-modal" id="menuModal">
         <ModalHeader toggle={this.toggle} className="">
-          <Button close onClick={this.props.toggle} className="menu-close-button"/>
+          <Button close onClick={this.props.toggle} size="large" className="menu-close-button"/>
         </ModalHeader>
         <ModalBody onClick={this.props.toggle}>
-          <Menu setPage={this.props.setPage}/>
+          <Menu setPage={this.props.setPage} language={this.props.language}/>
         </ModalBody >
       </Modal>
     );

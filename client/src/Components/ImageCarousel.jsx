@@ -9,6 +9,7 @@ export class ImageCarousel extends Component {
       imageFolder: this.props.imageFolder.toString()+"/",
       images: this.props.galleryImages,
       slides: this.generateSlides(this.props.galleryImages, (this.props.imageFolder.toString()+"/")),
+      style: this.props.style
     };
     this.generateSlides = this.generateSlides.bind(this);
     this.navigateToNextImage = this.navigateToNextImage.bind(this);
@@ -62,13 +63,14 @@ componentDidUpdate(){
       imageFolder: this.props.imageFolder.toString()+"/",
       images: this.props.galleryImages,
       slides: this.generateSlides(this.props.galleryImages, (this.props.imageFolder.toString()+"/")),
+      style: this.props.style
     })
   }
 }
 
   render(){
     return(
-      <div className="carousel">
+      <div className="carousel" style={this.state.style}>
         { this.state.slides !== undefined
           ? <div className="carousel-image-container" onClick={() =>{this.navigateToNextImage()}}>{this.state.slides[this.state.activeIndex]}</div>
           : null

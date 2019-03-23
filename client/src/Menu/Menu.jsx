@@ -7,16 +7,33 @@ export class Menu extends Component {
   constructor(props){
     super(props);
     this.state = {
-      currentView: "",
+      language: this.props.language,
       collapsed: this.props.collapsed,
       activeRoot: this.props.activeRoot,
       activeParent: this.props.activeParent,
       rootItems: this.props.rootItems,
       branchItems: this.props.branchItems,
       leafItems: this.props.leafItems,
-      activeItem: this.props.activeView
+      activeItem: this.props.activeView,
+      buttons: this.getMenuButtons(this.props.language)
     };
     this.toggleNavbar = this.toggleNavbar.bind(this);
+  }
+
+  componentDidUpdate(){
+    if(this.state.activeItem !== this.props.activeView || this.state.language !== this.props.language){
+      this.setState({
+        language: this.props.language,
+        collapsed: this.props.collapsed,
+        activeRoot: this.props.activeRoot,
+        activeParent: this.props.activeParent,
+        rootItems: this.props.rootItems,
+        branchItems: this.props.branchItems,
+        leafItems: this.props.leafItems,
+        activeItem: this.props.activeView,
+        buttons: this.getMenuButtons(this.props.language)
+      });
+    }
   }
 
   toggleNavbar(){
@@ -47,12 +64,22 @@ export class Menu extends Component {
     }
   }
 
+  getMenuButtons(language){
+    if(language === "en"){
+      return ["home","rooms", "getting here","dining","what to do","golf","spa","entertainment", "whats new"];
+    }
+    if(language === "es"){
+      return ["inicio","habitaciones", "como llegar","gastronomia","que hacer","golf","spa","entretenimientio", "novedades"];
+    }
+  }
+
   render(){
-    let topLevelButtons = ["home","rooms", "getting here","dining","what to do","golf","spa","entertainment"];
+    let topLevelButtons = this.state.buttons;
+    let englishButtons = this.getMenuButtons("en");
     let button;
     let buttonList = [];
     for(let i =0; i < topLevelButtons.length; i++){
-      button = <MenuButton name={topLevelButtons[i]} key={topLevelButtons[i]} setPage={this.props.setPage}/>;
+      button = <MenuButton name={englishButtons[i]} key={topLevelButtons[i]} text={topLevelButtons[i]} setPage={this.props.setPage}/>;
       buttonList.push(button);
     }
     return(
@@ -60,6 +87,7 @@ export class Menu extends Component {
         xl={{ size: 12, offset: 0 }}
         lg={{ size: 12, offset: 0 }}
         md={{ size: 12, offset: 0 }}
+        sm={{ size: 10, offset: 1 }}
       >
       <Navbar >
       <NavbarToggler onClick={this.toggleNavbar} className="menuToggler">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Col } from 'reactstrap';
+import { Button, Col, Row } from 'reactstrap';
 
 export class Billboard extends Component {
   constructor(props){
@@ -52,38 +52,47 @@ export class Billboard extends Component {
 
 
   render(){
+    
+    if((/_\/_/g).test(this.state.flavor_text)){
+      console.log('hi there this is regex')
+      console.log(this.state.flavor_text.search(/_\/_/g))
+    }
     return(
         <div className="billboard" id={this.state.name}>
-          <Col
-            xl={{ size: 6, offset: 0 }}
-            lg={{ size: 5, offset: 0 }}
-            md={{ size: 12, offset: 0 }}
-            className="billboard-image-container"
-          >
-            { this.state.image
-              ? <img className="billboard-image" src={require("../../public/images/billboards/"+this.state.image)} alt={this.state.image}/>
-              : null
-            }
-          </Col>
-          <Col
-            xl={{ size: 4, offset: 7 }}
-            lg={{ size: 5, offset: 6 }}
-            md={{ size: 10, offset: 1 }}
-            className="billboard-text-container"
-          >
-            <div className="billboard-title">{this.state.title}</div>
-            {this.state.tagline
-              ? <div className="billboard-tagline">
-                  {this.state.tagline}
-                </div>
-              : null
-            }
-            <div className="billboard-flavor_text-container">
-              <p className="billboard-flavor_text">{this.state.flavor_text}</p>
-            </div>
-          </Col>
+          <Row className="billboard-top-row">
+            <Col
+              xl={{ size: 6, offset: 0 }}
+              lg={{ size: 5, offset: 0 }}
+              md={{ size: 12, offset: 0 }}
+              className="billboard-image-container"
+            >
+              { this.state.image
+                ? <img className="billboard-image" src={require("../../public/images/billboards/"+this.state.image)} alt={this.state.image}/>
+                : null
+              }
+            </Col>
+            <Col
+              xl={{ size: 5, offset: 0 }}
+              lg={{ size: 5, offset: 6 }}
+              md={{ size: 10, offset: 1 }}
+              className="billboard-text-container"
+            >
+              <div className="billboard-title">{this.state.title[this.props.language]}</div>
+              {this.state.tagline
+                ? <div className="billboard-tagline">
+                    {this.state.tagline[this.props.language]}
+                  </div>
+                : null
+              }
+              <div className="billboard-flavor_text-container">
+                <p className="billboard-flavor_text">{this.state.flavor_text[this.props.language]}</p>
+              </div>
+            </Col>
+          </Row>
           {this.state.link !== "" && this.state.link !== undefined
-           ? <Button className="billboard-button" onClick={() => {this.props.setPage(this.state.link)}}>Learn More</Button>
+           ? <Row className="billboard-bottom-row">
+                <Button className="billboard-button" onClick={() => {this.props.setPage(this.state.link)}}>Learn More</Button>
+             </Row>
            : null
           }
         </div>

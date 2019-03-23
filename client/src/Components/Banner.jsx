@@ -6,8 +6,8 @@ export class Banner extends Component {
     super(props);
     this.state = {
       "image": this.props.banner_info.image,
-      "header": this.props.banner_info.header,
-      "subheader": this.props.banner_info.subheader
+      "header": this.props.banner_info.header[this.props.language],
+      "subheader": this.props.banner_info.subheader[this.props.language]
     };
   }
 
@@ -15,8 +15,8 @@ export class Banner extends Component {
     if(this.state.image !== this.props.banner_info.image ){
       this.setState({
         "image": this.props.banner_info.image,
-        "header": this.props.banner_info.header,
-        "subheader": this.props.banner_info.subheader
+        "header": this.props.banner_info.header[this.props.language],
+        "subheader": this.props.banner_info.subheader[this.props.language]
       })
     }
   }

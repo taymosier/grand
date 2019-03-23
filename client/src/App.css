@@ -44,9 +44,6 @@ body {
 }
 
 .banner {
-  max-height: 440px;
-  min-height: 440px;
-  height: 440px;
   max-width: 100vw;
   min-width: 100vw;
   width: 100vw;
@@ -114,28 +111,11 @@ body {
 
 .billboard {
   background: #F6F4F3;
-  margin: 25px 5%;
-  min-width: 50%;
-  max-width: 90%;
-  max-height: fit-content;
-  min-height: fit-content;
-  height: 23vw;
   box-shadow: 5px 7px 15px darkgray;
 }
 
 .billboard-flavor_text {
   font-family: "Segoe UI", sans-serif;
-  font-size: 1.1em;
-  padding: 0;
-  line-height: 1.5;
-}
-
-.billboard-flavor_text-container {
-  min-height: 100%;
-  padding: 0;
-  font-weight: 600;
-  letter-spacing: .7px;
-  line-height: 1.15;
 }
 
 .billboard-image {
@@ -157,12 +137,6 @@ body {
   font-size: .95em;
   font-weight: 600;
   font-style: normal;
-}
-
-.billboard-text-container {
-  padding: .9vw 0 0 0;
-  min-height: 100%;
-  max-height: 100%;
 }
 
 .billboard-title {
@@ -203,7 +177,9 @@ body {
   max-width: 41.67vw;
 }
 
-
+.contact-form-close-button {
+  color: crimson;
+}
 
 .default-child {
   margin: 25px 0 0 0;
@@ -258,21 +234,6 @@ body {
   text-align: center;
 }
 
-#registrationProcessInfoToggleButton {
-  background: #F6F4F3;
-  box-shadow: 3px 2px 4px -1.5px grey;
-  color: #777670;
-  font-size: 28px;
-  left: 3.5%;
-  top: 57.5vh;
-  line-height: 1.05;
-  margin-left: 85%;
-  max-width: 180px;
-  min-height: 100px;
-  min-width: 2.25%;
-  overflow-wrap: break-word;
-  position: fixed;
-}
 
 #home-button {
   margin: 1px 5px 0 3px;
@@ -364,12 +325,6 @@ body {
   max-width: 100%;
 }
 
-
-
-
-
-
-
 .thumbnail-flavor_text {
 
 }
@@ -384,9 +339,6 @@ body {
     max-height: 200px;
     min-height: 200px;
     height: 200px;
-    max-width: 100vw;
-    min-width: 100vw;
-    width: 100vw;
   }
 
   .banner-break {
@@ -426,7 +378,6 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-family: "Advent Pro";
     font-size: 30px;
     font-weight: 100;
     color: white;
@@ -438,7 +389,6 @@ body {
 
   .banner-subheader {
     letter-spacing: 2.5px;
-    font-family: "Advent Pro";
     font-size: 24px;
     font-weight: 100;
     color: white;
@@ -449,7 +399,6 @@ body {
   }
 
   .billboard {
-    background: #F6F4F3;
     margin: 25px 5%;
     min-width: 50%;
     max-width: 90%;
@@ -462,15 +411,23 @@ body {
 
   .billboard-button {
     width: 80%;
-    margin: 0 0 10px 10%;
+    margin: 0 0 20px 10%;
+  }
+
+  .billboard-flavor_text {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 1.3;
   }
 
   .billboard-flavor_text-container {
-    min-height: 100%;
+    min-height: fit-content;
     padding: 5px 5px 5px 10px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: .7px;
     line-height: 1.15;
+    text-align: center;
   }
 
   .billboard-image-container {
@@ -486,7 +443,8 @@ body {
 
   .billboard-tagline {
     padding: 10px;
-    font-size: .8em;
+    font-size: 1.3em;
+    text-align: center;
   }
 
   .billboard-text-container {
@@ -496,38 +454,148 @@ body {
   }
 
   .billboard-title {
-    padding: 30px 0 0 10px;
+    padding: 0;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #868686;
-    font-size: 14px;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: normal;
     font-style: normal;
+    text-align: center;
+  }
+
+  .carousel {
+    background: #F6F4F3;
+    padding: 5px 10px;
+    margin: 0 5%;
+    box-shadow: 5px 7px 15px darkgrey;
+    max-width: 90%;
+  }
+
+  .contact-form-close-button {
+    background: #868686;
+    border: none;
+    box-shadow: none;
+    font-size: 19px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    letter-spacing: .8px;
+    margin: 2.5% 90%;
+    opacity: 1;
+    padding: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    z-index: 100;
+  }
+
+  .contact-form-close-button span {
+    font-size: 30px;
   }
 
   .carousel-image-container img {
     max-height: 48vw;
   }
 
+  .contact-form-header {
+    position: absolute;
+    padding: 25px 10vw 2vh 10vw;
+  }
+
+  .contact-form-header .modal-title {
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  .contact-form-left-col {
+    margin: 30px 0 0 0;
+  }
+
   #contactForm {
-    margin: 40px 0 0 0;
     font-family: "Segoe UI", sans-serif;
+    max-width: 90vw;
+    margin: 50px auto 50px auto;
+  }
+
+  #contactForm .form-control {
+    font-size: 14px;
+  }
+
+  #contactForm .form-group {
+    margin: 0 0 .5vh 0;
+  }
+
+  #contactForm .form-group label {
+    margin: 2.5px 0 2.5px 0;
+    font-size: 14px;
+  }
+
+  #contactFormSubmitButton {
+    text-align: center;
+    display: block;
+    letter-spacing: 1.15px;
+    margin: 25px auto;
+    min-width: 35vw;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
     color: #777670;
-    font-size: 22px;
-    left: 55vw;
+    font-size: 18px;
     line-height: 1.05;
-    margin-left: 25px;
-    max-width: 35vw;
-    min-height: 80px;
-    min-width: 30vw;
+    margin: 0 2.5vw 0 0;
+    max-width: 45vw;
+    padding: 12.5px 7.5% 12.5px 7.5%;
+    min-height: 65px;
+    min-width: 44.5vw;
     overflow-wrap: break-word;
-    top: -85px;
+    display: flex;
+    text-align: center;
+    float: left;
+  }
+
+  #EnglishToggleButton {
+    display: block;
+    margin: 0 0 0 1.25vw;
+    height: fit-content;
+    width: fit-content;
+    max-width: 42.5vw;
+  }
+
+  #EspanolToggleButton {
+    display: block;
+    font-size: 1rem;
+    margin: 0 0 0 4vw;
+    height: fit-content;
+    width: fit-content;
+    max-width: 42.5vw;
+  }
+
+  #registrationProcessInfoToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    margin: 0 0 0 0;
+    line-height: 1.05;
+    max-width: 45vw;
+    min-width: 44.5vw;
+    min-height: 65px;
+    overflow-wrap: break-word;
+    display: flex;
+    font-size: 18px;
+  }
+
+  .language-button-container{
+    display: flex;
+    margin: 0 0 10px 0;
   }
 
   .menuButton {
@@ -536,10 +604,10 @@ body {
     box-shadow: 0.75px 1px 3.5px 0.2px black;
     color: #777670;
     font-family: "Advent Pro";
-    font-size: 24px;
+    font-size: 20px;
     min-width: 70vw;
     font-weight: 500;
-    margin: 12.5px 5px 0 3px;
+    margin: 15px 5px 0 3px;
     padding: 7px 0 .25em 20px;
     position: relative;
     -webkit-transition: .2s linear;
@@ -559,20 +627,26 @@ body {
   }
 
   .menu-container {
-    margin: 4px;
+    margin: 0;
     padding: 0;
   }
   #menuModal {
-    margin: 50px 0 0 0;
+    margin: 50px 0 0 5%;
+    width: 90%;
+  }
+
+  #menuModal .modal-body {
+    padding: 0 0 20px 0;
   }
 
   #menuModal .modal-header {
     height: 50px;
+    display: inline;
   }
 
   #menuModal .menu-close-button {
-    position: absolute;
-    left: 80vw;
+    position: initial;
+    left: 0;
   }
 
   .menuToggleIcon {
@@ -591,6 +665,9 @@ body {
     width: 100vw;
     top: 0;
     z-index: 30000;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    font-weight: 600;
 
   }
 
@@ -602,6 +679,7 @@ body {
     padding: 15px 0 0 0;
     font-size: 18px;
     font-weight: 600;
+    min-height: fit-content;
     letter-spacing: .95px;
   }
 
@@ -617,7 +695,6 @@ body {
 
   #registrationInfoContainer .modal-body{
     padding: 0 10px;
-
   }
 
   #registrationInfoContainer .registration-step-container{
@@ -625,68 +702,74 @@ body {
     margin: 15px 0 5px 0px;
   }
 
-  #registrationProcessInfoToggleButton {
-    background: #F6F4F3;
-    box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
-    font-size: 22px;
-    left: 18vw;
-    /* top: 0; */
-    line-height: 1.05;
-    margin-left: 10vw;
-    max-width: 35vw;
-    position: unset;
-    min-height: 80px;
-    min-width: 30vw;
-    overflow-wrap: break-word;
-    /* top: -94px; */
-  }
-
   .thumbnail-container {
-    margin: 10px 0 5px 0;
+    background-size: cover;
+    background-repeat: round;
+    box-shadow: 5px 2px 5px 2px grey;
     float: left;
-    min-height: 100px;
+    margin: 10px 0 5px 10%;
     max-height: 250px;
-    max-width: 200%;
-    min-width: 100%;
+    max-width: 80%;
+    min-height: 225px;
+    min-width: 80%;
+    padding: 0 0 15px 0;
     overflow: hidden;
     text-align: center;
     vertical-align: top;
-    box-shadow: 5px 2px 5px 2px grey;
   }
 
   .thumbnail-filter {
     position: absolute;
-    min-height: 250px;
-    max-height: 250px;
+    min-height: 100%;
+    max-height: 100%;
     min-width: 100%;
     max-width: 100%;
     background: black;
     opacity: .5;
     z-index: 50;
+    top: 0;
   }
 
   .thumbnail-flavor_text {
-    text-align: center;
-    position: relative;
-    font-size: 20px;
-    color: white;
-    padding: 0 5%;
-    min-width: 80%;
-    max-width: 80%;
-    top: -275px;
-    right: 0;
-    left: 10%;
     bottom: 0;
-    z-index: 60;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    left: 10%;
+    min-width: 90%;
+    max-width: 90%;
+    line-height: 1.1;
+    padding: 0;
+    margin: 0 5% 10px 0;
     opacity: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    right: 0;
+    text-align: center;
+    top: -275px;
+    z-index: 6000;
   }
 
   .thumbnail-grid {
-    margin: 0;
+    margin: 0 0 25px 0;
     min-width: 100%;
     max-width: 100%;
+    display: inline-block;
   }
+
+  .thumbnail-title {
+    margin: 10% 0 0 0;
+    position: -webkit-sticky;
+    position: sticky;
+    color: white;
+    z-index: 500;
+  }
+
+  .toolbar {
+    margin: 10px 0 0 0;
+    padding: 0 2.5%;
+  }
+
 }
 
 @media (min-width: 420px) and (max-width: 575px) {
@@ -698,9 +781,6 @@ body {
     max-height: 200px;
     min-height: 200px;
     height: 200px;
-    max-width: 100vw;
-    min-width: 100vw;
-    width: 100vw;
   }
 
   .banner-break {
@@ -740,7 +820,6 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-family: "Advent Pro";
     font-size: 30px;
     font-weight: 100;
     color: white;
@@ -752,7 +831,6 @@ body {
 
   .banner-subheader {
     letter-spacing: 2.5px;
-    font-family: "Advent Pro";
     font-size: 24px;
     font-weight: 100;
     color: white;
@@ -763,7 +841,6 @@ body {
   }
 
   .billboard {
-    background: #F6F4F3;
     margin: 25px 5%;
     min-width: 50%;
     max-width: 90%;
@@ -776,15 +853,16 @@ body {
 
   .billboard-button {
     width: 80%;
-    margin: 0 0 10px 10%;
+    margin: 10px 0 15px 10%;
   }
 
   .billboard-flavor_text-container {
     min-height: 100%;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 25px 5px 25px;
     font-weight: 600;
     letter-spacing: .7px;
     line-height: 1.15;
+    text-align: center;
   }
 
   .billboard-image-container {
@@ -801,6 +879,7 @@ body {
   .billboard-tagline {
     padding: 10px;
     font-size: .8em;
+    text-align: center;
   }
 
   .billboard-text-container {
@@ -810,11 +889,11 @@ body {
   }
 
   .billboard-title {
-    padding: 30px 0 0 10px;
+    padding: 30px 0 0 0;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #868686;
-    font-size: 14px;
+    text-align: center;
     font-size: 1.25rem;
     font-weight: normal;
     font-style: normal;
@@ -832,17 +911,56 @@ body {
     border: none;
   }
 
-  .contact-form-close-button{
-    margin: 1.25% 40%;
-    box-shadow: 3px 3px 4px -1.5px gray;
+  .contact-form-close-button {
     background: #868686;
     border: none;
+    box-shadow: none;
     font-size: 19px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     letter-spacing: .8px;
+    margin: 1.25% 85%;
+    opacity: 1;
+    padding: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    z-index: 100;
+  }
+
+  .contact-form-close-button span {
+    font-size: 45px;
+  }
+
+  .contact-form-fields-container {
+    display: inline;
+  }
+
+  .contact-form-header {
+    position: absolute;
+    padding: 20px 25vw 2vh 10vw;
+  }
+
+  .contact-form-header .modal-title{
+    font-size: 16px;
+  }
+
+  .contact-form-left-col {
+    margin: 10vh 0 0 0;
   }
 
   #contactForm {
-    margin: 40px auto 0 auto;
+    max-width: 90vw;
+    margin: 50px auto 50px auto;
+  }
+
+  #contactForm .form-control {
+    font-size: 14px;
+  }
+
+  #contactForm .form-group {
+    margin: 0 0 .5vh 0;
   }
 
   #contactForm .modal-content{
@@ -853,22 +971,74 @@ body {
   }
 
   #contactForm .modal-content label {
-    font-size: 20px;
+    font-size: 16px;
+    margin: 0 0 2.5px 0;
+    padding: 0 0 0 2.5px;
   }
 
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
     color: #777670;
-    font-size: 22px;
-    left: 55vw;
+    display: flex;
+    float: left;
+    font-size: 20px;
     line-height: 1.05;
-    margin-left: 25px;
-    max-width: 35vw;
-    min-height: 80px;
-    min-width: 30vw;
+    margin: 0 5vw 0 5vw;
+    max-width: 40vw;
+    min-height: 75px;
+    min-width: 40vw;
     overflow-wrap: break-word;
-    top: -85px;
+    padding: 15px 7.5% 15px 7.5%;
+    text-align: center;
+  }
+
+  #contactFormSubmitButton {
+    text-align: center;
+    display: block;
+    letter-spacing: 1.15px;
+    margin: 25px auto;
+    min-width: 35vw;
+    max-width: fit-content;
+    width: fit-content;
+  }
+
+  #EnglishToggleButton {
+    display: block;
+    margin: 0 5vw;
+    height: fit-content;
+    width: fit-content;
+    max-width: 40vw;
+  }
+
+  #EspanolToggleButton {
+    display: block;
+    font-size: 1rem;
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+    max-width: 40vw;
+  }
+
+  #registrationProcessInfoToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    margin: 0;
+    line-height: 1.05;
+    padding: 0 20px 0 20px;
+    max-width: 40vw;
+    min-width: 40vw;
+    min-height: 75px;
+    overflow-wrap: break-word;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .language-button-container{
+    display: flex;
+    margin: 0 0 10px 0;
   }
 
   .menuButton {
@@ -904,16 +1074,23 @@ body {
     padding: 0;
   }
   #menuModal {
-    margin: 50px 0 0 0;
+    margin: 50px 0 0 5%;
+    width: 90%;
   }
 
   #menuModal .modal-header {
+    display: inline;
     height: 50px;
+    text-align: right;
   }
 
   #menuModal .menu-close-button {
-    position: absolute;
-    left: 80vw;
+    display: inline;
+    left: 0;
+  }
+
+  #menuModal .modal-title {
+    text-align: right;
   }
 
   .menuToggleIcon {
@@ -932,7 +1109,9 @@ body {
     width: 100vw;
     top: 0;
     z-index: 30000;
-
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
   }
 
   .menuToggler {
@@ -966,67 +1145,74 @@ body {
     margin: 15px 0 5px 0px;
   }
 
-  #registrationProcessInfoToggleButton {
-    background: #F6F4F3;
-    box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
-    font-size: 22px;
-    left: 18vw;
-    /* top: 0; */
-    line-height: 1.05;
-    margin-left: 10vw;
-    max-width: 35vw;
-    position: unset;
-    min-height: 80px;
-    min-width: 30vw;
-    overflow-wrap: break-word;
-    /* top: -94px; */
-  }
 
   .thumbnail-container {
-    margin: 10px 0 5px 0;
+    background-size: cover;
+    background-repeat: round;
+    box-shadow: 5px 2px 5px 2px grey;
     float: left;
-    min-height: 100px;
+    margin: 10px 0 5px 10%;
     max-height: 250px;
-    max-width: 200%;
-    min-width: 100%;
+    max-width: 80%;
+    min-height: 225px;
+    min-width: 80%;
+    padding: 0 0 15px 0;
     overflow: hidden;
     text-align: center;
     vertical-align: top;
-    box-shadow: 5px 2px 5px 2px grey;
   }
 
   .thumbnail-filter {
     position: absolute;
-    min-height: 250px;
-    max-height: 250px;
+    min-height: 100%;
+    max-height: 100%;
     min-width: 100%;
     max-width: 100%;
     background: black;
     opacity: .5;
     z-index: 50;
+    top: 0;
   }
 
   .thumbnail-flavor_text {
-    text-align: center;
-    position: relative;
-    font-size: 20px;
-    color: white;
-    padding: 0 5%;
-    min-width: 80%;
-    max-width: 80%;
-    top: -275px;
-    right: 0;
-    left: 10%;
     bottom: 0;
-    z-index: 60;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    left: 10%;
+    min-width: 90%;
+    max-width: 90%;
+    line-height: 1.1;
+    padding: 0;
+    margin: 0 5% 10px 0;
     opacity: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    right: 0;
+    text-align: center;
+    top: -275px;
+    z-index: 6000;
   }
 
   .thumbnail-grid {
-    margin: 0;
+    margin: 0 0 20px 0;
     min-width: 100%;
     max-width: 100%;
+    display: inline-table;
+  }
+
+  .thumbnail-title {
+    margin: 10% 0 0 0;
+    position: -webkit-sticky;
+    position: sticky;
+    color: white;
+    z-index: 500;
+  }
+
+
+  .toolbar {
+    margin: 15px 0 0 0;
+    padding: 0 30px 0 0;
   }
 
 }
@@ -1040,9 +1226,6 @@ body {
     max-height: 200px;
     min-height: 200px;
     height: 200px;
-    max-width: 100vw;
-    min-width: 100vw;
-    width: 100vw;
   }
 
   .banner-break {
@@ -1082,7 +1265,6 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-family: "Advent Pro";
     font-size: 30px;
     font-weight: 100;
     color: white;
@@ -1094,7 +1276,6 @@ body {
 
   .banner-subheader {
     letter-spacing: 2.5px;
-    font-family: "Advent Pro";
     font-size: 24px;
     font-weight: 100;
     color: white;
@@ -1105,7 +1286,6 @@ body {
   }
 
   .billboard {
-    background: #F6F4F3;
     margin: 25px 5%;
     min-width: 50%;
     max-width: 90%;
@@ -1118,15 +1298,16 @@ body {
 
   .billboard-button {
     width: 80%;
-    margin: 0 0 10px 10%;
+    margin: 0 0 40px 10%;
   }
 
   .billboard-flavor_text-container {
     min-height: 100%;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 35px 5px 35px;
     font-weight: 600;
     letter-spacing: .7px;
     line-height: 1.15;
+    text-align: center;
   }
 
   .billboard-image-container {
@@ -1142,7 +1323,8 @@ body {
 
   .billboard-tagline {
     padding: 10px;
-    font-size: .6em;
+    font-size: 18px;
+    text-align: center
   }
 
   .billboard-text-container {
@@ -1152,9 +1334,10 @@ body {
   }
 
   .billboard-title {
-    padding: 30px 0 0 10px;
+    padding: 0;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-align: center;
     color: #868686;
     font-size: 14px;
     font-size: 1.25rem;
@@ -1175,12 +1358,33 @@ body {
   }
 
   .contact-form-close-button{
-    margin: 1.25% 40%;
-    box-shadow: 3px 3px 4px -1.5px gray;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 1.25% 90%;
+    padding: 0;
+    box-shadow: none;
     background: #868686;
     border: none;
     font-size: 19px;
     letter-spacing: .8px;
+    opacity: 1;
+  }
+
+  .contact-form-close-button span {
+    font-size: 45px;
+  }
+
+  .contact-form-header {
+    position: absolute;
+    padding: 2vh 10vw 2vh 5vw;
+  }
+
+  .contact-form-left-col {
+    margin: 7.5vh 0 0 0;
   }
 
   #contactForm {
@@ -1202,16 +1406,44 @@ body {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
     color: #777670;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.05;
-    margin: 0 0 0 10vw;
-    max-width: 35vw;
-    min-height: 80px;
-    min-width: 35vw;
-    width: 35vw;
+    margin: 0 2.5vw 0 0;
+    max-width: 45vw;
+    padding: 15px 0 15px 0;
+    min-height: 75px;
+    min-width: 44.5vw;
     overflow-wrap: break-word;
-    top: -85px;
-}
+    text-align: center;
+    float: left;
+  }
+
+  #EspanolToggleButton {
+    display: block;
+    font-size: 1rem;
+    margin: 0 0 0 10px;
+
+  }
+
+  #registrationProcessInfoToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    margin: 0 0 0 1.5vw;
+    line-height: 1.05;
+    padding: 0 20px 0 20px;
+    max-width: 45vw;
+    min-width: 44.5vw;
+    min-height: 75px;
+    overflow-wrap: break-word;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .language-button-container{
+    display: flex;
+    margin: 0 0 10px 0;
+  }
 
   .menuButton {
     background: #F6F4F3;
@@ -1242,20 +1474,33 @@ body {
   }
 
   .menu-container {
-    margin: 4px;
+    margin: 0;
     padding: 0;
   }
+
   #menuModal {
-    margin: 50px 0 0 0;
+    margin: 50px auto 0 auto;
+    max-width: fit-content;
   }
 
   #menuModal .modal-header {
     height: 50px;
+    max-width: 100%;
+    text-align: right;
   }
 
   #menuModal .menu-close-button {
-    position: absolute;
+    position: initial;
     left: 80vw;
+  }
+
+  #menuModal .modal-title {
+    display: contents;
+  }
+
+  #menuModal .modal-title .menu-close-button {
+    text-align: right;
+    position: fixed;
   }
 
   .menuToggleIcon {
@@ -1323,20 +1568,6 @@ body {
   .registration-step-container h3 {
     margin: 20px 0;
     font-size: 22px;
-  }
-
-  #registrationProcessInfoToggleButton {
-    background: #F6F4F3;
-    box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
-    font-size: 22px;
-    line-height: 1.05;
-    margin-left: 10vw;
-    max-width: 35vw;
-    position: unset;
-    min-height: 80px;
-    min-width: 35vw;
-    overflow-wrap: break-word;
   }
 
   .thumbnail-container {
@@ -1388,21 +1619,22 @@ body {
   .thumbnail-title {
     top: -380px;
   }
+
+  .toolbar {
+    margin: 20px 0 0 0;
+  }
 }
 
 
 @media (min-width: 768px) and (max-width: 991px){
   .addressBreak {
-    max-width: 85vw;
+    display: none;
   }
 
   .banner {
     max-height: 200px;
     min-height: 200px;
     height: 200px;
-    max-width: 100vw;
-    min-width: 100vw;
-    width: 100vw;
   }
 
   .banner-break {
@@ -1442,7 +1674,6 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-family: "Advent Pro";
     font-size: 30px;
     font-weight: 100;
     color: white;
@@ -1454,7 +1685,6 @@ body {
 
   .banner-subheader {
     letter-spacing: 2.5px;
-    font-family: "Advent Pro";
     font-size: 24px;
     font-weight: 100;
     color: white;
@@ -1465,7 +1695,6 @@ body {
   }
 
   .billboard {
-    background: #F6F4F3;
     margin: 25px 5%;
     min-width: 50%;
     max-width: 90%;
@@ -1478,15 +1707,20 @@ body {
 
   .billboard-button {
     width: 80%;
-    margin: 0 0 10px 10%;
+    margin: 0 0 25px 10%;
+  }
+
+  .billboard-flavor_text {
+    text-align: center;
+    letter-spacing: 1.2px;
   }
 
   .billboard-flavor_text-container {
     min-height: 100%;
-    padding: 5px 5px 5px 10px;
+    padding: 0px 5px 5px 10px;
     font-weight: 600;
     letter-spacing: .7px;
-    line-height: 1.15;
+    line-height: 1.2;
   }
 
   .billboard-image-container {
@@ -1501,33 +1735,36 @@ body {
   }
 
   .billboard-tagline {
-    padding: 10px;
-    font-size: .6em;
+    margin: 0 15px 10px 15px;
+    padding: 5px 0 5px 0;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid grey;
   }
 
   .billboard-text-container {
-    padding: .9vw 0 0 0;
+    padding: 0;
     min-height: 100%;
     max-height: fit-content;
   }
 
   .billboard-title {
-    padding: 30px 0 0 10px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
     color: #868686;
-    font-size: 14px;
-    font-size: 1.25rem;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 1.75px;
+    padding: 0 0 0 10px;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   .carousel-image-container img {
-    max-height: 48vw;
+    max-height: 35vw;
   }
 
   .contact-form{
-    min-width: 70vw;
+    min-width: 80vw;
     font-size: 22px;
     box-shadow: 0px 2px 6px 3.5px gray;
     margin: 5vw 0 0 15vw;
@@ -1535,16 +1772,58 @@ body {
   }
 
   .contact-form-close-button{
-    margin: 1.25% 40%;
-    box-shadow: 3px 3px 4px -1.5px gray;
+    height: fit-content;
+    width: fit-content;
+    margin: 1.25% 90%;
+    padding: 0;
+    box-shadow: none;
     background: #868686;
     border: none;
     font-size: 19px;
     letter-spacing: .8px;
+    opacity: 1;
+  }
+
+  .contact-form-close-button span{
+      padding: 0;
+      font-size: 50px;
+      display: block;
+      font-size: 50px;
+  }
+
+  .contact-form-fields-container {
+    display: inline-flex;
+  }
+
+  .contact-form-left-col {
+    padding: 75px 0 0 0;
+  }
+
+  .contact-form-right-col {
+    padding: 30px 0 0 0;
+  }
+
+  .contact-form-right-col label{
+    min-width: 100%;
+    padding: 2.5px;
+    border-bottom: 1.25px solid #ced4da;
   }
 
   #contactForm {
-    margin: 40px auto 0 auto;
+    margin: 5.5vw auto 40px auto;
+  }
+
+  #contactForm .form-group{
+    margin-bottom: 1rem;
+    float: left;
+    width: 80%;
+    margin: 15px 0 0px 10%;
+  }
+
+  #contactForm .form-group label{
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    padding: 15px 0 0 5px;
   }
 
   #contactForm .modal-content{
@@ -1554,9 +1833,21 @@ body {
     border: none;
   }
 
-  #contactForm .modal-content label {
-    font-size: 20px;
+  #contactForm .modal-header {
+    position: absolute;
+    padding: 25px 150px;
   }
+
+  #contactForm .modal-title{
+    text-align: center;
+  }
+
+  #contactFormSubmitButton {
+    display: block;
+    width: 25vw;
+    margin: 10px 0 25px 6.75vw;
+  }
+
 
   #contactFormToggleButton {
     background: #F6F4F3;
@@ -1564,14 +1855,53 @@ body {
     color: #777670;
     font-size: 22px;
     line-height: 1.05;
-    margin: 0 0 0 10vw;
-    max-width: 35vw;
-    min-height: 80px;
-    min-width: 35vw;
-    width: 35vw;
+    margin: 0;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 15px 0 15px 0;
+    min-height: 75px;
     overflow-wrap: break-word;
-    top: -85px;
-}
+    text-align: center;
+    float: left;
+  }
+
+  #EnglishToggleButton {
+    display: block;
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+    max-width: 50%;
+  }
+
+  #EspanolToggleButton {
+    display: block;
+    font-size: 1rem;
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+    max-width: 50%;
+  }
+
+  #registrationProcessInfoToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    line-height: 1.05;
+    padding: 0 10px 0 10px;
+    margin: 10px 0vw 0 0;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 75px;
+    overflow-wrap: break-word;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .language-button-container{
+    display: flex;
+    margin: 10px 0 10px 0;
+    max-width: 100%;
+  }
 
   .menuButton {
     background: #F6F4F3;
@@ -1606,16 +1936,27 @@ body {
     padding: 0;
   }
   #menuModal {
-    margin: 50px 0 0 0;
+    margin: 50px auto 0 auto;
+    max-width: fit-content;
   }
 
   #menuModal .modal-header {
     height: 50px;
+    max-width: 100%;
+    text-align: right;
   }
 
   #menuModal .menu-close-button {
+    left: 0;
+  }
+
+  #menuModal .modal-title {
+    display: contents;
     position: absolute;
-    left: 80vw;
+  }
+
+  #menuModal .modal-title .menu-close-button {
+    text-align: right;
   }
 
   .menuToggleIcon {
@@ -1685,20 +2026,6 @@ body {
     font-size: 22px;
   }
 
-  #registrationProcessInfoToggleButton {
-    background: #F6F4F3;
-    box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
-    font-size: 22px;
-    line-height: 1.05;
-    margin-left: 10vw;
-    max-width: 35vw;
-    position: unset;
-    min-height: 80px;
-    min-width: 35vw;
-    overflow-wrap: break-word;
-  }
-
   .thumbnail-container {
     margin: 10px 0 5px 0;
     float: left;
@@ -1744,6 +2071,10 @@ body {
     min-width: 100%;
     max-width: 100%;
   }
+
+  .toolbar {
+    padding: 0 30px 0 0;
+  }
 }
 
 
@@ -1756,9 +2087,6 @@ body {
     max-height: 260px;
     min-height: 260px;
     height: 200px;
-    max-width: 100vw;
-    min-width: 100vw;
-    width: 100vw;
   }
 
   .banner-break {
@@ -1798,7 +2126,6 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-family: "Advent Pro";
     font-size: 30px;
     font-weight: 100;
     color: white;
@@ -1810,7 +2137,6 @@ body {
 
   .banner-subheader {
     letter-spacing: 2.5px;
-    font-family: "Advent Pro";
     font-size: 24px;
     font-weight: 100;
     color: white;
@@ -1821,7 +2147,6 @@ body {
   }
 
   .billboard {
-    background: #F6F4F3;
     margin: 25px 5%;
     min-width: 50%;
     max-width: 90%;
@@ -1892,12 +2217,22 @@ body {
   }
 
   .contact-form-close-button{
-    margin: 1.25% 40%;
-    box-shadow: 3px 3px 4px -1.5px gray;
+    height: fit-content;
+    width: fit-content;
+    margin: 1.25% 92.5%;
+    padding: 0;
+    box-shadow: none;
     background: #868686;
     border: none;
     font-size: 19px;
     letter-spacing: .8px;
+    opacity: 1;
+  }
+
+  .contact-form-close-button span{
+      padding: 0;
+      font-size: 50px;
+      display: block;
   }
 
   #contactForm {
@@ -1919,16 +2254,68 @@ body {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
     color: #777670;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.05;
-    margin: 0 0 0 10vw;
-    max-width: 20vw;
-    min-height: 80px;
-    min-width: 20vw;
-    width: 35vw;
+    margin: 0;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 15px 0 15px 0;
+    min-height: 75px;
     overflow-wrap: break-word;
-    top: -85px;
-}
+    text-align: center;
+    float: left;
+    animation-name: text-pulse;
+    animation-duration: 3s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate reverse;
+  }
+
+  @keyframes text-pulse {
+    0% {letter-spacing: 1px;}
+    10% {letter-spacing:1.2px;}
+    15% {letter-spacing:1.3px;}
+    20% {letter-spacing: 1.4px;}
+    25% {letter-spacing: 1.5px;}
+    30% {letter-spacing: 1.6px;}
+    35% {letter-spacing: 1.8px;}
+    40% {letter-spacing: 2px;}
+    45% {letter-spacing: 1.8px;}
+    50% {letter-spacing: 1.6px;}
+    55% {letter-spacing: 1.5px;}
+    60% {letter-spacing: 1.4px;}
+    65% {letter-spacing: 1.3px;}
+    70% {letter-spacing: 1.2px;}
+    80% {letter-spacing: 1.1px;}
+    100% {letter-spacing: 1px;}
+
+  }
+
+  #EnglishToggleButton {
+    display: block;
+    margin: 0;
+  }
+
+  #registrationProcessInfoToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    line-height: 1.05;
+    padding: 0 10px 0 10px;
+    margin: 10px 0vw 0 0;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 75px;
+    overflow-wrap: break-word;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .language-button-container{
+    display: flex;
+    margin: 10px 0 10px 0;
+    max-width: 15vw;
+  }
 
   .menuButton {
     background: #F6F4F3;
@@ -2041,20 +2428,6 @@ body {
     font-size: 22px;
   }
 
-  #registrationProcessInfoToggleButton {
-    background: #F6F4F3;
-    box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
-    font-size: 22px;
-    line-height: 1.05;
-    margin-left: 10vw;
-    max-width: 20vw;
-    position: unset;
-    min-height: 80px;
-    min-width: 20vw;
-    overflow-wrap: break-word;
-  }
-
   .thumbnail-container {
     margin: 10px 0 5px 0;
     float: left;
@@ -2110,6 +2483,10 @@ body {
 
 @media (min-width: 1200px){
 
+  .banner {
+    max-height: 440px;
+  }
+
   .billboard {
     max-height: fit-content;
   }
@@ -2119,23 +2496,46 @@ body {
   }
 
   .billboard {
+    margin: 25px 0;
+    min-width: 50%;
+    max-width: 95%;
+    max-height: fit-content;
+    min-height: fit-content;
+    height: 23vw;
     text-align: center;
   }
 
+  .billboard-top-row {
+    margin: 0;
+  }
+
+  .billboard-bottom-row {
+    margin: 0;
+    text-align: right;
+  }
+
   .billboard-button {
-    position: absolute;
-    width: 20%;
-    margin: -75px 0 10px 12.5%;
+    width: 45%;
+    margin: 40px 0 20px 52.5%;
   }
 
   .billboard-flavor_text {
     font-weight: 200;
-    padding: 10px 2.5% 0px 2.5%;
+    padding: 10px 5%;
+    margin: 5% 0 0 0;
+  }
+
+  .billboard-flavor_text-container {
+    min-height: fit-content;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: .7px;
+    line-height: 1.15;
   }
 
   .billboard-image-container {
-    margin: 2.65vw 2.5% 0 2.5%;
-    padding: 0 0 0 2.5vw;
+    margin: 2.75vw 0 0 0;
+    padding: 0 2.5vw 0 4vw;
     text-align: left;
     float: left;
   }
@@ -2153,8 +2553,15 @@ body {
   }
 
   .billboard-text-container {
-    padding: 0 0 80px 0;
+    margin: 0 auto;
+    max-height: fit-content;
+    padding: 0;
   }
+
+  #commentsField {
+    min-height: 150px;
+  }
+
 
   #contactForm .modal-content{
     font-family: "Segoe UI", sans-serif;
@@ -2167,18 +2574,27 @@ body {
     min-width: 70vw;
     font-size: 22px;
     box-shadow: 0px 2px 6px 3.5px gray;
-    margin: 5vw 0 0 15vw;
+    margin: 1.5vw 0 3.5vw 15vw;
     border: none;
   }
 
   .contact-form-close-button{
-    margin: 1.25% 40%;
-    box-shadow: 3px 3px 4px -1.5px gray;
+    height: fit-content;
+    width: fit-content;
+    margin: 1.25% 92.5%;
+    padding: 0;
+    box-shadow: none;
     background: #868686;
     border: none;
     font-size: 19px;
     letter-spacing: .8px;
+    opacity: 1;
+  }
 
+  .contact-form-close-button span{
+      padding: 0;
+      font-size: 50px;
+      display: block;
   }
 
   .contact-form-content {
@@ -2187,15 +2603,17 @@ body {
 
   .contact-form-header {
     align-self: center;
+    position: absolute;
   }
 
   .contact-form input{
-    font-size: 19px;
-    font-weight: bold;
-    letter-spacing: .925px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .825px;
   }
 
   .contact-form-fields-container {
+    display: flex;
     min-height: 100%;
   }
 
@@ -2216,22 +2634,82 @@ body {
     background: #F5F3F2;
   }
 
+  #contactFormSubmitButton {
+    margin: 30px auto 20px auto;
+    min-width: 15vw;
+    max-width: 15vw;
+    width: 15vw;
+    display: block;
+  }
 
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
     color: #777670;
-    font-size: 28px;
-    left: 3.5%;
+    font-size: 24px;
     line-height: 1.05;
-    margin-left: 85%;
-    max-width: 180px;
-    min-height: 100px;
-    min-width: 2.25%;
+    margin: 0;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 15px 0 15px 0;
+    min-height: 75px;
     overflow-wrap: break-word;
-    position: fixed;
-    top: 71vh;
+    text-align: center;
+    float: left;
+    animation-name: text-pulse;
+    animation-duration: 3s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate reverse;
+  }
 
+  @keyframes text-pulse {
+    0% {letter-spacing: 1px;}
+    10% {letter-spacing:1.2px;}
+    15% {letter-spacing:1.3px;}
+    20% {letter-spacing: 1.4px;}
+    25% {letter-spacing: 1.5px;}
+    30% {letter-spacing: 1.6px;}
+    35% {letter-spacing: 1.8px;}
+    40% {letter-spacing: 2px;}
+    45% {letter-spacing: 1.8px;}
+    50% {letter-spacing: 1.6px;}
+    55% {letter-spacing: 1.5px;}
+    60% {letter-spacing: 1.4px;}
+    65% {letter-spacing: 1.3px;}
+    70% {letter-spacing: 1.2px;}
+    80% {letter-spacing: 1.1px;}
+    100% {letter-spacing: 1px;}
+
+  }
+
+  #registrationProcessInfoToggleButton {
+    background: #F6F4F3;
+    box-shadow: 3px 2px 4px -1.5px grey;
+    color: #777670;
+    line-height: 1.05;
+    padding: 0 10px 0 10px;
+    margin: 10px 0vw 0 0;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 75px;
+    overflow-wrap: break-word;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .language-button-container{
+    display: flex;
+    margin: 10px 0 10px 0;
+    max-width: 100%;
+  }
+
+  .language-button-container .btn {
+    margin: 0 1.25% 0 1.25%;
+  }
+
+  .menu {
+    margin: 0;
   }
 
   .menuToggler {
@@ -2336,4 +2814,7 @@ body {
     z-index: 1000;
   }
 
+  .toolbar {
+    margin: 50px 0 0 0;
+  }
 }
