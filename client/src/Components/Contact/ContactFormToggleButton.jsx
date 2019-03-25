@@ -6,7 +6,8 @@ export class ContactFormToggleButton extends Component {
     super(props);
     this.state = {
       language: "",
-      text: "Check Availability"
+      text: "Check Availability",
+      toggleContactForm: this.props.toggleContactForm
     };
   }
 
@@ -37,7 +38,7 @@ export class ContactFormToggleButton extends Component {
 
   render(){
     return(
-      <Button className="button-toggle" id="contactFormToggleButton" onClick={this.props.toggleContactForm}>{this.state.text}</Button>
+      <Button className="button-toggle" id="contactFormToggleButton" onClick={this.state.toggleContactForm}>{this.state.text}</Button>
     );
   }
 }

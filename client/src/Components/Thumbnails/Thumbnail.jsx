@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Container, Row } from 'reactstrap';
+import { Col } from 'reactstrap';
 
 
 export class Thumbnail extends Component {
@@ -32,7 +32,7 @@ export class Thumbnail extends Component {
     }
 
     let style = {
-      "backgroundImage": `url(${require("../../public/images/thumbnails/" + this.state.content.image)})`
+      "backgroundImage": `url(${require("../../../public/images/thumbnails/" + this.state.content.image)})`
     }
 
     return(

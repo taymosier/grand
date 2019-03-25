@@ -22,7 +22,7 @@ class App extends Component {
     super();
     this.state = {
       language: "en",
-      contactForm: false,
+      contactFormVisible: false,
       menuModal: false,
       screenSize: helpers.determineScreenSize()
     };
@@ -38,7 +38,7 @@ class App extends Component {
       activeView: "home",
       pageContents: pages["home"],
       currentViewAddress: pages["home"].address,
-      contactForm: false,
+      contactFormVisible: false,
       screenSize: helpers.determineScreenSize()
     })
   }
@@ -52,7 +52,7 @@ class App extends Component {
           activeView: page,
           pageContents: pages[page],
           currentViewAddress: pages[page].address,
-          contactForm: false,
+          contactFormVisible: false,
           menuModal: false,
           screenSize: helpers.determineScreenSize()
         })
@@ -73,9 +73,9 @@ class App extends Component {
 
 
   toggleContactForm(){
-    let toggle = !this.state.contactForm;
+    let toggle = !this.state.contactFormVisible;
     this.setState({
-      contactForm: toggle
+      contactFormVisible: toggle
     });
   }
 
@@ -135,6 +135,7 @@ render() {
                 setLanguage={this.setLanguage}
                 language={this.state.language}
                 contactFormVisible={this.state.contactFormVisible}
+                toggleContactForm={this.toggleContactForm}
                 registrationInfoVisible={this.state.registrationInfoVisible}
               />
             : null
@@ -161,6 +162,7 @@ render() {
                 setLanguage={this.setLanguage}
                 language={this.state.language}
                 contactFormVisible={this.state.contactFormVisible}
+                toggleContactForm={this.toggleContactForm}
                 registrationInfoVisible={this.state.registrationInfoVisible}
               />
             : null

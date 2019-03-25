@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Thumbnail } from "../Components/Thumbnail";
+import { Thumbnail } from "./Thumbnail";
 
 export class ThumbnailGridContainer extends Component {
   constructor(props){

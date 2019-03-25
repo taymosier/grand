@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { Billboard } from "./Billboard";
+import { BillboardWithImage } from "./BillboardWithImage";
 
 
 export class BillboardContainer extends Component {
@@ -17,10 +18,18 @@ export class BillboardContainer extends Component {
   generateBillboards(billboardContents, language){
     let billboards = [];
     for(let item in billboardContents){
-      try{
-        billboards.push(<Billboard language={language} contents={billboardContents[item]} key={billboardContents[item].name} setPage={this.props.setPage}/>)
-      } catch(e){
-        console.log(this.state)
+      if(billboardContents[item].image){
+        try{
+          billboards.push(<BillboardWithImage language={language} contents={billboardContents[item]} key={billboardContents[item].name} setPage={this.props.setPage}/>)
+        } catch(e){
+          console.log(this.state)
+        }
+      } else {
+        try{
+          billboards.push(<Billboard language={language} contents={billboardContents[item]} key={billboardContents[item].name} setPage={this.props.setPage}/>)
+        } catch(e){
+          console.log(this.state)
+        }
       }
     }
     return billboards;

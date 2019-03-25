@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Col, Container, Row } from 'reactstrap';
+import { Col } from 'reactstrap';
 
 import { ContactFormToggleButton } from './Contact/ContactFormToggleButton';
-import { RegistrationProcessInfoButton } from './RegistrationProcessInfoButton';
+import { RegistrationProcessInfoButton } from './Registration/RegistrationProcessInfoButton';
 
 import { ContactForm } from './Contact/ContactForm';
-import { LanguageButtonContainer } from "./LanguageButtonContainer";
-import { RegistrationProcessInfoModal } from "./RegistrationProcessInfoModal";
+import { LanguageButtonContainer } from "./Languages/LanguageButtonContainer";
+import { RegistrationProcessInfoModal } from "./Registration/RegistrationProcessInfoModal";
 
 export class Toolbar extends Component {
   constructor(props){
@@ -15,7 +15,8 @@ export class Toolbar extends Component {
       setLanguage: this.props.setLanguage,
       language: this.props.language,
       contactFormVisible: this.props.contactFormVisible,
-      registrationInfoVisible: this.props.registrationInfoVisible
+      toggleContactForm : this.props.toggleContactForm,
+      registrationInfoVisible: false,
     };
     this.toggle = this.toggle.bind(this);
     this.toggleRegistrationProcessInfo = this.toggleRegistrationProcessInfo.bind(this);
@@ -33,6 +34,24 @@ export class Toolbar extends Component {
     })
   }
 
+  componentDidUpdate(){
+    if(this.state.language !== this.props.language){
+      this.setState({
+        language: this.props.language,
+      });
+    }
+    if(this.state.registrationInfoVisible !== this.props.registrationInfoVisible){
+      this.setState({
+        registrationInfoVisible: this.props.registrationInfoVisible
+      })
+    }
+    if(this.state.contactFormVisible !== this.props.contactFormVisible){
+      this.setState({
+        contactFormVisible: this.props.contactFormVisible,
+      })
+    }
+  }
+
   render(){
     return(
       <Col
@@ -47,7 +66,7 @@ export class Toolbar extends Component {
         setLanguage={this.state.setLanguage}
       />
       <ContactFormToggleButton
-        toggleContactForm={this.toggle}
+        toggleContactForm={this.state.toggleContactForm}
         language={this.state.language}
       />
       <RegistrationProcessInfoButton
@@ -55,7 +74,7 @@ export class Toolbar extends Component {
         language={this.state.language}
       />
       <ContactForm
-        toggle={this.toggle}
+        toggle={this.state.toggleContactForm}
         visible={this.state.contactFormVisible}
         language={this.state.language}
       />

@@ -20,6 +20,7 @@ export class ContactForm extends Component {
         state: "",
         country: "",
         zipcode: "",
+        toggleContactForm: this.props.toggle
       },
       placeholders: this.getFormPlaceholders(this.props.language)
     }
@@ -90,9 +91,9 @@ export class ContactForm extends Component {
     rooms.push("Select Available Room");
     rooms.push("Three Bedroom Presidential Villa");
     return(
-        <Modal isOpen={this.state.isOpen} toggle={this.toggle} className="contact-form" id="contactForm">
+        <Modal isOpen={this.state.isOpen} toggle={this.state.toggleContactForm} className="contact-form" id="contactForm">
           <Button className="contact-form-close-button" onClick={this.props.toggle} close aria-label="Cancel" size="lg"/>
-          <ModalHeader toggle={this.toggle} className="contact-form-header">For questions or to begin the reservation process, please fill out the form below</ModalHeader>
+          <ModalHeader toggle={this.state.toggleContactForm} className="contact-form-header">For questions or to begin the reservation process, please fill out the form below</ModalHeader>
           <ModalBody >
             <Form className="contact-form-fields-container" action="https://formspree.io/taymosier@gmail.com" method="POST">
               <Col className="contact-form-left-col" xl={{ size: 5, offset: 1 }} lg={{ size: 10, offset: 1 }} md={{ size: 6, offset: 0 }} xs={{ size: 12, offset: 0 }}>

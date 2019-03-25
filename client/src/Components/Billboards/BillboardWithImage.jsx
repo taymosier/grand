@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Col, Row } from 'reactstrap';
 
-export class Billboard extends Component {
+export class BillboardWithImage extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -50,9 +50,23 @@ export class Billboard extends Component {
     return null;
   }
 
+  splitText(text){
+    console.log(text)
+    let textSplit = text.split(/_\/_/g);
+    let textBlocks = [];
+    if(textSplit.length > 1){
+      for(let item in textSplit){
+        textBlocks.push(<p className="billboard-flavor_text">{textSplit[item]}</p>)
+      }
+      return textBlocks;
+    }
+    return text;
+  }
+
 
   render(){
-    
+    let textBlocks = [];
+    textBlocks = this.splitText(this.state.flavor_text[this.props.language]);
     if((/_\/_/g).test(this.state.flavor_text)){
       console.log('hi there this is regex')
       console.log(this.state.flavor_text.search(/_\/_/g))
@@ -61,13 +75,13 @@ export class Billboard extends Component {
         <div className="billboard" id={this.state.name}>
           <Row className="billboard-top-row">
             <Col
-              xl={{ size: 6, offset: 0 }}
+              xl={{ size: 5, offset: 0 }}
               lg={{ size: 5, offset: 0 }}
               md={{ size: 12, offset: 0 }}
               className="billboard-image-container"
             >
               { this.state.image
-                ? <img className="billboard-image" src={require("../../public/images/billboards/"+this.state.image)} alt={this.state.image}/>
+                ? <img className="billboard-image" src={require("../../../public/images/billboards/"+this.state.image)} alt={this.state.image}/>
                 : null
               }
             </Col>
@@ -85,7 +99,7 @@ export class Billboard extends Component {
                 : null
               }
               <div className="billboard-flavor_text-container">
-                <p className="billboard-flavor_text">{this.state.flavor_text[this.props.language]}</p>
+                {textBlocks}
               </div>
             </Col>
           </Row>

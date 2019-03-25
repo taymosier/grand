@@ -22,7 +22,7 @@ export class CarouselImage extends Component {
 
   render(){
     try {
-      return(<img className="carousel-image" src={require("../../public/images/galleries/" + this.state.srcFolder + this.state.src)} alt={this.state.altText} />)
+      return(<img className="carousel-image" src={require("../../../public/images/galleries/" + this.state.srcFolder + this.state.src)} alt={this.state.altText} />)
     } catch(e){
       return null
     }

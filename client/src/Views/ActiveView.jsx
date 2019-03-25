@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
-import { BillboardContainer } from "../Components/BillboardContainer";
-import { ThumbnailGridContainer } from "../Components/ThumbnailGridContainer";
-import { ImageCarousel } from '../Components/ImageCarousel';
+import { BillboardContainer } from "../Components/Billboards/BillboardContainer";
+import { ThumbnailGridContainer } from "../Components/Thumbnails/ThumbnailGridContainer";
+import { ImageCarousel } from '../Components/Carousel/ImageCarousel';
+
+import {BillboardWithMap} from '../Components/Billboards/BillboardWithMap';
 
 export class ActiveView extends Component {
   constructor(props){
@@ -11,8 +13,6 @@ export class ActiveView extends Component {
       language: this.props.language,
       content: this.props.content,
       pageName: this.props.activeView,
-      contactFormVisible: false,
-      registrationInfoVisible: false,
       setLanguage: this.props.setLanguage,
       imageGalleryHasContents: this.checkForContents(this.props.content.images.gallery)
     };
@@ -61,7 +61,7 @@ export class ActiveView extends Component {
     }
     return(
       <div className="default-child">
-
+        <BillboardWithMap />
         {this.props.content.text.header[this.state.language] !== undefined
           ? <h1 className="page-header">
               {this.state.content.text.header[this.state.language]}
