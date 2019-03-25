@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { Map } from './Map.jsx'
 import { GoogleApiWrapper } from 'google-maps-react';
 
@@ -20,11 +21,11 @@ export class MapsContainer extends Component {
     }
   }
   render(){
-    console.log(this.state.google)
+    console.log(GoogleApiWrapper)
     return(
       <div className="mapsContainer">
         <div className="wrapper">
-            <Map google={this.state.google}/>
+            <Map google={this.props.google}/>
         </div>
       </div>
     );

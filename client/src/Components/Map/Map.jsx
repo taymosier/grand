@@ -7,7 +7,7 @@ export class Map extends Component {
   constructor(props){
     super(props);
     this.state = {
-      google: this.props.google
+
     }
   }
   componentDidMount(){
@@ -18,6 +18,20 @@ export class Map extends Component {
   }
 
   componentDidUpdate(prevProps, prevState){
+    if(this.props.config !== undefined){
+      this.setState({
+        mapConfig: {
+          center: {
+            lat: this.props.config.center.lat,
+            lng: this.props.config.center.lng
+          },
+          zoom: this.props.config.zoom,
+          gestureHandling: this.props.config.gestureHandling,
+          mapTypeId: this.props.mapTypeId,
+          disableDefaultUI: this.props.disableDefaultUI,
+        }
+      })
+    }
     if(this.state.google !== this.props.google){
       this.setState({google:this.props.google})
       this.loadMap();
@@ -26,11 +40,11 @@ export class Map extends Component {
   }
 
   loadMap() {
-      const maps = this.state.google.maps;
-      const mapRef = this.refs.map;
-      const node = ReactDOM.findDOMNode(mapRef);
+      let maps = this.props.google.maps;
+      let mapRef = this.refs.map;
+      let node = ReactDOM.findDOMNode(mapRef);
 
-      const mapConfig = Object.assign({}, {
+      let mapConfig = Object.assign({}, {
         center: {lat: 35.597825, lng: -77.330829},
         zoom: 16,
         gestureHandling: 'cooperative',

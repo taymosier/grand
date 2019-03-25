@@ -18,18 +18,6 @@ body {
   font-family: "Advent Pro";
 }
 
-.mapsContainer  {
-  border-radius: 50%;
-  height: 60vh;
-  margin: 6vh 0 0 0vw;
-  width: 28vw;
-}
-
-.mapsContainer .googleMap{
-  border-radius: 50%;
-  height: 60vh;
-  width: 28vw;
-}
 
 
 .App {
@@ -2775,6 +2763,21 @@ body {
 
   .language-button-container .btn {
     margin: 0 1.25% 0 1.25%;
+  }
+
+  .mapsContainer  {
+    height: 35vh;
+    margin: 6vh 0 0 0vw;
+    width: 100%;
+  }
+
+  .mapsContainer .googleMap{
+    height: 35vh;
+    width: 100%;
+  }
+
+  .maps-container .wrapper {
+    width: 100%;
   }
 
   .menu {
