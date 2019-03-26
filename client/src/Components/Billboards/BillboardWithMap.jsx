@@ -49,12 +49,10 @@ export class BillboardWithMap extends Component {
             xs={{ size: 12, offset: 0 }}
           >
             <Row className="info-container">
-              <div className="tabbed-info-list">
-                <h4 className="info-header">
-                  Quick References
-                </h4>
-                <TabbedInfoPane />
-              </div>
+              <h4 className="info-header">
+                Quick References
+              </h4>
+              <TabbedInfoPane />
             </Row>
           </Col >
       </Row>

@@ -50,13 +50,13 @@ export class Billboard extends Component {
     return null;
   }
 
-  splitText(text){
+  splitText(text, className, delimiter){
     console.log(text)
     let textSplit = text.split(/_\/_/g);
     let textBlocks = [];
     if(textSplit.length > 1){
       for(let item in textSplit){
-        textBlocks.push(<p className="billboard-flavor_text full-width">{textSplit[item]}</p>)
+        textBlocks.push(<p className={`${className}`}>{textSplit[item]}</p>)
       }
       return textBlocks;
     }
@@ -66,7 +66,7 @@ export class Billboard extends Component {
 
   render(){
     let textBlocks = [];
-    textBlocks = this.splitText(this.state.flavor_text[this.props.language]);
+    textBlocks = this.splitText(this.state.flavor_text[this.props.language], "billboard-flavor_text full-width", /_\/_/g);
     if((/_\/_/g).test(this.state.flavor_text)){
       console.log('hi there this is regex')
       console.log(this.state.flavor_text.search(/_\/_/g))

@@ -1,5 +1,5 @@
 import $ from 'jquery';
-
+import React from "react";
 // var screenSize = determineScreenSize();
 // var currentURL = window.location.href;
 
@@ -51,4 +51,16 @@ export function formatTitle(name){
     let strArray = word.split("");
     strArray[0] = strArray[0].toUpperCase();
     return strArray.join("");
+  }
+
+  export function splitText(text, className, delimiter){
+    let textSplit = text.split(/_\/_/g);
+    let textBlocks = [];
+    if(textSplit.length > 1){
+      for(let item in textSplit){
+        textBlocks.push(<p className={`${className}`}>{textSplit[item]}</p>)
+      }
+      return textBlocks;
+    }
+    return text;
   }

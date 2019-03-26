@@ -51,7 +51,6 @@ export class BillboardWithImage extends Component {
   }
 
   splitText(text){
-    console.log(text)
     let textSplit = text.split(/_\/_/g);
     let textBlocks = [];
     if(textSplit.length > 1){
