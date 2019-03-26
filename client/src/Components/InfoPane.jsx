@@ -35,7 +35,6 @@ export class InfoPane extends Component {
   }
   render(){
     let text = splitText(this.state.text, "info-text", /_\/_/g);
-    let name = this.state.name;
     return(
       <div className="popoverContainer">
         <Button id={this.state.id} type="button" onClick={() => {this.state.setActivePane(this.state.name)}}>

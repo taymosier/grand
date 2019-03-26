@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import { Map } from './Map.jsx'
 import { GoogleApiWrapper } from 'google-maps-react';
 

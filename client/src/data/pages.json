@@ -2589,14 +2589,15 @@
         "header": {"en":"nuevo vallarta","es":"nuevo vallarta"},
         "subheader": {"en":"getting here","es":"CÓMO LLEGAR"}
       },
-      "text": {
-        "description": {"en":"","es":""},
-        "header": {"en":"Directions and Contact","es":"Direcciones y contacto"}
-      },
       "images": {
         "banner": "grand-luxxe-banner.jpg",
         "gallery": [],
         "thumbnails": []
+      },
+      "map": true,
+      "text": {
+        "description": {"en":"","es":""},
+        "header": {"en":"Directions and Contact","es":"Direcciones y contacto"}
       }
     }
   },

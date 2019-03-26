@@ -61,11 +61,14 @@ export class ActiveView extends Component {
     }
     return(
       <div className="default-child">
-        <BillboardWithMap />
         {this.props.content.text.header[this.state.language] !== undefined
           ? <h1 className="page-header">
               {this.state.content.text.header[this.state.language]}
             </h1>
+          : null
+        }
+        {this.props.content.map === true
+          ? <BillboardWithMap />
           : null
         }
         {this.props.content.text.description[this.state.language] !== undefined
