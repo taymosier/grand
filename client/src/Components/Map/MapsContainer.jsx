@@ -21,7 +21,6 @@ export class MapsContainer extends Component {
     }
   }
   render(){
-    console.log(GoogleApiWrapper)
     return(
       <div className="mapsContainer">
         <div className="wrapper">

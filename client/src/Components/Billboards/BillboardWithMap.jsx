@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Col, Row } from 'reactstrap';
+import { Col, Row } from 'reactstrap';
 import { TabbedInfoPane } from '../TabbedInfoPane';
 
 import MapsContainer from '../Map/MapsContainer.jsx';

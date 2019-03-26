@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle, Popover, PopoverHeader, PopoverBody} from 'reactstrap';
+import { Button, PopoverHeader, PopoverBody, UncontrolledPopover} from 'reactstrap';
 
 // splitText([(string) text], [(string) class name], [(string/regex) delimiter to split text on])
 import { splitText } from '../helpers/dynamicCSS.js'
@@ -8,30 +8,39 @@ export class InfoPane extends Component {
   constructor(props){
     super(props);
     this.state = {
-      className: this.props.className,
+      isOpen: this.props.isOpen,
+      name: this.props.name,
+      id: this.props.id,
       label: this.props.label,
       text: this.props.text,
-      btnDropleft: false
+      btnDropleft: false,
+      setActivePane: this.props.setActivePane
+    }
+  }
+
+  componentDidUpdate(){
+    console.log(`${this.state.name} isOpen: ${this.props.isOpen}`)
+    if(this.state.isOpen !== this.props.isOpen){
+      this.setState({
+        isOpen: this.props.isOpen
+      })
     }
   }
   render(){
     let text = splitText(this.state.text, "info-text", /_\/_/g);
+    let name = this.state.name;
     return(
-      <Dropdown
-        className={"dropdown-info"}
-        direction="left"
-        isOpen={this.state.btnDropleft}
-        toggle={() => { this.setState({ btnDropleft: !this.state.btnDropleft }); }}
-      >
-        <DropdownToggle caret className={"dropdown-info-button"}>
+      <div className="popoverContainer">
+        <Button id={this.state.id} type="button" onClick={() => {this.state.setActivePane(this.state.name)}}>
           {this.state.label}
-        </DropdownToggle>
-        <DropdownMenu className="dropwdown-info-text-container">
-          <DropdownItem className={"info-text-item"}>
+        </Button>
+        <UncontrolledPopover isOpen={this.state.isOpen} trigger="click" placement="left" target={this.state.id} >
+          <PopoverHeader>{this.state.label}</PopoverHeader>
+          <PopoverBody>
             {text}
-          </DropdownItem>
-        </DropdownMenu>
-      </Dropdown>
+          </PopoverBody>
+        </UncontrolledPopover>
+      </div>
     )
   }
 }

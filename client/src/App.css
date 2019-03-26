@@ -59,13 +59,34 @@ body {
 }
 
 
-.billboard-map > .right-col > .info-container > .tabbed-info-list {
+.billboard-map > .right-col > .info-container > .tabbed-info-pane {
   max-width: 80%;
   min-width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
   width: 80%;
-  height: 89%;
+  height: fit-content;
+}
+
+.billboard-map > .right-col > .info-container > .tabbed-info-pane button {
+  background: black;
+  border: none;
+  border-bottom: .5px solid white;
+  border-radius: 0;
+  width: 100%;
+}
+
+.billboard-map > .right-col > .info-container > .tabbed-info-pane button:focus {
+  box-shadow: none;
+}
+
+.popover {
+  top: 5px !important;
+  left: -10px !important;
+}
+
+.popover-body > .info-text {
+  margin: 0;
 }
 
 .billboard-map > .right-col > .info-container > .info-header {
