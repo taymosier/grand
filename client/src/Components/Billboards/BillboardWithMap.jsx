@@ -20,9 +20,9 @@ export class BillboardWithMap extends Component {
   }
   render(){
     return(
-      <div className="billboard-map">
+      <Row className="billboard-map">
           <Col
-            className="billboard-map-left-col"
+            className="left-col"
             xl={{ size: 9, offset: 0 }}
             lg={{ size: 9, offset: 0 }}
             md={{ size: 0, offset: 0 }}
@@ -32,23 +32,31 @@ export class BillboardWithMap extends Component {
             <Row className="map-container-row">
               <MapsContainer className="mapContainer" mapConfig={this.state.mapConfig}/>
             </Row>
-            <Row className="billboard-map-address-row">
-              <p>info</p>
+            <Row className="address-row">
+              <h5>Vidanta Nuevo Vallarta</h5>
+                <span />
+              <p>Boulevard Riviera Nayarit #254 Bahia de Banderas, Nayarit CP 63735</p>
             </Row>
           </Col>
+
           <Col
-            className="billboard-map-right-col"
+            className="right-col"
             xl={{ size: 3, offset: 0 }}
             lg={{ size: 3, offset: 0 }}
             md={{ size: 0, offset: 0 }}
             sm={{ size: 12, offset: 0 }}
             xs={{ size: 12, offset: 0 }}
           >
-            <div className="map-info-container">
-              hey
-            </div>
+            <Row className="info-container">
+              <div className="info-header">
+                Quick References
+              </div>
+              <div className="tabbed-info-list">
+                tabbed pane
+              </div>
+            </Row>
           </Col >
-      </div>
+      </Row>
     )
   }
 }

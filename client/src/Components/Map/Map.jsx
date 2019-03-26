@@ -45,7 +45,7 @@ export class Map extends Component {
       let node = ReactDOM.findDOMNode(mapRef);
 
       let mapConfig = Object.assign({}, {
-        center: {lat: 35.597825, lng: -77.330829},
+        center: {lat: 20.683125, lng: -105.285340},
         zoom: 16,
         gestureHandling: 'cooperative',
         mapTypeId: 'roadmap',

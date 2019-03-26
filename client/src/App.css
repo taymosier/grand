@@ -18,7 +18,64 @@ body {
   font-family: "Advent Pro";
 }
 
+.map-container-row > div {
+  min-width: 100%;
+  min-height: 100%;
+}
 
+.billboard-map > .left-col {
+
+}
+
+.billboard-map > .left-col > .address-row {
+  height: fit-content;
+  background: #F6F4F3;
+  padding: 15px;
+}
+
+.billboard-map > .left-col > .address-row > h5 {
+  margin: 0;
+  padding: 0 0 10px 0;
+  border-bottom: .5px solid black;
+}
+
+.billboard-map > .left-col > .address-row > p {
+  letter-spacing: .95px;
+  line-height: 1;
+  margin: 0;
+  padding: 15px 20% 1px 0;
+}
+
+.billboard-map > .right-col {
+  background: black;
+  color: white;
+}
+
+.billboard-map > .right-col > .info-container {
+  display: block;
+  height: 100%;
+}
+
+
+.billboard-map > .right-col > .info-container > .tabbed-info-list {
+  max-width: 80%;
+  min-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  height: 89%;
+}
+
+.billboard-map > .right-col > .info-container > .info-header {
+  border-bottom: 1px solid white;
+  max-width: 80%;
+  min-width: 80%;
+  margin: 0 auto 1% auto;
+  padding: 2.5% 0 1.5% 0;
+  text-align: center;
+  width: 80%;
+  min-height: 5%;
+}
 
 .App {
   text-align: center;
@@ -2767,7 +2824,7 @@ body {
 
   .mapsContainer  {
     height: 35vh;
-    margin: 6vh 0 0 0vw;
+    margin: 0;
     width: 100%;
   }
 
