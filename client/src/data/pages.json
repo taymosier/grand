@@ -2599,7 +2599,82 @@
         "description": {"en":"","es":""},
         "header": {"en":"Directions and Contact","es":"Direcciones y contacto"}
       }
-    }
+    },
+    "billboards": [
+      {
+        "name": "",
+        "type": "",
+        "title": {
+          "en":"Vallarta",
+          "es":"Vallarta"
+        },
+        "tagline": {
+          "en":"",
+          "es":"Piscinas"
+        },
+        "flavor_text": {
+          "en":"pool",
+          "es": "agua"
+          },
+        "image": "jpg",
+        "link": "pools"
+      },
+      {
+        "name": "",
+        "type": "",
+        "title": {
+          "en":"Vallarta",
+          "es":"Vallarta"
+        },
+        "tagline": {
+          "en":"",
+          "es":"Piscinas"
+        },
+        "flavor_text": {
+          "en":"pool",
+          "es": "agua"
+          },
+        "image": "jpg",
+        "link": "pools"
+      },
+      {
+        "name": "",
+        "type": "",
+        "title": {
+          "en":"Vallarta",
+          "es":"Vallarta"
+        },
+        "tagline": {
+          "en":"",
+          "es":"Piscinas"
+        },
+        "flavor_text": {
+          "en":"pool",
+          "es": "agua"
+          },
+        "image": "jpg",
+        "link": "pools"
+      },
+      {
+        "name": "",
+        "type": "",
+        "title": {
+          "en":"Vallarta",
+          "es":"Vallarta"
+        },
+        "tagline": {
+          "en":"",
+          "es":"Piscinas"
+        },
+        "flavor_text": {
+          "en":"pool",
+          "es": "agua"
+          },
+        "image": "jpg",
+        "link": "pools"
+      }
+
+    ]
   },
 
   "what to do" : {
