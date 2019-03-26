@@ -85,6 +85,13 @@ body {
   left: -10px !important;
 }
 
+.popover > .popover-inner > .popover-header > button {
+  line-height: .75;
+  outline: none;
+  color: red;
+  opacity: .5;
+}
+
 .popover-body > .info-text {
   margin: 0;
 }

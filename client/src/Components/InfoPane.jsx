@@ -16,6 +16,7 @@ export class InfoPane extends Component {
       btnDropleft: false,
       setActivePane: this.props.setActivePane
     }
+    this.close = this.close.bind(this);
   }
 
   componentDidUpdate(){
@@ -26,6 +27,12 @@ export class InfoPane extends Component {
       })
     }
   }
+
+  close(){
+    this.setState({
+      isOpen: false
+    })
+  }
   render(){
     let text = splitText(this.state.text, "info-text", /_\/_/g);
     let name = this.state.name;
@@ -35,7 +42,10 @@ export class InfoPane extends Component {
           {this.state.label}
         </Button>
         <UncontrolledPopover isOpen={this.state.isOpen} trigger="click" placement="left" target={this.state.id} >
-          <PopoverHeader>{this.state.label}</PopoverHeader>
+          <PopoverHeader>
+            {this.state.label}
+            <Button className="info-pane-close-btn" close onClick={() => {this.state.setActivePane(null)}}>x</Button>
+          </PopoverHeader>
           <PopoverBody>
             {text}
           </PopoverBody>
