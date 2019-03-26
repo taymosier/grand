@@ -46,3 +46,9 @@ export function formatTitle(name){
       return null;
     }
   }
+
+  export function capitalize(word){
+    let strArray = word.split("");
+    strArray[0] = strArray[0].toUpperCase();
+    return strArray.join("");
+  }

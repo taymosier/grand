@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Col, Row } from 'reactstrap';
+import { TabbedInfoPane } from '../TabbedInfoPane';
 
 import MapsContainer from '../Map/MapsContainer.jsx';
 
@@ -48,11 +49,11 @@ export class BillboardWithMap extends Component {
             xs={{ size: 12, offset: 0 }}
           >
             <Row className="info-container">
-              <div className="info-header">
-                Quick References
-              </div>
               <div className="tabbed-info-list">
-                tabbed pane
+                <h4 className="info-header">
+                  Quick References
+                </h4>
+                <TabbedInfoPane />
               </div>
             </Row>
           </Col >
