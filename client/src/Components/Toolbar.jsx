@@ -16,21 +16,15 @@ export class Toolbar extends Component {
       language: this.props.language,
       contactFormVisible: this.props.contactFormVisible,
       toggleContactForm : this.props.toggleContactForm,
-      registrationInfoVisible: false,
+      toggleRegistrationProcessInfo: this.props.toggleRegistrationProcessInfo,
+      registrationInfoVisible: this.props.registrationInfoVisible,
     };
     this.toggle = this.toggle.bind(this);
-    this.toggleRegistrationProcessInfo = this.toggleRegistrationProcessInfo.bind(this);
   }
 
   toggle(){
     this.setState({
       contactFormVisible: !this.state.contactFormVisible
-    })
-  }
-
-  toggleRegistrationProcessInfo(){
-    this.setState({
-      registrationInfoVisible: !this.state.registrationInfoVisible
     })
   }
 
@@ -70,7 +64,7 @@ export class Toolbar extends Component {
         language={this.state.language}
       />
       <RegistrationProcessInfoButton
-        toggleRegistrationProcessInfo={this.toggleRegistrationProcessInfo}
+        toggleRegistrationProcessInfo={this.state.toggleRegistrationProcessInfo}
         language={this.state.language}
       />
       <ContactForm
@@ -79,7 +73,7 @@ export class Toolbar extends Component {
         language={this.state.language}
       />
       <RegistrationProcessInfoModal
-        toggle={this.toggleRegistrationProcessInfo}
+        toggle={this.state.toggleRegistrationProcessInfo}
         visible={this.state.registrationInfoVisible}
       />
       </Col>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button, Col, Row } from 'reactstrap';
 
 export class BillboardImage extends Component {
   constructor(props){

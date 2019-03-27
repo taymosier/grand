@@ -12,7 +12,6 @@ import { Footer } from './Components/Footer';
 import { Banner } from './Components/Banner';
 import { Portal } from './Components/Portal';
 import { Toolbar } from './Components/Toolbar';
-import {BillboardThreeCol} from './Components/Billboards/BillboardThreeCol';
 
 
 const helpers = require('./helpers/dynamicCSS.js');
@@ -26,13 +25,17 @@ class App extends Component {
       language: "en",
       pageContents: pages["getting here"],
       contactFormVisible: false,
+      registrationFormVisible: false,
       menuModal: false,
       screenSize: helpers.determineScreenSize()
     };
+    this.setLanguage = this.setLanguage.bind(this);
     this.setPage = this.setPage.bind(this);
     this.toggleContactForm = this.toggleContactForm.bind(this);
     this.toggleMenuModal = this.toggleMenuModal.bind(this);
-    this.setLanguage = this.setLanguage.bind(this);
+    this.toggleRegistrationProcessInfo = this.toggleRegistrationProcessInfo.bind(this);
+
+
   }
 
   componentDidMount(){
@@ -41,6 +44,7 @@ class App extends Component {
       pageContents: pages["getting here"],
       currentViewAddress: pages["getting here"].address,
       contactFormVisible: false,
+      registrationFormVisible: false,
       screenSize: helpers.determineScreenSize()
     })
   }
@@ -55,6 +59,7 @@ class App extends Component {
           pageContents: pages[page],
           currentViewAddress: pages[page].address,
           contactFormVisible: false,
+          registrationFormVisible: false,
           menuModal: false,
           screenSize: helpers.determineScreenSize()
         })
@@ -85,6 +90,12 @@ class App extends Component {
   toggleMenuModal(){
     this.setState({
       menuModal: !this.state.menuModal
+    })
+  }
+
+  toggleRegistrationProcessInfo(){
+    this.setState({
+      registrationInfoVisible: !this.state.registrationInfoVisible
     })
   }
 
@@ -165,8 +176,9 @@ render() {
                 setLanguage={this.setLanguage}
                 language={this.state.language}
                 contactFormVisible={this.state.contactFormVisible}
-                toggleContactForm={this.toggleContactForm}
                 registrationInfoVisible={this.state.registrationInfoVisible}
+                toggleContactForm={this.toggleContactForm}
+                toggleRegistrationProcessInfo={this.toggleRegistrationProcessInfo}
               />
             : null
           }
