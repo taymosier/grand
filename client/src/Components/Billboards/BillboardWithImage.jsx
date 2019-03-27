@@ -17,7 +17,11 @@ export class BillboardWithImage extends Component {
       "tagline": checkForEmptyAttributes(this.props.contents.tagline),
       "image": checkForEmptyAttributes(this.props.contents.image),
       "flavor_text": checkForEmptyAttributes(this.props.contents.flavor_text),
-      "link": checkForEmptyAttributes(this.props.contents.link)
+      "link": checkForEmptyAttributes(this.props.contents.link),
+      "btnTxt": {
+        "en": "Learn More",
+        "es": "Aprende Más"
+      }
     };
     this.formatNameForID = this.formatNameForID.bind(this);
     this.handleImageProp = this.handleImageProp.bind(this);
@@ -117,7 +121,7 @@ export class BillboardWithImage extends Component {
               }
             </Col>
             <Col
-              xl={{ size: 5, offset: 0 }}
+              xl={{ size: 6, offset: 0 }}
               lg={{ size: 5, offset: 6 }}
               md={{ size: 10, offset: 1 }}
               className="billboard-text-container"
@@ -138,7 +142,7 @@ export class BillboardWithImage extends Component {
           </Row>
           {this.state.link !== "" && this.state.link !== undefined
            ? <Row className="billboard-bottom-row">
-                <Button className="billboard-button" onClick={() => {this.props.setPage(this.state.link)}}>Learn More</Button>
+                <Button className="billboard-button" onClick={() => {this.props.setPage(this.state.link)}}>{this.state.btnTxt[this.props.language]}</Button>
              </Row>
            : null
           }

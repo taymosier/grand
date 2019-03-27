@@ -2662,7 +2662,7 @@ body {
     font-weight: 600;
     letter-spacing: .7px;
     line-height: 1.15;
-    padding: 0 30px 30px 0px;
+    padding: 0 5px 30px 5px;
   }
 
   .billboard-image-container {
@@ -2674,7 +2674,14 @@ body {
   }
 
   .billboard-image{
+    display: block;
     max-height: 17vw;
+    min-width: 90%;
+    width: 90%;
+    max-width: 90%;
+    height: 100%;
+    min-height: 100%;
+
   }
 
   .billboard-tagline {
@@ -2682,7 +2689,7 @@ body {
     margin: 20px auto 0 auto;
     min-width: fit-content;
     max-width: fit-content;
-    padding: 0 30px 10px 0;
+    padding: 0 10px 10px 0;
     width: fit-content;
   }
 
@@ -2693,7 +2700,7 @@ body {
   }
 
   .billboard-title {
-    padding: 30px 30px 0 0;
+    padding: 30px 10px 0 0;
   }
 
   .billboard-title.full-width.three-col{
@@ -2902,6 +2909,22 @@ body {
   .menuToggler {
     display: none;
   }
+
+  .page-description {
+    font-size: 24px;
+    letter-spacing: .65px;
+    padding: 15px 2.5% 0 2.5%;
+  }
+
+  .page-header {
+    font-family: "Advent Pro";
+    font-weight: 600;
+    letter-spacing: .25em;
+    padding: 25px 0 10px 0;
+    border-bottom: .85px solid darkgrey;
+    min-width: 100%;
+    text-align: center;
+}
 
   .registration-step-container {
     min-height: 435px;
