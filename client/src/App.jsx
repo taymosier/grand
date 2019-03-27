@@ -23,7 +23,7 @@ class App extends Component {
     super();
     this.state = {
       language: "en",
-      pageContents: pages["getting here"],
+      pageContents: pages["home"],
       contactFormVisible: false,
       registrationFormVisible: false,
       menuModal: false,
@@ -40,9 +40,9 @@ class App extends Component {
 
   componentDidMount(){
     this.setState({
-      activeView: "getting here",
-      pageContents: pages["getting here"],
-      currentViewAddress: pages["getting here"].address,
+      activeView: "home",
+      pageContents: pages["home"],
+      currentViewAddress: pages["home"].address,
       contactFormVisible: false,
       registrationFormVisible: false,
       screenSize: helpers.determineScreenSize()

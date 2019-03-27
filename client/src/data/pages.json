@@ -2528,11 +2528,7 @@
           "es": "La Villa Presidencial con tres recámaras cuentas con tres dormitorios con dos camas king-size y dos camas dobles, tres baños y medio con tres jacuzzis, una terraza privada con dos piscinas pequeñas, dos cocinas gourmet, dos salas de estar con sofá camas, dos comedores y cinco TVs."
           },
         "header": {"en": "Grand Luxxe Three Bedroom Presidential Villa","es":"VILLA PRESIDENCIAL CON TRES RECÁMARAS DE GRAND LUXXE"},
-        "subheader": {"en": "A grand Luxxe Presidential Villa","es":"Una Villa Presidencial de Grand Luxxe"},
-        "room_details": {
-          "details": [],
-          "pricing": "3740"
-        }
+        "subheader": {"en": "A grand Luxxe Presidential Villa","es":"Una Villa Presidencial de Grand Luxxe"}
       },
       "images": {
         "gallery": [
@@ -2575,7 +2571,26 @@
         ],
         "thumbnails": []
       },
-      "billboards": {}
+      "billboards": {
+        "0": {
+          "title": {
+            "en":"$3,740 USD per night",
+            "es":"$3,740 USD por noche"
+        },
+          "name": "three bedroom presidential villa features and pricing",
+          "class": "text-left-col list-no-bullets floorplan",
+          "tagline": {
+            "en": "",
+            "es": ""
+        },
+          "flavor_text": {
+            "en":"Occupancy: 10 adults, 2 kids under 12 years old_/_Type: Three Bedrooms_/_Bed: Two King-Size Beds, Two Double Bedsx_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs",
+            "es": "Ocupación: 10 adultos, 2 niños menores de 12 años_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
+        },
+          "image": "three-bedroom-presidential-villa-billboard",
+          "link": ""
+        }
+      }
     }
   },
 
