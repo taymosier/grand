@@ -1855,7 +1855,7 @@ body {
     font-weight: 600;
     font-style: normal;
     letter-spacing: 1.75px;
-    padding: 0 0 0 10px;
+    padding: 10px 0 0 10px;
     text-align: center;
     text-transform: uppercase;
   }
