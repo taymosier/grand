@@ -2368,8 +2368,11 @@
               "es":"Perfil del intérprete: Oasis ilumina sus noches"
             },
             "flavor_text": {
-              "en":"With its cool Cuban sounds and charismatic rhythms to get your whole body moving, Oasis is a favorite act at Santuario. This five-person band specializes in salsa music and other intoxicating beats of the Caribbean, and they’re known for getting their audiences up on their feet and dancing.","image": "santuario-billboard-3.jpg","link": "" },
+              "en":"With its cool Cuban sounds and charismatic rhythms to get your whole body moving, Oasis is a favorite act at Santuario. This five-person band specializes in salsa music and other intoxicating beats of the Caribbean, and they’re known for getting their audiences up on their feet and dancing.","image": "santuario-billboard-3.jpg","link": "",
               "es": "Con sus maravillosos sonidos y ritmos cubanos que lo harán mover todo el cuerpo, Oasis es una de las actuaciones favoritas en Santuario. Esta banda de cinco integrantes se especializa en salsa y otros ritmos del Caribe y es famosa por hacer que su público no dude ni un segundo en levantarse a la pista de baile."
+            },
+            "image": "santuario-billboard-3.jpg",
+            "link": ""
             },
           "3" : {
             "title": {"en": "Featured Cocktail", "es":"Cóctel destacad"},
@@ -3551,7 +3554,7 @@
       "billboards": {
         "0" : {
           "title": {"en":"","es":""},
-          "name": "",
+          "name": "almaverde",
           "tagline": {"en":"Almaverde","es":"Almaverde"},
           "flavor_text": {
             "en":"See where Vidanta Nuevo Vallarta sources its produce straight from the vine! This 40-acre farm yields over 65 types of fruits and vegetables that are used throughout the resort!",
@@ -3562,7 +3565,7 @@
         },
         "1" : {
           "title": {"en":"","es":""},
-          "name": "",
+          "name": "tower 5",
           "tagline": {"en":"Grand Luxxe Tower 5 & Quinto","es":"Torre 5 de Grand Luxxe y Quinto"},
           "flavor_text": {
             "en":"This stunning new tower offers amazing views of the resort, Ameca River, Sierra Madres, and Banderas Bay from its brand-new rooftop restaurant",
@@ -3573,7 +3576,7 @@
         },
         "2" : {
           "title": {"en":"","es":""},
-          "name": "",
+          "name": "tequila tour",
           "tagline": {"en":"The Tequila Tour","es":"Tequila Tour"},
           "flavor_text": {
             "en":"Become a tequila connoisseur and learn the finer points about Mexico’s national spirit in this fun outdoor tour offering a tequila tasting, cocktail lessons, and barbecue.",

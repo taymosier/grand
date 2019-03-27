@@ -54,7 +54,7 @@ export function formatTitle(name){
   }
 
   export function checkForSpecialClasses(contents){
-    let classes = null;
+    let classes = "";
     // 'classes' === null unless contents.class exists
     try{
       if(contents.class !== undefined && contents.class !== ""){

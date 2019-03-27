@@ -2632,7 +2632,7 @@ body {
     max-height: fit-content;
     min-height: fit-content;
     height: 23vw;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
   }
 
@@ -2647,7 +2647,7 @@ body {
 
   .billboard-button {
     width: 45%;
-    margin: 10px 0 20px 50%;
+    margin: 10px 0 5px 50%;
   }
 
   .billboard-flavor_text {
@@ -2662,7 +2662,7 @@ body {
     font-weight: 600;
     letter-spacing: .7px;
     line-height: 1.15;
-    padding: 0 5px 30px 5px;
+    padding: 0 5px 20px 5px;
   }
 
   .billboard-image-container {
@@ -2685,11 +2685,11 @@ body {
   }
 
   .billboard-tagline {
-    font-size: 24px;
-    margin: 20px auto 0 auto;
+    font-size: 22px;
+    margin: 5px auto 10px auto;
     min-width: fit-content;
     max-width: fit-content;
-    padding: 0 10px 10px 0;
+    padding: 5px 10px 5px 0;
     width: fit-content;
   }
 
@@ -2700,7 +2700,8 @@ body {
   }
 
   .billboard-title {
-    padding: 30px 10px 0 0;
+    line-height: .9;
+    padding: 15px 10px 5px 0;
   }
 
   .billboard-title.full-width.three-col{
