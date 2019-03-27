@@ -2630,7 +2630,7 @@
             "en": "Once you book your vacation, you can arrange transportation from the airport to the resort by following the information sent to you in your confirmation email or visiting the following site: shuttleservices.vidanta.com. At this site, you will be able to reserve your transportation using your reservation number. A confirmation slip will then be emailed to you directly from the transportation company once they’ve reviewed and accepted your request. When You Arrive Transportation to Vidanta Nuevo Vallarta is provided by Gapsa Vallarta. When you get through customs at the airport, exit the International Arrivals area. Look for a driver wearing black pants and a tan shirt, carrying a Gapsa Vallarta sign marked with your resort hotel logo.",
             "es": "Disfrute de sus vacaciones con esta bebida fresca de Santuario, cuyo protagonista es el sabor ahumado del mezcal, que se mezcla con cítricos y jengibre para ofrecer un toque de intensidad."
           },
-          "image": "bus_icon.png",      
+          "image": "bus_icon.png",
           "link": ""
         },
         "2": {
@@ -3463,7 +3463,7 @@
       "billboards": {
         "0" : {
           "title": {"en":"","es":""},
-          "name": "",
+          "name": "activities intro",
           "tagline": {"en":"","es":""},
           "flavor_text": {
             "en":"It’s your vacation, so why not spend it doing the types of things you love to do? At Vidanta Nuevo Vallarta, you’ll find a wide variety of activities, from sports tournaments and classes to arts and crafts or poolside trivia, all run by our amazing activities team, the Joy Squad.",
@@ -3473,7 +3473,7 @@
           "link": "" },
         "1" : {
           "title": {"en":"","es":""},
-          "name": "",
+          "name": "joy squad",
           "tagline": {"en":"Joy Squad","es":"Joy Squad"},
           "flavor_text": {
             "en":"Throughout the resort you might recognize the bright shirts and warm smiles of our Joy Squad. They’re here to make sure your vacation is filled with fun, excitement, and new experiences. Stop by any Activities Stand to say hello and see what great adventures are on the schedule for the day!",
@@ -3484,7 +3484,7 @@
          },
         "2" : {
           "title": {"en":"","es":""},
-          "name": "",
+          "name": "filler",
           "tagline": {"en":"**Activities Carousel Needed**","es":""},
           "flavor_text": {
             "en":"Become a tequila connoisseur and learn the finer points about Mexico’s national spirit in this fun outdoor tour offering a tequila tasting, cocktail lessons, and barbecue.",
@@ -3494,7 +3494,7 @@
           "link": "" },
         "3" : {
           "title": {"en":"","es":""},
-          "name": "",
+          "name": "kids club",
           "tagline": {"en":"Kid's Club","es":"Kid's Club"},
           "flavor_text": {
             "en":"Kid’s Club is your vacation go-to for fun for the little ones! Located by The Grand Mayan wave pool, Kid’s Club offers an assortment of amazing activities, including water activities at the on-premise pool, for children ages 5 to 12. All of these activities are supervised by our expert staff. Kid’s Club also has weekly theme nights where, for an additional fee, you can drop off your children and enjoy an evening at the resort while they make new friends and try new things at events like Pirate Night or Pajama Party. There is also a Grand Luxxe-exclusive Kid’s Club located by Grand Luxxe Tower 4.",
@@ -3504,7 +3504,7 @@
           "link": "" },
         "4" : {
           "title": {"en":"","es":""},
-          "name": "",
+          "name": "off resort",
           "tagline": {"en":"Explore Mexico","es":"Explore México"},
           "flavor_text": {
             "en":"For those looking for additional adventures, there are a variety of on- and off-resort experiences offered by outside companies. On the beach, you can try your hand at kayaking, stand-up paddle boarding, or surfing. Or you can explore the scenery of the Riviera Nayarit region with off-site excursions like zip-lining in the jungle, whale watching, or deep-sea fishing. Simply visit the travel concierge in your resort hotel lobby to coordinate one of these exciting day trips.",

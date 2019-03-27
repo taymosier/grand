@@ -22,7 +22,7 @@ export class BillboardContainer extends Component {
         try{
           billboards.push(<BillboardWithImage language={language} contents={billboardContents[item]} key={billboardContents[item].name} setPage={this.props.setPage}/>)
         } catch(e){
-          console.log(this.state)
+          console.log("whoops!")
         }
       } else {
         try{
