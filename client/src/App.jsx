@@ -12,6 +12,8 @@ import { Footer } from './Components/Footer';
 import { Banner } from './Components/Banner';
 import { Portal } from './Components/Portal';
 import { Toolbar } from './Components/Toolbar';
+import {BillboardThreeCol} from './Components/Billboards/BillboardThreeCol';
+
 
 const helpers = require('./helpers/dynamicCSS.js');
 
@@ -22,6 +24,7 @@ class App extends Component {
     super();
     this.state = {
       language: "en",
+      pageContents: pages["getting here"],
       contactFormVisible: false,
       menuModal: false,
       screenSize: helpers.determineScreenSize()
@@ -32,12 +35,11 @@ class App extends Component {
     this.setLanguage = this.setLanguage.bind(this);
   }
 
-
   componentDidMount(){
     this.setState({
-      activeView: "home",
-      pageContents: pages["home"],
-      currentViewAddress: pages["home"].address,
+      activeView: "getting here",
+      pageContents: pages["getting here"],
+      currentViewAddress: pages["getting here"].address,
       contactFormVisible: false,
       screenSize: helpers.determineScreenSize()
     })
@@ -145,6 +147,7 @@ render() {
             lg={{ size: 7, offset: 0 }}
             md={{ size: 7, offset: 1 }}
           >
+
           {this.state.pageContents
             ? <Portal
                 language={this.state.language}

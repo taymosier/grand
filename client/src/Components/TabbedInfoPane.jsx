@@ -30,7 +30,6 @@ export class TabbedInfoPane extends Component {
   }
 
   render(){
-    console.log("active: " + this.state.activeInfoPane)
     return(
       <div className="tabbed-info-pane">
         <InfoPane

@@ -20,7 +20,6 @@ export class InfoPane extends Component {
   }
 
   componentDidUpdate(){
-    console.log(`${this.state.name} isOpen: ${this.props.isOpen}`)
     if(this.state.isOpen !== this.props.isOpen){
       this.setState({
         isOpen: this.props.isOpen

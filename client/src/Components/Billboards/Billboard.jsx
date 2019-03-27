@@ -1,43 +1,49 @@
 import React, { Component } from 'react';
 import { Button, Col, Row } from 'reactstrap';
 
+import { checkForSpecialClasses, splitText } from "../../helpers/dynamicCSS.js";
+import { checkForEmptyAttributes } from "../../helpers/stateValidators.js";
+
 export class Billboard extends Component {
   constructor(props){
     super(props);
     this.state = {
-      "contents": this.props.contents,
+      "contents": checkForEmptyAttributes(this.props.contents),
       "name": this.formatNameForID(this.props.contents.name),
-      "title": this.props.contents.title,
-      "tagline": this.props.contents.tagline,
-      "image": this.props.contents.image,
-      "flavor_text": this.props.contents.flavor_text,
-      "link": this.props.contents.link
+      "title": checkForEmptyAttributes(this.props.contents.title),
+      "class": checkForSpecialClasses(this.props.contents),
+      "tagline": checkForEmptyAttributes(this.props.contents.tagline),
+      "image": checkForEmptyAttributes(this.props.contents.image),
+      "flavor_text": checkForEmptyAttributes(this.props.contents.flavor_text),
+      "link": checkForEmptyAttributes(this.props.contents.link)
     };
     this.formatNameForID = this.formatNameForID.bind(this);
   }
 
   componentDidMount(){
     this.setState({
-      "contents": this.props.contents,
+      "contents": checkForEmptyAttributes(this.props.contents),
       "name": this.formatNameForID(this.props.contents.name),
-      "title": this.props.contents.title,
-      "tagline": this.props.contents.tagline,
-      "image": this.props.contents.image,
-      "flavor_text": this.props.contents.flavor_text,
-      "link": this.props.contents.link
+      "title": checkForEmptyAttributes(this.props.contents.title),
+      "class": checkForSpecialClasses(this.props.contents),
+      "tagline": checkForEmptyAttributes(this.props.contents.tagline),
+      "image": checkForEmptyAttributes(this.props.contents.image),
+      "flavor_text": checkForEmptyAttributes(this.props.contents.flavor_text),
+      "link": checkForEmptyAttributes(this.props.contents.link)
     });
   }
 
   componentDidUpdate(){
     if(this.state.contents !== this.props.contents){
       this.setState({
-        "contents": this.props.contents,
+        "contents": checkForEmptyAttributes(this.props.contents),
         "name": this.formatNameForID(this.props.contents.name),
-        "title": this.props.contents.title,
-        "tagline": this.props.contents.tagline,
-        "image": this.props.contents.image,
-        "flavor_text": this.props.contents.flavor_text,
-        "link": this.props.contents.link
+        "title": checkForEmptyAttributes(this.props.contents.title),
+        "class": checkForSpecialClasses(this.props.contents),
+        "tagline": checkForEmptyAttributes(this.props.contents.tagline),
+        "image": checkForEmptyAttributes(this.props.contents.image),
+        "flavor_text": checkForEmptyAttributes(this.props.contents.flavor_text),
+        "link": checkForEmptyAttributes(this.props.contents.link)
       })
     }
   }
@@ -45,32 +51,14 @@ export class Billboard extends Component {
   formatNameForID(name){
     if(name !== undefined){
       name.replace(" ", "-");
-      return name
+      return name;
     }
     return null;
   }
 
-  splitText(text, className, delimiter){
-    console.log(text)
-    let textSplit = text.split(/_\/_/g);
-    let textBlocks = [];
-    if(textSplit.length > 1){
-      for(let item in textSplit){
-        textBlocks.push(<p className={`${className}`}>{textSplit[item]}</p>)
-      }
-      return textBlocks;
-    }
-    return text;
-  }
-
-
   render(){
     let textBlocks = [];
-    textBlocks = this.splitText(this.state.flavor_text[this.props.language], "billboard-flavor_text full-width", /_\/_/g);
-    if((/_\/_/g).test(this.state.flavor_text)){
-      console.log('hi there this is regex')
-      console.log(this.state.flavor_text.search(/_\/_/g))
-    }
+    textBlocks = splitText(this.state.flavor_text[this.props.language], `billboard-flavor_text ${this.state.class}`, /_\/_/g);
     return(
         <div className="billboard no-image" id={this.state.name}>
           <Row className="billboard-top-row">
@@ -82,7 +70,7 @@ export class Billboard extends Component {
               xs={{ size: 10, offset: 1 }}
               className="billboard-text-container"
             >
-              <div className="billboard-title">{this.state.title[this.props.language]}</div>
+              <div className={`billboard-title ${this.state.class}`}>{this.state.title[this.props.language]}</div>
               {this.state.tagline
                 ? <div className="billboard-tagline">
                     {this.state.tagline[this.props.language]}

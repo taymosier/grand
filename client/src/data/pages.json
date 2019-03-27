@@ -2598,83 +2598,58 @@
       "text": {
         "description": {"en":"","es":""},
         "header": {"en":"Directions and Contact","es":"Direcciones y contacto"}
+      },
+      "billboards": {
+        "0": {
+          "title": {
+            "en":"Things To Know",
+            "es":"Vallarta"
+          },
+          "name": "things to know",
+          "class": "full-width three-col",
+          "tagline": {
+            "en": "",
+            "es": ""
+          },
+          "flavor_text": {
+            "en":"Passports are required for anyone traveling to Mexico, including children._/_When you pass through Immigration, the officer will give you back a portion of your immigration form. Please keep this in a safe place—we recommend inside your passport—since you will need this upon departure from Mexico._/_We take great care to create safe, healthy environments for our members. We provide purified water and bottled water in all rooms and we use purified water in all of our restaurants.",
+            "es": "agua"
+          },
+          "image": "",
+          "link": ""
+        },
+        "1": {
+          "title": {"en": "Transportation", "es":"Transportation"},
+          "name": "transportation",
+          "class": "alternating-icon",
+          "tagline": {
+            "en": "",
+            "es": ""
+          },
+          "flavor_text": {
+            "en": "Once you book your vacation, you can arrange transportation from the airport to the resort by following the information sent to you in your confirmation email or visiting the following site: shuttleservices.vidanta.com. At this site, you will be able to reserve your transportation using your reservation number. A confirmation slip will then be emailed to you directly from the transportation company once they’ve reviewed and accepted your request. When You Arrive Transportation to Vidanta Nuevo Vallarta is provided by Gapsa Vallarta. When you get through customs at the airport, exit the International Arrivals area. Look for a driver wearing black pants and a tan shirt, carrying a Gapsa Vallarta sign marked with your resort hotel logo.",
+            "es": "Disfrute de sus vacaciones con esta bebida fresca de Santuario, cuyo protagonista es el sabor ahumado del mezcal, que se mezcla con cítricos y jengibre para ofrecer un toque de intensidad."
+          },
+          "image": "bus_icon.png",      
+          "link": ""
+        },
+        "2": {
+          "title": {"en": "New entrance", "es":"New entrance"},
+          "name": "new entrance",
+          "class": "full image",
+          "tagline": {
+            "en": "",
+            "es": ""
+          },
+          "flavor_text": {
+            "en":"Guests can now arrive at the resort quicker than ever with our new entrance, which is located right after the bridge that crosses the Ameca River. Please note that our previous entrance is closed to all traffic.",
+            "es": "Disfrute de sus vacaciones con esta bebida fresca de Santuario, cuyo protagonista es el sabor ahumado del mezcal, que se mezcla con cítricos y jengibre para ofrecer un toque de intensidad."
+          },
+          "image": "new-entrance-billboard.jpg",
+          "link": ""
+        }
       }
-    },
-    "billboards": [
-      {
-        "name": "",
-        "type": "",
-        "title": {
-          "en":"Vallarta",
-          "es":"Vallarta"
-        },
-        "tagline": {
-          "en":"",
-          "es":"Piscinas"
-        },
-        "flavor_text": {
-          "en":"pool",
-          "es": "agua"
-          },
-        "image": "jpg",
-        "link": "pools"
-      },
-      {
-        "name": "",
-        "type": "",
-        "title": {
-          "en":"Vallarta",
-          "es":"Vallarta"
-        },
-        "tagline": {
-          "en":"",
-          "es":"Piscinas"
-        },
-        "flavor_text": {
-          "en":"pool",
-          "es": "agua"
-          },
-        "image": "jpg",
-        "link": "pools"
-      },
-      {
-        "name": "",
-        "type": "",
-        "title": {
-          "en":"Vallarta",
-          "es":"Vallarta"
-        },
-        "tagline": {
-          "en":"",
-          "es":"Piscinas"
-        },
-        "flavor_text": {
-          "en":"pool",
-          "es": "agua"
-          },
-        "image": "jpg",
-        "link": "pools"
-      },
-      {
-        "name": "",
-        "type": "",
-        "title": {
-          "en":"Vallarta",
-          "es":"Vallarta"
-        },
-        "tagline": {
-          "en":"",
-          "es":"Piscinas"
-        },
-        "flavor_text": {
-          "en":"pool",
-          "es": "agua"
-          },
-        "image": "jpg",
-        "link": "pools"
-      }
-
-    ]
+    }
   },
 
   "what to do" : {

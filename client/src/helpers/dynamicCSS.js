@@ -53,6 +53,28 @@ export function formatTitle(name){
     return strArray.join("");
   }
 
+  export function checkForSpecialClasses(contents){
+    let hasClass;
+    let classes = null;
+    // 'classes' === null unless contents.class exists
+    try{
+      if(contents.class !== undefined && contents.class !== ""){
+        console.log(`${contents.name} contains the following special classes: ${contents.class}`);
+        hasClass=true;
+        return contents.class;
+      } else {
+        console.log(`no special classes found in ${contents.name}`)
+        hasClass=false;
+      }
+      return classes;
+    } catch(e){
+      console.log(e)
+      return classes;
+    }
+    console.log("passed all logic and trys")
+    return classes;
+  }
+
   export function splitText(text, className, delimiter){
     let textSplit = text.split(/_\/_/g);
     let textBlocks = [];
@@ -62,5 +84,5 @@ export function formatTitle(name){
       }
       return textBlocks;
     }
-    return text;
+    return <p>{text}</p>;
   }

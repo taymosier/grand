@@ -1,30 +1,38 @@
 import React, { Component } from 'react';
 import { Button, Col, Row } from 'reactstrap';
 
+import { BillboardImage } from "./BillboardImage";
+
+import { checkForSpecialClasses, splitText } from "../../helpers/dynamicCSS.js";
+import { checkForEmptyAttributes } from "../../helpers/stateValidators.js";
+
 export class BillboardWithImage extends Component {
   constructor(props){
     super(props);
     this.state = {
       "contents": this.props.contents,
       "name": this.formatNameForID(this.props.contents.name),
-      "title": this.props.contents.title,
-      "tagline": this.props.contents.tagline,
-      "image": this.props.contents.image,
-      "flavor_text": this.props.contents.flavor_text,
-      "link": this.props.contents.link
+      "class": checkForSpecialClasses(this.props.contents),
+      "title": checkForEmptyAttributes(this.props.contents.title),
+      "tagline": checkForEmptyAttributes(this.props.contents.tagline),
+      "image": checkForEmptyAttributes(this.props.contents.image),
+      "flavor_text": checkForEmptyAttributes(this.props.contents.flavor_text),
+      "link": checkForEmptyAttributes(this.props.contents.link)
     };
     this.formatNameForID = this.formatNameForID.bind(this);
+    this.handleImageProp = this.handleImageProp.bind(this);
   }
 
   componentDidMount(){
     this.setState({
       "contents": this.props.contents,
       "name": this.formatNameForID(this.props.contents.name),
-      "title": this.props.contents.title,
-      "tagline": this.props.contents.tagline,
-      "image": this.props.contents.image,
-      "flavor_text": this.props.contents.flavor_text,
-      "link": this.props.contents.link
+      "class": checkForSpecialClasses(this.props.contents),
+      "title": checkForEmptyAttributes(this.props.contents.title),
+      "tagline": checkForEmptyAttributes(this.props.contents.tagline),
+      "image": checkForEmptyAttributes(this.props.contents.image),
+      "flavor_text": checkForEmptyAttributes(this.props.contents.flavor_text),
+      "link": checkForEmptyAttributes(this.props.contents.link)
     });
   }
 
@@ -33,13 +41,43 @@ export class BillboardWithImage extends Component {
       this.setState({
         "contents": this.props.contents,
         "name": this.formatNameForID(this.props.contents.name),
-        "title": this.props.contents.title,
-        "tagline": this.props.contents.tagline,
-        "image": this.props.contents.image,
-        "flavor_text": this.props.contents.flavor_text,
-        "link": this.props.contents.link
+        "class": checkForSpecialClasses(this.props.contents),
+        "title": checkForEmptyAttributes(this.props.contents.title),
+        "tagline": checkForEmptyAttributes(this.props.contents.tagline),
+        "image": checkForEmptyAttributes(this.props.contents.image),
+        "flavor_text": checkForEmptyAttributes(this.props.contents.flavor_text),
+        "link": checkForEmptyAttributes(this.props.contents.link)
       })
     }
+  }
+
+  handleImageProp(imageProp){
+    let processedImageProp = null;
+    processedImageProp = this.setImageState(imageProp);
+    if(processedImageProp !== null){
+      processedImageProp = this.setImageProp(processedImageProp);
+    }
+    return processedImageProp;
+  }
+
+  setImageState(imageProp){
+    let imageArray = [];
+    let multipleImages = false;
+    try{
+      if(imageProp.length > 1){
+        multipleImages = true;
+      }
+    } catch(e){
+      console.log(e)
+    }
+    if(multipleImages){
+      for(let item in imageProp){
+        imageArray.push(imageProp[item]);
+      }
+    } else {
+      imageArray.push(imageProp)
+    }
+    return imageArray;
   }
 
   formatNameForID(name){
@@ -50,28 +88,18 @@ export class BillboardWithImage extends Component {
     return null;
   }
 
-  splitText(text){
-    let textSplit = text.split(/_\/_/g);
-    let textBlocks = [];
-    if(textSplit.length > 1){
-      for(let item in textSplit){
-        textBlocks.push(<p className="billboard-flavor_text">{textSplit[item]}</p>)
-      }
-      return textBlocks;
-    }
-    return text;
-  }
-
-
   render(){
-    let textBlocks = [];
-    textBlocks = this.splitText(this.state.flavor_text[this.props.language]);
-    if((/_\/_/g).test(this.state.flavor_text)){
-      console.log('hi there this is regex')
-      console.log(this.state.flavor_text.search(/_\/_/g))
+    let images;
+    try{
+      console.log(`image state: ${this.state.image}`)
+    } catch(e){
+      console.log(e)
     }
+    let textBlocks = [];
+    textBlocks = splitText(this.state.flavor_text[this.props.language], this.state.class, /_\/_/g);
+
     return(
-        <div className="billboard" id={this.state.name}>
+        <div className={`billboard ${this.state.class}`} id={this.state.name}>
           <Row className="billboard-top-row">
             <Col
               xl={{ size: 5, offset: 0 }}
@@ -79,8 +107,12 @@ export class BillboardWithImage extends Component {
               md={{ size: 12, offset: 0 }}
               className="billboard-image-container"
             >
-              { this.state.image
-                ? <img className="billboard-image" src={require("../../../public/images/billboards/"+this.state.image)} alt={this.state.image}/>
+              { this.state.image !== undefined
+                ? <BillboardImage
+                    className={`billboard-image ${this.state.class}`}
+                    image={this.state.image}
+                    alt={this.state.image}
+                  />
                 : null
               }
             </Col>
@@ -90,7 +122,9 @@ export class BillboardWithImage extends Component {
               md={{ size: 10, offset: 1 }}
               className="billboard-text-container"
             >
-              <div className="billboard-title">{this.state.title[this.props.language]}</div>
+              <div className={`billboard-title ${this.state.class}`}>
+                {this.state.title[this.props.language]}
+              </div>
               {this.state.tagline
                 ? <div className="billboard-tagline">
                     {this.state.tagline[this.props.language]}
