@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "09c8077c92fb63121b86d4212c32986d",
-    "url": "/static/media/sky-garden-thumbnail.09c8077c.jpg"
+    "revision": "43dcfcaa3f1e4798c851511e4ca127c3",
+    "url": "/static/media/si-snack-thumbnail.43dcfcaa.jpg"
   },
   {
-    "revision": "95b830d9fcf633a8154f",
-    "url": "/static/css/main.f3187a76.chunk.css"
+    "revision": "113b12a8220a5ffd6e53",
+    "url": "/static/css/main.366d3dcc.chunk.css"
   },
   {
-    "revision": "fdfcfda2d9b1bf31db52",
-    "url": "/static/js/runtime~main.fdfcfda2.js"
+    "revision": "42ac5946195a7306e2a5",
+    "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
     "revision": "334879a05b0b492f3b43b4f8dcb6786f",
     "url": "/static/media/spa-gallery-7.334879a0.jpg"
   },
   {
-    "revision": "7f9474195f9c5a910d4f",
-    "url": "/static/js/2.7f947419.chunk.js"
+    "revision": "2e79f8876e47c20c8491",
+    "url": "/static/js/2.135da568.chunk.js"
   },
   {
     "revision": "23af5cab1c0536d7aedeb985f62276ea",
@@ -37,7 +37,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "572959caf8b2dfff0f5101f960b69273",
-    "url": "/static/media/balance-banner.572959ca.jpg"
+    "url": "/static/media/balance-banner.572959ca.JPG"
   },
   {
     "revision": "51105008f1b3c84d6e4a0c64b0895835",
@@ -129,7 +129,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "d260289c9cb1b57a14f8e92a0f11ec83",
-    "url": "/static/media/la-cantina-banner.d260289c.jpg"
+    "url": "/static/media/la-cantina-BANNER.d260289c.jpg"
   },
   {
     "revision": "b97e1c8c58cfdf441d9da826f49cf256",
@@ -284,6 +284,10 @@ self.__precacheManifest = [
     "url": "/static/media/brio-spa-billboard.f2c8297b.jpg"
   },
   {
+    "revision": "523f62f137a02ff5a32758250bd710b6",
+    "url": "/static/media/bus_icon.523f62f1.png"
+  },
+  {
     "revision": "004a3372273538ae17126b61fcfb26f5",
     "url": "/static/media/cafe-del-lago-billboard.004a3372.jpg"
   },
@@ -354,6 +358,10 @@ self.__precacheManifest = [
   {
     "revision": "d34859b22325224f30c86c247805f500",
     "url": "/static/media/live-music-billboard.d34859b2.jpg"
+  },
+  {
+    "revision": "cb5246eab21dafedef10b089b423d351",
+    "url": "/static/media/new-entrance-billboard.cb5246ea.jpg"
   },
   {
     "revision": "f8aa213373e42c4ce06af35301d29159",
@@ -468,6 +476,10 @@ self.__precacheManifest = [
     "url": "/static/media/theme-nights-billboard.a05e93f1.jpg"
   },
   {
+    "revision": "286102554bdc9792c72cb1bb8371e24b",
+    "url": "/static/media/three-bedroom-presidential-villa-billboard.28610255.jpg"
+  },
+  {
     "revision": "8a1741ef560eadaaabaef300c4f491a5",
     "url": "/static/media/three-bedroom-presidential-villa-gallery-1.8a1741ef.jpg"
   },
@@ -529,7 +541,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "243305508b7ae48eb4344bb367296bc0",
-    "url": "/static/media/the-grand-lobby-bar-thumbnail.24330550.jpg"
+    "url": "/static/media/the-grand-lobby-bar-thumbnail.24330550.JPG"
   },
   {
     "revision": "95be8752444681e5273f4628850c0877",
@@ -604,12 +616,12 @@ self.__precacheManifest = [
     "url": "/static/media/samba-thumbnail.d7b5f128.jpg"
   },
   {
-    "revision": "43dcfcaa3f1e4798c851511e4ca127c3",
-    "url": "/static/media/si-snack-thumbnail.43dcfcaa.jpg"
+    "revision": "113b12a8220a5ffd6e53",
+    "url": "/static/js/main.00274a5c.chunk.js"
   },
   {
-    "revision": "95b830d9fcf633a8154f",
-    "url": "/static/js/main.95b830d9.chunk.js"
+    "revision": "09c8077c92fb63121b86d4212c32986d",
+    "url": "/static/media/sky-garden-thumbnail.09c8077c.jpg"
   },
   {
     "revision": "26c418edc229a52f258231883c8b6e2f",
@@ -1065,7 +1077,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "76aa84cc3f6f09ccd5ee2b7d73feaff4",
-    "url": "/static/media/the-nayar-course-gallery-4.76aa84cc.jpg"
+    "url": "/static/media/the-nayar-course-gallery-4.76aa84cc.JPG"
   },
   {
     "revision": "c2f8486b3d65895e7ce035275c16f573",
@@ -1212,11 +1224,11 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-6.dbd445ef.jpg"
   },
   {
-    "revision": "7f9474195f9c5a910d4f",
-    "url": "/static/css/2.dc9aa2c5.chunk.css"
+    "revision": "2e79f8876e47c20c8491",
+    "url": "/static/css/2.762604e3.chunk.css"
   },
   {
-    "revision": "8ef4a9375fc9635e0e1f29a96401ffe8",
+    "revision": "d4c1da7ea28346eb5f25ff7cf8cac448",
     "url": "/index.html"
   }
 ];
