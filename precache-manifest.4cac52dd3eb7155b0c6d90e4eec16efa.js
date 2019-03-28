@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/rummba-thumbnail.26e5accb.jpg"
   },
   {
-    "revision": "02cd09208b444090ad01",
-    "url": "/static/css/main.12204640.chunk.css"
+    "revision": "5a3c389df0700495b75f",
+    "url": "/static/css/main.256d1f2e.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -624,8 +624,8 @@ self.__precacheManifest = [
     "url": "/static/media/ola-mulata-thumbnail.e4cffb9a.jpg"
   },
   {
-    "revision": "02cd09208b444090ad01",
-    "url": "/static/js/main.dcb7e2fb.chunk.js"
+    "revision": "5a3c389df0700495b75f",
+    "url": "/static/js/main.ad3ff88c.chunk.js"
   },
   {
     "revision": "d7b5f12820b32386c03222aa5459a55a",
@@ -1244,7 +1244,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.762604e3.chunk.css"
   },
   {
-    "revision": "0fc069f060ea7404341f73a3bc6e21ee",
+    "revision": "a91e3b75e56d0584a349495957060d48",
     "url": "/index.html"
   }
 ];
