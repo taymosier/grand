@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "43dcfcaa3f1e4798c851511e4ca127c3",
-    "url": "/static/media/si-snack-thumbnail.43dcfcaa.jpg"
+    "revision": "26e5accba857c0fb30f9de32ddc5846b",
+    "url": "/static/media/rummba-thumbnail.26e5accb.jpg"
   },
   {
-    "revision": "c4e078c7bc43e166518d",
-    "url": "/static/css/main.366d3dcc.chunk.css"
+    "revision": "d4d3155e2fe4b631dcc9",
+    "url": "/static/css/main.52aff497.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-7.334879a0.jpg"
   },
   {
-    "revision": "2e79f8876e47c20c8491",
-    "url": "/static/js/2.135da568.chunk.js"
+    "revision": "fadc37928fa6c5c897ce",
+    "url": "/static/js/2.b9143465.chunk.js"
   },
   {
     "revision": "23af5cab1c0536d7aedeb985f62276ea",
@@ -246,6 +246,22 @@ self.__precacheManifest = [
   {
     "revision": "41a96f0b7202d1b3ce827302449758b0",
     "url": "/static/media/activities-billboard-5.41a96f0b.jpg"
+  },
+  {
+    "revision": "2d45008611763c9c893aa2ac047985f4",
+    "url": "/static/media/activities-billboard-6.2d450086.jpg"
+  },
+  {
+    "revision": "ee72a58f5c23aeea62365bf0da7656b6",
+    "url": "/static/media/activities-billboard-7.ee72a58f.jpg"
+  },
+  {
+    "revision": "22fc67104bcfdee659400398f7f6017a",
+    "url": "/static/media/activities-billboard-8.22fc6710.jpg"
+  },
+  {
+    "revision": "294e9156c1684ce575acd0002de55cd1",
+    "url": "/static/media/activities-billboard-9.294e9156.jpg"
   },
   {
     "revision": "44820df663bbb9c917562f7ef1dc7280",
@@ -608,16 +624,16 @@ self.__precacheManifest = [
     "url": "/static/media/ola-mulata-thumbnail.e4cffb9a.jpg"
   },
   {
-    "revision": "26e5accba857c0fb30f9de32ddc5846b",
-    "url": "/static/media/rummba-thumbnail.26e5accb.jpg"
+    "revision": "d4d3155e2fe4b631dcc9",
+    "url": "/static/js/main.6448adf2.chunk.js"
   },
   {
     "revision": "d7b5f12820b32386c03222aa5459a55a",
     "url": "/static/media/samba-thumbnail.d7b5f128.jpg"
   },
   {
-    "revision": "c4e078c7bc43e166518d",
-    "url": "/static/js/main.d7fbb024.chunk.js"
+    "revision": "43dcfcaa3f1e4798c851511e4ca127c3",
+    "url": "/static/media/si-snack-thumbnail.43dcfcaa.jpg"
   },
   {
     "revision": "09c8077c92fb63121b86d4212c32986d",
@@ -1224,11 +1240,11 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-6.dbd445ef.jpg"
   },
   {
-    "revision": "2e79f8876e47c20c8491",
+    "revision": "fadc37928fa6c5c897ce",
     "url": "/static/css/2.762604e3.chunk.css"
   },
   {
-    "revision": "597764f04d321fb7c884e4cb3167c27d",
+    "revision": "b8ff71a0cbffe07096c5aad27c1e17c5",
     "url": "/index.html"
   }
 ];
