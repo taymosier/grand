@@ -2590,7 +2590,7 @@
             "en":"Occupancy: 10 adults, 2 kids under 12 years old_/_Type: Three Bedrooms_/_Bed: Two King-Size Beds, Two Double Bedsx_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs",
             "es": "Ocupación: 10 adultos, 2 niños menores de 12 años_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
         },
-          "image": "three-bedroom-presidential-villa-billboard",
+          "image": "three-bedroom-presidential-villa-billboard.jpg",
           "link": ""
         }
       }
@@ -3501,16 +3501,50 @@
            "link": ""
          },
         "2" : {
-          "title": {"en":"","es":""},
-          "name": "filler",
-          "tagline": {"en":"**Activities Carousel Needed**","es":""},
+          "title": {"en":"Pools & Poolside","es":""},
+          "name": "pool activities",
+          "class": "flavor-text-bullets",
+          "tagline": {"en":"","es":""},
           "flavor_text": {
-            "en":"Become a tequila connoisseur and learn the finer points about Mexico’s national spirit in this fun outdoor tour offering a tequila tasting, cocktail lessons, and barbecue.",
+            "en": "Water Polo_/_Water Volleyball_/_Aqua Aerobics_/_Paddle Board Stretching Class_/_Spanish Class_/_Salsa Lessons_/_Arts & Crafts_/_Guacamole Making Class",
             "es": ""
           },
-          "image": "whats-new-billboard-3.jpg",
+          "image": "activities-billboard-6.jpg",
           "link": "" },
         "3" : {
+          "title": {"en":"Beach","es":""},
+          "name": "beach",
+          "class": "flavor-text-bullets",
+          "tagline": {"en":"","es":""},
+          "flavor_text": {
+            "en": "Soccer_/_Volleyball_/_Horsehoe Tournament_/_Bocce Ball_/_Beach Exploration_/_Treasure Hunts",
+            "es": ""
+          },
+          "image": "activities-billboard-7.jpg",
+          "link": "" },
+        "4" : {
+          "title": {"en":"Tours","es":""},
+          "name": "tours",
+          "class": "flavor-text-bullets",
+          "tagline": {"en":"","es":""},
+          "flavor_text": {
+            "en": "Heart of Vidanta Tour_/_Vidanta Walks Wildlife Tour_/_Iguana Tour_/_Tequila Tour",
+            "es": ""
+          },
+          "image": "activities-billboard-8.jpg",
+          "link": "" },
+        "5" : {
+          "title": {"en":"Nighttime","es":""},
+          "name": "nighttime",
+          "class": "flavor-text-bullets",
+          "tagline": {"en":"","es":""},
+          "flavor_text": {
+            "en": "Show_/_Bingo Night_/_Trivia Night_/_Black Jack Night_/_Karaoke Night",
+            "es": ""
+          },
+          "image": "activities-billboard-9.jpg",
+          "link": "" },
+        "5" : {
           "title": {"en":"","es":""},
           "name": "kids club",
           "tagline": {"en":"Kid's Club","es":"Kid's Club"},
@@ -3520,7 +3554,7 @@
           },
           "image": "activities-billboard-4.jpg",
           "link": "" },
-        "4" : {
+        "6" : {
           "title": {"en":"","es":""},
           "name": "off resort",
           "tagline": {"en":"Explore Mexico","es":"Explore México"},

@@ -53,20 +53,23 @@ export function formatTitle(name){
     return strArray.join("");
   }
 
+  export function capitalizeEveryWord(text){
+    let textArray = text.split(" ");
+    for(let item in textArray){
+      textArray[item] = capitalize(textArray[item])
+    }
+    return textArray.join(" ")
+  }
+
   export function checkForSpecialClasses(contents){
-    let classes = "";
-    // 'classes' === null unless contents.class exists
     try{
       if(contents.class !== undefined && contents.class !== ""){
-        console.log(`${contents.name} contains the following special classes: ${contents.class}`);
         return contents.class;
-      } else {
-        console.log(`no special classes found in ${contents.name}`)
       }
-      return classes;
+      return null;
     } catch(e){
       console.log(e)
-      return classes;
+      return null;
     }
   }
 
@@ -75,7 +78,7 @@ export function formatTitle(name){
     let textBlocks = [];
     if(textSplit.length > 1){
       for(let item in textSplit){
-        textBlocks.push(<p className={`${className}`}>{textSplit[item]}</p>)
+        textBlocks.push(<p className={`${className}`} key={`${className}`}>{textSplit[item]}</p>)
       }
       return textBlocks;
     }

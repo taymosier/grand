@@ -73,19 +73,13 @@ export class Menu extends Component {
     }
   }
 
-  capitalize(word){
-    let strArray = word.split("");
-    strArray[0] = strArray[0].toUpperCase();
-    return strArray.join("");
-  }
-
   render(){
     let topLevelButtons = this.state.buttons;
     let englishButtons = this.getMenuButtons("en");
     let button;
     let buttonList = [];
     for(let i =0; i < topLevelButtons.length; i++){
-      button = <MenuButton text={this.capitalize(englishButtons[i])} key={topLevelButtons[i]} name={topLevelButtons[i]} setPage={this.props.setPage}/>;
+      button = <MenuButton text={topLevelButtons[i]} key={englishButtons[i]} name={topLevelButtons[i]} setPage={this.props.setPage}/>;
       buttonList.push(button);
     }
     return(

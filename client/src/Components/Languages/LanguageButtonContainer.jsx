@@ -19,7 +19,7 @@ export class LanguageButtonContainer extends Component {
 
     let languageButtons = [];
     for(let language in languages){
-      languageButtons.push(<LanguageToggleButton value={languages[language].value} className={`button-language-${language}`} setLanguage={this.props.setLanguage}  language={languages[language].text} />)
+      languageButtons.push(<LanguageToggleButton key={`${languages[language].value}`} value={languages[language].value} className={`button-language-${language}`} setLanguage={this.props.setLanguage}  language={languages[language].text} />)
     }
     return(<ButtonGroup className={"language-button-container"}>
             {languageButtons}

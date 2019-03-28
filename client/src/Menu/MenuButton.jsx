@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { NavItem } from 'reactstrap';
 
+import { capitalizeEveryWord } from "../helpers/dynamicCSS.js";
+
 export class MenuButton extends Component {
   constructor(props){
     super(props);
@@ -13,9 +15,25 @@ export class MenuButton extends Component {
     };
   }
 
+  componentDidUpdate(){
+    if(this.state.text !== this.props.text){
+      this.setState({
+        text: this.props.text
+      })
+    }
+  }
+
   render(){
     return(
-      <NavItem className='menuButton' id={this.state.id} onClick={() => {this.props.setPage(this.state.name)}}>{this.state.text}</NavItem>
+      <NavItem
+        className='menuButton'
+        id={this.state.id}
+        onClick={
+          () => {this.props.setPage(this.state.name)}
+        }
+      >
+        {capitalizeEveryWord(this.state.text)}
+      </NavItem>
     );
   }
 }

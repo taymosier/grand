@@ -94,11 +94,6 @@ export class BillboardWithImage extends Component {
 
   render(){
     let images;
-    try{
-      console.log(`image state: ${this.state.image}`)
-    } catch(e){
-      console.log(e)
-    }
     let textBlocks = [];
     textBlocks = splitText(this.state.flavor_text[this.props.language], this.state.class, /_\/_/g);
 
