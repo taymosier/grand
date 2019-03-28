@@ -2996,7 +2996,7 @@ body {
     line-height: 1.1;
     text-align: center;
     position: absolute;
-    display: flex;
+    display: block;
     color: white;
     padding: 5%;
     min-width: 100%;
@@ -3042,6 +3042,10 @@ body {
 
   .thumbnail-filter:hover + .thumbnail-flavor_text{
     opacity: 1;
+  }
+
+  .thumbnail-flavor_text {
+    height: 70%;
   }
 
   .thumbnail-flavor_text:hover{

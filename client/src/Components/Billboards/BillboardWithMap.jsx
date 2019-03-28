@@ -8,14 +8,16 @@ export class BillboardWithMap extends Component {
   constructor(props){
     super(props);
     this.state = {
-      mapConfig: this.props.mapConfig
+      mapConfig: this.props.mapConfig,
+      language: this.props.langugage
     }
   }
 
   componentDidUpdate(){
     if(this.state.mapConfig !== this.props.mapConfig){
       this.setState({
-        mapConfig: this.props.mapConfig
+        mapConfig: this.props.mapConfig,
+        language: this.props.language
       })
     }
   }
@@ -52,7 +54,7 @@ export class BillboardWithMap extends Component {
               <h4 className="info-header">
                 Quick References
               </h4>
-              <TabbedInfoPane />
+              <TabbedInfoPane language={this.state.language}/>
             </Row>
           </Col >
       </Row>

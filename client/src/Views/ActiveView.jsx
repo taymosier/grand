@@ -71,7 +71,7 @@ export class ActiveView extends Component {
           : null
         }
         {this.props.content.map === true
-          ? <BillboardWithMap />
+          ? <BillboardWithMap language={this.state.language}/>
           : null
         }
         {this.props.content.text.description[this.state.language] !== undefined
