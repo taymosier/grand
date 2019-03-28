@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/rummba-thumbnail.26e5accb.jpg"
   },
   {
-    "revision": "d4d3155e2fe4b631dcc9",
-    "url": "/static/css/main.52aff497.chunk.css"
+    "revision": "02cd09208b444090ad01",
+    "url": "/static/css/main.12204640.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -37,7 +37,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "572959caf8b2dfff0f5101f960b69273",
-    "url": "/static/media/balance-banner.572959ca.JPG"
+    "url": "/static/media/balance-banner.572959ca.jpg"
   },
   {
     "revision": "51105008f1b3c84d6e4a0c64b0895835",
@@ -557,7 +557,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "243305508b7ae48eb4344bb367296bc0",
-    "url": "/static/media/the-grand-lobby-bar-thumbnail.24330550.JPG"
+    "url": "/static/media/the-grand-lobby-bar-thumbnail.24330550.jpg"
   },
   {
     "revision": "95be8752444681e5273f4628850c0877",
@@ -624,8 +624,8 @@ self.__precacheManifest = [
     "url": "/static/media/ola-mulata-thumbnail.e4cffb9a.jpg"
   },
   {
-    "revision": "d4d3155e2fe4b631dcc9",
-    "url": "/static/js/main.6448adf2.chunk.js"
+    "revision": "02cd09208b444090ad01",
+    "url": "/static/js/main.dcb7e2fb.chunk.js"
   },
   {
     "revision": "d7b5f12820b32386c03222aa5459a55a",
@@ -1049,7 +1049,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "326fb255b89f39ee0437bcabf3346e98",
-    "url": "/static/media/entertainment-gallery-5.326fb255.JPG"
+    "url": "/static/media/entertainment-gallery-5.326fb255.jpg"
   },
   {
     "revision": "532e5b93866c4d2c2e6477f64dfd73f9",
@@ -1093,7 +1093,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "76aa84cc3f6f09ccd5ee2b7d73feaff4",
-    "url": "/static/media/the-nayar-course-gallery-4.76aa84cc.JPG"
+    "url": "/static/media/the-nayar-course-gallery-4.76aa84cc.jpg"
   },
   {
     "revision": "c2f8486b3d65895e7ce035275c16f573",
@@ -1244,7 +1244,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.762604e3.chunk.css"
   },
   {
-    "revision": "b8ff71a0cbffe07096c5aad27c1e17c5",
+    "revision": "0fc069f060ea7404341f73a3bc6e21ee",
     "url": "/index.html"
   }
 ];
