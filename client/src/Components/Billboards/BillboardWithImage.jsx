@@ -3,7 +3,7 @@ import { Button, Col, Row } from 'reactstrap';
 
 import { BillboardImage } from "./BillboardImage";
 
-import { checkForSpecialClasses, splitText } from "../../helpers/dynamicCSS.js";
+import { capitalizeEveryWord, checkForSpecialClasses, splitText } from "../../helpers/dynamicCSS.js";
 import { checkForEmptyAttributes } from "../../helpers/stateValidators.js";
 
 export class BillboardWithImage extends Component {
@@ -122,7 +122,7 @@ export class BillboardWithImage extends Component {
               className="billboard-text-container"
             >
               <div className={`billboard-title ${this.state.class}`}>
-                {this.state.title[this.props.language]}
+                {capitalizeEveryWord(this.state.title[this.props.language])}
               </div>
               {this.state.tagline
                 ? <div className="billboard-tagline">

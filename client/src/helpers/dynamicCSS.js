@@ -49,12 +49,21 @@ export function formatTitle(name){
 
   export function capitalize(word){
     let strArray = word.split("");
-    strArray[0] = strArray[0].toUpperCase();
+    if(strArray[0] !== undefined){
+      strArray[0] = strArray[0].toUpperCase();
+    }
+    if(strArray[0] === undefined){
+      console.log(word)
+    }
     return strArray.join("");
   }
 
   export function capitalizeEveryWord(text){
+    if(text === undefined){
+      return "";
+    }
     let textArray = text.split(" ");
+
     for(let item in textArray){
       textArray[item] = capitalize(textArray[item])
     }

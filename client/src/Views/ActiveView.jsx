@@ -6,6 +6,7 @@ import { ImageCarousel } from '../Components/Carousel/ImageCarousel';
 
 import {BillboardWithMap} from '../Components/Billboards/BillboardWithMap';
 
+const helpers = require('../helpers/dynamicCSS.js');
 
 export class ActiveView extends Component {
   constructor(props){
@@ -65,7 +66,7 @@ export class ActiveView extends Component {
 
         {this.props.content.text.header[this.state.language] !== undefined
           ? <h1 className="page-header">
-              {this.state.content.text.header[this.state.language]}
+              {helpers.capitalizeEveryWord(this.state.content.text.header[this.state.language])}
             </h1>
           : null
         }

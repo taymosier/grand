@@ -145,7 +145,10 @@
     "content": {
       "banner": {
         "image": "dining-banner.jpg",
-        "header": "nuevo vallarta",
+        "header": {
+          "en": "nuevo vallarta",
+          "es": "nuevo vallarta"
+        },
         "subheader": {
           "en": "dining",
           "es": "GASTRONOMÍA"

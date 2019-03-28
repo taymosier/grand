@@ -473,7 +473,7 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-size: 30px;
+    font-size: 8.27vw;
     font-weight: 100;
     color: white;
     margin: 0;
@@ -915,7 +915,7 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-size: 30px;
+    font-size: 6.17vw;
     font-weight: 100;
     color: white;
     margin: 0;
@@ -1360,7 +1360,7 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-size: 30px;
+    font-size: 4.6vw;
     font-weight: 100;
     color: white;
     margin: 0;
@@ -1770,7 +1770,7 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-size: 30px;
+    font-size: 6.15vw;
     font-weight: 100;
     color: white;
     margin: 0;
@@ -2246,7 +2246,7 @@ body {
 
   .banner-header {
     letter-spacing: 7.5px;
-    font-size: 30px;
+    font-size: 6.15vw;
     font-weight: 100;
     color: white;
     margin: 0;
@@ -2617,8 +2617,38 @@ body {
     max-height: fit-content;
   }
 
+  .banner-break {
+    max-width: 35vw;
+    min-width: 35vw;
+    width: 35vw;
+    margin: 10px 12.5vw;
+    left: 0;
+    position: initial;
+  }
+
   .banner-container {
     height: fit-content;
+  }
+
+  .banner-header {
+    font-size: 6.2vw;
+    letter-spacing: .625vw;
+  }
+
+  .banner-header-container {
+    height: fit-content;
+    left: 0;
+    top: 0;
+    margin: 50px 20vw 0 20vw;
+    min-height: fit-content;
+    max-height: fit-content;
+    min-width: 60vw;
+    max-width: 60vw;
+    width: 60vw;
+  }
+
+  .banner-subheader {
+    font-size: 3.4vw;
   }
 
   .banner-subheader-container {

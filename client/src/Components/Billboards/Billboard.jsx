@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Col, Row } from 'reactstrap';
 
-import { checkForSpecialClasses, splitText } from "../../helpers/dynamicCSS.js";
+import { capitalizeEveryWord, checkForSpecialClasses, splitText } from "../../helpers/dynamicCSS.js";
 import { checkForEmptyAttributes } from "../../helpers/stateValidators.js";
 
 export class Billboard extends Component {
@@ -78,7 +78,7 @@ export class Billboard extends Component {
               xs={{ size: 10, offset: 1 }}
               className="billboard-text-container"
             >
-              <div className={`billboard-title ${this.state.class}`}>{this.state.title[this.props.language]}</div>
+              <div className={`billboard-title ${this.state.class}`}>{capitalizeEveryWord(this.state.title[this.props.language])}</div>
               {this.state.tagline
                 ? <div className="billboard-tagline">
                     {this.state.tagline[this.props.language]}
