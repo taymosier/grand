@@ -2293,7 +2293,8 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-tagline {
-    padding: 0px;
+    padding: 0
+    px;
     font-size: .6em;
   }
 
