@@ -102,7 +102,7 @@ export class BillboardWithImage extends Component {
           <Row className="billboard-top-row">
             <Col
               xl={{ size: 5, offset: 0 }}
-              lg={{ size: 5, offset: 0 }}
+              lg={{ size: 6, offset: 0 }}
               md={{ size: 12, offset: 0 }}
               className="billboard-image-container"
             >
@@ -117,7 +117,7 @@ export class BillboardWithImage extends Component {
             </Col>
             <Col
               xl={{ size: 6, offset: 0 }}
-              lg={{ size: 5, offset: 6 }}
+              lg={{ size: 6, offset: 0 }}
               md={{ size: 10, offset: 1 }}
               className="billboard-text-container"
             >

@@ -23,6 +23,8 @@ class App extends Component {
     super();
     this.state = {
       language: "en",
+      activeView: "home",
+      previousPage: "",
       pageContents: pages["home"],
       contactFormVisible: false,
       registrationFormVisible: false,
@@ -52,7 +54,6 @@ class App extends Component {
 
   setPage(page){
     if(this.state.activeView !== page){
-      console.log('you clicked ' + page)
       try{
         this.setState({
           activeView: page,
@@ -63,6 +64,11 @@ class App extends Component {
           menuModal: false,
           screenSize: helpers.determineScreenSize()
         })
+        if(this.state.previousPage !== this.props.activeView){
+          this.setState({
+            previousPage: this.state.activeView
+          })
+        }
       } catch (e){
         console.log(e)
       }
@@ -147,6 +153,8 @@ render() {
             ? <Toolbar
                 setLanguage={this.setLanguage}
                 language={this.state.language}
+                previousPage={this.state.previousPage}
+                setPage={this.setPage}
                 contactFormVisible={this.state.contactFormVisible}
                 toggleContactForm={this.toggleContactForm}
                 registrationInfoVisible={this.state.registrationInfoVisible}
@@ -175,6 +183,8 @@ render() {
             ? <Toolbar
                 setLanguage={this.setLanguage}
                 language={this.state.language}
+                previousPage={this.state.previousPage}
+                setPage={this.setPage}
                 contactFormVisible={this.state.contactFormVisible}
                 registrationInfoVisible={this.state.registrationInfoVisible}
                 toggleContactForm={this.toggleContactForm}

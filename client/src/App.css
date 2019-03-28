@@ -14,10 +14,19 @@
   font-weight: 700;
 }
 
-body {
-  font-family: "Advent Pro";
+body, .menuButton, .registration-step-container {
+  font-family: "Advent Pro", sans-serif;
 }
 
+ .banner-header, .banner-subheader, .page-header {
+   font-family: "Biryani", sans-serif;
+ }
+
+.billboard-flavor_text, #contactForm, #contactForm .modal-content, .page-description, .registration-step-container,
+.billboard-flavor_text-container p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 100;
+}
 /*  ************************************************************************* */
 
 .map-container-row > div {
@@ -168,7 +177,6 @@ body {
 
 .banner-header {
   letter-spacing: 7.5px;
-  font-family: "Advent Pro";
   font-size: 90px;
   font-weight: 100;
   color: white;
@@ -180,11 +188,6 @@ body {
 
 .banner-header-container {
   background: transparent;
-  min-height: 110px;
-  min-width: 40vw;
-  width: 40vw;
-  top: 65px;
-  left: 30vw;
   position: absolute;
 }
 
@@ -194,7 +197,6 @@ body {
 
 .banner-subheader {
   letter-spacing: 2.5px;
-  font-family: "Advent Pro";
   font-size: 50px;
   font-weight: 100;
   color: white;
@@ -206,12 +208,10 @@ body {
 
 .billboard {
   background: #F6F4F3;
-  box-shadow: 5px 7px 15px darkgray;
+  box-shadow: 5px 7px 15px rgba(200,195,210,.8);
 }
 
-.billboard-flavor_text {
-  font-family: "Segoe UI", sans-serif;
-}
+
 
 .billboard-image {
   margin: 0 auto;
@@ -264,6 +264,8 @@ body {
   max-height: fit-content;
 }
 
+
+
 .addressBreak{
   min-height: 1px;
   border: .25px solid silver;
@@ -297,7 +299,6 @@ body {
   border-bottom: 1px solid black;
   box-shadow: .75px 1px 3.5px .2px black;
   color: #777670;
-  font-family: "Advent Pro";
   font-size: 24px;
   font-weight: 500;
   margin: 12.5px 5px 0 3px;
@@ -321,7 +322,6 @@ body {
 }
 
 .page-header {
-  font-family: "Advent Pro";
   font-weight: 600;
   letter-spacing: .25em;
   padding: 25px 0 0 0;
@@ -374,7 +374,6 @@ body {
 }
 
 .registration-step-container {
-  font-family: "Segoe UI", sans-serif;
   background: #F5F3F2;
   float: left;
   min-height: 100%;
@@ -608,7 +607,6 @@ body {
   }
 
   #contactForm {
-    font-family: "Segoe UI", sans-serif;
     max-width: 90vw;
     margin: 50px auto 50px auto;
   }
@@ -698,7 +696,6 @@ body {
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
     color: #777670;
-    font-family: "Advent Pro";
     font-size: 20px;
     min-width: 70vw;
     font-weight: 500;
@@ -779,7 +776,6 @@ body {
   }
 
   .page-header {
-    font-family: "Advent Pro";
     font-weight: 600;
     letter-spacing: .25em;
     padding: 25px 0 0 0;
@@ -1059,7 +1055,6 @@ body {
   }
 
   #contactForm .modal-content{
-    font-family: "Segoe UI", sans-serif;
     box-shadow: 2px 2px 15px 5px black;
     background:#e6edf2;
     border: none;
@@ -1141,7 +1136,6 @@ body {
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
     color: #777670;
-    font-family: "Advent Pro";
     font-size: 24px;
     min-width: 70vw;
     font-weight: 500;
@@ -1221,7 +1215,6 @@ body {
   }
 
   .page-header {
-    font-family: "Advent Pro";
     font-weight: 600;
     letter-spacing: .25em;
     padding: 25px 0 0 0;
@@ -1488,7 +1481,6 @@ body {
   }
 
   #contactForm .modal-content{
-    font-family: "Segoe UI", sans-serif;
     box-shadow: 2px 2px 15px 5px black;
     background:#e6edf2;
     border: none;
@@ -1546,7 +1538,6 @@ body {
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
     color: #777670;
-    font-family: "Advent Pro";
     font-size: 24px;
     min-width: 70vw;
     font-weight: 500;
@@ -1630,7 +1621,6 @@ body {
   }
 
   .page-header {
-    font-family: "Advent Pro";
     font-weight: 600;
     letter-spacing: .25em;
     padding: 25px 0 0 0;
@@ -1653,7 +1643,6 @@ body {
   }
 
   .registration-step-container {
-    font-family: "Segoe UI", sans-serif;
     background: #F5F3F2;
     float: left;
     min-height: 100%;
@@ -1933,7 +1922,6 @@ body {
   }
 
   #contactForm .modal-content{
-    font-family: "Segoe UI", sans-serif;
     box-shadow: 2px 2px 15px 5px black;
     background:#e6edf2;
     border: none;
@@ -2014,7 +2002,6 @@ body {
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
     color: #777670;
-    font-family: "Advent Pro";
     font-size: 24px;
     min-width: 70vw;
     font-weight: 500;
@@ -2096,7 +2083,6 @@ body {
   }
 
   .page-header {
-    font-family: "Advent Pro";
     font-weight: 600;
     letter-spacing: .25em;
     padding: 25px 0 0 0;
@@ -2119,7 +2105,6 @@ body {
   }
 
   .registration-step-container {
-    font-family: "Segoe UI", sans-serif;
     background: #F5F3F2;
     float: left;
     min-height: 100%;
@@ -2308,18 +2293,20 @@ body {
   }
 
   .billboard-tagline {
-    padding: 10px;
+    padding: 0px;
     font-size: .6em;
   }
 
   .billboard-text-container {
-    padding: .9vw 0 0 0;
-    min-height: 100%;
+    margin: 0 auto;
     max-height: fit-content;
+    min-height: 100%;
+    padding: 0;
+    text-align: center;
   }
 
   .billboard-title {
-    padding: 5px 0 0 10px;
+    padding: 5px 0 0 0px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #868686;
@@ -2366,7 +2353,6 @@ body {
   }
 
   #contactForm .modal-content{
-    font-family: "Segoe UI", sans-serif;
     box-shadow: 2px 2px 15px 5px black;
     background:#e6edf2;
     border: none;
@@ -2448,7 +2434,6 @@ body {
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
     color: #777670;
-    font-family: "Advent Pro";
     font-size: 24px;
     font-weight: 500;
     margin: 12.5px 5px 0 3px;
@@ -2518,7 +2503,6 @@ body {
   }
 
   .page-header {
-    font-family: "Advent Pro";
     font-weight: 600;
     letter-spacing: .25em;
     padding: 25px 0 0 0;
@@ -2541,7 +2525,6 @@ body {
   }
 
   .registration-step-container {
-    font-family: "Segoe UI", sans-serif;
     background: #F5F3F2;
     float: left;
     min-height: 100%;
@@ -2609,8 +2592,11 @@ body {
 
 @media (min-width: 1200px){
 
-  .banner {
-    max-height: 440px;
+  .banner-container {
+    max-height: 380px;
+    min-width: 100vw;
+    background-size: cover;
+    min-height: 380px;
   }
 
   .billboard {
@@ -2618,33 +2604,41 @@ body {
   }
 
   .banner-break {
-    max-width: 35vw;
-    min-width: 35vw;
-    width: 35vw;
-    margin: 10px 12.5vw;
+    max-width: 40vw;
+    min-width: 40vw;
+    width: 40vw;
+    margin: 10px 15vw;
     left: 0;
     position: initial;
   }
 
   .banner-container {
+    margin: 0;
     height: fit-content;
+    padding: 6% 2% 2% 2%;
   }
 
   .banner-header {
-    font-size: 6.2vw;
+    font-size: 6vw;
     letter-spacing: .625vw;
+    border-bottom: 1px solid white;
+    max-height: 6.25vw;
+    min-width: fit-content;
+    max-width: fit-content;
+    width: fit-content;
+    margin: 0 auto 10px auto;
+    line-height: 1.25;
   }
 
   .banner-header-container {
     height: fit-content;
-    left: 0;
-    top: 0;
-    margin: 50px 20vw 0 20vw;
+    margin: 50px auto 0 auto;
     min-height: fit-content;
     max-height: fit-content;
-    min-width: 60vw;
-    max-width: 60vw;
-    width: 60vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    position: absolute;
+    width: 100vw;
   }
 
   .banner-subheader {
@@ -2760,13 +2754,26 @@ body {
     font-weight: 400;
   }
 
+  .carousel-image-container img {
+    box-shadow: 0px 2.5px 20px 0px rgba(200,195,210,.8);
+    vertical-align: middle;
+    border-style: none;
+    background: transparent;
+    border-left: 20px solid #F6F4F3;
+    border-radius: 0%;
+    border-top: 20px solid #F6F4F3;
+    border-bottom: 20px solid #F6F4F3;
+    border-right: 20px solid #F6F4F3;
+    border-radius: 7.5%;
+    max-width: 100%;
+  }
+
   #commentsField {
     min-height: 150px;
   }
 
 
   #contactForm .modal-content{
-    font-family: "Segoe UI", sans-serif;
     box-shadow: 2px 2px 15px 5px black;
     background:#e6edf2;
     border: none;
@@ -2948,13 +2955,27 @@ body {
   }
 
   .page-header {
-    font-family: "Advent Pro";
     font-weight: 600;
     letter-spacing: .25em;
     padding: 25px 0 10px 0;
     border-bottom: .85px solid darkgrey;
     min-width: 100%;
     text-align: center;
+}
+
+.previous-page-button {
+  background: #F6F4F3;
+  box-shadow: 3px 2px 4px -1.5px grey;
+  color: #777670;
+  line-height: 1.05;
+  padding: 0 10px 0 10px;
+  margin: 10px 0vw 0 0;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 75px;
+  overflow-wrap: break-word;
+  font-size: 22px;
+  text-align: center;
 }
 
   .registration-step-container {

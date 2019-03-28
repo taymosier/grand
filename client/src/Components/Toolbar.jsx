@@ -3,16 +3,20 @@ import { Col } from 'reactstrap';
 
 import { ContactFormToggleButton } from './Contact/ContactFormToggleButton';
 import { RegistrationProcessInfoButton } from './Registration/RegistrationProcessInfoButton';
+import { PreviousPageButton } from './PreviousPageButton';
 
 import { ContactForm } from './Contact/ContactForm';
 import { LanguageButtonContainer } from "./Languages/LanguageButtonContainer";
 import { RegistrationProcessInfoModal } from "./Registration/RegistrationProcessInfoModal";
+
 
 export class Toolbar extends Component {
   constructor(props){
     super(props);
     this.state = {
       setLanguage: this.props.setLanguage,
+      previousPage: this.props.previousPage,
+      setPage: this.props.setPage,
       language: this.props.language,
       contactFormVisible: this.props.contactFormVisible,
       toggleContactForm : this.props.toggleContactForm,
@@ -29,6 +33,11 @@ export class Toolbar extends Component {
   }
 
   componentDidUpdate(){
+    if(this.state.previousPage !== this.props.previousPage){
+      this.setState({
+        previousPage: this.props.previousPage
+      })
+    }
     if(this.state.language !== this.props.language){
       this.setState({
         language: this.props.language,
@@ -45,6 +54,8 @@ export class Toolbar extends Component {
       })
     }
   }
+
+
 
   render(){
     return(
@@ -67,6 +78,10 @@ export class Toolbar extends Component {
         toggleRegistrationProcessInfo={this.state.toggleRegistrationProcessInfo}
         language={this.state.language}
       />
+      {this.state.previousPage !== "" && this.state.previousPage !== undefined
+        ? <PreviousPageButton previous={this.state.previousPage} setPage={this.state.setPage}/>
+        : null
+      }
       <ContactForm
         toggle={this.state.toggleContactForm}
         visible={this.state.contactFormVisible}

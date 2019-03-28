@@ -9,7 +9,10 @@ export class Banner extends Component {
     this.state = {
       "image": this.props.banner_info.image,
       "header": this.props.banner_info.header[this.props.language],
-      "subheader": this.props.banner_info.subheader[this.props.language]
+      "subheader": this.props.banner_info.subheader[this.props.language],
+      "style": {
+        "backgroundImage": `url(${require("../../public/images/banners/" + this.props.banner_info.image)})`
+      }
     };
   }
 
@@ -18,22 +21,19 @@ export class Banner extends Component {
       this.setState({
         "image": this.props.banner_info.image,
         "header": this.props.banner_info.header[this.props.language],
-        "subheader": this.props.banner_info.subheader[this.props.language]
+        "subheader": this.props.banner_info.subheader[this.props.language],
+        "style": {
+          "backgroundImage": `url(${require("../../public/images/banners/" + this.props.banner_info.image)})`
+        }
       })
     }
   }
 
   render(){
     return(
-      <Col className="banner-container" xl="12" lg="12" md="12" sm="12">
-      <div className="banner-header-container">
-        <h1 className="banner-header">{capitalizeEveryWord(this.state.header)}</h1>
-        <div className="banner-break"></div>
-      <div className="banner-subheader-container">
-        <h2 className="banner-subheader">{capitalizeEveryWord(this.state.subheader)}</h2>
-        </div>
-      </div>
-        <img className="banner" src={require("../../public/images/banners/"+this.state.image)} alt={this.state.image}/>
+      <Col className="banner-container" xl="12" lg="12" md="12" sm="12" style={this.state.style}>
+        <p className="banner-header">{capitalizeEveryWord(this.state.header)}</p>
+        <p className="banner-subheader">{capitalizeEveryWord(this.state.subheader)}</p>
       </Col>
     );
   }
