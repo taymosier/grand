@@ -29,7 +29,7 @@ export class BillboardWithMap extends Component {
             xl={{ size: 9, offset: 0 }}
             lg={{ size: 9, offset: 0 }}
             md={{ size: 0, offset: 0 }}
-            sm={{ size: 12, offset: 0 }}
+            sm={{ size: 10, offset: 1 }}
             xs={{ size: 12, offset: 0 }}
           >
             <Row className="map-container-row">
@@ -47,7 +47,7 @@ export class BillboardWithMap extends Component {
             xl={{ size: 3, offset: 0 }}
             lg={{ size: 3, offset: 0 }}
             md={{ size: 0, offset: 0 }}
-            sm={{ size: 12, offset: 0 }}
+            sm={{ size: 10, offset: 1 }}
             xs={{ size: 12, offset: 0 }}
           >
             <Row className="info-container">

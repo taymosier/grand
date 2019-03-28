@@ -33,13 +33,19 @@ export class InfoPane extends Component {
     })
   }
   render(){
+    let direction;
+    if(window.innerWidth > window.innerHeight && window.innerHeight < 960){
+      direction = "down"
+    } else {
+      direction = "left"
+    }
     let text = splitText(this.state.text, "info-text", /_\/_/g);
     return(
       <div className="popoverContainer">
         <Button id={this.state.id} type="button" onClick={() => {this.state.setActivePane(this.state.name)}}>
           {this.state.label}
         </Button>
-        <UncontrolledPopover isOpen={this.state.isOpen} trigger="click" placement="left" target={this.state.id} >
+        <UncontrolledPopover isOpen={this.state.isOpen} trigger="click" placement={direction} target={this.state.id} >
           <PopoverHeader>
             {this.state.label}
             <Button className="info-pane-close-btn" close onClick={() => {this.state.setActivePane(null)}}>x</Button>

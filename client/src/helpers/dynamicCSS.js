@@ -82,6 +82,21 @@ export function formatTitle(name){
     }
   }
 
+  export function detectOrientationChange(currentOrientationState){
+    let screenHeight= window.innerHeight;
+    let screenWidth = window.innerWidth;
+    let newOrientationState;
+    if(screenWidth > screenHeight){
+      newOrientationState = "landscape";
+    } else {
+      newOrientationState = "portrait";
+    }
+    if(currentOrientationState !== newOrientationState){
+      return newOrientationState;
+    }
+    return currentOrientationState;
+  }
+
   export function splitText(text, className, delimiter){
     let textSplit = text.split(/_\/_/g);
     let textBlocks = [];

@@ -191,10 +191,6 @@ body, .menuButton, .registration-step-container {
   position: absolute;
 }
 
-.banner-subheader-container {
-  background: transparent;
-}
-
 .banner-subheader {
   letter-spacing: 2.5px;
   font-size: 50px;
@@ -210,8 +206,6 @@ body, .menuButton, .registration-step-container {
   background: #F6F4F3;
   box-shadow: 5px 7px 15px rgba(200,195,210,.8);
 }
-
-
 
 .billboard-image {
   margin: 0 auto;
@@ -423,62 +417,38 @@ body, .menuButton, .registration-step-container {
 
 }
 
+
+
 @media (max-width: 420px) {
 
   .addressBreak {
     max-width: 85vw;
   }
 
-  .banner {
-    max-height: 200px;
-    min-height: 200px;
-    height: 200px;
-  }
-
-  .banner-break {
-    margin: 5px 0 0 35vw;
-    position: absolute;
-    background: white;
-    opacity: .5;
-    border-bottom: none;
-    box-shadow: 4px 1.5px 15px 1.8px white;
-    border-radius: 20%;
-    min-width: 30vw;
-    min-height: 1px;
-    top: 40px;
-    width: 30vw;
-  }
-
   .banner-container {
     background: lightblue;
     height: 200px;
-    margin: 10px 0 0 0;
+    margin: 40px 0 0 0;
     max-width: 99.125vw;
-    padding: 0;
+    padding: 20px;
     width: 99.125vw;
     z-index: 5;
+    background-size: cover;
   }
-
-  .banner-header-container {
-    background: transparent;
-    min-height: 110px;
-    min-width: 40vw;
-    width: 100%;
-    top: 55px;
-    left: 0;
-    position: absolute;
-  }
-
 
   .banner-header {
+    border-bottom: .5px solid white;
     letter-spacing: 7.5px;
-    font-size: 8.27vw;
+    font-size: 7.5vw;
     font-weight: 100;
     color: white;
-    margin: 0;
+    margin: 0 auto;
     padding: 0px 0;
     vertical-align: middle;
     text-align: center;
+    width: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
   }
 
   .banner-subheader {
@@ -486,7 +456,7 @@ body, .menuButton, .registration-step-container {
     font-size: 24px;
     font-weight: 100;
     color: white;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     padding: 0px 0;
     vertical-align: middle;
     text-align: center;
@@ -691,6 +661,21 @@ body, .menuButton, .registration-step-container {
     margin: 0 0 10px 0;
   }
 
+  .mapsContainer {
+    height: 50vh;
+    margin: 0;
+    padding: 0 15px 0 5px;
+    width: 100%;
+  }
+
+  .menuContainer .wrapper {
+    min-height: 50vh;
+  }
+
+  .mapsContainer .wrapper .googleMap {
+    min-height: 50vh;
+  }
+
   .menuButton {
     background: #F6F4F3;
     border-bottom: 1px solid black;
@@ -760,7 +745,10 @@ body, .menuButton, .registration-step-container {
     font-size: 18px;
     letter-spacing: 2.5px;
     font-weight: 600;
-
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 0;
   }
 
   .menuToggler {
@@ -768,9 +756,9 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-description {
-    padding: 15px 0 0 0;
+    padding: 10px 0 0 0;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     min-height: fit-content;
     letter-spacing: .95px;
   }
@@ -874,26 +862,13 @@ body, .menuButton, .registration-step-container {
     height: 200px;
   }
 
-  .banner-break {
-    margin: 5px 0 0 35vw;
-    position: absolute;
-    background: white;
-    opacity: .5;
-    border-bottom: none;
-    box-shadow: 4px 1.5px 15px 1.8px white;
-    border-radius: 20%;
-    min-width: 30vw;
-    min-height: 1px;
-    top: 40px;
-    width: 30vw;
-  }
-
   .banner-container {
     background: lightblue;
+    background-size: cover;
     height: 200px;
-    margin: 10px 0 0 0;
+    margin: 40px 0 0 0;
     max-width: 99.125vw;
-    padding: 0;
+    padding: 5% 0;
     width: 99.125vw;
     z-index: 5;
   }
@@ -910,14 +885,18 @@ body, .menuButton, .registration-step-container {
 
 
   .banner-header {
+    border-bottom: .5px solid white;
     letter-spacing: 7.5px;
     font-size: 6.17vw;
     font-weight: 100;
     color: white;
-    margin: 0;
+    margin: 0 auto;
     padding: 0px 0;
     vertical-align: middle;
     text-align: center;
+    width: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
   }
 
   .banner-subheader {
@@ -949,11 +928,15 @@ body, .menuButton, .registration-step-container {
 
   .billboard-flavor_text-container {
     min-height: 100%;
-    padding: 5px 25px 5px 25px;
+    padding: 5px 12.5% 5px 12.5%;
     font-weight: 600;
     letter-spacing: .7px;
     line-height: 1.15;
     text-align: center;
+  }
+
+  .billboard-flavor_text-container p {
+    font-weight: 400;
   }
 
   .billboard-image-container {
@@ -1131,6 +1114,20 @@ body, .menuButton, .registration-step-container {
     margin: 0 0 10px 0;
   }
 
+  .mapsContainer {
+    height: 50vh;
+    margin: 0;
+    width: 100%;
+  }
+
+  .menuContainer .wrapper {
+    min-height: 50vh;
+  }
+
+  .mapsContainer .wrapper .googleMap {
+    min-height: 50vh;
+  }
+
   .menuButton {
     background: #F6F4F3;
     border-bottom: 1px solid black;
@@ -1201,6 +1198,10 @@ body, .menuButton, .registration-step-container {
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 2.5px;
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 0;
   }
 
   .menuToggler {
@@ -1210,7 +1211,7 @@ body, .menuButton, .registration-step-container {
   .page-description {
     padding: 15px 10px 0 10px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: .95px;
   }
 
@@ -1316,50 +1317,30 @@ body, .menuButton, .registration-step-container {
     height: 200px;
   }
 
-  .banner-break {
-    margin: 5px 0 0 35vw;
-    position: absolute;
-    background: white;
-    opacity: .5;
-    border-bottom: none;
-    box-shadow: 4px 1.5px 15px 1.8px white;
-    border-radius: 20%;
-    min-width: 30vw;
-    min-height: 1px;
-    top: 40px;
-    width: 30vw;
-  }
-
   .banner-container {
     background: lightblue;
+    background-size:cover;
     height: 200px;
-    margin: 10px 0 0 0;
+    margin: 40px 0 0 0;
     max-width: 99.125vw;
-    padding: 0;
+    padding: 5% 0;
     width: 99.125vw;
     z-index: 5;
   }
-
-  .banner-header-container {
-    background: transparent;
-    min-height: 110px;
-    min-width: 40vw;
-    width: 100%;
-    top: 55px;
-    left: 0;
-    position: absolute;
-  }
-
 
   .banner-header {
     letter-spacing: 7.5px;
     font-size: 4.6vw;
     font-weight: 100;
     color: white;
-    margin: 0;
+    margin: 0 auto;
     padding: 0px 0;
     vertical-align: middle;
     text-align: center;
+    border-bottom: .5px solid white;
+    width: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
   }
 
   .banner-subheader {
@@ -1367,7 +1348,7 @@ body, .menuButton, .registration-step-container {
     font-size: 24px;
     font-weight: 100;
     color: white;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     padding: 0px 0;
     vertical-align: middle;
     text-align: center;
@@ -1392,7 +1373,7 @@ body, .menuButton, .registration-step-container {
   .billboard-flavor_text-container {
     min-height: 100%;
     padding: 5px 35px 5px 35px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: .7px;
     line-height: 1.15;
     text-align: center;
@@ -1403,10 +1384,23 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-image {
-    margin: 0 10%;
+    display: block;
+    margin: 0 auto;
     min-width: 0%;
-    max-width: 80%;
+    max-width: 300px;
     box-shadow: 0px 0px 10px 4px grey;
+  }
+
+  .billboard-map > .right-col > .info-container > .tabbed-info-pane {
+    text-align: left;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .billboard-map > .right-col > .info-container > .tabbed-info-pane button {
+    float: left;
+    margin: 10px 1.5% 20px 1.5%;
+    width: 30%;
   }
 
   .billboard-tagline {
@@ -1533,6 +1527,20 @@ body, .menuButton, .registration-step-container {
     margin: 0 0 10px 0;
   }
 
+  .mapsContainer {
+    height: 50vh;
+    margin: 0;
+    width: 100%;
+  }
+
+  .menuContainer .wrapper {
+    min-height: 50vh;
+  }
+
+  .mapsContainer .wrapper .googleMap {
+    min-height: 50vh;
+  }
+
   .menuButton {
     background: #F6F4F3;
     border-bottom: 1px solid black;
@@ -1603,10 +1611,14 @@ body, .menuButton, .registration-step-container {
 
   #menuToggleModalButton {
     position: fixed;
+    box-shadow: 0px 1px 15px rgb(0,0,0, .25);
     width: 100vw;
     top: 0;
     z-index: 30000;
-
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 0;
   }
 
   .menuToggler {
@@ -1616,7 +1628,7 @@ body, .menuButton, .registration-step-container {
   .page-description {
     padding: 15px 20px 0 15px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: .95px;
   }
 
@@ -1722,50 +1734,30 @@ body, .menuButton, .registration-step-container {
     height: 200px;
   }
 
-  .banner-break {
-    margin: 5px 0 0 35vw;
-    position: absolute;
-    background: white;
-    opacity: .5;
-    border-bottom: none;
-    box-shadow: 4px 1.5px 15px 1.8px white;
-    border-radius: 20%;
-    min-width: 30vw;
-    min-height: 1px;
-    top: 40px;
-    width: 30vw;
-  }
-
   .banner-container {
-    background: lightblue;
-    height: 200px;
-    margin: 10px 0 0 0;
+    background-size: cover;
+    height: 250px;
+    margin: 40px 0 0 0;
     max-width: 99.125vw;
-    padding: 0;
+    padding: 30px 0;
     width: 99.125vw;
     z-index: 5;
   }
 
-  .banner-header-container {
-    background: transparent;
-    min-height: 110px;
-    min-width: 40vw;
-    width: 100%;
-    top: 55px;
-    left: 0;
-    position: absolute;
-  }
-
-
   .banner-header {
+    border-bottom: .5px solid white;
     letter-spacing: 7.5px;
+    line-height: 1.2;
     font-size: 6.15vw;
     font-weight: 100;
     color: white;
-    margin: 0;
+    margin: 0 auto;
     padding: 0px 0;
     vertical-align: middle;
     text-align: center;
+    width: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
   }
 
   .banner-subheader {
@@ -1773,8 +1765,8 @@ body, .menuButton, .registration-step-container {
     font-size: 24px;
     font-weight: 100;
     color: white;
-    margin: 15px 0 0 0;
-    padding: 0px 0;
+    margin: 0;
+    padding: 10px 0;
     vertical-align: middle;
     text-align: center;
   }
@@ -1997,6 +1989,20 @@ body, .menuButton, .registration-step-container {
     max-width: 100%;
   }
 
+  .mapsContainer {
+    height: 50vh;
+    margin: 0;
+    width: 100%;
+  }
+
+  .menuContainer .wrapper {
+    min-height: 50vh;
+  }
+
+  .mapsContainer .wrapper .googleMap {
+    min-height: 50vh;
+  }
+
   .menuButton {
     background: #F6F4F3;
     border-bottom: 1px solid black;
@@ -2068,6 +2074,9 @@ body, .menuButton, .registration-step-container {
     width: 100vw;
     top: 0;
     z-index: 30000;
+    min-height: 40px;
+    max-height: 40px;
+    height: 40px;
 
   }
 
@@ -2194,49 +2203,29 @@ body, .menuButton, .registration-step-container {
     height: 200px;
   }
 
-  .banner-break {
-    margin: 5px 0 0 35vw;
-    position: absolute;
-    background: white;
-    opacity: .5;
-    border-bottom: none;
-    box-shadow: 4px 1.5px 15px 1.8px white;
-    border-radius: 20%;
-    min-width: 30vw;
-    min-height: 1px;
-    top: 40px;
-    width: 30vw;
-  }
-
   .banner-container {
-    background: lightblue;
+    background-size: cover;
     height: 260px;
-    margin: 10px 0 0 0;
+    margin: 0;
     max-width: 99.125vw;
-    padding: 0;
+    padding: 5% 0;
     width: 99.125vw;
     z-index: 5;
   }
 
-  .banner-header-container {
-    background: transparent;
-    min-height: 110px;
-    min-width: 40vw;
-    width: 100%;
-    top: 55px;
-    left: 0;
-    position: absolute;
-  }
-
-
   .banner-header {
-    letter-spacing: 7.5px;
+    letter-spacing: 6.5px;
     font-size: 6.15vw;
     font-weight: 100;
     color: white;
-    margin: 0;
+    line-height: 1.2;
+    width: fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+    min-width: fit-content;
     padding: 0px 0;
     vertical-align: middle;
+    border-bottom: .5px solid white;
     text-align: center;
   }
 
@@ -2258,13 +2247,13 @@ body, .menuButton, .registration-step-container {
     max-height: fit-content;
     min-height: fit-content;
     padding: 0px 10px 0 10px;
-    height: 23vw;
+    height: fit-content;
     box-shadow: 5px 7px 15px darkgrey;
   }
 
   .billboard-flavor_text-container {
     min-height: fit-content;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 0px 5px 0px;;
     font-weight: 600;
     letter-spacing: .7px;
     line-height: 1.15;
@@ -2272,7 +2261,7 @@ body, .menuButton, .registration-step-container {
 
   .billboard-button {
     width: 42.5%;
-    margin: 10px 0 20px 50%;
+    margin: 10px 0 20px 52.5%;
   }
 
   .billboard-flavor_text {
@@ -2281,28 +2270,34 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-image-container {
-    margin: 20px 0;
-    padding: 7.5% 0 0 7.5%;
+    margin: auto;
+    padding: 0;
+    width: fit-content;
+    max-width: fit-content;
+    height: fit-content;
+    max-height: fit-content;
+
   }
 
   .billboard-image {
-    margin: 0 10%;
+    display: block;
+    margin: 0 auto;
     min-width: 0%;
     max-width: 80%;
+    width: fit-content;
     box-shadow: 0px 0px 10px 4px grey;
   }
 
   .billboard-tagline {
-    padding: 0
-    px;
-    font-size: .6em;
+    padding: 0;
+    font-size: 1.2em;
   }
 
   .billboard-text-container {
     margin: 0 auto;
     max-height: fit-content;
     min-height: 100%;
-    padding: 0;
+    padding: 20px 15px 0 0;
     text-align: center;
   }
 
@@ -2430,7 +2425,14 @@ body, .menuButton, .registration-step-container {
     max-width: 15vw;
   }
 
+  .mapsContainer {
+    height: 35vh;
+    margin: 0;
+    width: 100%;
+  }
+
   .menuButton {
+    cursor: pointer;
     background: #F6F4F3;
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
@@ -2497,9 +2499,9 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-description {
-    padding: 15px 10vw 0 10vw;
+    padding: 15px 2.5vw 0 2.5vw;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 200;
     letter-spacing: .95px;
   }
 
@@ -2604,15 +2606,6 @@ body, .menuButton, .registration-step-container {
     max-height: fit-content;
   }
 
-  .banner-break {
-    max-width: 40vw;
-    min-width: 40vw;
-    width: 40vw;
-    margin: 10px 15vw;
-    left: 0;
-    position: initial;
-  }
-
   .banner-container {
     margin: 0;
     height: fit-content;
@@ -2631,23 +2624,8 @@ body, .menuButton, .registration-step-container {
     line-height: 1.25;
   }
 
-  .banner-header-container {
-    height: fit-content;
-    margin: 50px auto 0 auto;
-    min-height: fit-content;
-    max-height: fit-content;
-    min-width: 100vw;
-    max-width: 100vw;
-    position: absolute;
-    width: 100vw;
-  }
-
   .banner-subheader {
     font-size: 3.4vw;
-  }
-
-  .banner-subheader-container {
-    margin: 20px 0 0 0;
   }
 
   .billboard {
@@ -2687,8 +2665,24 @@ body, .menuButton, .registration-step-container {
     font-weight: 600;
     letter-spacing: .7px;
     line-height: 1.15;
-    padding: 0 5px 20px 5px;
+    padding: 0 0px 20px 0px;
   }
+
+  .billboard-flavor_text-container .flavor-text-bullets {
+    margin: 0 10% 4px 15%;
+    display: list-item;
+    text-align: left;
+    width: fit-content;
+    min-width: fit-content;
+    height: fit-content;
+    max-width: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+  }
+
+    .billboard-title.flavor-text-bullets + .billboard-tagline {
+      margin: 0;
+    }
 
   .billboard-image-container {
     margin: auto;
@@ -2714,7 +2708,7 @@ body, .menuButton, .registration-step-container {
     margin: 5px auto 10px auto;
     min-width: fit-content;
     max-width: fit-content;
-    padding: 5px 10px 5px 0;
+    padding: 5px 0px 5px 0;
     width: fit-content;
   }
 
@@ -3107,5 +3101,15 @@ body, .menuButton, .registration-step-container {
 
   .toolbar {
     margin: 50px 0 0 0;
+  }
+}
+
+@media (max-width: 600px) and (max-height:600px) and (orientation: landscape) {
+  .billboard-flavor_text-container {
+    min-height: 50%;
+  }
+
+  .billboard-title {
+    padding: 10px 0 0 0;
   }
 }
