@@ -29,15 +29,22 @@ class App extends Component {
       contactFormVisible: false,
       registrationFormVisible: false,
       menuModal: false,
+      thumbnail: null,
       screenSize: helpers.determineScreenSize()
     };
+    this.closeThumbnail = this.closeThumbnail.bind(this);
+    this.viewThumbnail = this.viewThumbnail.bind(this);
     this.setLanguage = this.setLanguage.bind(this);
     this.setPage = this.setPage.bind(this);
     this.toggleContactForm = this.toggleContactForm.bind(this);
     this.toggleMenuModal = this.toggleMenuModal.bind(this);
     this.toggleRegistrationProcessInfo = this.toggleRegistrationProcessInfo.bind(this);
+  }
 
-
+  closeThumbnail(){
+    this.setState({
+      thumbnail: null
+    })
   }
 
   componentDidMount(){
@@ -105,6 +112,12 @@ class App extends Component {
     })
   }
 
+  viewThumbnail(thumbnail){
+    this.setState({
+      thumbnail: thumbnail
+    });
+  }
+
 
 render() {
   return (
@@ -158,6 +171,8 @@ render() {
                 contactFormVisible={this.state.contactFormVisible}
                 toggleContactForm={this.toggleContactForm}
                 registrationInfoVisible={this.state.registrationInfoVisible}
+                closeThumbnail={this.closeThumbnail}
+                thumbnail={this.state.thumbnail}
               />
             : null
           }

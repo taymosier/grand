@@ -7,7 +7,8 @@ export class Portal extends Component {
     this.state = {
       setLanguage: this.props.setLanguage,
       activeView: this.props.activeView,
-      page: this.props.page
+      page: this.props.page,
+      viewThumbnail: this.props.viewThumbnail
     };
   }
 
@@ -33,6 +34,7 @@ export class Portal extends Component {
           setLanguage={this.state.setLanguage}
           setPage={this.props.setPage}
           toggleContactForm={this.props.toggleContactForm}
+          viewThumbnail={this.state.viewThumbnail}
         />
     );
   }

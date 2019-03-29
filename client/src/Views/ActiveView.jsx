@@ -16,7 +16,8 @@ export class ActiveView extends Component {
       content: this.props.content,
       pageName: this.props.activeView,
       setLanguage: this.props.setLanguage,
-      imageGalleryHasContents: this.checkForContents(this.props.content.images.gallery)
+      imageGalleryHasContents: this.checkForContents(this.props.content.images.gallery),
+      viewThumbnail: this.props.viewThumbnail
     };
   }
 
@@ -103,6 +104,7 @@ export class ActiveView extends Component {
               thumbnails={this.state.content.images.thumbnails}
               setPage={this.props.setPage}
               language={this.state.language}
+              viewThumbnail={this.state.viewThumbnail}
             />
           : null
         }

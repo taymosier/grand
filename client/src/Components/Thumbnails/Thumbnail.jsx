@@ -6,7 +6,8 @@ export class Thumbnail extends Component {
   constructor(props){
     super(props);
     this.state = {
-      content: this.props.content
+      content: this.props.content,
+      viewThumbnail: this.props.viewThumbnail
     }
   }
 

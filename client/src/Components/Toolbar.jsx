@@ -8,20 +8,23 @@ import { PreviousPageButton } from './PreviousPageButton';
 import { ContactForm } from './Contact/ContactForm';
 import { LanguageButtonContainer } from "./Languages/LanguageButtonContainer";
 import { RegistrationProcessInfoModal } from "./Registration/RegistrationProcessInfoModal";
+import { ThumbnailModal } from "./Thumbnails/ThumbnailModal"; 
 
 
 export class Toolbar extends Component {
   constructor(props){
     super(props);
     this.state = {
-      setLanguage: this.props.setLanguage,
-      previousPage: this.props.previousPage,
-      setPage: this.props.setPage,
-      language: this.props.language,
       contactFormVisible: this.props.contactFormVisible,
+      closeThumbnail: this.props.closeThumbnail,
+      language: this.props.language,
+      previousPage: this.props.previousPage,
+      registrationInfoVisible: this.props.registrationInfoVisible,
+      setLanguage: this.props.setLanguage,
+      setPage: this.props.setPage,
+      thumbnail: this.props.thumbnail,
       toggleContactForm : this.props.toggleContactForm,
       toggleRegistrationProcessInfo: this.props.toggleRegistrationProcessInfo,
-      registrationInfoVisible: this.props.registrationInfoVisible,
     };
     this.toggle = this.toggle.bind(this);
   }
@@ -55,7 +58,14 @@ export class Toolbar extends Component {
     }
   }
 
+  thumbnailLoaded(thumbnail){
+    if(thumbnail !== "" && thumbnail !== undefined){
+      return thumbnail
+    } else {
+      return null
+    }
 
+  }
 
   render(){
     return(
@@ -82,6 +92,11 @@ export class Toolbar extends Component {
         ? <PreviousPageButton previous={this.state.previousPage} setPage={this.state.setPage}/>
         : null
       }
+      <ThumbnailModal
+        isOpen={this.state.thumbnail !== null}
+        thumbnail={this.state.thumbnail}
+        closeThumbnail={this.state.closeThumbnail}
+      />
       <ContactForm
         toggle={this.state.toggleContactForm}
         visible={this.state.contactFormVisible}
