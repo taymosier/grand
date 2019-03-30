@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/rummba-thumbnail.26e5accb.jpg"
   },
   {
-    "revision": "e1a27b3a5f62f4159179",
-    "url": "/static/css/main.66ff040c.chunk.css"
+    "revision": "765bd8ac0d6fe165f790",
+    "url": "/static/css/main.0c0e4057.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-7.334879a0.jpg"
   },
   {
-    "revision": "15b10e0422717892bb4c",
+    "revision": "c7d4d8be16b587241ffd",
     "url": "/static/js/2.ccf4f071.chunk.js"
   },
   {
@@ -129,7 +129,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "d260289c9cb1b57a14f8e92a0f11ec83",
-    "url": "/static/media/la-cantina-BANNER.d260289c.jpg"
+    "url": "/static/media/la-cantina-banner.d260289c.jpg"
   },
   {
     "revision": "b97e1c8c58cfdf441d9da826f49cf256",
@@ -624,8 +624,8 @@ self.__precacheManifest = [
     "url": "/static/media/ola-mulata-thumbnail.e4cffb9a.jpg"
   },
   {
-    "revision": "e1a27b3a5f62f4159179",
-    "url": "/static/js/main.2798b27c.chunk.js"
+    "revision": "765bd8ac0d6fe165f790",
+    "url": "/static/js/main.8a1da6a9.chunk.js"
   },
   {
     "revision": "d7b5f12820b32386c03222aa5459a55a",
@@ -1049,7 +1049,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "326fb255b89f39ee0437bcabf3346e98",
-    "url": "/static/media/entertainment-gallery-5.326fb255.jpg"
+    "url": "/static/media/entertainment-gallery-5.326fb255.JPG"
   },
   {
     "revision": "532e5b93866c4d2c2e6477f64dfd73f9",
@@ -1240,11 +1240,11 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-6.dbd445ef.jpg"
   },
   {
-    "revision": "15b10e0422717892bb4c",
-    "url": "/static/css/2.762604e3.chunk.css"
+    "revision": "c7d4d8be16b587241ffd",
+    "url": "/static/css/2.2f5f69a3.chunk.css"
   },
   {
-    "revision": "9ee6972b056b56562bede09351b86ae0",
+    "revision": "1182a853a0f3206f5fef5cee387f5d5b",
     "url": "/index.html"
   }
 ];
