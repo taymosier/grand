@@ -190,6 +190,7 @@ render() {
                 setLanguage={this.setLanguage}
                 setPage={this.setPage}
                 toggleContactForm={this.toggleContactForm}
+                viewThumbnail={this.viewThumbnail}
               />
             : null
           }
