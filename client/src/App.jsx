@@ -18,7 +18,7 @@ const helpers = require('./helpers/dynamicCSS.js');
 
 
 //change service worker in index.js back to unregister before pushing to production
-class App extends Component {
+export class App extends Component {
   constructor(){
     super();
     this.state = {
