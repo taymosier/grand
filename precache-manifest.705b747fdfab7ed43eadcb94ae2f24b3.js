@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/si-snack-thumbnail.43dcfcaa.jpg"
   },
   {
-    "revision": "cc6a2f06a44a96204bc6",
-    "url": "/static/css/main.3c308f50.chunk.css"
+    "revision": "d6269ecb8a5f70564324",
+    "url": "/static/css/main.3fb4ef24.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -632,7 +632,7 @@ self.__precacheManifest = [
     "url": "/static/media/samba-thumbnail.d7b5f128.jpg"
   },
   {
-    "revision": "cc6a2f06a44a96204bc6",
+    "revision": "d6269ecb8a5f70564324",
     "url": "/static/js/main.be7aae58.chunk.js"
   },
   {
@@ -1264,7 +1264,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.2f5f69a3.chunk.css"
   },
   {
-    "revision": "55cf45dacdc4d73bee0201ee90335fdf",
+    "revision": "1a59e9aa4a62f3d63754ebbb4de1f1df",
     "url": "/index.html"
   }
 ];
