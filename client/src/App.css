@@ -14,6 +14,10 @@
   font-weight: 700;
 }
 
+body {
+  background: #bce5f2;
+}
+
 body, .menuButton, .registration-step-container {
   font-family: "Advent Pro", sans-serif;
 }
@@ -2617,6 +2621,7 @@ body, .menuButton, .registration-step-container {
 
   .banner-header {
     font-size: 6vw;
+    font-weight: 400;
     letter-spacing: .625vw;
     border-bottom: 1px solid white;
     max-height: 6.25vw;
@@ -2643,10 +2648,10 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-button {
-    width: 95%;
+    width: 45%;
     font-weight: 400;
     letter-spacing: .95px;
-    margin: 10px 0 0px 2.5%;
+    margin: 10px 0 0px 50%;
     padding: 5px .375rem 0 0;
   }
 
@@ -2666,11 +2671,13 @@ body, .menuButton, .registration-step-container {
     padding: 0;
     letter-spacing: .7px;
     line-height: 1.15;
-    padding: 0;
+    padding: 5px 10px;
   }
 
   .billboard-flavor_text-container p{
     margin: 0;
+    font-size: 22px;
+    line-height: 1.35;
   }
 
   .billboard-flavor_text-container .flavor-text-bullets {
@@ -2734,6 +2741,7 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-title {
+    color: black;
     font-size: 1.35rem;
     font-weight: 600;
     letter-spacing: 1.15px;
@@ -2833,9 +2841,9 @@ body, .menuButton, .registration-step-container {
   }
 
   .contact-form input{
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 500;
-    letter-spacing: .825px;
+    letter-spacing: 1.35px;
   }
 
   .contact-form-fields-container {
@@ -2878,7 +2886,8 @@ body, .menuButton, .registration-step-container {
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #545353;
+    color: black;
+    font-weight: 500;
     font-size: 24px;
     line-height: 1.05;
     margin: 0;
@@ -2923,7 +2932,8 @@ body, .menuButton, .registration-step-container {
   #registrationProcessInfoToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #545353;
+    color: black;
+    font-weight: 500;
     line-height: 1.05;
     padding: 0 10px 0 10px;
     margin: 10px 0vw 0 0;
@@ -2970,15 +2980,17 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-description {
+    color: #000;
     font-size: 24px;
-    letter-spacing: .65px;
-    padding: 15px 2.5% 0 2.5%;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    padding: 15px 2.5% 0;
   }
 
   .page-header {
     font-weight: 500;
     font-size: 2.25rem;
-    letter-spacing: .15em;
+    letter-spacing: .1em;
     padding: 25px 0 10px 0;
     border-bottom: .85px solid darkgrey;
     min-width: 100%;
