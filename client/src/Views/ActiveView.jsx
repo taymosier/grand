@@ -77,9 +77,7 @@ export class ActiveView extends Component {
         }
         {this.props.content.text.description[this.state.language] !== undefined
           ? <div className="page-description">
-              <p>
-                {this.props.content.text.description[this.state.language]}
-              </p>
+                {helpers.splitText(this.props.content.text.description[this.state.language], "description")}
             </div>
           : null
         }

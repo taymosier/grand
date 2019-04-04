@@ -18,12 +18,11 @@ body, .menuButton, .registration-step-container {
   font-family: "Advent Pro", sans-serif;
 }
 
- .banner-header, .banner-subheader, .page-header {
+ .banner-header, .banner-subheader, #menuToggleModalButton, .page-header, .billboard-title, .billboard-button {
    font-family: "Biryani", sans-serif;
  }
 
-.billboard-flavor_text, #contactForm, #contactForm .modal-content, .page-description, .registration-step-container,
-.billboard-flavor_text-container p {
+.billboard-flavor_text, .billboard-tagline, #contactForm, #contactForm .modal-content, .page-description, .registration-step-container {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 100;
 }
@@ -34,6 +33,11 @@ body, .menuButton, .registration-step-container {
   min-height: 100%;
 }
 
+.billboard-flavor_text-container p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
 
 
 .billboard-map > .left-col {
@@ -89,6 +93,11 @@ body, .menuButton, .registration-step-container {
 
 .billboard-map > .right-col > .info-container > .tabbed-info-pane button:focus {
   box-shadow: none;
+}
+
+.billboard-title {
+  font-weight: 500;
+  color: #545353;
 }
 
 .popover {
@@ -219,23 +228,8 @@ body, .menuButton, .registration-step-container {
   float: left;
 }
 
-.billboard-tagline {
-  margin: 0;
-  padding-bottom: 10px;
-  letter-spacing: 0.8px;
-  font-size: .95em;
-  font-weight: 600;
-  font-style: normal;
-}
-
 .billboard-title {
-  padding: 30px 0 0 0;
-  letter-spacing: 1px;
   text-transform: uppercase;
-  color: #868686;
-  font-size: 14px;
-  font-size: 1.25rem;
-  font-weight: normal;
   font-style: normal;
 }
 
@@ -292,9 +286,10 @@ body, .menuButton, .registration-step-container {
   background: #F6F4F3;
   border-bottom: 1px solid black;
   box-shadow: .75px 1px 3.5px .2px black;
-  color: #777670;
+  color: #545353;
   font-size: 24px;
   font-weight: 500;
+  letter-spacing: 1.05px;
   margin: 12.5px 5px 0 3px;
   padding: 7px 0 .25em 20px;
   position:relative;
@@ -487,11 +482,14 @@ body, .menuButton, .registration-step-container {
 
   .billboard-flavor_text-container {
     min-height: fit-content;
-    padding: 5px 5px 5px 10px;
-    font-weight: 400;
+    padding: 5px 30px;
     letter-spacing: .7px;
     line-height: 1.15;
     text-align: center;
+  }
+
+  .billboard-flavor_text-container p {
+
   }
 
   .billboard-image-container {
@@ -506,9 +504,13 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-tagline {
-    padding: 10px;
+    padding: 2.5px 10px 2.5px 10px;
+    border-bottom: .5px solid black;
+    max-width: fit-content;
+    min-width: fit-content;
     font-size: 1.3em;
     text-align: center;
+    margin: 0 auto 5px auto;
   }
 
   .billboard-text-container {
@@ -521,7 +523,6 @@ body, .menuButton, .registration-step-container {
     padding: 0;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #868686;
     font-size: 1.4rem;
     font-weight: normal;
     font-style: normal;
@@ -611,7 +612,7 @@ body, .menuButton, .registration-step-container {
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     font-size: 18px;
     line-height: 1.05;
     margin: 0 2.5vw 0 0;
@@ -645,7 +646,7 @@ body, .menuButton, .registration-step-container {
   #registrationProcessInfoToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     margin: 0 0 0 0;
     line-height: 1.05;
     max-width: 45vw;
@@ -680,7 +681,7 @@ body, .menuButton, .registration-step-container {
     background: #F6F4F3;
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
-    color: #777670;
+    color: #545353;
     font-size: 20px;
     min-width: 70vw;
     font-weight: 500;
@@ -743,12 +744,13 @@ body, .menuButton, .registration-step-container {
     top: 0;
     z-index: 30000;
     font-size: 18px;
+    font-weight: 500;
     letter-spacing: 2.5px;
-    font-weight: 600;
     height: 40px;
     min-height: 40px;
     max-height: 40px;
     border-radius: 0;
+    padding: 7.5px 0 0 0;
   }
 
   .menuToggler {
@@ -764,12 +766,12 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-header {
-    font-weight: 600;
-    letter-spacing: .25em;
+    font-weight: 500;
+    letter-spacing: .1em;
     padding: 25px 0 0 0;
     min-width: 100%;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   #registrationInfoContainer .modal-body{
@@ -924,23 +926,23 @@ body, .menuButton, .registration-step-container {
   .billboard-button {
     width: 80%;
     margin: 10px 0 15px 10%;
+    padding: 5px 0 0 0;
   }
 
   .billboard-flavor_text-container {
-    min-height: 100%;
-    padding: 5px 12.5% 5px 12.5%;
-    font-weight: 600;
+    min-height: fit-content;
+    padding: 5px 5% 5px 5%;
     letter-spacing: .7px;
     line-height: 1.15;
     text-align: center;
   }
 
   .billboard-flavor_text-container p {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .billboard-image-container {
-    margin: 20px 0;
+    margin: 20px 0 0 0;
   }
 
   .billboard-image {
@@ -951,9 +953,14 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-tagline {
-    padding: 10px;
-    font-size: .8em;
+    padding: 0 10px 5px 10px;
+    font-size: 1.3em;
     text-align: center;
+    border-bottom: .5px solid black;
+    min-width: fit-content;
+    max-width: fit-content;
+    width: fit-content;
+    margin: 0 auto 5px auto;
   }
 
   .billboard-text-container {
@@ -963,10 +970,9 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-title {
-    padding: 30px 0 0 0;
+    padding: 20px 0 0 0;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #868686;
     text-align: center;
     font-size: 1.25rem;
     font-weight: normal;
@@ -1052,7 +1058,7 @@ body, .menuButton, .registration-step-container {
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     display: flex;
     float: left;
     font-size: 20px;
@@ -1096,7 +1102,7 @@ body, .menuButton, .registration-step-container {
   #registrationProcessInfoToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     margin: 0;
     line-height: 1.05;
     padding: 0 20px 0 20px;
@@ -1132,7 +1138,7 @@ body, .menuButton, .registration-step-container {
     background: #F6F4F3;
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
-    color: #777670;
+    color: #545353;
     font-size: 24px;
     min-width: 70vw;
     font-weight: 500;
@@ -1196,12 +1202,14 @@ body, .menuButton, .registration-step-container {
     top: 0;
     z-index: 30000;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 2.5px;
     height: 40px;
     min-height: 40px;
     max-height: 40px;
     border-radius: 0;
+    padding: 7.5px 0 0 0;
+
   }
 
   .menuToggler {
@@ -1216,12 +1224,12 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-header {
-    font-weight: 600;
-    letter-spacing: .25em;
+    font-weight: 500;
+    letter-spacing: .1em;
     padding: 25px 0 0 0;
     min-width: 100%;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   #registrationInfoContainer .modal-body{
@@ -1367,13 +1375,12 @@ body, .menuButton, .registration-step-container {
 
   .billboard-button {
     width: 80%;
-    margin: 0 0 40px 10%;
+    margin: 0 0 25px 10%;
   }
 
   .billboard-flavor_text-container {
     min-height: 100%;
     padding: 5px 35px 5px 35px;
-    font-weight: 400;
     letter-spacing: .7px;
     line-height: 1.15;
     text-align: center;
@@ -1420,8 +1427,6 @@ body, .menuButton, .registration-step-container {
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
-    color: #868686;
-    font-size: 14px;
     font-size: 1.25rem;
     font-weight: normal;
     font-style: normal;
@@ -1487,8 +1492,9 @@ body, .menuButton, .registration-step-container {
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     font-size: 20px;
+    letter-spacing: 1.15px;
     line-height: 1.05;
     margin: 0 2.5vw 0 0;
     max-width: 45vw;
@@ -1510,8 +1516,9 @@ body, .menuButton, .registration-step-container {
   #registrationProcessInfoToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     margin: 0 0 0 1.5vw;
+    letter-spacing: .85px;
     line-height: 1.05;
     padding: 0 20px 0 20px;
     max-width: 45vw;
@@ -1545,7 +1552,7 @@ body, .menuButton, .registration-step-container {
     background: #F6F4F3;
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
-    color: #777670;
+    color: #545353;
     font-size: 24px;
     min-width: 70vw;
     font-weight: 500;
@@ -1633,8 +1640,8 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-header {
-    font-weight: 600;
-    letter-spacing: .25em;
+    font-weight: 500;
+    letter-spacing: .1em;
     padding: 25px 0 0 0;
     min-width: 100%;
     text-align: center;
@@ -1783,7 +1790,7 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-bottom-row {
-    margin: 10px 0;
+    margin: 0 0 10px 0;
   }
 
   .billboard-button {
@@ -1798,8 +1805,7 @@ body, .menuButton, .registration-step-container {
 
   .billboard-flavor_text-container {
     min-height: fit-content;
-    padding: 5px 10px 5px 10px;
-    font-weight: 600;
+    padding: 5px 0;
     letter-spacing: .7px;
     line-height: 1.2;
     text-align: center;
@@ -1831,12 +1837,10 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-title {
-    color: #868686;
     font-size: 20px;
-    font-weight: 600;
     font-style: normal;
     letter-spacing: 1.75px;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 0 0;
     text-align: center;
     text-transform: uppercase;
   }
@@ -1938,7 +1942,7 @@ body, .menuButton, .registration-step-container {
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     font-size: 22px;
     line-height: 1.05;
     margin: 0;
@@ -1971,7 +1975,7 @@ body, .menuButton, .registration-step-container {
   #registrationProcessInfoToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     line-height: 1.05;
     padding: 0 10px 0 10px;
     margin: 10px 0vw 0 0;
@@ -2007,7 +2011,7 @@ body, .menuButton, .registration-step-container {
     background: #F6F4F3;
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
-    color: #777670;
+    color: #545353;
     font-size: 24px;
     min-width: 70vw;
     font-weight: 500;
@@ -2085,15 +2089,15 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-description {
-    padding: 15px 20px 0 15px;
+    padding: 15px 0 0 0;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: .95px;
   }
 
   .page-header {
-    font-weight: 600;
-    letter-spacing: .25em;
+    font-weight: 500;
+    letter-spacing: .1em;
     padding: 25px 0 0 0;
     min-width: 100%;
     text-align: center;
@@ -2254,7 +2258,6 @@ body, .menuButton, .registration-step-container {
   .billboard-flavor_text-container {
     min-height: fit-content;
     padding: 5px 0px 5px 0px;;
-    font-weight: 600;
     letter-spacing: .7px;
     line-height: 1.15;
   }
@@ -2305,7 +2308,6 @@ body, .menuButton, .registration-step-container {
     padding: 5px 0 0 0px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #868686;
     font-size: 14px;
     font-size: 1.25rem;
     font-weight: normal;
@@ -2361,7 +2363,7 @@ body, .menuButton, .registration-step-container {
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     font-size: 24px;
     line-height: 1.05;
     margin: 0;
@@ -2407,7 +2409,7 @@ body, .menuButton, .registration-step-container {
   #registrationProcessInfoToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     line-height: 1.05;
     padding: 0 10px 0 10px;
     margin: 10px 0vw 0 0;
@@ -2436,7 +2438,7 @@ body, .menuButton, .registration-step-container {
     background: #F6F4F3;
     border-bottom: 1px solid black;
     box-shadow: 0.75px 1px 3.5px 0.2px black;
-    color: #777670;
+    color: #545353;
     font-size: 24px;
     font-weight: 500;
     margin: 12.5px 5px 0 3px;
@@ -2499,19 +2501,24 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-description {
-    padding: 15px 2.5vw 0 2.5vw;
+    padding: 10px 0 0 0;
     font-size: 18px;
     font-weight: 200;
     letter-spacing: .95px;
   }
 
+  .page-description p {
+    padding: 5px 0 0 15px;
+    margin: 0 0 5px 0;
+  }
+
   .page-header {
-    font-weight: 600;
-    letter-spacing: .25em;
+    font-weight: 500;
+    letter-spacing: .1em;
     padding: 25px 0 0 0;
     min-width: 100%;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
   }
 
   #registrationInfoContainer .modal-body{
@@ -2602,10 +2609,6 @@ body, .menuButton, .registration-step-container {
     min-height: 380px;
   }
 
-  .billboard {
-    max-height: fit-content;
-  }
-
   .banner-container {
     margin: 0;
     height: fit-content;
@@ -2639,18 +2642,17 @@ body, .menuButton, .registration-step-container {
     text-align: center;
   }
 
-  .billboard-top-row {
-    margin: 0;
+  .billboard-button {
+    width: 95%;
+    font-weight: 400;
+    letter-spacing: .95px;
+    margin: 10px 0 0px 2.5%;
+    padding: 5px .375rem 0 0;
   }
 
   .billboard-bottom-row {
     margin: 0;
     text-align: right;
-  }
-
-  .billboard-button {
-    width: 45%;
-    margin: 10px 0 5px 50%;
   }
 
   .billboard-flavor_text {
@@ -2662,10 +2664,13 @@ body, .menuButton, .registration-step-container {
   .billboard-flavor_text-container {
     min-height: fit-content;
     padding: 0;
-    font-weight: 600;
     letter-spacing: .7px;
     line-height: 1.15;
-    padding: 0 0px 20px 0px;
+    padding: 0;
+  }
+
+  .billboard-flavor_text-container p{
+    margin: 0;
   }
 
   .billboard-flavor_text-container .flavor-text-bullets {
@@ -2693,40 +2698,57 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-image{
+    border-radius: 2.5%;
     display: block;
     max-height: 17vw;
     min-width: 90%;
-    width: 90%;
-    max-width: 90%;
+    width: 95%;
+    max-width: 100%;
     height: 100%;
     min-height: 100%;
-
+    margin: 0 auto 5px 2.5%;
   }
 
   .billboard-tagline {
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .9px;
     margin: 5px auto 10px auto;
+    border-bottom: .5px solid black;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
     min-width: fit-content;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
-    padding: 5px 0px 5px 0;
+    padding: 5px 0px 0 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
   }
 
   .billboard-text-container {
-    margin: 0 auto;
+    margin: 0 auto 0 0;
     max-height: fit-content;
     padding: 0;
   }
 
   .billboard-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: 1.15px;
     line-height: .9;
-    padding: 15px 10px 5px 0;
+    padding: 15px 0 5px 0;
   }
 
   .billboard-title.full-width.three-col{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 40px;
     color: #c4300b;
+  }
+
+  .billboard-top-row {
+    margin: 0;
   }
 
   p.full-width{
@@ -2856,7 +2878,7 @@ body, .menuButton, .registration-step-container {
   #contactFormToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     font-size: 24px;
     line-height: 1.05;
     margin: 0;
@@ -2872,6 +2894,10 @@ body, .menuButton, .registration-step-container {
     animation-delay: -2s;
     animation-iteration-count: infinite;
     animation-direction: alternate reverse;
+  }
+
+  .footer {
+    margin: 5vh 0 0 0;
   }
 
   @keyframes text-pulse {
@@ -2897,7 +2923,7 @@ body, .menuButton, .registration-step-container {
   #registrationProcessInfoToggleButton {
     background: #F6F4F3;
     box-shadow: 3px 2px 4px -1.5px grey;
-    color: #777670;
+    color: #545353;
     line-height: 1.05;
     padding: 0 10px 0 10px;
     margin: 10px 0vw 0 0;
@@ -2950,8 +2976,9 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-header {
-    font-weight: 600;
-    letter-spacing: .25em;
+    font-weight: 500;
+    font-size: 2.25rem;
+    letter-spacing: .15em;
     padding: 25px 0 10px 0;
     border-bottom: .85px solid darkgrey;
     min-width: 100%;
@@ -2961,7 +2988,7 @@ body, .menuButton, .registration-step-container {
 .previous-page-button {
   background: #F6F4F3;
   box-shadow: 3px 2px 4px -1.5px grey;
-  color: #777670;
+  color: #545353;
   line-height: 1.05;
   padding: 0 10px 0 10px;
   margin: 10px 0vw 0 0;
@@ -3100,7 +3127,10 @@ body, .menuButton, .registration-step-container {
   }
 
   .toolbar {
-    margin: 50px 0 0 0;
+    margin: 20px 0 0 0;
+    position: fixed;
+    left: 73.5vw;
+    padding: 0 0 0 30px;
   }
 }
 

@@ -97,7 +97,7 @@ export function formatTitle(name){
     return currentOrientationState;
   }
 
-  export function splitText(text, className, delimiter){
+  export function splitText(text, className){
     let textSplit = text.split(/_\/_/g);
     let textBlocks = [];
     if(textSplit.length > 1){
