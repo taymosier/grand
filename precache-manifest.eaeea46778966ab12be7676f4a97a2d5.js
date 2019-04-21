@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "43dcfcaa3f1e4798c851511e4ca127c3",
-    "url": "/static/media/si-snack-thumbnail.43dcfcaa.jpg"
+    "revision": "87d44408806a456eb2f8bd234985012e",
+    "url": "/static/media/azur-thumbnail.87d44408.jpg"
   },
   {
-    "revision": "d6269ecb8a5f70564324",
-    "url": "/static/css/main.3fb4ef24.chunk.css"
+    "revision": "428bf889a6cb9b94da57",
+    "url": "/static/css/main.502d38ea.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-7.334879a0.jpg"
   },
   {
-    "revision": "e9fdffc19498d14bff65",
-    "url": "/static/js/2.4624fe26.chunk.js"
+    "revision": "24c3b4ee0a43897d41a8",
+    "url": "/static/js/2.22550efd.chunk.js"
   },
   {
     "revision": "23af5cab1c0536d7aedeb985f62276ea",
@@ -504,6 +504,14 @@ self.__precacheManifest = [
     "url": "/static/media/tramonto-billboard.6a60c221.jpg"
   },
   {
+    "revision": "f765f406130bf3f87e0711bc107cb3c6",
+    "url": "/static/media/two-bedroom-presidential-suite-floorplan.f765f406.jpg"
+  },
+  {
+    "revision": "fadca7e7bde4951c2eec16e68a1a6cfc",
+    "url": "/static/media/two-bedroom-presidential-villa-gallery-1.fadca7e7.jpg"
+  },
+  {
     "revision": "5be2c4d3453c9dcc8f840743452a5735",
     "url": "/static/media/wellness-billboard.5be2c4d3.jpg"
   },
@@ -632,8 +640,8 @@ self.__precacheManifest = [
     "url": "/static/media/samba-thumbnail.d7b5f128.jpg"
   },
   {
-    "revision": "d6269ecb8a5f70564324",
-    "url": "/static/js/main.be7aae58.chunk.js"
+    "revision": "43dcfcaa3f1e4798c851511e4ca127c3",
+    "url": "/static/media/si-snack-thumbnail.43dcfcaa.jpg"
   },
   {
     "revision": "09c8077c92fb63121b86d4212c32986d",
@@ -656,8 +664,8 @@ self.__precacheManifest = [
     "url": "/static/media/fine-dining-thumbnail.04643e52.jpg"
   },
   {
-    "revision": "87d44408806a456eb2f8bd234985012e",
-    "url": "/static/media/azur-thumbnail.87d44408.jpg"
+    "revision": "428bf889a6cb9b94da57",
+    "url": "/static/js/main.535ead54.chunk.js"
   },
   {
     "revision": "335e4563bd0ecd0d8563b2a270e6299b",
@@ -700,12 +708,36 @@ self.__precacheManifest = [
     "url": "/static/media/room-service-thumbnail.6704afd6.jpg"
   },
   {
-    "revision": "a45a5f4c645577d6b9f7b7cfb836ef94",
-    "url": "/static/media/circular-pool.a45a5f4c.jpg"
+    "revision": "e3a7293bf20ce324a9a5f0c1cda15a47",
+    "url": "/static/media/adults-only-pool.e3a7293b.jpg"
   },
   {
-    "revision": "33dfb0aea32155fd5391b4ce70a61f82",
-    "url": "/static/media/tower-five-sky-lounge-pool-thumbnail.33dfb0ae.jpg"
+    "revision": "62df77e1ec3bd147d826674c3f23537b",
+    "url": "/static/media/circular-pool.62df77e1.jpg"
+  },
+  {
+    "revision": "8c672e17bf4fa17c201aac6cb3b186c7",
+    "url": "/static/media/infinity-pool.8c672e17.jpg"
+  },
+  {
+    "revision": "5f61caf4d3d545fbc1a1e8f0db8e83b4",
+    "url": "/static/media/kids-club-pool.5f61caf4.jpg"
+  },
+  {
+    "revision": "44714c0e37acd858c0aef9bd399f5779",
+    "url": "/static/media/punta-pool-east.44714c0e.jpg"
+  },
+  {
+    "revision": "99a9f667376502dc052041912c258ff8",
+    "url": "/static/media/sky-garden-pool.99a9f667.jpg"
+  },
+  {
+    "revision": "9f6f8bd03076ca142aa2bcca1808eb39",
+    "url": "/static/media/sky-lounge-pool.9f6f8bd0.jpg"
+  },
+  {
+    "revision": "67447b8032f94930c2360f74e381dee7",
+    "url": "/static/media/spa-tower-pools.67447b80.jpg"
   },
   {
     "revision": "c6bb36a5285a65168d1dc561d10238eb",
@@ -1232,6 +1264,34 @@ self.__precacheManifest = [
     "url": "/static/media/three-bedroom-presidential-villa-gallery-9.20eee20b.jpg"
   },
   {
+    "revision": "f25855a53b777f93f0b5a834a3a65d46",
+    "url": "/static/media/two-bedroom-presidential-villa-gallery-2.f25855a5.jpg"
+  },
+  {
+    "revision": "9a347e15e6103bf577b1c48685f310f8",
+    "url": "/static/media/two-bedroom-presidential-villa-gallery-3.9a347e15.jpg"
+  },
+  {
+    "revision": "e2d75f9e11ddaea30d7d2d4b61fb4f9a",
+    "url": "/static/media/two-bedroom-presidential-villa-gallery-4.e2d75f9e.jpg"
+  },
+  {
+    "revision": "91266186d2d01a0b00a9cee29a4a0bc6",
+    "url": "/static/media/two-bedroom-presidential-villa-gallery-5.91266186.jpg"
+  },
+  {
+    "revision": "5d8ce94e35a59ce7d26b7d167d6bc1e0",
+    "url": "/static/media/two-bedroom-presidential-villa-gallery-6.5d8ce94e.jpg"
+  },
+  {
+    "revision": "306cd933d4a78724160851492b29b627",
+    "url": "/static/media/two-bedroom-presidential-villa-gallery-7.306cd933.jpg"
+  },
+  {
+    "revision": "adb89a1fc272401669b3b96ad52cf356",
+    "url": "/static/media/two-bedroom-presidential-villa-gallery-8.adb89a1f.jpg"
+  },
+  {
     "revision": "3c928e0f6563af806fcf531004d421a1",
     "url": "/static/media/desktop.3c928e0f.ini"
   },
@@ -1260,11 +1320,11 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-6.dbd445ef.jpg"
   },
   {
-    "revision": "e9fdffc19498d14bff65",
+    "revision": "24c3b4ee0a43897d41a8",
     "url": "/static/css/2.2f5f69a3.chunk.css"
   },
   {
-    "revision": "1a59e9aa4a62f3d63754ebbb4de1f1df",
+    "revision": "83960f8838539d30fa991596eb5e7d45",
     "url": "/index.html"
   }
 ];
