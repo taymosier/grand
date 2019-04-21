@@ -20,6 +20,7 @@ body {
 
 body, .menuButton, .registration-step-container {
   font-family: "Advent Pro", sans-serif;
+  text-shadow: 2px 0px 2.5px lightslategrey;
 }
 
  .banner-header, .banner-subheader, #menuToggleModalButton, .page-header, .billboard-title, .billboard-button {
@@ -27,7 +28,7 @@ body, .menuButton, .registration-step-container {
  }
 
 .billboard-flavor_text, .billboard-tagline, #contactForm, #contactForm .modal-content, .page-description, .registration-step-container {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Segoe UI", sans-serif;
   font-weight: 100;
 }
 /*  ************************************************************************* */
@@ -217,14 +218,14 @@ body, .menuButton, .registration-step-container {
 
 .billboard {
   background: #F6F4F3;
-  box-shadow: 5px 7px 15px rgba(200,195,210,.8);
+  box-shadow: -1.5px -1.5px 1.5px 2px ghostwhite;
 }
 
 .billboard-image {
   margin: 0 auto;
   min-width: 0%;
   max-width: 100%;
-  box-shadow: 0px 0px 10px 4px grey;
+  box-shadow:  -2.5px 2.5px 5px 3px grey;
 }
 
 .billboard-image-container {
@@ -290,7 +291,7 @@ body, .menuButton, .registration-step-container {
   background: #F6F4F3;
   border-bottom: 1px solid black;
   box-shadow: .75px 1px 3.5px .2px black;
-  color: #545353;
+  color: black;
   font-size: 24px;
   font-weight: 500;
   letter-spacing: 1.05px;
@@ -2617,12 +2618,16 @@ body, .menuButton, .registration-step-container {
     margin: 0;
     height: fit-content;
     padding: 6% 2% 2% 2%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   .banner-header {
     font-size: 6vw;
     font-weight: 400;
     letter-spacing: .625vw;
+    text-shadow: 3px 2px 5px black;
     border-bottom: 1px solid white;
     max-height: 6.25vw;
     min-width: fit-content;
@@ -2634,6 +2639,26 @@ body, .menuButton, .registration-step-container {
 
   .banner-subheader {
     font-size: 3.4vw;
+    text-shadow: 3px 2px 5px black;
+  }
+
+  #BILLBOARD_comingSoon .billboard-top-row > .billboard-text-container {
+    margin: 0 auto;
+    min-width: 90%;
+    max-width: 90%;
+    width: 90%;
+  }
+
+  #BILLBOARD_twoBedroomPresidentialVillaFeatures > .billboard-top-row > .billboard-text-container > .billboard-flavor_text-container p {
+    border-bottom: .5px solid black;
+    border-top: .5px solid black;
+    font-size: 1.35vw;
+    letter-spacing: .5px;
+    line-height: 1.35vw;
+    margin: 2.5px 0 2.5px 0;
+    max-width: 100%;
+    padding: 7.5px 25px 7.5px 0;
+    text-align: end;
   }
 
   .billboard {
@@ -2676,8 +2701,10 @@ body, .menuButton, .registration-step-container {
 
   .billboard-flavor_text-container p{
     margin: 0;
-    font-size: 22px;
-    line-height: 1.35;
+    font-size: 1.15vw;
+    font-weight: 600;
+    line-height: 1.4vw;
+    letter-spacing: 1px;
   }
 
   .billboard-flavor_text-container .flavor-text-bullets {
@@ -2995,6 +3022,7 @@ body, .menuButton, .registration-step-container {
     border-bottom: .85px solid darkgrey;
     min-width: 100%;
     text-align: center;
+    text-shadow: 2px 0px 2.5px lightslategrey;
 }
 
 .previous-page-button {
@@ -3103,6 +3131,7 @@ body, .menuButton, .registration-step-container {
     overflow: hidden;
     border-bottom: none;
     height: 70%;
+    font-size: 1.1vw;
   }
 
   .thumbnail-flavor_text:hover{

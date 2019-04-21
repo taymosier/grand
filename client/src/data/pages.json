@@ -60,8 +60,8 @@
       },
       "text": {
         "description": {
-          "en": "Grand Luxxe in Nuevo Vallarta is an elegant, modern and sophisticated Mexican resort with exquisite accommodations. It has nine towers located between the shores of the tranquil Ameca River and Pacific Ocean just north of Puerto Vallarta in the state of Nayarit. Grand Luxxe brings together luxury and the abundance of nature to offer each guest an enchanting escape with excellent hospitality, comfort and entertainment. With state of the art 24 hour security and personal drivers for transportation, the resort provides the utmost in individual safety._/_We are owners at Grand Luxxe. We hope to be able to help you experience the same pleasure that we have found at Grand Luxxe. We can no longer use all the weeks we have. We are opening up opportunities for others to rent these weeks and experience the same pleasure.",
-          "es": "Con nueve suntuosas torres de alojamientos construidas a lo largo del espectacular río Ameca, Grand Luxxe Nuevo Vallarta es un modelo de vivienda de lujo."
+          "en": "Grande Luxxe in Nuevo Vallarta is an elegant, modern and sophisticated Mexican resort with exquisite accommodations. It has nine towers located between the shores of the tranquil Ameca River and Pacific Ocean just north of Puerto Vallarta in the state of Nayarit. Grande Luxxe brings together luxury and the abundance of nature to offer each guest an enchanting escape with excellent hospitality, comfort and entertainment. With state of the art 24 hour security and personal drivers for transportation, the resort provides the utmost in individual safety._/_We are owners at Grande Luxxe. We hope to be able to help you experience the same pleasure that we have found at Grande Luxxe. We can no longer use all the weeks we have. We are opening up opportunities for others to rent these weeks and experience the same pleasure.",
+          "es": "Con nueve suntuosas torres de alojamientos construidas a lo largo del espectacular río Ameca, Grande Luxxe Nuevo Vallarta es un modelo de vivienda de lujo."
         },
         "header": {
           "en": "Welcome to Luxurious Paradise ",
@@ -109,12 +109,12 @@
           },
           "name": "rooms",
           "tagline": {
-            "en": "Grand Luxxe Rooms & Suites",
-            "es": "Habitaciones & Suites en Grand Luxxe"
+            "en": "Grande Luxxe Rooms & Suites",
+            "es": "Habitaciones & Suites en Grande Luxxe"
           },
           "flavor_text":  {
-            "en": "Superior luxury featured at the height of indulgence designed to inspire rest and relaxation. Whether you’re looking for a romantic escape, vacation with friends or place to bring together the entire family Grand Luxxe accommodations offer a sophisticated atmosphere of peace and harmony.",
-            "es": "***NEEDS UPDATED TEXT*** Desde hermosas habitaciones hasta lujosos lofts y amplias suites, Grand Luxxe Nuevo Vallarta ofrece una gran variedad de alojamientos de alta calidad."
+            "en": "Superior luxury featured at the height of indulgence designed to inspire rest and relaxation. Whether you’re looking for a romantic escape, vacation with friends or place to bring together the entire family Grande Luxxe accommodations offer a sophisticated atmosphere of peace and harmony.",
+            "es": "***NEEDS UPDATED TEXT*** Desde hermosas habitaciones hasta lujosos lofts y amplias suites, Grande Luxxe Nuevo Vallarta ofrece una gran variedad de alojamientos de alta calidad."
           },
           "image": "rooms-billboard.jpg",
           "link": "rooms"
@@ -126,12 +126,12 @@
           },
           "name": "pools",
           "tagline": {
-            "en": "Grand Luxxe Pools",
-            "es": "Piscinas en Grand Luxxe"
+            "en": "Grande Luxxe Exclusive Poolss",
+            "es": "Piscinas exclusivas Grande Luxxe"
           },
           "flavor_text": {
-            "en": "Swim in a rooftop oasis, luxuriate in a Jacuzzi overlooking the Bay of Banderas, or kick back next to a trio of pristine pools.",
-            "es": "Nade en la terraza de un oasis, deléitese en un jacuzzi con vista a la Bahía de Banderas o relájese junto a un trío de piscinas resplandecientes."
+            "en": "With gorgeous designs and indulgent features, these luxurious pools offer the ultimate pool-side experience.",
+            "es": "Con magníficos diseños y características indulgentes, estas lujosas piscinas ofrecen la mejor experiencia junto a la piscina."
             },
           "image": "punta-pool-east.jpg",
           "link": "pools"
@@ -493,8 +493,8 @@
             "es": "Ubicación y Horarios"
           },
           "flavor_text": {
-            "en":"By the Grand Luxxe Punta Pool_/_Monday – Sunday 11 AM – 11 PM_/_Chef: Issac Hernandez",
-            "es": "Cerca de la piscina de Grand Luxxe Punta_/_Lunes – Domingos 11 AM – 11 PM_/_Chef: Issac Hernández"
+            "en":"By the Grande Luxxe Punta Pool_/_Monday – Sunday 11 AM – 11 PM_/_Chef: Issac Hernandez",
+            "es": "Cerca de la piscina de Grande Luxxe Punta_/_Lunes – Domingos 11 AM – 11 PM_/_Chef: Issac Hernández"
           },
           "image": "",
           "link": ""
@@ -551,8 +551,8 @@
           "name": "hours",
           "tagline": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "flavor_text": {
-            "en": "In Grand Luxxe Tower 1, Ground Floor_/_Monday – Sunday 5:30 PM – 11 PM_/_Chef: Axel Jimenez Lira",
-            "es": "En la torre 1 de Grand Luxxe, planta baja_/_Lunes – Domingo 5:30 PM – 11 PM_/_Chef: Axel Jiménez Lira"
+            "en": "In Grande Luxxe Tower 1, Ground Floor_/_Monday – Sunday 5:30 PM – 11 PM_/_Chef: Axel Jimenez Lira",
+            "es": "En la torre 1 de Grande Luxxe, planta baja_/_Lunes – Domingo 5:30 PM – 11 PM_/_Chef: Axel Jiménez Lira"
           },
           "image": "",
           "link": ""
@@ -603,8 +603,8 @@
           "name": "hours",
           "tagline": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "flavor_text": {
-            "en":"By the Grand Mayan_/_Monday – Sunday 5:30 PM – 11 PM_/_Chef: Mitzuo Takahashi",
-            "es": "Cerca de The Grand Mayan_/_Lunes – Domingos 5:30 PM – 11 PM_/_Chef: Mitzuo Takahashi"
+            "en":"By the Grande Mayan_/_Monday – Sunday 5:30 PM – 11 PM_/_Chef: Mitzuo Takahashi",
+            "es": "Cerca de The Grande Mayan_/_Lunes – Domingos 5:30 PM – 11 PM_/_Chef: Mitzuo Takahashi"
           },
           "image": "",
           "link": ""
@@ -628,8 +628,8 @@
         },
       "text": {
         "description": {
-          "en": "Situated in the Sky Lounge at the very top of Grand Luxxe’s new Tower 5, Quinto offers guests fine dining service set within a relaxed yet luxurious atmosphere, with breathtaking views of Banderas Bay, the Ameca River, and the Sierra Madre Mountains.",
-          "es": "Ubicado en el Sky Lounge en la parte superior de la nueva Torre 5 de Grand Luxxe, Quinto ofrece un servicio de cocina refinada en una atmósfera relajada y lujosa con espectaculares vistas de la Bahía de Banderas, el Río Ameca y las montañas de la Sierra Madre."
+          "en": "Situated in the Sky Lounge at the very top of Grande Luxxe’s new Tower 5, Quinto offers guests fine dining service set within a relaxed yet luxurious atmosphere, with breathtaking views of Banderas Bay, the Ameca River, and the Sierra Madre Mountains.",
+          "es": "Ubicado en el Sky Lounge en la parte superior de la nueva Torre 5 de Grande Luxxe, Quinto ofrece un servicio de cocina refinada en una atmósfera relajada y lujosa con espectaculares vistas de la Bahía de Banderas, el Río Ameca y las montañas de la Sierra Madre."
         },
         "header": {
           "en":"The Best of Land and Sea",
@@ -663,8 +663,8 @@
           "name": "hours",
           "tagline": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "flavor_text": {
-            "en":"Sky Lounge at Grand Luxxe Tower 5_/_Monday – Sunday 11 AM – 11 PM_/_Chef: David Vidales",
-            "es": "Sky Lounge en la Torre 5 de Grand Luxxe_/_Lunes – Domingo 11 AM – 11 PM_/_Chef: David Vidales"
+            "en":"Sky Lounge at Grande Luxxe Tower 5_/_Monday – Sunday 11 AM – 11 PM_/_Chef: David Vidales",
+            "es": "Sky Lounge en la Torre 5 de Grande Luxxe_/_Lunes – Domingo 11 AM – 11 PM_/_Chef: David Vidales"
           },
           "image": "",
           "link": ""
@@ -722,8 +722,8 @@
           "name": "hours",
           "tagline": {"en": "Location & Hours","es":"Ubicación y Horarios"},
           "flavor_text": {
-            "en":"Sky Lounge at Grand Luxxe Tower 5_/_Monday – Sunday 5:30 PM – 11 PM_/_Chef: David Vidales",
-            "es": "En la Torre Punta de Grand Luxxe_/_Lunes – Domingo 5:30 PM – 11 PM_/_Chef: Óscar Baltazar"
+            "en":"Sky Lounge at Grande Luxxe Tower 5_/_Monday – Sunday 5:30 PM – 11 PM_/_Chef: David Vidales",
+            "es": "En la Torre Punta de Grande Luxxe_/_Lunes – Domingo 5:30 PM – 11 PM_/_Chef: Óscar Baltazar"
           },
           "image": "",
           "link": ""
@@ -772,8 +772,8 @@
           "name": "tramonto-hours",
           "tagline": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "flavor_text": {
-            "en":"By The Grand Mayan Lobby_/_Monday – Sunday 5:30 PM – 1 AM_/_Chef: Salvatore Morina",
-            "es": "Por el lobby de The Grand Mayan_/_Lunes – Domingo 5:30 PM – 1 AM_/_Chef: Salvatore Morina"
+            "en":"By The Grande Mayan Lobby_/_Monday – Sunday 5:30 PM – 1 AM_/_Chef: Salvatore Morina",
+            "es": "Por el lobby de The Grande Mayan_/_Lunes – Domingo 5:30 PM – 1 AM_/_Chef: Salvatore Morina"
           },
           "image": "",
           "link": ""
@@ -1120,8 +1120,8 @@
             "es": "Ubicación y Horarios"
           },
           "flavor_text": {
-            "en":"At Grand Luxxe Residence Tower Monday – Sunday 6 AM – 10 PM Chef: Hector Illan",
-            "es": "En la Torre Residence de Grand Luxxe_/_Lunes – Sábado 6 AM – 10 PM_/_Chef: Héctor Illán"
+            "en":"At Grande Luxxe Residence Tower Monday – Sunday 6 AM – 10 PM Chef: Hector Illan",
+            "es": "En la Torre Residence de Grande Luxxe_/_Lunes – Sábado 6 AM – 10 PM_/_Chef: Héctor Illán"
           },
           "image": "",
           "link": ""
@@ -1180,8 +1180,8 @@
             "es": "Ubicación y Horarios"
           },
           "flavor_text": {
-            "en":"In The Grand Mayan by Brio_/_Monday – Sunday 7:15 AM – 10:45 PM_/_Chef: Hector Illan",
-            "es": "En The Grand Mayan, cerca de Brio_/_Lunes – Domingo 7:15 AM – 10:45 PM_/_Chef: Héctor Illán"
+            "en":"In The Grande Mayan by Brio_/_Monday – Sunday 7:15 AM – 10:45 PM_/_Chef: Hector Illan",
+            "es": "En The Grande Mayan, cerca de Brio_/_Lunes – Domingo 7:15 AM – 10:45 PM_/_Chef: Héctor Illán"
           },
           "image": "",
           "link": ""
@@ -1330,8 +1330,8 @@
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "flavor_text": {
-            "en":"By The Grand Bliss Pool_/_Monday – Sunday 11 AM – 11 PM_/_Chef: Maximiliano Torres P.",
-            "es": "Cerca de la piscina de The Grand Bliss_/_Lunes – Domingo 11 AM – 11 PM_/_Chef: Maximiliano Torres P."
+            "en":"By The Grande Bliss Pool_/_Monday – Sunday 11 AM – 11 PM_/_Chef: Maximiliano Torres P.",
+            "es": "Cerca de la piscina de The Grande Bliss_/_Lunes – Domingo 11 AM – 11 PM_/_Chef: Maximiliano Torres P."
           },
           "image": "",
           "link": ""
@@ -1350,8 +1350,8 @@
       },
       "text": {
         "description": {
-          "en": "Take in the beautiful view of the Ameca River and sample fresh, flavorful fare at this delightful snack and light meal spot by the Grand Luxxe Spa Tower Pools.",
-          "es":"Contemple la hermosa vista del Río Ameca mientras prueba bocados llenos de sabor en este lugar de snacks y comida ligera cerca de las piscinas de la Torre Spa de Grand Luxxe."
+          "en": "Take in the beautiful view of the Ameca River and sample fresh, flavorful fare at this delightful snack and light meal spot by the Grande Luxxe Spa Tower Pools.",
+          "es":"Contemple la hermosa vista del Río Ameca mientras prueba bocados llenos de sabor en este lugar de snacks y comida ligera cerca de las piscinas de la Torre Spa de Grande Luxxe."
         },
         "header": {"en":"Vibrant Food by the Pool","es":"Comida deliciosa cerca de la piscina"}
       },
@@ -1383,8 +1383,8 @@
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "flavor_text": {
-            "en":"At Grand Luxxe Spa Tower Pools_/_Monday – Sunday 7 AM – 5:30 PM_/_Chef: Christian Jiménez",
-            "es": "En las piscinas de la Torre Spa de Grand Luxxe_/_Lunes – Domingo 7 AM – 5:30 PM_/_Chef: Christian Jiménez"
+            "en":"At Grande Luxxe Spa Tower Pools_/_Monday – Sunday 7 AM – 5:30 PM_/_Chef: Christian Jiménez",
+            "es": "En las piscinas de la Torre Spa de Grande Luxxe_/_Lunes – Domingo 7 AM – 5:30 PM_/_Chef: Christian Jiménez"
           },
           "image": "",
           "link": ""
@@ -1435,8 +1435,8 @@
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "flavor_text": {
-            "en":"By The Grand Bliss Pool_/_Monday – Sunday 5:30 PM – 11 PM_/_Chef: Idelfonso Navarrete",
-            "es": "Cerca de la piscina de The Grand Bliss_/_Lunes – Domingo 5:30 PM – 11 PM_/_Chef: Idelfonso Navarrete"
+            "en":"By The Grande Bliss Pool_/_Monday – Sunday 5:30 PM – 11 PM_/_Chef: Idelfonso Navarrete",
+            "es": "Cerca de la piscina de The Grande Bliss_/_Lunes – Domingo 5:30 PM – 11 PM_/_Chef: Idelfonso Navarrete"
           },
           "image": "",
           "link": ""
@@ -1539,8 +1539,8 @@
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "flavor_text": {
-            "en":"Next to The Grand Mayan_/_Monday – Sunday 12 PM – 1 AM_/_Chef: Julio Cahuich",
-            "es": "Junto a The Grand Maya_/_Lunes – Domingo 12 PM – 1 AM_/_Chef: Julio Cahuich"
+            "en":"Next to The Grande Mayan_/_Monday – Sunday 12 PM – 1 AM_/_Chef: Julio Cahuich",
+            "es": "Junto a The Grande Maya_/_Lunes – Domingo 12 PM – 1 AM_/_Chef: Julio Cahuich"
           },
           "image": "",
           "link": ""
@@ -1643,8 +1643,8 @@
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "flavor_text": {
-            "en":"By The Grand Mayan Aqua Park_/_Monday – Sunday 11 AM – 7 PM_/_Chef: Gustavo Rojas",
-            "es": "Por el Aqua Park de The Grand Mayan_/_Lunes – Domingo 11 AM – 7 PM_/_Chef: Gustavo Rojas"
+            "en":"By The Grande Mayan Aqua Park_/_Monday – Sunday 11 AM – 7 PM_/_Chef: Gustavo Rojas",
+            "es": "Por el Aqua Park de The Grande Mayan_/_Lunes – Domingo 11 AM – 7 PM_/_Chef: Gustavo Rojas"
           },
           "image": "",
           "link": ""
@@ -1747,8 +1747,8 @@
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "flavor_text": {
-            "en":"By The Grand Mayan Pool_/_Monday – Sunday 7 PM – 11 PM_/_Chef: Giovanni De la Paz",
-            "es": "Cerca de la piscina de The Grand Mayan_/_Lunes – Domingo 7 PM – 11 PM_/_Chef: Giovanni De la Paz"
+            "en":"By The Grande Mayan Pool_/_Monday – Sunday 7 PM – 11 PM_/_Chef: Giovanni De la Paz",
+            "es": "Cerca de la piscina de The Grande Mayan_/_Lunes – Domingo 7 PM – 11 PM_/_Chef: Giovanni De la Paz"
           },
           "image": "",
           "link": ""
@@ -1767,8 +1767,8 @@
       },
       "text": {
         "description": {
-          "en":"Score the quick and satisfying bite or delicious drink you’re looking for when relaxing by the Grand Luxxe Punta Pools with poolside service by Si Snack. Whether you’re craving salad, a sandwich, or small bites, Si Snack has you covered. And don’t miss out on Si Bar next door!",
-          "es":"Encuentre el tentempié rápido o la bebida deliciosa que busca para relajarse en las piscinas de Grand Luxxe Punta con el servicio de Si Snack. Ya sea que quiera una ensalada, un sándwich o pequeños bocadillos, Si Snack puede brindárselos. ¡Y no se pierda el Si Bar en la puerta de al lado!"
+          "en":"Score the quick and satisfying bite or delicious drink you’re looking for when relaxing by the Grande Luxxe Punta Pools with poolside service by Si Snack. Whether you’re craving salad, a sandwich, or small bites, Si Snack has you covered. And don’t miss out on Si Bar next door!",
+          "es":"Encuentre el tentempié rápido o la bebida deliciosa que busca para relajarse en las piscinas de Grande Luxxe Punta con el servicio de Si Snack. Ya sea que quiera una ensalada, un sándwich o pequeños bocadillos, Si Snack puede brindárselos. ¡Y no se pierda el Si Bar en la puerta de al lado!"
         },
         "header": {"en":"Snack by the Water","es":"Cómase un snack cerca del agua"}
       },
@@ -1798,8 +1798,8 @@
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "flavor_text": {
-            "en":"At Grand Luxxe Punta Pools_/_Monday – Sunday 12 PM – 6 PM_/_Chef: Felipe Hernández",
-            "es": "En las piscinas de Grand Luxxe Punta_/_Lunes – Domingo 12 PM – 6 PM_/_Chef: Felipe Hernández"
+            "en":"At Grande Luxxe Punta Pools_/_Monday – Sunday 12 PM – 6 PM_/_Chef: Felipe Hernández",
+            "es": "En las piscinas de Grande Luxxe Punta_/_Lunes – Domingo 12 PM – 6 PM_/_Chef: Felipe Hernández"
           },
           "image": "",
           "link": "" }
@@ -1867,8 +1867,8 @@
       },
       "text": {
         "description": {
-          "en":"This Grand Luxxe Residence Tower-exclusive rooftop restaurant and lounge offers spectacular views along with fresh, delicious bites, and refreshing cocktails. With some of the best vistas on the resort, including views of the lush Ameca River and the Sierra Madres, this unique and luxurious spot also features a gorgeous pool and surrounding loungers and sunbeds.",
-          "es":"Este restaurante y lounge exclusivo de la Torre Residence de Grand Luxxe ofrece espectaculares vistas junto con tentempiés deliciosos y frescos así como cócteles refrescantes. Con algunas de las mejores vistas del resort, incluyendo los paisajes del maravilloso Río Ameca y la Sierra Madre, este único y lujoso sitio también cuenta con una hermosa piscina, camastros y lugares para descansar."
+          "en":"This Grande Luxxe Residence Tower-exclusive rooftop restaurant and lounge offers spectacular views along with fresh, delicious bites, and refreshing cocktails. With some of the best vistas on the resort, including views of the lush Ameca River and the Sierra Madres, this unique and luxurious spot also features a gorgeous pool and surrounding loungers and sunbeds.",
+          "es":"Este restaurante y lounge exclusivo de la Torre Residence de Grande Luxxe ofrece espectaculares vistas junto con tentempiés deliciosos y frescos así como cócteles refrescantes. Con algunas de las mejores vistas del resort, incluyendo los paisajes del maravilloso Río Ameca y la Sierra Madre, este único y lujoso sitio también cuenta con una hermosa piscina, camastros y lugares para descansar."
         },
         "header": {"en":"A Meal with a View","es":"Una comida con vista"}
       },
@@ -1899,8 +1899,8 @@
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "flavor_text": {
-            "en":"The Roof of Grand Luxxe Residence Tower_/_Monday – Sunday 11 AM – 6 PM_/_Chef: Christian Jiménez",
-            "es": "Planta alta de la Torre Residence de Grand Luxxe Residence_/_Lunes – Domingo 11 AM – 6 PM_/_Chef: Christian Jiménez"
+            "en":"The Roof of Grande Luxxe Residence Tower_/_Monday – Sunday 11 AM – 6 PM_/_Chef: Christian Jiménez",
+            "es": "Planta alta de la Torre Residence de Grande Luxxe Residence_/_Lunes – Domingo 11 AM – 6 PM_/_Chef: Christian Jiménez"
           },
           "image": "",
           "link": ""
@@ -2008,8 +2008,8 @@
             "image": "bars/the-grand-vista-bar-thumbnail.jpg",
             "text": {
               "title": {
-                "en":"The Grand Vista Bar",
-                "es": "The Grand Vista Bar"
+                "en":"The Grande Vista Bar",
+                "es": "The Grande Vista Bar"
                 },
               "flavor": {
                 "en":"Sip on a craft cocktail or fine wine at this sophisticated lounge",
@@ -2047,18 +2047,18 @@
             "link": "luxxe bar"
           },
           {
-            "image": "bars/the-grand-lobby-bar-thumbnail.jpg",
+            "image": "bars/the-Grande-lobby-bar-thumbnail.jpg",
             "text": {
               "title": {
-                "en":"The Grand Lobby Bar",
-                "es": "The Grand Lobby Bar"
+                "en":"The Grande Lobby Bar",
+                "es": "The Grande Lobby Bar"
               },
               "flavor": {
                 "en":"The perfect place to take in live music and enjoy a post-dinner margarita",
                 "es": "El lugar perfecto para disfrutar de música en vivo y una margarita después de la cena."
               }
             },
-            "link": "the grand lobby bar"
+            "link": "the Grande lobby bar"
           },
           {
             "image": "bars/santuario-thumbnail.jpg",
@@ -2170,25 +2170,25 @@
       "content": {
         "banner": {
           "image": "the-grand-vista-bar-banner.jpg",
-          "header": {"en":"the grand vista bar","es":"the grand vista bar"},
+          "header": {"en":"the Grande vista bar","es":"the Grande vista bar"},
           "subheader": {"en":"nuevo vallarta","es":"nuevo vallarta"}
         },
         "text": {
           "description": {
-            "en": "After a day filled with adventure, relax with a cocktail on the gorgeous outdoor patio of the Grand Vista Bar in the lobby of The Grand Bliss. The extensive drink and spirit menu features a variety of options from all over the world; select whatever piques your interest and toast to trying something new!",
-            "es": "Después de un día lleno de aventura, relájese con un cóctel en la hermosa terraza del Grand Vista Bar en el lobby de The Grand Bliss. El gran menú de bebidas y licores cuenta con una variedad de opciones de todo el mundo. ¡Elija cualquier cosa que despierte su interés y brinde por haber probado algo nuevo!"
+            "en": "After a day filled with adventure, relax with a cocktail on the gorgeous outdoor patio of the Grande Vista Bar in the lobby of The Grande Bliss. The extensive drink and spirit menu features a variety of options from all over the world; select whatever piques your interest and toast to trying something new!",
+            "es": "Después de un día lleno de aventura, relájese con un cóctel en la hermosa terraza del Grande Vista Bar en el lobby de The Grande Bliss. El gran menú de bebidas y licores cuenta con una variedad de opciones de todo el mundo. ¡Elija cualquier cosa que despierte su interés y brinde por haber probado algo nuevo!"
           },
           "header": {"en":"A Tour of Spirits","es":"Un tour de licores"}
         },
         "images": {
-          "gallery": [{"src": "the-grand-vista-bar-gallery-1.jpg", "altText": "the grand vista bar image", "folder": "dining/bars/the-grand-vista-bar"}],
+          "gallery": [{"src": "the-grand-vista-bar-gallery-1.jpg", "altText": "the Grande vista bar image", "folder": "dining/bars/the-grand-vista-bar"}],
           "thumbnails": []
         },
         "billboards": {
           "0" : {
             "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
             "name": "hours",
-            "tagline": {"en":"The Grand Bliss Lobby","es": "Lobby de The Grand Bliss"},
+            "tagline": {"en":"The Grande Bliss Lobby","es": "Lobby de The Grande Bliss"},
             "flavor_text": {
               "en": "Monday – Thursday 3 PM – 11 PM Friday – Sunday 11 AM to 11 PM",
               "es": "Lunes – Jueves 3 PM – 11 PM Viernes - Domingo 11 AM a 11 PM"
@@ -2210,8 +2210,8 @@
         },
         "text": {
           "description": {
-            "en":"For a craft cocktail prepared in a chic and urbane setting, visit Library Bar, located in Tramonto restaurant in The Grand Mayan. This lounge is manned by a team of expert mixologists whose inspired flavors mingle beautifully in every drink they carefully create.",
-            "es": "Para un cóctel artesanal preparado en un sitio urbano y chic, visite Library Bar, ubicado en el restaurante Tramonto en The Grand Mayan. Este lounge es atendido por un equipo de expertos mixólogos que crean sabores que se mezclan magistralmente en cada bebida que preparan."
+            "en":"For a craft cocktail prepared in a chic and urbane setting, visit Library Bar, located in Tramonto restaurant in The Grande Mayan. This lounge is manned by a team of expert mixologists whose inspired flavors mingle beautifully in every drink they carefully create.",
+            "es": "Para un cóctel artesanal preparado en un sitio urbano y chic, visite Library Bar, ubicado en el restaurante Tramonto en The Grande Mayan. Este lounge es atendido por un equipo de expertos mixólogos que crean sabores que se mezclan magistralmente en cada bebida que preparan."
             },
           "header": {"en": "Ahead-of-the-Trend Mixology","es": "A la cabeza en las tendencias de mixología"}
         },
@@ -2223,7 +2223,7 @@
           "0" : {
             "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
             "name": "hours",
-            "tagline": {"en":"Inside Tramonto, Located in The Grand Mayan","es":"Dentro de Tramonto, ubicado en The Grand Mayan"},
+            "tagline": {"en":"Inside Tramonto, Located in The Grande Mayan","es":"Dentro de Tramonto, ubicado en The Grande Mayan"},
             "flavor_text": {
               "en": "Monday – Sunday 5:30 PM – 11 PM",
               "es": "Lunes – Domingo 5:30 PM – 11 PM"
@@ -2245,8 +2245,8 @@
         },
         "text": {
           "description": {
-            "en": "For the vacationer with a discerning palate, Luxxe Bar brings a wide selection of the very best spirits to a posh atmosphere. Located next to Epazote in the Grand Luxxe lobby and frequently featuring live music, this lounge is recipient of the T Award for its extensive array of fine tequilas, available for the sipping.",
-            "es": "Para un vacacionista con un paladar exigente, Luxxe Bar cuenta con una amplia selección de excelentes licores en una atmósfera lujosa. Ubicado junto a Epazote en el lobby de Grand Luxxe y frecuentemente con música en vivo, este lounge ha recibido el T Award por su extensa variedad de tequilas disponibles para degustar."
+            "en": "For the vacationer with a discerning palate, Luxxe Bar brings a wide selection of the very best spirits to a posh atmosphere. Located next to Epazote in the Grande Luxxe lobby and frequently featuring live music, this lounge is recipient of the T Award for its extensive array of fine tequilas, available for the sipping.",
+            "es": "Para un vacacionista con un paladar exigente, Luxxe Bar cuenta con una amplia selección de excelentes licores en una atmósfera lujosa. Ubicado junto a Epazote en el lobby de Grande Luxxe y frecuentemente con música en vivo, este lounge ha recibido el T Award por su extensa variedad de tequilas disponibles para degustar."
           },
           "header": {
             "en":"Sip in the Luxury",
@@ -2263,7 +2263,7 @@
         "billboards": {"0" : {
           "title": {"en": "Location & Hours", "es":"Ubicación y Horarios"},
           "name": "hours",
-          "tagline": {"en": "In Grand Luxxe Tower 1, by Epazote","es": "En la Torre 1 de Grand Luxxe, por Epazote "},
+          "tagline": {"en": "In Grande Luxxe Tower 1, by Epazote","es": "En la Torre 1 de Grande Luxxe, por Epazote "},
           "flavor_text": {
             "en":"Monday – Thursday 5:30 PM – 1 AM Friday – Sunday 11:00 AM – 1 AM",
             "es": "Lunes – Jueves 5:30 PM – 1 AM Viernes – Domingo 11:00 AM – 1 AM"
@@ -2280,20 +2280,20 @@
       "content": {
         "banner": {
           "image": "the-grand-lobby-bar-banner.jpg",
-          "header": {"en":"the grand lobby bar", "es":"the grand lobby bar"},
+          "header": {"en":"the Grande lobby bar", "es":"the Grande lobby bar"},
           "subheader": {"en":"nuevo vallarta", "es":"nuevo vallarta"}
         },
         "text": {
           "description": {
-            "en":"Located in the lobby of The Grand Mayan, this bar comes to life nightly with live music. Kick back in one of its comfortable lounge areas and enjoy a brew or freshly prepared cocktail and soak up the sweet rhythms of vacation.",
-            "es": "Ubicado en el lobby de The Grand Mayan, este bar cobra vida cada noche con música en vivo. Recárguese en una de sus cómodas zonas de lounge, disfrute de una cerveza o un cóctel recién preparado y sumérjase en el dulce ritmo de las vacaciones."
+            "en":"Located in the lobby of The Grande Mayan, this bar comes to life nightly with live music. Kick back in one of its comfortable lounge areas and enjoy a brew or freshly prepared cocktail and soak up the sweet rhythms of vacation.",
+            "es": "Ubicado en el lobby de The Grande Mayan, este bar cobra vida cada noche con música en vivo. Recárguese en una de sus cómodas zonas de lounge, disfrute de una cerveza o un cóctel recién preparado y sumérjase en el dulce ritmo de las vacaciones."
           },
           "header": {"en":"Toast to Paradise","es":"Un brindis por el paraíso"}
         },
         "images": {
           "gallery": [
             {"src": "the-grand-lobby-bar-gallery-1.jpg", "altText": "the grand lobby bar image", "folder": "dining/bars/the-grand-lobby-bar"},
-            {"src": "the-grand-lobby-bar-gallery-2.jpg", "altText": "the grand lobby bar image", "folder": "dining/bars/the-grand-lobby-bar"}
+            {"src": "the-grand-lobby-bar-gallery-2.jpg", "altText": "the Grande lobby bar image", "folder": "dining/bars/the-grand-lobby-bar"}
           ],
           "thumbnails": []
         },
@@ -2301,7 +2301,7 @@
           "0" : {
           "title": { "en": "Location & Hours", "es": "Ubicación y Horarios" },
           "name": "hours",
-          "tagline": {"en":"The Grand Mayan Lobby","es":"The Grand Mayan Lobby"},
+          "tagline": {"en":"The Grande Mayan Lobby","es":"The Grande Mayan Lobby"},
           "flavor_text": {
             "en":"Monday – Thursday 3 PM – 11 PM Friday – Sunday 11 AM to 11 PM",
             "es": "Lunes – Jueves 3 PM – 11 PM Viernes – Domingo 11 AM a 11 PM"
@@ -2421,8 +2421,8 @@
             "0" : {
               "title": "Location & Hours","name": "hours",
               "tagline": {
-                "en": "Located in front of The Grand Bliss pool",
-                "es": "Ubicado frente a la piscina de The Grand Bliss"
+                "en": "Located in front of The Grande Bliss pool",
+                "es": "Ubicado frente a la piscina de The Grande Bliss"
               },
               "flavor_text": {
                 "en": "Monday – Sunday 11 PM – 7 PM",
@@ -2495,7 +2495,7 @@
       },
       "text": {
         "description": {"en":"","es":""},
-        "header": {"en":"Grand Luxxe Accommodations","es":"Alojamientos de Grand Luxxe"}
+        "header": {"en":"Grande Luxxe Accommodations","es":"Alojamientos de Grande Luxxe"}
       },
       "images": {
         "gallery": [],
@@ -2506,22 +2506,36 @@
           "title": {"en":"Rooms & Suites","es":""},
           "name": "rooms",
           "tagline": {
-            "en":"Grand Luxxe Three Bedroom Presidential Villa",
-            "es":"VILLA PRESIDENCIAL CON TRES RECÁMARAS DE GRAND LUXXE"
+            "en":"Grande Luxxe Two Bedroom Suites",
+            "es":"Suites de lujo de dos habitaciones Grande Luxxe"
           },
           "flavor_text": {
-            "en":"This expansive villa features two gourmet kitchens, two living rooms, three bedrooms, three and a half bathrooms with three Jacuzzi tubs, and two private terraces with two plunge pools.",
-            "es": "Esta amplia villa cuenta con dos cocinas gourmet, dos salas de estar, tres recámaras, tres baños y medio con tres jacuzzis y dos terrazas privadas con dos piscinas pequeñas."
+            "en": "This exclusive suite features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs and two private terraces and a plunge pool.",
+            "es": "Esta exclusiva suite cuenta con una cocina gourmet, una sala de estar, dos dormitorios, dos baños y medio con dos bañeras de hidromasaje y dos terrazas privadas y una piscina de inmersión."
           },
-          "image": "three-bedroom-presidential-villa-gallery-1.jpg",
-          "link": "three bedroom presidential villa"
+          "image": "two-bedroom-presidential-villa-gallery-1.jpg",
+          "link": "two bedroom presidential suite"
+        },
+        "1" : {
+          "title": {"en":"Rooms & Suites","es":""},
+          "name": "BILLBOARD_comingSoon",
+          "tagline": {
+            "en":"**Coming Soon**",
+            "es":"**Próximamente**"
+          },
+          "flavor_text": {
+            "en": "-Available Upon Special Request-_/_Grand Luxxe Two or Three Bedroom Presidential Suite_/_Grand Luxxe Two or Three Bedroom Spa Suite_/_Grand Luxxe Two or Three Bedroom Residence Loft_/_Grand Luxxe Four Bedroom Residence ",
+            "es": "Esta exclusiva suite cuenta con una cocina gourmet, una sala de estar, dos dormitorios, dos baños y medio con dos bañeras de hidromasaje y dos terrazas privadas y una piscina de inmersión."
+          },
+          "image": "",
+          "link": ""
         }
       }
     }
   },
 
-  "three bedroom presidential villa" : {
-    "address": "/rooms/three-bedroom-presidential-villa",
+  "two bedroom presidential suite" : {
+    "address": "/rooms/two-bedroom-presidential-suite",
     "content": {
       "banner": {
         "image": "rooms-banner.jpg",
@@ -2530,49 +2544,49 @@
       },
       "text": {
         "description": {
-          "en":"The Three Bedroom Presidential Villa features three bedrooms with two king-size beds and two double beds, three and a half baths with three Jacuzzi tubs, a private terrace with two plunge pools, two gourmet kitchens, two living rooms with sleeper sofas, two dining rooms, and five TVs.",
-          "es": "La Villa Presidencial con tres recámaras cuentas con tres dormitorios con dos camas king-size y dos camas dobles, tres baños y medio con tres jacuzzis, una terraza privada con dos piscinas pequeñas, dos cocinas gourmet, dos salas de estar con sofá camas, dos comedores y cinco TVs."
+          "en": "This elegant quarters is a two-bedroom, two-and-a-half bath suite of approximately 3,000 square feet, with two king-size beds or one king-size bed and two double beds, two and a half bathrooms with two Jacuzzi tubs, a relaxing terrace with a private plunge pool, master bedroom has a private terrace, gourmet kitchen, dining room, two living areas with sleeper sofas, and three 42\" LED TVs. Accommodates 8 adults. ",
+          "es": "Este elegante cuarto es una suite de dos habitaciones, dos baños y medio de aproximadamente 3,000 pies cuadrados, con dos camas king-size o una cama king-size y dos camas dobles, dos baños y medio con dos jacuzzis , una relajante terraza con una piscina privada, el dormitorio principal tiene una terraza privada, cocina gourmet, comedor, dos salas de estar con sofás cama y tres televisores LED de 42 \". Tiene capacidad para 8 adultos."
           },
-        "header": {"en": "Grand Luxxe Three Bedroom Presidential Villa","es":"VILLA PRESIDENCIAL CON TRES RECÁMARAS DE GRAND LUXXE"},
-        "subheader": {"en": "A grand Luxxe Presidential Villa","es":"Una Villa Presidencial de Grand Luxxe"}
+        "header": {"en": "Grande Luxxe Two Bedroom Suites ","es":"Grande Luxxe Two Bedroom Suites"},
+        "subheader": {"en": "A Grandee Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
       },
       "images": {
         "gallery": [
-          {"src": "three-bedroom-presidential-villa-gallery-1.jpg",
-            "altText": "norman signature course image",
-            "folder": "rooms/three-bedroom-presidential-villa"
+          {"src": "two-bedroom-presidential-villa-gallery-1.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/two-bedroom-presidential-villa"
           },
-          {"src": "three-bedroom-presidential-villa-gallery-2.jpg",
-            "altText": "norman signature course image",
-            "folder": "rooms/three-bedroom-presidential-villa"
+          {"src": "two-bedroom-presidential-villa-gallery-2.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "rooms/two-bedroom-presidential-villa"
           },
-          {"src": "three-bedroom-presidential-villa-gallery-3.jpg",
-            "altText": "norman signature course image",
-            "folder": "rooms/three-bedroom-presidential-Villa"
+          {"src": "two-bedroom-presidential-villa-gallery-3.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/two-bedroom-presidential-Villa"
           },
-          {"src": "three-bedroom-presidential-villa-gallery-4.jpg",
-            "altText": "norman signature course image",
-            "folder": "rooms/three-bedroom-presidential-villa"
+          {"src": "two-bedroom-presidential-villa-gallery-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/two-bedroom-presidential-villa"
           },
-          {"src": "three-bedroom-presidential-villa-gallery-5.jpg",
-            "altText": "norman signature course image",
-            "folder": "rooms/three-bedroom-presidential-villa"
+          {"src": "two-bedroom-presidential-villa-gallery-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/two-bedroom-presidential-villa"
           },
-          {"src": "three-bedroom-presidential-villa-gallery-6.jpg",
-            "altText": "norman signature course image",
-            "folder": "rooms/three-bedroom-presidential-villa"
+          {"src": "two-bedroom-presidential-villa-gallery-6.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/two-bedroom-presidential-villa"
           },
-          {"src": "three-bedroom-presidential-villa-gallery-4.jpg",
-            "altText": "norman signature course image",
-            "folder": "rooms/three-bedroom-presidential-villa"
+          {"src": "two-bedroom-presidential-villa-gallery-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/two-bedroom-presidential-villa"
           },
-          {"src": "three-bedroom-presidential-villa-gallery-5.jpg",
-            "altText": "norman signature course image",
-            "folder": "rooms/three-bedroom-presidential-villa"
+          {"src": "two-bedroom-presidential-villa-gallery-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/two-bedroom-presidential-villa"
           },
-          {"src": "three-bedroom-presidential-villa-gallery-6.jpg",
-            "altText": "norman signature course image",
-            "folder": "rooms/three-bedroom-presidential-villa"
+          {"src": "two-bedroom-presidential-villa-gallery-6.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/two-bedroom-presidential-villa"
           }
         ],
         "thumbnails": []
@@ -2580,20 +2594,20 @@
       "billboards": {
         "0": {
           "title": {
-            "en":"$3,740 USD per night",
-            "es":"$3,740 USD por noche"
+            "en":"",
+            "es":""
         },
-          "name": "three bedroom presidential villa features and pricing",
-          "class": "text-left-col list-no-bullets floorplan",
+          "name": "BILLBOARD_twoBedroomPresidentialVillaFeatures",
+          "class": "text-left-col list-no-bullets",
           "tagline": {
             "en": "",
             "es": ""
         },
           "flavor_text": {
-            "en":"Occupancy: 10 adults, 2 kids under 12 years old_/_Type: Three Bedrooms_/_Bed: Two King-Size Beds, Two Double Bedsx_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs",
-            "es": "Ocupación: 10 adultos, 2 niños menores de 12 años_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
+            "en":"8 adults |and| 2-4 kids depending on age and size_/_Two Bedrooms_/_Two King-Size Beds |or| One King-size Bed & Two Double Beds_/_Two Full Bathrooms with Jacuzzi Tubs |and| 1 Half Bathroom",
+            "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
         },
-          "image": "three-bedroom-presidential-villa-billboard.jpg",
+          "image": "two-bedroom-presidential-suite-floorplan.jpg",
           "link": ""
         }
       }
@@ -2774,11 +2788,11 @@
       },
       "text": {
         "description": {
-          "en": "When you vacation at Grand Luxxe Nuevo Vallarta, you get to experience some of the most beautiful pools in all of Mexico, including Grand Luxxe-exclusive pools, as well as all The Grand Bliss, The Grand Mayan, Mayan Palace, and Sea Garden pools.",
+          "en": "As a guest of Grande Luxxe Nuevo Vallarta, you have a vast selection of the most stunning pools in Mexico. You may choose a different pool each day; Grande Luxxe Exclusive pools, The Grande Bliss pools, The Grande Mayan pools, The Mayan Palace pools or The Sea Garden pools.",
           "es":"Un tobogán en una pirámide maya. Un Río Lento que corre por el resort. Un Aqua Park con toboganes y piscinas de olas. Hermosas piscinas con jacuzzis, fuentes y cascadas. Vidanta Nuevo Vallarta ofrece unas vacaciones llenas de diversión y aventura para los huéspedes de todos los resorts. ¿Está listo para mojarse?"
         },
         "header": {
-          "en":"Dive Right In",
+          "en":"Ease into the Luscious Water",
           "es":"Sumérjase"
         },
         "subheader": {"en":"","es":""}
@@ -2789,17 +2803,17 @@
           {
             "image": "pools/circular-pool.jpg",
             "text": {
-              "title": {"en":"Grand Luxxe Tower 1 Circular Pool","es":"Piscina circular de la Torre 1 de Grand Luxxe"},
+              "title": {"en":"Grande Luxxe Tower 1 Circular Pool","es":"Piscina circular de la Torre 1 de Grande Luxxe"},
               "flavor": {
-                "en":"Surrounded by a beautiful lounge deck, this gorgeous round pool is located right next to Grand Luxxe Tower 1.",
-                "es": "Rodeada de una hermosa plataforma de lounge, esta bella piscina está ubicada junto a la Torre 1 de Grand Luxxe."
+                "en":"Surrounded by a beautiful lounge deck, this gorgeous round pool is located right next to Grande Luxxe Tower 1.",
+                "es": "Rodeada de una hermosa plataforma de lounge, esta bella piscina está ubicada junto a la Torre 1 de Grande Luxxe."
               }
             }
           },
           {
             "image": "pools/infinity-pool.jpg",
             "text": {
-              "title": {"en":"Grand Luxxe Tower 1 Infinity Pool","es":"Piscina infinita de la Torre 1 de Grand Luxxe"},
+              "title": {"en":"Grande Luxxe Tower 1 Infinity Pool","es":"Piscina infinita de la Torre 1 de Grande Luxxe"},
               "flavor": {
                 "en":"Boasting an infinity edge and Jacuzzis nestled into one side, this expansive pool, located directly adjacent to Tower 1 Pool 1 and by Blue Fish, has an activities stand and a lounge deck.",
                 "es": "Con un borde infinito y jacuzzis en su costado, esta amplia piscina adyacente a la piscina 1 de la Torre 1 (cerca de Blue Fish), tiene un stand de actividades y una plataforma de lounge."
@@ -2809,7 +2823,7 @@
           {
             "image": "pools/adults-only-pool.jpg",
             "text": {
-              "title": {"en":"grand luxxe tower 1 circular pool","es":"Piscina solo para adultos de Grand Luxxe"},
+              "title": {"en":"Grande Luxxe Adults-Only Pool","es":"Piscina solo para adultos de Grande Luxxe"},
               "flavor": {
                 "en":"Located just off from the Mayan Palace Pool, this oval-shaped, adults-only pool overlooks the ocean.",
                 "es": "Apartada de la piscina de Mayan Palace, esta piscina ovalada es solo para adultos y tiene vista al mar."
@@ -2819,7 +2833,7 @@
           {
             "image": "pools/punta-pool-east.jpg",
             "text": {
-              "title": {"en":"Grand Luxxe Adults-Only Pool","es":"Piscina este de Grand Luxxe Punta"},
+              "title": {"en":"Grande Luxxe Punta Pool","es":"Piscina este de Grande Luxxe Punta"},
               "flavor": {
                 "en":"This distinctive pool boasts a famous spiral shape and expansive lounging area while offering sweeping views of the Ameca River and Bay of Banderas. Featuring a horseshoe-shaped cluster of Jacuzzis, a swim-up bar, and food service by Si Snack.",
                 "es": "Esta piscina distintiva cuenta con la famosa forma de espiral y una amplia zona de lounge mientras ofrece magníficas vistas del Río Ameca y la Bahía de Banderas. También tiene jacuzzis con forma de herradura, un bar acuático y el servicio de comida de Si Snack."
@@ -2829,7 +2843,7 @@
           {
             "image": "pools/punta-pool-west.jpg",
             "text": {
-              "title": {"en":"Grand Luxxe Punta Pool West","es":"Piscina oeste de Grand Luxxe Punta"},
+              "title": {"en":"Grande Luxxe Punta Pool West","es":"Piscina oeste de Grande Luxxe Punta"},
               "flavor": {
                 "en":"This petite pool is located between a lovely lagoon and Punta Pool East, and boasts a large, beautiful lounge area. Featuring a swim-up bar and activities stand nearby.",
                 "es": "Esta pequeña piscina está ubicada entre la hermosa laguna y la piscina este de Punta y cuenta con una amplia y bella zona de lounge. Posee un bar acuático y un stand de actividades cercano."
@@ -2839,7 +2853,7 @@
           {
             "image": "pools/spa-tower-pools.jpg",
             "text": {
-              "title": {"en":"Grand Luxxe Spa Tower Pools","es":"Piscinas de la Torre de Spa de Grand Luxxe"},
+              "title": {"en":"Grande Luxxe Spa Tower Pools","es":"Piscinas de la Torre de Spa de Grande Luxxe"},
               "flavor": {
                 "en":"This pool cluster includes several secluded coves and a surrounding lounge, where you can enjoy a beverage or bite from the adjacent restaurant, Fresh Co. Featuring an activities stand and swim-up bar.",
                 "es": "Este grupo de piscinas incluye caletas apartadas y un lounge que las rodea, en donde se puede disfrutar de una bebida o tentempié del restaurante adyacente, Fresh Co. Cuenta con un stand de actividades y un bar acuático."
@@ -2849,30 +2863,30 @@
           {
             "image": "pools/sky-garden-pool.jpg",
             "text": {
-              "title": {"en":"Grand Luxxe Residence Sky Garden Pool","es":"Piscina del Sky Lounge de la Torre 5 de Grand Luxxe"},
+              "title": {"en":"Grande Luxxe Residence Sky Garden Pool","es":"Piscina del Sky Lounge de la Torre 5 de Grande Luxxe"},
               "flavor": {
-                "en":"Located on top of the Grand Luxxe Residence building, this rectangular pool is surrounded by lounge beds. Guests can enjoy food and beverages from the Fresh Co Sky Garden restaurant.",
-                "es": "Solo para los huéspedes que se hospedan en Grand Luxxe Residence 4 Bedroom."
+                "en":"Located on top of the Grande Luxxe Residence building, this rectangular pool is surrounded by lounge beds. Guests can enjoy food and beverages from the Fresh Co Sky Garden restaurant.",
+                "es": "Solo para los huéspedes que se hospedan en Grande Luxxe Residence 4 Bedroom."
               }
             }
           },
           {
             "image": "pools/sky-lounge-pool.jpg",
             "text": {
-              "title": {"en":"Grand Luxxe Tower 5 Sky Lounge Pool","es":"Piscina de Kid’s Club de Grand Luxxe"},
+              "title": {"en":"Grande Luxxe Tower 5 Sky Lounge Pool","es":"Piscina de Kid’s Club de Grande Luxxe"},
               "flavor": {
-                "en":"This brand-new rooftop pool is perched at the top of Grand Luxxe Tower 5. Located next to Quinto Charcoal Cuisine, this gorgeous pool features an infinity edge, so that its azure waters blend into the vibrant blue of the sky.",
-                "es": "Admire los paisajes de su paraíso mientras disfruta de lo más fino que las vacaciones de lujo tienen que ofrecer en esta nueva piscina situada en la parte superior de la Torre 5 de Grand Luxxe. Ubicada junto a Quinto Charcoal Cuisine, esta hermosa piscina cuenta con un borde infinito, así que sus azules aguas se mezclan con el cielo."
+                "en":"This brand-new rooftop pool is perched at the top of Grande Luxxe Tower 5. Located next to Quinto Charcoal Cuisine, this gorgeous pool features an infinity edge, so that its azure waters blend into the vibrant blue of the sky.",
+                "es": "Admire los paisajes de su paraíso mientras disfruta de lo más fino que las vacaciones de lujo tienen que ofrecer en esta nueva piscina situada en la parte superior de la Torre 5 de Grande Luxxe. Ubicada junto a Quinto Charcoal Cuisine, esta hermosa piscina cuenta con un borde infinito, así que sus azules aguas se mezclan con el cielo."
               }
             }
           },
           {
             "image": "pools/kids-club-pool.jpg",
             "text": {
-              "title": {"en":"Grand Luxxe Kid’s Club Pool","es":""},
+              "title": {"en":"Grande Luxxe Kid’s Club Pool","es":""},
               "flavor": {
-                "en":"Grand Luxxe guests can drop their children off at the Grand Luxxe-exclusive Kid’s Club, located just off from the Spa Tower Pool, by Grand Luxxe Tower 3 and 4. Here, they can enjoy some fun in the sun under the supervision of our wonderful Kid’s Club staff.",
-                "es": "Los huéspedes de Grand Luxxe pueden dejar a sus niños en el Kid’s Club exclusivo de Grand Luxxe, ubicado justo fuera de la piscina de la Torre de Spa, por la Torre 3 y 4. Aquí, ellos se divertirán bajo la supervisión de nuestro maravilloso equipo de Kid’s Club."
+                "en":"Grande Luxxe guests can drop their children off at the Grande Luxxe-exclusive Kid’s Club, located just off from the Spa Tower Pool, by Grande Luxxe Tower 3 and 4. Here, they can enjoy some fun in the sun under the supervision of our wonderful Kid’s Club staff.",
+                "es": "Los huéspedes de Grande Luxxe pueden dejar a sus niños en el Kid’s Club exclusivo de Grande Luxxe, ubicado justo fuera de la piscina de la Torre de Spa, por la Torre 3 y 4. Aquí, ellos se divertirán bajo la supervisión de nuestro maravilloso equipo de Kid’s Club."
               }
             }
           }
@@ -3260,8 +3274,8 @@
           "title": {"en":"","es":""},
           "tagline": {"en":"Spatium","es":"Spatium"},
           "flavor_text": {
-            "en":"Available for the exclusive use of Grand Luxxe guests, Spatium elevates the spa experience to luxurious new heights with a gorgeous indoor/outdoor facility and the latest relaxation techniques and treatments.",
-            "es": "Disponible para el uso exclusivo de los huéspedes de Grand Luxxe, Spatium eleva la experiencia del spa a un nuevo nivel de lujo gracias a sus hermosas instalaciones y a las técnicas de relajación y los tratamientos más modernos."
+            "en":"Available for the exclusive use of Grande Luxxe guests, Spatium elevates the spa experience to luxurious new heights with a gorgeous indoor/outdoor facility and the latest relaxation techniques and treatments.",
+            "es": "Disponible para el uso exclusivo de los huéspedes de Grande Luxxe, Spatium eleva la experiencia del spa a un nuevo nivel de lujo gracias a sus hermosas instalaciones y a las técnicas de relajación y los tratamientos más modernos."
             },
           "image": "spatium-billboard.jpg",
           "link": "spatium"
@@ -3296,7 +3310,7 @@
       "text": {
         "description": {
           "en":"Treatments at Spatium range from more traditional, holistic therapies, to one-of-a-kind themed spa journeys and treatment rituals, to breakthrough healing therapies incorporating indigenous ingredients.",
-          "es": "Ubicado en la frondosa selva que rodea a Grand Luxxe Residence Tower, Spatium combina la sanación ancestral y los tratamientos de belleza con instalaciones vanguardistas para consentirlo de la mejor manera. Su impecable ambiente incorpora los efectos relajantes de la naturaleza y un diseño único para crear este refugio de relajación –¡también conocido como un paraíso absoluto!"
+          "es": "Ubicado en la frondosa selva que rodea a Grande Luxxe Residence Tower, Spatium combina la sanación ancestral y los tratamientos de belleza con instalaciones vanguardistas para consentirlo de la mejor manera. Su impecable ambiente incorpora los efectos relajantes de la naturaleza y un diseño único para crear este refugio de relajación –¡también conocido como un paraíso absoluto!"
           },
         "header": {
           "en":"Treatments",
@@ -3318,8 +3332,8 @@
             "es":"spatium"
           },
           "flavor_text": {
-            "en":"Located in the lush jungle outside of Grand Luxxe Residence Tower, Spatium fuses ancient healing and beauty treatments with cutting-edge facilities to create a new, elevated experience in pampering. The environment seamlessly incorporates the innately relaxing effects of nature with its unique indoor and outdoor design, creating a haven of relaxation—also known as complete paradise!",
-            "es": "Ubicado en la frondosa selva que rodea a Grand Luxxe Residence Tower, Spatium combina la sanación ancestral y los tratamientos de belleza con instalaciones vanguardistas para consentirlo de la mejor manera. Su impecable ambiente incorpora los efectos relajantes de la naturaleza y un diseño único para crear este refugio de relajación –¡también conocido como un paraíso absoluto!"
+            "en":"Located in the lush jungle outside of Grande Luxxe Residence Tower, Spatium fuses ancient healing and beauty treatments with cutting-edge facilities to create a new, elevated experience in pampering. The environment seamlessly incorporates the innately relaxing effects of nature with its unique indoor and outdoor design, creating a haven of relaxation—also known as complete paradise!",
+            "es": "Ubicado en la frondosa selva que rodea a Grande Luxxe Residence Tower, Spatium combina la sanación ancestral y los tratamientos de belleza con instalaciones vanguardistas para consentirlo de la mejor manera. Su impecable ambiente incorpora los efectos relajantes de la naturaleza y un diseño único para crear este refugio de relajación –¡también conocido como un paraíso absoluto!"
             },
           "image": "spatium-billboard-1.jpg",
           "link": ""
@@ -3331,7 +3345,7 @@
             "es":"Anexo de Hidroterapia"
           },
           "flavor_text": {
-            "en":"Available for the exclusive use of Grand Luxxe guests, Spatium elevates the spa experience to luxurious new heights with a gorgeous indoor/outdoor facility and the latest relaxation techniques and treatments.",
+            "en":"Available for the exclusive use of Grande Luxxe guests, Spatium elevates the spa experience to luxurious new heights with a gorgeous indoor/outdoor facility and the latest relaxation techniques and treatments.",
             "es": "Refúgiese del mundo en nuestro Anexo de Hidroterapia, un hermoso santuario que se encuentra al exterior, en donde los huéspedes pueden participar en un circuito revigorizante que se compone de jacuzzi, tina de agua fría, cuarto de vapor, sauna, baño de pies y una zona de relajación en la sombra. Le recomendamos participar en este refrescante ritual antes de recibir un masaje u otro tratamiento, ¡aunque también puede disfrutarse por sí solo!"
             },
           "image": "spatium-billboard.jpg",
@@ -3368,8 +3382,8 @@
           "title": {"en":"","es":""},
           "tagline": {"en":"","es":""},
           "flavor_text": {
-            "en":"Located in The Grand Mayan, Brio takes the classic French art of spa and reimagines it into a space filled with unique architectural elements, offering a wide variety of revitalizing and therapeutic treatments for the face, body, and soul. Spa facilities include outdoor relaxation palapas, Jacuzzis, and cold plunge tubs to be enjoyed before or after treatments.",
-            "es": "Ubicado en The Grand Mayan, Brio toma el arte clásico francés y lo reinventa en un espacio lleno de elementos arquitectónicos únicos. Este spa ofrece una amplia variedad de tratamientos revitalizantes y terapéuticos para el rostro, el cuerpo y el alma. Las instalaciones incluyen palapas de relajación en el exterior, jacuzzis y tinas de agua fría que podrá disfrutar antes o después de los tratamientos."
+            "en":"Located in The Grande Mayan, Brio takes the classic French art of spa and reimagines it into a space filled with unique architectural elements, offering a wide variety of revitalizing and therapeutic treatments for the face, body, and soul. Spa facilities include outdoor relaxation palapas, Jacuzzis, and cold plunge tubs to be enjoyed before or after treatments.",
+            "es": "Ubicado en The Grande Mayan, Brio toma el arte clásico francés y lo reinventa en un espacio lleno de elementos arquitectónicos únicos. Este spa ofrece una amplia variedad de tratamientos revitalizantes y terapéuticos para el rostro, el cuerpo y el alma. Las instalaciones incluyen palapas de relajación en el exterior, jacuzzis y tinas de agua fría que podrá disfrutar antes o después de los tratamientos."
             },
           "image": "brio-spa-billboard-1.jpg",
           "link": ""
@@ -3435,7 +3449,7 @@
           "name": "theme-nights",
           "tagline": {"en":"Theme Nights","es":""},
           "flavor_text": {
-            "en":"Experience Mexican culture, performances by local dancers and singers, and film nights for the whole family with the weekly Theme Nights at The Grand Bliss beach at Vidanta Nuevo Vallarta. Theme Nights vary by season, but a typical weekly lineup includes the live performances and buffet of Monday Beach Party, Mexican food and mariachi of Sabores de México, and Family Movie Night.",
+            "en":"Experience Mexican culture, performances by local dancers and singers, and film nights for the whole family with the weekly Theme Nights at The Grande Bliss beach at Vidanta Nuevo Vallarta. Theme Nights vary by season, but a typical weekly lineup includes the live performances and buffet of Monday Beach Party, Mexican food and mariachi of Sabores de México, and Family Movie Night.",
             "es": ""
             },
           "image": "theme-nights-billboard.jpg",
@@ -3445,8 +3459,8 @@
           "title": {"en":"","es":""},
           "tagline": {"en":"Live Music","es":"Noches temáticas"},
           "flavor_text": {
-            "en":"Vidanta Nuevo Vallarta is proud to showcase the talents of some of Riviera Nayarit’s top musicians with live music throughout the resort. From jazz, to Cuban, to classical piano, to mariachi, you can find these acts performing at Santuario, Havana Moon, Azur, The Grand Lobby Bar, Luxxe Bar, and La Cantina. Ask your concierge for the schedule of live music during your stay.",
-            "es": "Vidanta Nuevo Vallarta se enorgullece de mostrar los talentos de algunos de los mejores músicos de Riviera Nayarit con música en vivo en todo el resort. Usted puede escuchar jazz, música cubana, piano clásico y mariachi, entre otros ritmos, en Santuario, Havana Moon, Azur, The Grand Lobby Bar, Luxxe Bar y La Cantina. Pregúntele a su concierge por el calendario de música en vivo durante su estancia."
+            "en":"Vidanta Nuevo Vallarta is proud to showcase the talents of some of Riviera Nayarit’s top musicians with live music throughout the resort. From jazz, to Cuban, to classical piano, to mariachi, you can find these acts performing at Santuario, Havana Moon, Azur, The Grande Lobby Bar, Luxxe Bar, and La Cantina. Ask your concierge for the schedule of live music during your stay.",
+            "es": "Vidanta Nuevo Vallarta se enorgullece de mostrar los talentos de algunos de los mejores músicos de Riviera Nayarit con música en vivo en todo el resort. Usted puede escuchar jazz, música cubana, piano clásico y mariachi, entre otros ritmos, en Santuario, Havana Moon, Azur, The Grande Lobby Bar, Luxxe Bar y La Cantina. Pregúntele a su concierge por el calendario de música en vivo durante su estancia."
             },
           "image": "live-music-billboard.jpg",
           "link": ""
@@ -3552,8 +3566,8 @@
           "name": "kids club",
           "tagline": {"en":"Kid's Club","es":"Kid's Club"},
           "flavor_text": {
-            "en":"Kid’s Club is your vacation go-to for fun for the little ones! Located by The Grand Mayan wave pool, Kid’s Club offers an assortment of amazing activities, including water activities at the on-premise pool, for children ages 5 to 12. All of these activities are supervised by our expert staff. Kid’s Club also has weekly theme nights where, for an additional fee, you can drop off your children and enjoy an evening at the resort while they make new friends and try new things at events like Pirate Night or Pajama Party. There is also a Grand Luxxe-exclusive Kid’s Club located by Grand Luxxe Tower 4.",
-            "es": "El Kid's Club es su mejor opción durante las vacaciones para que los más pequeños ¡se diviertan en grande! Situado junto a la piscina de olas en el Grand Mayan, el Kid's Club ofrece una variedad de actividades asombrosas, incluyendo actividades acuáticas en la piscina para niños de 5 a 12 años. Todas estas actividades son supervisadas por nuestro personal experto. El Kid's Club también tiene noches temáticas semanales donde por un cargo adicional, puede dejar a sus hijos y disfrutar de una noche en el resort mientras hacen nuevos amigos y prueban cosas nuevas en eventos como La Noche de Piratas o la Fiesta de Pijamas. También contamos con un Kid's Club exclusivo situado en la Torre 4 del Grand Luxxe."
+            "en":"Kid’s Club is your vacation go-to for fun for the little ones! Located by The Grande Mayan wave pool, Kid’s Club offers an assortment of amazing activities, including water activities at the on-premise pool, for children ages 5 to 12. All of these activities are supervised by our expert staff. Kid’s Club also has weekly theme nights where, for an additional fee, you can drop off your children and enjoy an evening at the resort while they make new friends and try new things at events like Pirate Night or Pajama Party. There is also a Grande Luxxe-exclusive Kid’s Club located by Grande Luxxe Tower 4.",
+            "es": "El Kid's Club es su mejor opción durante las vacaciones para que los más pequeños ¡se diviertan en grande! Situado junto a la piscina de olas en el Grande Mayan, el Kid's Club ofrece una variedad de actividades asombrosas, incluyendo actividades acuáticas en la piscina para niños de 5 a 12 años. Todas estas actividades son supervisadas por nuestro personal experto. El Kid's Club también tiene noches temáticas semanales donde por un cargo adicional, puede dejar a sus hijos y disfrutar de una noche en el resort mientras hacen nuevos amigos y prueban cosas nuevas en eventos como La Noche de Piratas o la Fiesta de Pijamas. También contamos con un Kid's Club exclusivo situado en la Torre 4 del Grande Luxxe."
           },
           "image": "activities-billboard-4.jpg",
           "link": "" },
@@ -3603,7 +3617,7 @@
         "1" : {
           "title": {"en":"","es":""},
           "name": "tower 5",
-          "tagline": {"en":"Grand Luxxe Tower 5 & Quinto","es":"Torre 5 de Grand Luxxe y Quinto"},
+          "tagline": {"en":"Grande Luxxe Tower 5 & Quinto","es":"Torre 5 de Grande Luxxe y Quinto"},
           "flavor_text": {
             "en":"This stunning new tower offers amazing views of the resort, Ameca River, Sierra Madres, and Banderas Bay from its brand-new rooftop restaurant",
             "es": "Esta asombrosa torre ofrece vistas del resort, el Río Ameca, la Sierra Madre y la Bahía de Banderas que pueden contemplarse desde su nuevo restaurante ubicado en la parte superior."
