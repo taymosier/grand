@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/azur-thumbnail.87d44408.jpg"
   },
   {
-    "revision": "428bf889a6cb9b94da57",
-    "url": "/static/css/main.502d38ea.chunk.css"
+    "revision": "97799a180f4826792f04",
+    "url": "/static/css/main.464c486d.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -664,7 +664,7 @@ self.__precacheManifest = [
     "url": "/static/media/fine-dining-thumbnail.04643e52.jpg"
   },
   {
-    "revision": "428bf889a6cb9b94da57",
+    "revision": "97799a180f4826792f04",
     "url": "/static/js/main.535ead54.chunk.js"
   },
   {
@@ -1324,7 +1324,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.2f5f69a3.chunk.css"
   },
   {
-    "revision": "83960f8838539d30fa991596eb5e7d45",
+    "revision": "4ce6f788838cc4704289e150d736fc32",
     "url": "/index.html"
   }
 ];
