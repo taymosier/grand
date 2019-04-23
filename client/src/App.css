@@ -20,7 +20,6 @@ body {
 
 body, .menuButton, .registration-step-container {
   font-family: "Advent Pro", sans-serif;
-  text-shadow: 2px 0px 2.5px lightslategrey;
 }
 
  .banner-header, .banner-subheader, #menuToggleModalButton, .page-header, .billboard-title, .billboard-button {
