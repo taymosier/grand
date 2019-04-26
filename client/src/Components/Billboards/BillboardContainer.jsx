@@ -8,6 +8,7 @@ export class BillboardContainer extends Component {
   constructor(props){
     super(props);
     this.state = {
+      activeView: "",
       content: "",
       language: this.props.language,
       billboards: this.generateBillboards(this.props.billboards, this.props.language)
@@ -37,6 +38,7 @@ export class BillboardContainer extends Component {
 
   componentDidMount(){
     this.setState({
+      activeView: this.props.activeView,
       content: this.props.billboards,
       language: this.props.language,
       billboards: this.generateBillboards(this.props.billboards, this.props.language)
@@ -46,19 +48,31 @@ export class BillboardContainer extends Component {
   componentDidUpdate(){
     if(this.state.content !== this.props.billboards || this.state.language !== this.props.language){
       this.setState({
+        activeView: this.props.activeView,
         content: this.props.billboards,
         language: this.props.language,
         billboards: this.generateBillboards(this.props.billboards, this.props.language)
       })
     }
+    if(this.state.activeView !== this.props.activeView){
+      this.setState({
+        activeView: this.props.activeView,
+        content: this.props.billboards,
+        language: this.props.language,
+        billboards: this.generateBillboards(this.props.billboards, this.props.language)
+      });
+    }
   }
 
   render(){
-
-
     return(
       <div className="billboards-container">
-        {this.state.billboards}
+        {this.state.billboards !== undefined && this.state.billboards !== []
+          ? this.state.billboards.map((billboard) => {
+            return billboard
+          })
+          : null
+        }
       </div>
     );
   }

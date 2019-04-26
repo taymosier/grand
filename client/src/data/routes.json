@@ -56,5 +56,15 @@
   "/golf/the-jack-nicklaus-academy-of-golf" : "the jack nicklaus academy of golf",
   "/golf/tournaments" : "tournaments",
   "/rooms" : "rooms",
-  "/rooms/two-bedroom-presidential-suite" : "two bedroom presidential suite"
+  "/rooms/two-bedroom-suite" : "two bedroom suite",
+  "/rooms/two-bedroom-presidential-villa" : "two bedroom presidential villa",
+  "/rooms/three-bedroom-presidential-villa" : "three bedroom presidential villa",
+  "/rooms/three-bedroom-spa-suite" : "two bedroom spa suite",
+  "/rooms/three-bedroom-spa-suite" : "three bedroom spa suite",
+  "/rooms/two-bedroom-residence-loft" : "two bedroom residence loft",
+  "/rooms/three-bedroom-residence-loft" : "three bedroom presidential suite",
+  "/rooms/four-bedroom-residence" : "four bedroom residence"
+
+
+
 }

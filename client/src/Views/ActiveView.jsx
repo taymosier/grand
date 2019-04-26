@@ -46,6 +46,11 @@ export class ActiveView extends Component {
     } catch(e){
       console.log(e)
     }
+    if(this.state.content.billboards !== this.props.content.billboards){
+      this.setState({
+        content: this.props.content
+      })
+    }
   }
 
 
@@ -77,7 +82,7 @@ export class ActiveView extends Component {
         }
         {this.props.content.text.description[this.state.language] !== undefined
           ? <div className="page-description">
-                {helpers.splitText(this.props.content.text.description[this.state.language], "description")}
+                {helpers.splitText(this.props.content.text.description[this.state.language], this.props.content.text.header.en)}
             </div>
           : null
         }
@@ -91,6 +96,7 @@ export class ActiveView extends Component {
         }
         {this.state.content.billboards !== undefined
           ? <BillboardContainer
+              activeView={this.state.activeView}
               billboards={this.state.content.billboards}
               setPage={this.props.setPage}
               language={this.state.language}

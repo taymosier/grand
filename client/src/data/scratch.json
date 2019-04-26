@@ -1,0 +1,103 @@
+"four bedroom residence" : {
+  "address": "/rooms/four-bedroom-residence",
+  "content": {
+    "banner": {
+      "image": "rooms-banner.jpg",
+      "header": {"en":"nuevo vallarta","es":"nuevo vallarta"},
+      "subheader": {"en":"rooms & suites","es":"HABITACIONES Y SUITES"}
+    },
+    "text": {
+      "description": {
+        "en": "This “over the top” luxurious residence exquisite views and is accessed directly by your private elevator using your ID bracelet. It offers two bedrooms with king-size beds, two bedrooms with double beds and four full bathrooms with a Jacuzzi tub in each and one half bathroom. There is a gourmet kitchen, kitchen island and bar, wine bar, dining table for 10 people and living room with TV. It has two terraces, one with an outdoor dining area and plunge pool. This unit has 5 TVs and is 6,000 square feet. ",
+        "es": "**Needs Translation**"
+        },
+      "header": {"en": "Grande Luxxe Four Bedroom Residence ","es":"Grande Luxxe Four Bedroom Residence"},
+      "subheader": {"en": "A Grande Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
+    },
+    "images": {
+      "gallery": [
+        {"src": "1.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "2.jpg",
+          "altText": "two bedroom suitesimage",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "3.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "4.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "5.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "6.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "7.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "8.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "9.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "10.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "11.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "12.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "13.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "14.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        },
+        {"src": "15.jpg",
+          "altText": "two bedroom suites image",
+          "folder": "rooms/four-bedroom"
+        }
+      ],
+      "thumbnails": []
+    },
+    "billboards": {
+      "0": {
+        "title": {
+          "en":"",
+          "es":""
+      },
+        "name": "BILLBOARD_twoBedroomPresidentialVillaFeatures",
+        "class": "text-left-col list-no-bullets",
+        "tagline": {
+          "en": "",
+          "es": ""
+      },
+        "flavor_text": {
+          "en": "**Needs Occupancy**",
+          "es": "**Needs Translation"
+      },
+        "image": "",
+        "link": ""
+      }
+    }
+  }
+},

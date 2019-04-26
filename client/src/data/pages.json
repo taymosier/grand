@@ -2504,7 +2504,7 @@
       "billboards": {
         "0" : {
           "title": {"en":"Rooms & Suites","es":""},
-          "name": "rooms",
+          "name": "twoBedroomBillboard",
           "tagline": {
             "en":"Grande Luxxe Two Bedroom Suites",
             "es":"Suites de lujo de dos habitaciones Grande Luxxe"
@@ -2513,29 +2513,114 @@
             "en": "This exclusive suite features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs and two private terraces and a plunge pool.",
             "es": "Esta exclusiva suite cuenta con una cocina gourmet, una sala de estar, dos dormitorios, dos baños y medio con dos bañeras de hidromasaje y dos terrazas privadas y una piscina de inmersión."
           },
-          "image": "two-bedroom-presidential-villa-gallery-1.jpg",
-          "link": "two bedroom presidential suite"
+          "image": "two-bedroom-billboard.jpg",
+          "link": "two bedroom suite"
         },
+
         "1" : {
           "title": {"en":"Rooms & Suites","es":""},
-          "name": "BILLBOARD_comingSoon",
+          "name": "twoBedroomPresidentialVillaBillboard",
           "tagline": {
-            "en":"**Coming Soon**",
-            "es":"**Próximamente**"
+            "en":"Grande Luxxe Two Bedroom Presidential Villa",
+            "es":""
           },
           "flavor_text": {
-            "en": "-Available Upon Special Request-_/_Grand Luxxe Two or Three Bedroom Presidential Suite_/_Grand Luxxe Two or Three Bedroom Spa Suite_/_Grand Luxxe Two or Three Bedroom Residence Loft_/_Grand Luxxe Four Bedroom Residence ",
-            "es": "Esta exclusiva suite cuenta con una cocina gourmet, una sala de estar, dos dormitorios, dos baños y medio con dos bañeras de hidromasaje y dos terrazas privadas y una piscina de inmersión."
+            "en": "This exclusive villa features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs, and a private terrace with a plunge pool.",
+            "es": "**Needs Translation**"
           },
-          "image": "",
-          "link": ""
+          "image": "presidential-villa-billboard-1.jpg",
+          "link": "two bedroom presidential villa"
+        },
+        "2" : {
+          "title": {"en":"Rooms & Suites","es":""},
+          "name": "threeBedroomPresidentialVillaBillboard",
+          "tagline": {
+            "en":"Grande Luxxe Three Bedroom Presidential Villa",
+            "es":""
+          },
+          "flavor_text": {
+            "en": "This expansive villa is the same as above except with two gourmet kitchens, two living rooms, three bedrooms, three and a half bathrooms with three Jacuzzi tubs, and two private terraces with two plunge pools.",
+            "es": ""
+          },
+          "image": "presidential-villa-billboard.jpg",
+          "link": "three bedroom presidential villa"
+        },
+        "3" : {
+          "title": {"en":"Rooms & Suites","es":""},
+          "name": "threeBedroomSpaSuiteBillboard",
+          "tagline": {
+            "en":"Grande Luxxe Two Bedroom Spa Suite",
+            "es":""
+          },
+          "flavor_text": {
+            "en": "This amazing space offers two bedrooms, two bathrooms with a Jacuzzi tub in each along with a half bathroom, a designated room for private massages, a gourmet kitchen, a living room, a private terrace with plunge pool and another private deck.",
+            "es": ""
+          },
+          "image": "spa-suite-billboard.jpg",
+          "link": "two bedroom spa suite"
+        },
+        "4" : {
+          "title": {"en":"Rooms & Suites","es":""},
+          "name": "twoBedroomSpaSuiteBillboard",
+          "tagline": {
+            "en":"Grande Luxxe Three Bedroom Spa Suite",
+            "es":""
+          },
+          "flavor_text": {
+            "en": "This amazing space offers three bedrooms, three bathrooms with a Jacuzzi tub in each along with a half bathroom, a designated room for private massages, a gourmet kitchen, a living room, spacious private terrace with plunge pool and another private deck.",
+            "es": ""
+          },
+          "image": "spa-suite-billboard-1.jpg",
+          "link": "three bedroom spa suite"
+        },
+        "5" : {
+          "title": {"en":"Rooms & Suites","es":""},
+          "name": "twoBedroomResidenceLoftBillboard",
+          "tagline": {
+            "en":"Grande Luxxe Two Bedroom Residence Loft",
+            "es":""
+          },
+          "flavor_text": {
+            "en": "This two-story exquisite “over the top” luxurious quarters offers two bedrooms with king-size beds, three bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
+            "es": ""
+          },
+          "image": "residence-loft-billboard-1.jpg",
+          "link": "two bedroom residence loft"
+        },
+        "6" : {
+          "title": {"en":"Rooms & Suites","es":""},
+          "name": "threeBedroomResidenceLoftBillboard",
+          "tagline": {
+            "en":"Grande Luxxe Three Bedroom Residence Loft",
+            "es":""
+          },
+          "flavor_text": {
+            "en": "This two-story exquisite “over the top” luxurious quarters offers three bedrooms with king size beds, four bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
+            "es": ""
+          },
+          "image": "residence-loft-billboard.jpg",
+          "link": "three bedroom residence loft"
+        },
+        "7" : {
+          "title": {"en":"Rooms & Suites","es":""},
+          "name": "fourBedroomResidenceBillboard",
+          "tagline": {
+            "en":"Grande Luxxe Four Bedroom Residence",
+            "es":""
+          },
+          "flavor_text": {
+            "en": "This exclusive suite features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs and two private terraces and a plunge pool.",
+            "es": ""
+          },
+          "image": "four-bedroom-billboard.jpg",
+          "link": "four bedroom residence"
         }
       }
     }
   },
 
-  "two bedroom presidential suite" : {
-    "address": "/rooms/two-bedroom-presidential-suite",
+  "two bedroom suite" : {
+    "address": "/rooms/two-bedroom-suite",
     "content": {
       "banner": {
         "image": "rooms-banner.jpg",
@@ -2548,45 +2633,207 @@
           "es": "Este elegante cuarto es una suite de dos habitaciones, dos baños y medio de aproximadamente 3,000 pies cuadrados, con dos camas king-size o una cama king-size y dos camas dobles, dos baños y medio con dos jacuzzis , una relajante terraza con una piscina privada, el dormitorio principal tiene una terraza privada, cocina gourmet, comedor, dos salas de estar con sofás cama y tres televisores LED de 42 \". Tiene capacidad para 8 adultos."
           },
         "header": {"en": "Grande Luxxe Two Bedroom Suites ","es":"Grande Luxxe Two Bedroom Suites"},
-        "subheader": {"en": "A Grandee Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
+        "subheader": {"en": "A Grande Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
       },
       "images": {
         "gallery": [
-          {"src": "two-bedroom-presidential-villa-gallery-1.jpg",
+          {"src": "two-bedroom-gallery-1.jpg",
             "altText": "two bedroom suites image",
-            "folder": "rooms/two-bedroom-presidential-villa"
+            "folder": "rooms/two-bedroom"
           },
-          {"src": "two-bedroom-presidential-villa-gallery-2.jpg",
+          {"src": "two-bedroom-gallery-2.jpg",
             "altText": "two bedroom suitesimage",
-            "folder": "rooms/two-bedroom-presidential-villa"
+            "folder": "rooms/two-bedroom"
           },
-          {"src": "two-bedroom-presidential-villa-gallery-3.jpg",
+          {"src": "two-bedroom-gallery-3.jpg",
             "altText": "two bedroom suites image",
-            "folder": "rooms/two-bedroom-presidential-Villa"
+            "folder": "rooms/two-bedroom"
           },
-          {"src": "two-bedroom-presidential-villa-gallery-4.jpg",
+          {"src": "two-bedroom-gallery-4.jpg",
             "altText": "two bedroom suites image",
-            "folder": "rooms/two-bedroom-presidential-villa"
+            "folder": "rooms/two-bedroom"
           },
-          {"src": "two-bedroom-presidential-villa-gallery-5.jpg",
+          {"src": "two-bedroom-gallery-5.jpg",
             "altText": "two bedroom suites image",
-            "folder": "rooms/two-bedroom-presidential-villa"
+            "folder": "rooms/two-bedroom"
           },
-          {"src": "two-bedroom-presidential-villa-gallery-6.jpg",
+          {"src": "two-bedroom-gallery-6.jpg",
             "altText": "two bedroom suites image",
-            "folder": "rooms/two-bedroom-presidential-villa"
+            "folder": "rooms/two-bedroom"
           },
-          {"src": "two-bedroom-presidential-villa-gallery-4.jpg",
+          {"src": "two-bedroom-gallery-7.jpg",
             "altText": "two bedroom suites image",
-            "folder": "rooms/two-bedroom-presidential-villa"
+            "folder": "rooms/two-bedroom"
           },
-          {"src": "two-bedroom-presidential-villa-gallery-5.jpg",
+          {"src": "two-bedroom-gallery-8.jpg",
             "altText": "two bedroom suites image",
-            "folder": "rooms/two-bedroom-presidential-villa"
+            "folder": "rooms/two-bedroom"
+          }
+        ],
+        "thumbnails": []
+      },
+      "billboards": {
+        "0": {
+          "title": {
+            "en":"",
+            "es":""
+        },
+          "name": "BILLBOARD_twoBedroom",
+          "class": "text-left-col list-no-bullets",
+          "tagline": {
+            "en": "",
+            "es": ""
+        },
+          "flavor_text": {
+            "en":"8 adults |and| 2-4 kids depending on age and size_/_Two Bedrooms_/_Two King-Size Beds |or| One King-size Bed & Two Double Beds_/_Two Full Bathrooms with Jacuzzi Tubs |and| 1 Half Bathroom",
+            "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
+        },
+          "image": "two-bedroom-presidential-suite-floorplan.jpg",
+          "link": ""
+        }
+      }
+    }
+  },
+  "three bedroom presidential villa" : {
+    "address": "/rooms/three-bedroom-presidential-villa",
+    "content": {
+      "banner": {
+        "image": "rooms-banner.jpg",
+        "header": {"en":"nuevo vallarta","es":"nuevo vallarta"},
+        "subheader": {"en":"rooms & suites","es":"HABITACIONES Y SUITES"}
+      },
+      "text": {
+        "description": {
+          "en": "These quarters have the same features as above except there are three bedrooms with two king-size beds and two double beds, three and a half baths with a Jacuzzi tub in each, a private terrace with two plunge pools, two gourmet kitchens, two dining rooms, two living rooms with a sleeper sofa in each, five TVs and approximately 4,370 square feet. ",
+          "es": "**Needs Translation**"
           },
-          {"src": "two-bedroom-presidential-villa-gallery-6.jpg",
+        "header": {"en": "Grande Luxxe Three Bedroom Presidential Villa","es":"**Needs Translation**"},
+        "subheader": {"en": "A Grande Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
+      },
+      "images": {
+        "gallery": [
+          {"src": "presidential-villa-1.jpg",
             "altText": "two bedroom suites image",
-            "folder": "rooms/two-bedroom-presidential-villa"
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-2.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-3.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-Villa"
+          },
+          {"src": "presidential-villa-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-6.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-6.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-7.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          }
+        ],
+        "thumbnails": []
+      },
+      "billboards": {
+        "0": {
+          "title": {
+            "en":"",
+            "es":""
+        },
+          "name": "BILLBOARD_threeBedroomPresidentialVillaFeatures",
+          "class": "text-left-col list-no-bullets",
+          "tagline": {
+            "en": "",
+            "es": ""
+        },
+          "flavor_text": {
+            "en":"10 adults |and| 2-4 kids depending on age and size_/_Three Bedrooms_/_Two King-Size Beds & Two Double Beds_/_3.5 Bathrooms with Three Jacuzzi Tubs",
+            "es": "**Needs Translation**"
+        },
+          "image": "three-bedroom-presidential-villa-floorplan.jpg",
+          "link": ""
+        }
+      }
+    }
+  },
+  "two bedroom presidential villa" : {
+    "address": "/rooms/two-bedroom-presidential-villa",
+    "content": {
+      "banner": {
+        "image": "rooms-banner.jpg",
+        "header": {"en":"nuevo vallarta","es":"nuevo vallarta"},
+        "subheader": {"en":"rooms & suites","es":"HABITACIONES Y SUITES"}
+      },
+      "text": {
+        "description": {
+          "en": "This elegant quarters has two bedrooms with one king size bed and two double beds, two and a half bath suite with two Jacuzzi tubs, a gourmet kitchen, a dining room, a living room with a sleeper sofa, a relaxing terrace with a private plunge pool and all of approximately 3,000 square feet. ",
+          "es": "**Needs Translation**"
+          },
+        "header": {"en": "Grande Luxxe Two Bedroom Presidential Villa ","es":"**Needs Translation**"},
+        "subheader": {"en": "A Grande Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
+      },
+      "images": {
+        "gallery": [
+          {"src": "presidential-villa-1.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-2.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-3.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-Villa"
+          },
+          {"src": "presidential-villa-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-6.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-6.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
+          },
+          {"src": "presidential-villa-7.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/presidential-villa"
           }
         ],
         "thumbnails": []
@@ -2604,18 +2851,410 @@
             "es": ""
         },
           "flavor_text": {
-            "en":"8 adults |and| 2-4 kids depending on age and size_/_Two Bedrooms_/_Two King-Size Beds |or| One King-size Bed & Two Double Beds_/_Two Full Bathrooms with Jacuzzi Tubs |and| 1 Half Bathroom",
-            "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
+            "en":"6 adults |and| 2-4 kids depending on age and size_/_Two Bedrooms_/_One King-size Bed & Two Double Beds_/_Two Full Bathrooms with one Jacuzzi Tub & 1 Half Bathroom",
+            "es": "**Needs translation"
         },
-          "image": "two-bedroom-presidential-suite-floorplan.jpg",
+          "image": "two-bedroom-presidential-villa-floorplan.jpg",
           "link": ""
         }
       }
     }
   },
-
-
-
+  "two bedroom spa suite" : {
+    "address": "/rooms/two-bedroom-spa-suite",
+    "content": {
+      "banner": {
+        "image": "rooms-banner.jpg",
+        "header": {"en":"nuevo vallarta","es":"nuevo vallarta"},
+        "subheader": {"en":"rooms & suites","es":"HABITACIONES Y SUITES"}
+      },
+      "text": {
+        "description": {
+          "en": "This luxurious quarters offers two bedrooms with a king-size bed in each, two bathrooms with a Jacuzzi tub in each along with a half bathroom, a lengthy private terrace with a plunge pool, an additional private deck, a gourmet kitchen, one living area with sleeper sofas, three TVs and approximately   square feet. ",
+          "es": ""
+          },
+        "header": {"en": "Grande Luxxe Two Bedroom Spa Suite","es":"Grande Luxxe Two Bedroom Spa Suite"},
+        "subheader": {"en": "A Grande Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
+      },
+      "images": {
+        "gallery": [
+          {"src": "spa-suite-1.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/spa-suite"
+          },
+          {"src": "spa-suite-2.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "rooms/spa-suite"
+          },
+          {"src": "spa-suite-3.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/spa-suite"
+          },
+          {"src": "spa-suite-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/spa-suite"
+          },
+          {"src": "spa-suite-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/spa-suite"
+          }
+        ],
+        "thumbnails": []
+      },
+      "billboards": {
+        "0": {
+          "title": {
+            "en":"",
+            "es":""
+        },
+          "name": "BILLBOARD_twoBedroomSpaSuiteFeatures",
+          "class": "text-left-col list-no-bullets",
+          "tagline": {
+            "en": "",
+            "es": ""
+        },
+          "flavor_text": {
+            "en":"6 adults |and| 2 children under 12 years old_/_Two Bedrooms_/_Two King-Size Beds_/_Two Full Bathrooms with Two Jacuzzi Tubs |and| 1 Half Bathroom",
+            "es": "**Needs Translation**"
+        },
+          "image": "two-bedroom-spa-suite-floorplan.jpg",
+          "link": ""
+        }
+      }
+    }
+  },
+  "three bedroom spa suite" : {
+    "address": "/rooms/three-bedroom-spa-suite",
+    "content": {
+      "banner": {
+        "image": "rooms-banner.jpg",
+        "header": {"en":"nuevo vallarta","es":"nuevo vallarta"},
+        "subheader": {"en":"rooms & suites","es":"HABITACIONES Y SUITES"}
+      },
+      "text": {
+        "description": {
+          "en": "This luxurious quarters offers two bedrooms with a king-size bed in each, two bathrooms with a Jacuzzi tub in each along with a half bathroom, a lengthy private terrace with a plunge pool, an additional private deck, a gourmet kitchen, one living area with sleeper sofas, three TVs and approximately **** square feet. ",
+          "es": ""
+          },
+        "header": {"en": "Grande Luxxe Three Bedroom Spa Suite","es":"Grande Luxxe Three Bedroom Spa Suite"},
+        "subheader": {"en": "A Grande Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
+      },
+      "images": {
+        "gallery": [
+          {"src": "spa-suite-1.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/spa-suite"
+          },
+          {"src": "spa-suite-2.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "rooms/spa-suite"
+          },
+          {"src": "spa-suite-3.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/spa-suite"
+          },
+          {"src": "spa-suite-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/spa-suite"
+          },
+          {"src": "spa-suite-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/spa-suite"
+          }
+        ],
+        "thumbnails": []
+      },
+      "billboards": {
+        "0": {
+          "title": {
+            "en":"",
+            "es":""
+        },
+          "name": "BILLBOARD_threeBedroomSpaSuiteFeatures",
+          "class": "text-left-col list-no-bullets",
+          "tagline": {
+            "en": "",
+            "es": ""
+        },
+          "flavor_text": {
+            "en": "**Needs Occupancy Info",
+            "es": "**Needs Translation**"
+        },
+          "image": "three-bedroom-spa-suite-floorplan.jpg",
+          "link": ""
+        }
+      }
+    }
+  },
+  "three bedroom residence loft" : {
+    "address": "/rooms/three-bedroom-residence-loft",
+    "content": {
+      "banner": {
+        "image": "rooms-banner.jpg",
+        "header": {"en":"nuevo vallarta","es":"nuevo vallarta"},
+        "subheader": {"en":"rooms & suites","es":"HABITACIONES Y SUITES"}
+      },
+      "text": {
+        "description": {
+          "en": "This exquisite two-story space has the same features as above except there are three bedrooms. It includes on the first floor a bedroom with king-size bed, a bathroom with Jacuzzi tub, a bathroom with shower, a gourmet kitchen, kitchen island and bar, dining table, living room with TV area, and laundry room with washer and dryer. The luxurious terrace features a dining table, comfortable daybed, two cushioned armchairs and a plunge pool. The unit’s second floor has a bedroom with a king bed and Jacuzzi tub, a bedroom with two double beds, full bathroom with shower, a living room with TV area. This unit also includes 4 TVs and is 5,190 square feet. ",
+          "es": "**Needs Translation**"
+          },
+        "header": {"en": "Grande Luxxe Three Bedroom Residence Loft ","es":"Grande Luxxe Three Bedroom Residence Loft"},
+        "subheader": {"en": "A Grande Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
+      },
+      "images": {
+        "gallery": [
+          {"src": "residence-loft-1.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-2.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-3.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-6.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-7.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-8.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-9.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-10.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          }
+        ],
+        "thumbnails": []
+      },
+      "billboards": {
+        "0": {
+          "title": {
+            "en":"",
+            "es":""
+        },
+          "name": "BILLBOARD_threeBedroomResidenceLoftFeatures",
+          "class": "text-left-col list-no-bullets",
+          "tagline": {
+            "en": "",
+            "es": ""
+        },
+          "flavor_text": {
+            "en": "**Needs Occupancy Info",
+            "es": "**Needs Translation**"
+        },
+          "image": "three-bedroom-residence-floorplan-1.jpg",
+          "link": ""
+        }
+      }
+    }
+  },
+  "two bedroom residence loft" : {
+    "address": "/rooms/two-bedroom-residence-loft",
+    "content": {
+      "banner": {
+        "image": "rooms-banner.jpg",
+        "header": {"en":"nuevo vallarta","es":"nuevo vallarta"},
+        "subheader": {"en":"rooms & suites","es":"HABITACIONES Y SUITES"}
+      },
+      "text": {
+        "description": {
+          "en": "This two-story exquisite “over the top” luxurious quarters offers two bedrooms with king-size beds, three bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
+          "es": ""
+          },
+        "header": {"en": "Grande Luxxe Two Bedroom Suites ","es":"Grande Luxxe Two Bedroom Suites"},
+        "subheader": {"en": "A Grande Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
+      },
+      "images": {
+        "gallery": [
+          {"src": "residence-loft-1.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-2.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-3.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-6.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-7.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-8.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-9.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          },
+          {"src": "residence-loft-10.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/residence-loft"
+          }
+        ],
+        "thumbnails": []
+      },
+      "billboards": {
+        "0": {
+          "title": {
+            "en":"",
+            "es":""
+        },
+          "name": "BILLBOARD_twoBedroomResidenceLoftFeatures",
+          "class": "text-left-col list-no-bullets",
+          "tagline": {
+            "en": "",
+            "es": ""
+        },
+          "flavor_text": {
+            "en": "**Needs occupancy info **",
+            "es": "**Needs Translation**"
+        },
+          "image": "two-bedroom-residence-floorplan-1.jpg",
+          "link": ""
+        }
+      }
+    }
+  },
+  "four bedroom residence" : {
+    "address": "/rooms/four-bedroom-residence",
+    "content": {
+      "banner": {
+        "image": "rooms-banner.jpg",
+        "header": {"en":"nuevo vallarta","es":"nuevo vallarta"},
+        "subheader": {"en":"rooms & suites","es":"HABITACIONES Y SUITES"}
+      },
+      "text": {
+        "description": {
+          "en": "This “over the top” luxurious residence exquisite views and is accessed directly by your private elevator using your ID bracelet. It offers two bedrooms with king-size beds, two bedrooms with double beds and four full bathrooms with a Jacuzzi tub in each and one half bathroom. There is a gourmet kitchen, kitchen island and bar, wine bar, dining table for 10 people and living room with TV. It has two terraces, one with an outdoor dining area and plunge pool. This unit has 5 TVs and is 6,000 square feet. ",
+          "es": "**Needs Translation**"
+          },
+        "header": {"en": "Grande Luxxe Four Bedroom Residence ","es":"Grande Luxxe Four Bedroom Residence"},
+        "subheader": {"en": "A Grande Luxxe Presidential Villa","es":"Una Villa Presidencial de Grande Luxxe"}
+      },
+      "images": {
+        "gallery": [
+          {"src": "four-bedroom-2.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-3.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-4.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-5.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-1.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-6.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-7.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-8.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-9.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-10.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-11.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-12.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-13.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-14.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          },
+          {"src": "four-bedroom-15.jpg",
+            "altText": "two bedroom suites image",
+            "folder": "rooms/four-bedroom"
+          }
+        ],
+        "thumbnails": []
+      },
+      "billboards": {
+        "0": {
+          "title": {
+            "en":"",
+            "es":""
+        },
+          "name": "BILLBOARD_fourBedroomFeatures",
+          "class": "text-left-col list-no-bullets",
+          "tagline": {
+            "en": "",
+            "es": ""
+        },
+          "flavor_text": {
+            "en": "**Needs Occupancy**",
+            "es": "**Needs Translation"
+        },
+          "image": "four-bedroom-floorplan.jpg",
+          "link": ""
+        }
+      }
+    }
+  },
   "getting here" : {
     "address": "/getting-here",
     "content": {

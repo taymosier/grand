@@ -53,6 +53,11 @@ export class BillboardWithImage extends Component {
         "link": checkForEmptyAttributes(this.props.contents.link)
       })
     }
+    if(this.props.contents === null){
+      this.setState({
+        contents: null
+      })
+    }
   }
 
   handleImageProp(imageProp){
