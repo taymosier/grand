@@ -98,13 +98,12 @@ export class BillboardWithImage extends Component {
   }
 
   render(){
-    let images;
     let textBlocks = [];
     textBlocks = splitText(this.state.flavor_text[this.props.language], this.state.class, /_\/_/g);
 
     return(
         <div className={`billboard ${this.state.class}`} id={this.state.name}>
-          <Row className="billboard-top-row">
+          <Row className="billboard-row">
             <Col
               xl={{ size: 5, offset: 0 }}
               lg={{ size: 6, offset: 0 }}
@@ -130,7 +129,7 @@ export class BillboardWithImage extends Component {
               ? <div className={`billboard-title ${this.state.class}`}>
                   {capitalizeEveryWord(this.state.title[this.props.language])}
                 </div>
-              : null
+              : <div className={`billboard-title`}/>
               }
               {this.state.tagline
                 ? <div className="billboard-tagline">
@@ -141,14 +140,12 @@ export class BillboardWithImage extends Component {
               <div className="billboard-flavor_text-container">
                 {textBlocks}
               </div>
+              {this.state.link !== "" && this.state.link !== undefined
+                ? <Button className="billboard-button" onClick={() => {this.props.setPage(this.state.link)}}>{this.state.btnTxt[this.props.language]}</Button>
+                : null
+              }
             </Col>
           </Row>
-          {this.state.link !== "" && this.state.link !== undefined
-           ? <Row className="billboard-bottom-row">
-                <Button className="billboard-button" onClick={() => {this.props.setPage(this.state.link)}}>{this.state.btnTxt[this.props.language]}</Button>
-             </Row>
-           : null
-          }
         </div>
     );
   }

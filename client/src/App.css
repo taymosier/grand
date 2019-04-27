@@ -215,11 +215,6 @@ body, .menuButton, .registration-step-container {
   text-align: center;
 }
 
-.billboard {
-  background: #F6F4F3;
-  box-shadow: -1.5px -1.5px 1.5px 2px ghostwhite;
-}
-
 .billboard-image {
   margin: 0 auto;
   min-width: 0%;
@@ -287,7 +282,7 @@ body, .menuButton, .registration-step-container {
 }
 
 .menuButton {
-  background: #F6F4F3;
+  background: #61A7BE;
   border-bottom: 1px solid black;
   box-shadow: .75px 1px 3.5px .2px black;
   color: black;
@@ -330,7 +325,7 @@ body, .menuButton, .registration-step-container {
 
 
 .menuButton:hover {
-  background: #c6c6c6;
+  background: #3f6d7c;
   font-size: 28px;
   color: white;
   transition: .18s ease-in .25s;
@@ -2661,22 +2656,42 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard {
+    background: #8ECADE;
+    border: 10px solid ghostwhite;
+    box-shadow: -2px 3px 7.5px -1px black;
+    color: black;
+    border-radius: 1.5%;
     margin: 25px 0;
-    min-width: 50%;
-    max-width: 95%;
+    min-width: 100%;
+    max-width: 100%;
     max-height: fit-content;
-    min-height: fit-content;
-    height: 23vw;
-    padding: 15px 0;
+    min-height: 40vh;
+    height: 40vh;
+    padding: 0;
     text-align: center;
   }
 
   .billboard-button {
-    width: 45%;
+    background: #61A7BE;
+    border: 5px outset ghostwhite;
+    box-shadow: 0px 2px 5px -2px black;
+    color: black;
+    font-size: 1.5vw;
     font-weight: 400;
-    letter-spacing: .95px;
-    margin: 10px 0 0px 50%;
-    padding: 5px .375rem 0 0;
+    left: 0;
+    letter-spacing: 1.35px;
+    line-height: 1.5vw;
+    min-height: 15%;
+    margin: 2% 0 0 5%;
+    max-height: 12.5%;
+    padding: 15px 0 15px 0;
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, .5);
+    width: 95%;
+  }
+
+  .billboard-button:hover {
+    border: 5px inset ghostwhite;
+    background: #427587;
   }
 
   .billboard-bottom-row {
@@ -2691,19 +2706,26 @@ body, .menuButton, .registration-step-container {
   }
 
   .billboard-flavor_text-container {
-    min-height: fit-content;
     padding: 0;
     letter-spacing: .7px;
     line-height: 1.15;
-    padding: 5px 10px;
+    min-height: 55%;
+    max-height: 55%;
   }
 
   .billboard-flavor_text-container p{
-    margin: 0;
+    margin: auto;
     font-size: 1.15vw;
     font-weight: 600;
-    line-height: 1.4vw;
-    letter-spacing: 1px;
+    height: fit-content;
+    line-height: 1.65vw;
+    letter-spacing: 1.75px;
+    min-height: fit-content;
+    max-height: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
+    padding: 1.5% 0 1.5% 3.5%;
+    text-align: right;
   }
 
   .billboard-flavor_text-container .flavor-text-bullets {
@@ -2714,13 +2736,7 @@ body, .menuButton, .registration-step-container {
     min-width: fit-content;
     height: fit-content;
     max-width: fit-content;
-    min-height: fit-content;
-    max-height: fit-content;
   }
-
-    .billboard-title.flavor-text-bullets + .billboard-tagline {
-      margin: 0;
-    }
 
   .billboard-image-container {
     margin: auto;
@@ -2739,40 +2755,206 @@ body, .menuButton, .registration-step-container {
     max-width: 100%;
     height: 100%;
     min-height: 100%;
-    margin: 0 auto 5px 2.5%;
+    margin: 2% auto 0 2.5%;
+  }
+
+  .billboard-modal {
+    border: 1vh solid ghostwhite;
+    margin: 9vh 9vw;
+    min-height: 82vh;
+    max-height: 82vh;
+    min-width: 82vw;
+    max-width: 82vw;
+  }
+
+  .billboard-modal .close-billboard-modal-button {
+    background: ghostwhite;
+    border: none;
+    border-radius: 0;
+    color: salmon;
+    font-family: "Segoe UI";
+    font-size: 2vw;
+    font-weight: 400;
+    height: fit-content;
+    line-height: 2.1vw;
+    margin: 0px 0 0 97.5%;
+    max-height: fit-content;
+    min-width: 2.5vw;
+    min-height: 5vh;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: .2s ease-in-out;
+  }
+
+  .billboard-modal .close-billboard-modal-button:hover {
+    font-size: 2.1vw;
+    font-weight: 600;
+    padding: -.1vw 0 0 0;
+    color: red;
+    text-shadow: 0px 0px 2px red;
+  }
+
+
+  .billboard-modal .modal-content {
+    background: transparent;
+    border: none;
+    min-height: 80vh;
+    height: 80vh;
+    min-width: 80vh;
+  }
+  .billboard-modal .modal-content .modal-body {
+    height: 100%;
+    background: #8ECADE;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0;
+  }
+  .billboard-modal .billboard-image {
+    border: 25px ridge #61A7BE;
+    float: left;
+    min-height: 20vh;
+    min-width: 40vw;
+    height: fit-content;
+    margin: auto 6vw;
+    max-width: 52vh;
+    max-height: 55vh;
+    width: 40vw;
+    box-shadow: none;
+  }
+
+  .billboard-modal .toggle-image-fullscreen-button {
+    min-width: 100%;
+  }
+
+  .billboard-modal-image-options {
+    background: transparent;
+    min-width: 52vw;
+    float: left;
+    min-height: 20vh;
+    font-size: 4vw;
+  }
+
+  .billboard-modal-image-select-button {
+    background: #61A7BE;
+    border-radius: 3.5%;
+    border: 7.5px outset ghostwhite;
+    font-size: 4.25vw;
+    font-family: "Segoe UI";
+    font-weight: 200;
+    height: 19vh;
+    line-height: 4.25vw;
+    margin: 0 0 0 2%;
+    max-width: 47.5%;
+    min-height: 20vh;
+    min-width: 47.5%;
+    padding: 0 15px;
+    text-shadow: -1px 2px 7.5px black;
+    vertical-align: top;
+    width: 47.5%;
+  }
+
+  .billboard-modal-image-select-button:hover {
+    background: #427587;
+  }
+
+  .billboard-modal-main-text {
+    font-size: 2vw;
+    text-align: center;
+    max-height: 33vh;
+    min-height: 33vh;
+  }
+
+  .billboard-modal-text {
+    background: #61A7BE;
+    color: white;
+    min-width: 24vw;
+    max-width: 24vw;
+    margin: .5vh 0 0 54vw;
+    min-height: 79vh;
+    max-height: 79vh;
+    border: 5px outset ghostwhite;
+  }
+
+  .billboard-modal-text-block {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 2vw;
+    line-height: 2vw;
+    padding: 0 3vw;
+    text-align: left;
+  }
+
+  .billboard-modal-text-header {
+    font-size: 4vw;
+    margin: 2.5vh 0;
+    padding: 5vh 0 0 4vw;
+    min-width: 24vw;
+    max-width: 24vw;
+    max-height: 40vh;
+    min-height: 40vh;
+  }
+
+  .billboard-modal-toggle {
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 15vh;
+    max-height: 15vh;
+    background: #61A7BE;
+    font-size: 3.5vw;
+    text-shadow: -1px 1px 5px black;
+    box-shadow: -1px 1px 7.5px -2px black;
+    letter-spacing: 3px;
+    border: 7.5px outset ghostwhite;
+  }
+
+
+  .billboard-title.flavor-text-bullets + .billboard-tagline {
+    margin: 0;
+  }
+
+
+  .billboard-row {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
   }
 
   .billboard-tagline {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: .9px;
-    margin: 5px auto 10px auto;
+    margin: 5px 0 10px auto;
     border-bottom: .5px solid black;
-    min-width: -webkit-fit-content;
-    min-width: -moz-fit-content;
     min-width: fit-content;
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
     max-width: fit-content;
-    padding: 5px 0px 0 0;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
+    padding: 0;
     width: fit-content;
+    min-height: 10%;
+    max-height: 10%;
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, .5);
   }
 
   .billboard-text-container {
-    margin: 0 auto 0 0;
-    max-height: fit-content;
+    margin: 0 1vw 0 0;
+    min-height: 100%;
+    max-height: 100%;
     padding: 0;
+    text-align: right;
   }
 
   .billboard-title {
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, .5);
     color: black;
-    font-size: 1.35rem;
+    font-size: 1.5vw;
     font-weight: 600;
     letter-spacing: 1.15px;
     line-height: .9;
-    padding: 15px 0 5px 0;
+    min-height: 11.5%;
+    max-height: 11.5%;
+    padding: 3.5% 0 5px 0;
   }
 
   .billboard-title.full-width.three-col{
@@ -2781,9 +2963,6 @@ body, .menuButton, .registration-step-container {
     color: #c4300b;
   }
 
-  .billboard-top-row {
-    margin: 0;
-  }
 
   p.full-width{
     margin: 0;
@@ -2910,7 +3089,7 @@ body, .menuButton, .registration-step-container {
   }
 
   #contactFormToggleButton {
-    background: #F6F4F3;
+    background: #61A7BE;
     box-shadow: 3px 2px 4px -1.5px grey;
     color: black;
     font-weight: 500;
@@ -2929,6 +3108,13 @@ body, .menuButton, .registration-step-container {
     animation-delay: -2s;
     animation-iteration-count: infinite;
     animation-direction: alternate reverse;
+  }
+
+  #EnglishToggleButton, #EspanolToggleButton {
+    background: #61A7BE;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1.75px;
   }
 
   .footer {
@@ -2956,18 +3142,19 @@ body, .menuButton, .registration-step-container {
   }
 
   #registrationProcessInfoToggleButton {
-    background: #F6F4F3;
+    background: #61A7BE;
     box-shadow: 3px 2px 4px -1.5px grey;
     color: black;
     font-weight: 500;
-    line-height: 1.05;
+    letter-spacing: 1.5px;
+    line-height: 1.3vw;
     padding: 0 10px 0 10px;
     margin: 10px 0vw 0 0;
     max-width: 100%;
     min-width: 100%;
     min-height: 75px;
     overflow-wrap: break-word;
-    font-size: 24px;
+    font-size: 1.3vw;
     text-align: center;
   }
 
@@ -3167,7 +3354,7 @@ body, .menuButton, .registration-step-container {
   }
 
   .toolbar {
-    margin: 20px 0 0 0;
+    margin-top: 20px;
     position: fixed;
     left: 73.5vw;
     padding: 0 0 0 30px;

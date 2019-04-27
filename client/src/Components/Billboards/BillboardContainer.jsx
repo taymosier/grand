@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import { Billboard } from "./Billboard";
 import { BillboardWithImage } from "./BillboardWithImage";
+import { BillboardWithMap } from "./BillboardWithMap";
+import { BillboardWithModal } from "./BillboardWithModal";
 
 
 export class BillboardContainer extends Component {
@@ -19,21 +21,30 @@ export class BillboardContainer extends Component {
   generateBillboards(billboardContents, language){
     let billboards = [];
     for(let item in billboardContents){
-      if(billboardContents[item].image){
-        try{
-          billboards.push(<BillboardWithImage language={language} contents={billboardContents[item]} key={billboardContents[item].name} setPage={this.props.setPage}/>)
-        } catch(e){
-          console.log("whoops!")
-        }
-      } else {
-        try{
-          billboards.push(<Billboard language={language} contents={billboardContents[item]} key={billboardContents[item].name} setPage={this.props.setPage}/>)
-        } catch(e){
-          console.log(this.state)
-        }
-      }
+      billboards.push(this.getBillBoardByType(billboardContents[item],billboardContents[item].type, language, this.props.setPage))
     }
     return billboards;
+  }
+
+  getBillBoardByType(contents, type, language, setPage){
+    let billboard;
+    switch(type){
+      case "default":
+        billboard = <Billboard language={language} contents={contents} key={contents.name} setPage={setPage}/>
+        break;
+      case "image":
+        billboard = <BillboardWithImage language={language} contents={contents} key={contents.name} setPage={setPage}/>;
+        break;
+      case "map":
+        billboard = <BillboardWithMap language={language} />;
+        break;
+      case "modal":
+        billboard = <BillboardWithModal language={language} contents={contents} key={contents.name} setPage={setPage}/>;
+        break;
+      default:
+        break;
+    }
+    return billboard;
   }
 
   componentDidMount(){

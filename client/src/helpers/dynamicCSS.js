@@ -102,7 +102,7 @@ export function formatTitle(name){
     let textBlocks = [];
     if(textSplit.length > 1){
       for(let item in textSplit){
-        textBlocks.push(<p className={`${className}`} key={`${className}`}>{textSplit[item]}</p>)
+        textBlocks.push(<p className={`${className}`} key={`${item}`}>{textSplit[item]}</p>)
       }
       return textBlocks;
     }

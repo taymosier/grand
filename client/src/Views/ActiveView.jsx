@@ -4,8 +4,6 @@ import { BillboardContainer } from "../Components/Billboards/BillboardContainer"
 import { ThumbnailGridContainer } from "../Components/Thumbnails/ThumbnailGridContainer";
 import { ImageCarousel } from '../Components/Carousel/ImageCarousel';
 
-import {BillboardWithMap} from '../Components/Billboards/BillboardWithMap';
-
 const helpers = require('../helpers/dynamicCSS.js');
 
 export class ActiveView extends Component {
@@ -76,10 +74,7 @@ export class ActiveView extends Component {
             </h1>
           : null
         }
-        {this.props.content.map === true
-          ? <BillboardWithMap language={this.state.language}/>
-          : null
-        }
+
         {this.props.content.text.description[this.state.language] !== undefined
           ? <div className="page-description">
                 {helpers.splitText(this.props.content.text.description[this.state.language], this.props.content.text.header.en)}

@@ -103,6 +103,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en": "Where To Stay",
             "es": "DÓNDE HOSPEDARSE"
@@ -120,6 +121,7 @@
           "link": "rooms"
         },
         "1" : {
+          "type": "image",
           "title": {
             "en": "Where To Swim",
             "es": "DÓNDE NADAR"
@@ -225,6 +227,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": "",
           "name": "dining-intro",
           "tagline": "",
@@ -236,6 +239,7 @@
           "link": ""
         },
         "1" : {
+          "type": "image",
           "title": {
             "en": "Must-Taste Dish",
             "es": "Platillo Recomendado"
@@ -414,6 +418,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Destacado"
@@ -428,6 +433,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "name": "hours",
           "tagline": {"en": "Location & Hours","es":"Horarios y ubicación"},
@@ -469,6 +475,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -486,6 +493,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "name": "hours",
           "tagline": {
@@ -534,6 +542,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -547,6 +556,7 @@
           "image": "epazote-billboard.jpg",
           "link": "" },
         "1" : {
+          "type": "default",
           "title": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "name": "hours",
           "tagline": {"en": "Location & Hours","es":"Horarios y ubicación"},
@@ -585,6 +595,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -599,6 +610,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "name": "hours",
           "tagline": {"en": "Location & Hours","es":"Horarios y ubicación"},
@@ -645,6 +657,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en": "Featured Dish",
             "es": "PLATILLO DESTACADO"
@@ -659,6 +672,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "name": "hours",
           "tagline": {"en": "Location & Hours","es":"Horarios y ubicación"},
@@ -704,6 +718,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -718,6 +733,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en": "Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en": "Location & Hours","es":"Ubicación y Horarios"},
@@ -754,6 +770,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -768,6 +785,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en": "Location & Hours","es":"Horarios y ubicación"},
           "name": "tramonto-hours",
           "tagline": {"en": "Location & Hours","es":"Horarios y ubicación"},
@@ -1052,6 +1070,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "default",
           "title": {
             "en":"Location & Hours",
             "es":"Ubicación y Horarios"
@@ -1099,6 +1118,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1113,6 +1133,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": "Location & Hours",
           "name": "hours",
           "tagline": {
@@ -1156,6 +1177,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1170,6 +1192,7 @@
           "link": ""
         },
         "1": {
+          "type": "default",
           "title": {
             "en": "Location & Hours",
             "es": "Ubicación y Horarios"
@@ -1210,6 +1233,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1224,6 +1248,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1260,6 +1285,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1274,6 +1300,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Cerca de La Plaza"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Cerca de La Plaza"},
@@ -1312,6 +1339,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1326,6 +1354,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1365,6 +1394,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1379,6 +1409,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1417,6 +1448,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1431,6 +1463,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1467,6 +1500,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1481,6 +1515,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1521,6 +1556,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1535,6 +1571,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1572,6 +1609,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1586,6 +1624,7 @@
           "image": "limon-y-sal-billboard.jpg",
           "link": "" },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1625,6 +1664,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1639,6 +1679,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1678,6 +1719,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1692,6 +1734,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1729,6 +1772,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1743,6 +1787,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1781,6 +1826,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1794,6 +1840,7 @@
           "image": "si-snack-billboard.jpg",
           "link": "" },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1830,6 +1877,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1843,6 +1891,7 @@
           "image": "sweet-paris-billboard.jpg",
           "link": "" },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1881,6 +1930,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1895,6 +1945,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -1930,6 +1981,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {
             "en":"Featured Dish",
             "es":"Platillo Recomendado"
@@ -1944,6 +1996,7 @@
           "link": ""
         },
         "1" : {
+          "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -2047,7 +2100,7 @@
             "link": "luxxe bar"
           },
           {
-            "image": "bars/the-Grande-lobby-bar-thumbnail.jpg",
+            "image": "bars/the-grand-lobby-bar-thumbnail.jpg",
             "text": {
               "title": {
                 "en":"The Grande Lobby Bar",
@@ -2115,6 +2168,7 @@
         },
         "billboards": {
           "0" : {
+            "type": "default",
           "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en":"Location & Hours","es":"Ubicación y Horarios"},
@@ -2151,6 +2205,7 @@
         },
         "billboards": {
           "0" : {
+            "type": "default",
             "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
             "name": "hours",
             "tagline": {"en":"Sea Garden","es":"Sea Garden"},
@@ -2186,6 +2241,7 @@
         },
         "billboards": {
           "0" : {
+            "type": "default",
             "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
             "name": "hours",
             "tagline": {"en":"The Grande Bliss Lobby","es": "Lobby de The Grande Bliss"},
@@ -2221,6 +2277,7 @@
         },
         "billboards": {
           "0" : {
+            "type": "default",
             "title": {"en":"Location & Hours","es":"Ubicación y Horarios"},
             "name": "hours",
             "tagline": {"en":"Inside Tramonto, Located in The Grande Mayan","es":"Dentro de Tramonto, ubicado en The Grande Mayan"},
@@ -2261,6 +2318,7 @@
           "thumbnails": []
         },
         "billboards": {"0" : {
+          "type": "default",
           "title": {"en": "Location & Hours", "es":"Ubicación y Horarios"},
           "name": "hours",
           "tagline": {"en": "In Grande Luxxe Tower 1, by Epazote","es": "En la Torre 1 de Grande Luxxe, por Epazote "},
@@ -2299,6 +2357,7 @@
         },
         "billboards": {
           "0" : {
+            "type": "default",
           "title": { "en": "Location & Hours", "es": "Ubicación y Horarios" },
           "name": "hours",
           "tagline": {"en":"The Grande Mayan Lobby","es":"The Grande Mayan Lobby"},
@@ -2342,6 +2401,7 @@
         },
         "billboards": {
           "0" : {
+            "type": "image",
             "title": "",
             "name": "santuario-day",
             "tagline": {"en":"Santuario by Day","es":"Santuario de día"},
@@ -2353,6 +2413,7 @@
             "link": ""
           },
           "1" : {
+            "type": "image",
             "title": "",
             "name": "santuario-night",
             "tagline": {"en": "Santuario by Night","es":"Santuario de noche"},
@@ -2364,6 +2425,7 @@
             "link": ""
           },
           "2" : {
+            "type": "image",
             "title": "",
             "name": "text-out-of-bounds",
             "tagline": {
@@ -2378,6 +2440,7 @@
             "link": ""
             },
           "3" : {
+            "type": "image",
             "title": {"en": "Featured Cocktail", "es":"Cóctel destacad"},
             "name": "cocktail",
             "tagline": "",
@@ -2419,6 +2482,7 @@
           },
           "billboards": {
             "0" : {
+              "type": "default",
               "title": "Location & Hours","name": "hours",
               "tagline": {
                 "en": "Located in front of The Grande Bliss pool",
@@ -2503,6 +2567,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {"en":"Rooms & Suites","es":""},
           "name": "twoBedroomBillboard",
           "tagline": {
@@ -2518,6 +2583,7 @@
         },
 
         "1" : {
+          "type": "image",
           "title": {"en":"Rooms & Suites","es":""},
           "name": "twoBedroomPresidentialVillaBillboard",
           "tagline": {
@@ -2532,6 +2598,7 @@
           "link": "two bedroom presidential villa"
         },
         "2" : {
+          "type": "image",
           "title": {"en":"Rooms & Suites","es":""},
           "name": "threeBedroomPresidentialVillaBillboard",
           "tagline": {
@@ -2546,6 +2613,7 @@
           "link": "three bedroom presidential villa"
         },
         "3" : {
+          "type": "image",
           "title": {"en":"Rooms & Suites","es":""},
           "name": "threeBedroomSpaSuiteBillboard",
           "tagline": {
@@ -2560,6 +2628,7 @@
           "link": "two bedroom spa suite"
         },
         "4" : {
+          "type": "image",
           "title": {"en":"Rooms & Suites","es":""},
           "name": "twoBedroomSpaSuiteBillboard",
           "tagline": {
@@ -2574,6 +2643,7 @@
           "link": "three bedroom spa suite"
         },
         "5" : {
+          "type": "image",
           "title": {"en":"Rooms & Suites","es":""},
           "name": "twoBedroomResidenceLoftBillboard",
           "tagline": {
@@ -2588,6 +2658,7 @@
           "link": "two bedroom residence loft"
         },
         "6" : {
+          "type": "image",
           "title": {"en":"Rooms & Suites","es":""},
           "name": "threeBedroomResidenceLoftBillboard",
           "tagline": {
@@ -2602,6 +2673,7 @@
           "link": "three bedroom residence loft"
         },
         "7" : {
+          "type": "image",
           "title": {"en":"Rooms & Suites","es":""},
           "name": "fourBedroomResidenceBillboard",
           "tagline": {
@@ -2674,6 +2746,7 @@
       },
       "billboards": {
         "0": {
+          "type": "modal",
           "title": {
             "en":"",
             "es":""
@@ -2757,6 +2830,7 @@
       },
       "billboards": {
         "0": {
+          "type": "modal",
           "title": {
             "en":"",
             "es":""
@@ -2840,6 +2914,7 @@
       },
       "billboards": {
         "0": {
+          "type": "modal",
           "title": {
             "en":"",
             "es":""
@@ -2903,6 +2978,7 @@
       },
       "billboards": {
         "0": {
+          "type": "modal",
           "title": {
             "en":"",
             "es":""
@@ -2966,6 +3042,7 @@
       },
       "billboards": {
         "0": {
+          "type": "modal",
           "title": {
             "en":"",
             "es":""
@@ -3049,6 +3126,7 @@
       },
       "billboards": {
         "0": {
+          "type": "modal",
           "title": {
             "en":"",
             "es":""
@@ -3063,7 +3141,18 @@
             "en": "**Needs Occupancy Info",
             "es": "**Needs Translation**"
         },
-          "image": "three-bedroom-residence-floorplan-1.jpg",
+          "image": [
+            {
+              "index": "0",
+              "src": "three-bedroom-residence-floorplan-1.jpg",
+              "caption": "First Floor"
+            },
+            {
+              "index": "1",
+              "src": "three-bedroom-residence-floorplan-2.jpg",
+              "caption": "Second Floor"
+            }
+          ],
           "link": ""
         }
       }
@@ -3132,6 +3221,7 @@
       },
       "billboards": {
         "0": {
+          "type": "modal",
           "title": {
             "en":"",
             "es":""
@@ -3146,7 +3236,18 @@
             "en": "**Needs occupancy info **",
             "es": "**Needs Translation**"
         },
-          "image": "two-bedroom-residence-floorplan-1.jpg",
+          "image": [
+            {
+              "index": "0",
+              "src": "two-bedroom-residence-floorplan-1.jpg",
+              "caption": "First Floor"
+            },
+            {
+              "index": "1",
+              "src": "two-bedroom-residence-floorplan-2.jpg",
+              "caption": "Second Floor"
+            }
+          ],
           "link": ""
         }
       }
@@ -3235,6 +3336,7 @@
       },
       "billboards": {
         "0": {
+          "type": "modal",
           "title": {
             "en":"",
             "es":""
@@ -3247,7 +3349,7 @@
         },
           "flavor_text": {
             "en": "**Needs Occupancy**",
-            "es": "**Needs Translation"
+            "es": "**Needs Translation**"
         },
           "image": "four-bedroom-floorplan.jpg",
           "link": ""
@@ -3268,13 +3370,16 @@
         "gallery": [],
         "thumbnails": []
       },
-      "map": true,
       "text": {
         "description": {"en":"","es":""},
         "header": {"en":"Directions and Contact","es":"Direcciones y contacto"}
       },
       "billboards": {
         "0": {
+          "type": "map"
+        },
+        "1": {
+          "type": "default",
           "title": {
             "en":"Things To Know",
             "es":"Vallarta"
@@ -3292,7 +3397,8 @@
           "image": "",
           "link": ""
         },
-        "1": {
+        "2": {
+          "type": "image",
           "title": {"en": "Transportation", "es":"Transportation"},
           "name": "transportation",
           "class": "alternating-icon",
@@ -3308,6 +3414,7 @@
           "link": ""
         },
         "2": {
+          "type": "image",
           "title": {"en": "New entrance", "es":"New entrance"},
           "name": "new entrance",
           "class": "full image",
@@ -3358,6 +3465,7 @@
       },
       "billboards": [
         {
+          "type": "image",
           "name": "pools-billboard",
           "title": {
             "en":"Nuevo Vallarta",
@@ -3375,6 +3483,7 @@
           "link": "pools"
         },
         {
+          "type": "image",
           "name": "activities-billboard",
           "title": {
             "en":"Nuevo Vallarta",
@@ -3392,6 +3501,7 @@
           "link": "activities"
         },
         {
+          "type": "image",
           "name": "shoppping-billboard",
           "title": {
             "en":"Nuevo Vallarta",
@@ -3588,6 +3698,7 @@
       },
       "billboards": [
         {
+          "type": "image",
           "title": "",
           "tagline": {"en": "The Nayar Course","es": "El Campo Nayar"},
           "flavor_text": {
@@ -3598,6 +3709,7 @@
           "link": "the nayar course"
         },
         {
+          "type": "image",
           "title": "",
           "tagline": {"en": "The Norman Signature Course","es": "El Campo Norman Signature"},
           "flavor_text": {
@@ -3608,6 +3720,7 @@
           "link": "the norman signature course"
         },
         {
+          "type": "image",
           "title": "",
           "tagline": {"en": "The Lakes Course","es": "El Campo The Lakes"} ,
           "flavor_text": {
@@ -3900,6 +4013,7 @@
       },
       "billboards": {
         "0": {
+          "type": "image",
           "title": {"en":"Brio","es":""} ,
           "tagline": {"en":"Brio Spa","es":""},
           "flavor_text": {
@@ -3910,6 +4024,7 @@
           "link": "brio spa"
         },
         "1": {
+          "type": "image",
           "title": {"en":"","es":""},
           "tagline": {"en":"Spatium","es":"Spatium"},
           "flavor_text": {
@@ -3920,6 +4035,7 @@
           "link": "spatium"
         },
         "2": {
+          "type": "image",
           "name": "the wellness program",
           "title": {"en":"","es":""},
           "tagline": {"en":"The Wellness Program","es":"El Programa Wellness"},
@@ -3962,6 +4078,7 @@
       },
       "billboards": {
         "0": {
+          "type": "image",
           "title": {
             "en":"",
             "es":""
@@ -3978,6 +4095,7 @@
           "link": ""
         },
         "1": {
+          "type": "image",
           "title": {"en":"","es":""},
           "tagline": {
             "en":"Hydrotherapy Annex",
@@ -4018,6 +4136,7 @@
       },
       "billboards": {
         "0": {
+          "type": "image",
           "title": {"en":"","es":""},
           "tagline": {"en":"","es":""},
           "flavor_text": {
@@ -4028,6 +4147,7 @@
           "link": ""
         },
         "1": {
+          "type": "image",
           "title": {"en":"","es":""},
           "tagline": {"en":"The Healing Powers of the Temazcal","es":"Los poderes sanadores del temazcal"},
           "flavor_text": {
@@ -4062,6 +4182,7 @@
       },
       "billboards": {
         "0": {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "santuario",
           "tagline": {"en":"Santuario","es":"Santuario"},
@@ -4073,6 +4194,7 @@
           "link": "santuario"
         },
         "1": {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "lake-show",
           "tagline": {"en":"Lake Show","es":"Lake Show"},
@@ -4084,6 +4206,7 @@
           "link": ""
         },
         "2": {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "theme-nights",
           "tagline": {"en":"Theme Nights","es":""},
@@ -4095,6 +4218,7 @@
           "link": ""
         },
         "3": {
+          "type": "image",
           "title": {"en":"","es":""},
           "tagline": {"en":"Live Music","es":"Noches temáticas"},
           "flavor_text": {
@@ -4105,6 +4229,7 @@
           "link": ""
         },
         "4": {
+          "type": "image",
           "title": {"en":"","es":""},
           "tagline": {"en":"No Better Place to Celebrate", "es":"No hay un mejor lugar para celebrar"},
           "flavor_text": {
@@ -4136,6 +4261,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "activities intro",
           "tagline": {"en":"","es":""},
@@ -4146,6 +4272,7 @@
           "image": "activities-billboard-1.jpg",
           "link": "" },
         "1" : {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "joy squad",
           "tagline": {"en":"Joy Squad","es":"Joy Squad"},
@@ -4157,6 +4284,7 @@
            "link": ""
          },
         "2" : {
+          "type": "image",
           "title": {"en":"Pools & Poolside","es":""},
           "name": "pool activities",
           "class": "flavor-text-bullets",
@@ -4168,6 +4296,7 @@
           "image": "activities-billboard-6.jpg",
           "link": "" },
         "3" : {
+          "type": "image",
           "title": {"en":"Beach","es":""},
           "name": "beach",
           "class": "flavor-text-bullets",
@@ -4179,6 +4308,7 @@
           "image": "activities-billboard-7.jpg",
           "link": "" },
         "4" : {
+          "type": "image",
           "title": {"en":"Tours","es":""},
           "name": "tours",
           "class": "flavor-text-bullets",
@@ -4190,6 +4320,7 @@
           "image": "activities-billboard-8.jpg",
           "link": "" },
         "5" : {
+          "type": "image",
           "title": {"en":"Nighttime","es":""},
           "name": "nighttime",
           "class": "flavor-text-bullets",
@@ -4200,7 +4331,8 @@
           },
           "image": "activities-billboard-9.jpg",
           "link": "" },
-        "5" : {
+        "6" : {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "kids club",
           "tagline": {"en":"Kid's Club","es":"Kid's Club"},
@@ -4210,7 +4342,8 @@
           },
           "image": "activities-billboard-4.jpg",
           "link": "" },
-        "6" : {
+        "7" : {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "off resort",
           "tagline": {"en":"Explore Mexico","es":"Explore México"},
@@ -4243,6 +4376,7 @@
       },
       "billboards": {
         "0" : {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "almaverde",
           "tagline": {"en":"Almaverde","es":"Almaverde"},
@@ -4254,6 +4388,7 @@
           "link": ""
         },
         "1" : {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "tower 5",
           "tagline": {"en":"Grande Luxxe Tower 5 & Quinto","es":"Torre 5 de Grande Luxxe y Quinto"},
@@ -4265,6 +4400,7 @@
           "link": ""
         },
         "2" : {
+          "type": "image",
           "title": {"en":"","es":""},
           "name": "tequila tour",
           "tagline": {"en":"The Tequila Tour","es":"Tequila Tour"},

@@ -8,7 +8,7 @@ import { PreviousPageButton } from './PreviousPageButton';
 import { ContactForm } from './Contact/ContactForm';
 import { LanguageButtonContainer } from "./Languages/LanguageButtonContainer";
 import { RegistrationProcessInfoModal } from "./Registration/RegistrationProcessInfoModal";
-import { ThumbnailModal } from "./Thumbnails/ThumbnailModal"; 
+import { ThumbnailModal } from "./Thumbnails/ThumbnailModal";
 
 
 export class Toolbar extends Component {
@@ -70,8 +70,8 @@ export class Toolbar extends Component {
   render(){
     return(
       <Col
-        xl={{ size: 3, offset: 0 }}
-        lg={{ size: 2, offset: 0 }}
+        xl={{ size: 2, offset: 1 }}
+        lg={{ size: 2, offset: 1 }}
         md={{ size: 3, offset: 1 }}
         sm={{ size: 12, offset: 0 }}
         xs={{ size: 12, offset: 0 }}

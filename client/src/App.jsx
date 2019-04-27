@@ -135,8 +135,8 @@ render() {
         <Row>
           <Col
             className="menu-column"
-            xl={{ size: 3, offset: 0 }}
-            lg={{ size: 3, offset: 0 }}
+            xl={{ size: 2, offset: 0 }}
+            lg={{ size: 2, offset: 0 }}
             md={{ size: 0, offset: 0 }}
             sm={{ size: 12, offset: 0 }}
             xs={{ size: 12, offset: 0 }}
@@ -177,8 +177,8 @@ render() {
             : null
           }
           <Col
-            xl={{ size: 6, offset: 0 }}
-            lg={{ size: 7, offset: 0 }}
+            xl={{ size: 8, offset: 0 }}
+            lg={{ size: 8, offset: 0 }}
             md={{ size: 7, offset: 1 }}
           >
 
