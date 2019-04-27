@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/adults-only-pool.e3a7293b.jpg"
   },
   {
-    "revision": "abaaa7bdeb7bcbc1e79f",
-    "url": "/static/css/main.464c486d.chunk.css"
+    "revision": "e7954529d9883adfb07e",
+    "url": "/static/css/main.0d813e3f.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-7.334879a0.jpg"
   },
   {
-    "revision": "09fccdd3fb65d03afb44",
-    "url": "/static/js/2.18bf958e.chunk.js"
+    "revision": "a0f864e47f391211c6e5",
+    "url": "/static/js/2.8f7831fc.chunk.js"
   },
   {
     "revision": "23af5cab1c0536d7aedeb985f62276ea",
@@ -772,8 +772,8 @@ self.__precacheManifest = [
     "url": "/static/media/room-service-thumbnail.6704afd6.jpg"
   },
   {
-    "revision": "abaaa7bdeb7bcbc1e79f",
-    "url": "/static/js/main.ab9f68b3.chunk.js"
+    "revision": "e7954529d9883adfb07e",
+    "url": "/static/js/main.83697571.chunk.js"
   },
   {
     "revision": "62df77e1ec3bd147d826674c3f23537b",
@@ -1536,11 +1536,11 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-6.dbd445ef.jpg"
   },
   {
-    "revision": "09fccdd3fb65d03afb44",
+    "revision": "a0f864e47f391211c6e5",
     "url": "/static/css/2.2f5f69a3.chunk.css"
   },
   {
-    "revision": "f5ca7380d99ac9edb9c4c79898f3bb76",
+    "revision": "d4bf45ad10a55c0a44b22e5e3bc34bba",
     "url": "/index.html"
   }
 ];
