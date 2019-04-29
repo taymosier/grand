@@ -307,6 +307,10 @@ body, .menuButton, .registration-step-container {
 
 .page-description p{
   text-align: center;
+  background: #bbdaf1;
+  border: 20px #8ECADE;
+  padding: 20px;
+  border-style: double;
 }
 
 .page-header {
@@ -2658,7 +2662,7 @@ body, .menuButton, .registration-step-container {
   .billboard {
     background: #8ECADE;
     border: 10px solid ghostwhite;
-    box-shadow: -2px 3px 7.5px -1px black;
+    box-shadow: 3px 3px 7.5px -1px darkslategrey;
     color: black;
     border-radius: 1.5%;
     margin: 25px 0;
@@ -2666,7 +2670,7 @@ body, .menuButton, .registration-step-container {
     max-width: 100%;
     max-height: fit-content;
     min-height: 40vh;
-    height: 40vh;
+    height: 42.5vh;
     padding: 0;
     text-align: center;
   }
@@ -2777,7 +2781,7 @@ body, .menuButton, .registration-step-container {
     font-weight: 400;
     height: fit-content;
     line-height: 2.1vw;
-    margin: 0px 0 0 97.5%;
+    margin: 0px 0 0 1%;
     max-height: fit-content;
     min-width: 2.5vw;
     min-height: 5vh;
@@ -2817,23 +2821,21 @@ body, .menuButton, .registration-step-container {
     min-height: 20vh;
     min-width: 40vw;
     height: fit-content;
-    margin: auto 6vw;
+    margin: 2vh 6vw 0 6vw;
     max-width: 52vh;
     max-height: 55vh;
     width: 40vw;
     box-shadow: none;
   }
 
-  .billboard-modal .toggle-image-fullscreen-button {
-    min-width: 100%;
-  }
 
   .billboard-modal-image-options {
     background: transparent;
-    min-width: 52vw;
     float: left;
-    min-height: 20vh;
     font-size: 4vw;
+    margin: 1vh 0;
+    min-height: 20vh;
+    min-width: 52vw;
   }
 
   .billboard-modal-image-select-button {
@@ -2872,31 +2874,33 @@ body, .menuButton, .registration-step-container {
     min-width: 24vw;
     max-width: 24vw;
     margin: .5vh 0 0 54vw;
-    min-height: 79vh;
-    max-height: 79vh;
+    min-height: 55vh;
+    max-height: 55vh;
     border: 5px outset ghostwhite;
   }
 
   .billboard-modal-text-block {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    font-size: 2vw;
+    border-top: 1px solid ghostwhite;
+    border-bottom: 1px solid ghostwhite;
+    font-size: 1.75vw;
     line-height: 2vw;
-    padding: 0 3vw;
+    padding: 1vh 1vw;
+    letter-spacing: 1px;
     text-align: left;
   }
 
   .billboard-modal-text-header {
     font-size: 4vw;
-    margin: 2.5vh 0;
-    padding: 5vh 0 0 4vw;
+    margin: .5vh 0;
+    padding: 0 0 0 4vw;
     min-width: 24vw;
     max-width: 24vw;
-    max-height: 40vh;
-    min-height: 40vh;
+    max-height: 10vh;
+    min-height: 10vh;
   }
 
   .billboard-modal-toggle {
+    margin: 0 auto;
     min-width: 90%;
     max-width: 90%;
     min-height: 15vh;
@@ -2909,6 +2913,17 @@ body, .menuButton, .registration-step-container {
     border: 7.5px outset ghostwhite;
   }
 
+  .billboard-modal .toggle-image-fullscreen-button {
+    min-width: 100%;
+    margin: 11.5vh 0 0 0;
+    min-height: 20vh;
+    font-weight: 300;
+    font-size: 3.15vw;
+    border: 7.5px outset ghostwhite;
+    background: #61A7BE;
+    text-shadow: -1px 2px 7.5px black;
+    border-radius: 3.5%;
+  }
 
   .billboard-title.flavor-text-bullets + .billboard-tagline {
     margin: 0;
@@ -2926,7 +2941,7 @@ body, .menuButton, .registration-step-container {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: .9px;
-    margin: 5px 0 10px auto;
+    margin: 2.5px 0 10px auto;
     border-bottom: .5px solid black;
     min-width: fit-content;
     max-width: fit-content;
@@ -2954,7 +2969,7 @@ body, .menuButton, .registration-step-container {
     line-height: .9;
     min-height: 11.5%;
     max-height: 11.5%;
-    padding: 3.5% 0 5px 0;
+    padding: 3.5% 0 0 0;
   }
 
   .billboard-title.full-width.three-col{
@@ -3194,10 +3209,15 @@ body, .menuButton, .registration-step-container {
 
   .page-description {
     color: #000;
-    font-size: 24px;
+    font-size: 1.35vw;
+    line-height: 1.75vw;
     font-weight: 600;
-    letter-spacing: 1.75px;
+    letter-spacing: none;
     padding: 15px 2.5% 0;
+  }
+
+  .page-description p {
+    box-shadow: 0px 0px 5px grey;
   }
 
   .page-header {
