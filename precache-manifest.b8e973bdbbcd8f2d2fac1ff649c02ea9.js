@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/adults-only-pool.e3a7293b.jpg"
   },
   {
-    "revision": "40c25a1d1ea84c2b2635",
+    "revision": "6767f3cd527fbf9aecf0",
     "url": "/static/css/main.9be4a88e.chunk.css"
   },
   {
@@ -772,8 +772,8 @@ self.__precacheManifest = [
     "url": "/static/media/room-service-thumbnail.6704afd6.jpg"
   },
   {
-    "revision": "40c25a1d1ea84c2b2635",
-    "url": "/static/js/main.39abd0aa.chunk.js"
+    "revision": "6767f3cd527fbf9aecf0",
+    "url": "/static/js/main.43f8f0ac.chunk.js"
   },
   {
     "revision": "62df77e1ec3bd147d826674c3f23537b",
@@ -1540,7 +1540,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.2f5f69a3.chunk.css"
   },
   {
-    "revision": "8e870038a7bcb311687c5e557c0d0486",
+    "revision": "6bf4c2992a42dbbf90adef6331bf107c",
     "url": "/index.html"
   }
 ];
