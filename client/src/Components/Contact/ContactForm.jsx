@@ -289,8 +289,8 @@ export class ContactForm extends Component {
                   }
                 />
               </Col>
+              <Button type="submit" value="Send" id="contactFormSubmitButton">Submit</Button>
             </Form>
-            <Button type="submit" value="Send" id="contactFormSubmitButton">Submit</Button>
           </ModalBody>
         </Modal>
     );
