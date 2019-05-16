@@ -308,7 +308,8 @@ body, .menuButton, .registration-step-container {
 .page-description p{
   text-align: center;
   background: #bbdaf1;
-  border: 20px #8ECADE;
+  border-top: 20px #8ECADE;
+  border-bottom: 20px #8ECADE;
   padding: 20px;
   border-style: double;
 }
@@ -3217,7 +3218,7 @@ body, .menuButton, .registration-step-container {
   }
 
   .page-description p {
-    box-shadow: 0px 0px 5px grey;
+    box-shadow: 5px 5px 10px lightgrey;
   }
 
   .page-header {

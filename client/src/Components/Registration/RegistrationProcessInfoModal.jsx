@@ -25,24 +25,23 @@ export class RegistrationProcessInfoModal extends Component {
         <ModalBody >
           <Col className="registration-step-container" xl={{ size: 2, offset: 0 }} lg={{ size: 3, offset: 0 }} md={{ size: 10, offset: 1 }} sm={{ size: 10, offset: 1 }}>
             <div className="registration-step-image-container"></div>
-            <h3>Step #1: Check it</h3>
-            <p>First you need to fill out the form to Check Availability. Availability changes daily so, we have to call and check the date and location for you. Our goal is to respond within 24 hours.
-Note: We will send a link to our booking form when we inform you that your date and location are available.</p>
+            <h3>Step #1: Check Dates</h3>
+            <p>Fill out Check Availability form. Availability changes daily. We call resort to check availability of your desired location and date. We try our best to respond within 24 hours. We send a confirmation email that the dates and location are available along with the Booking Form.</p>
           </Col>
           <Col className="registration-step-container" xl={{ size: 2, offset: 0 }} lg={{ size: 3, offset: 0 }} md={{ size: 10, offset: 1 }} sm={{ size: 10, offset: 1 }}>
             <div className="registration-step-image-container"></div>
-            <h3>Step #2: Book It</h3>
-            <p>Make sure you can get airfare and then fill out the Booking Form (we will send a link to you) or call us at xxx-xxx-xxxx. We will usually book it for you and have a confirmation number in short order.</p>
+            <h3>Step #2: Book Dates</h3>
+            <p>Fill out Booking Form or call 919-452-8777. We book reservation and send a confirmation number. If desired departure date is in 2.5 months or less make sure of flight availability before filling out Booking Form. </p>
           </Col>
           <Col className="registration-step-container" xl={{ size: 2, offset: 0 }} lg={{ size: 3, offset: 0 }} md={{ size: 10, offset: 1 }} sm={{ size: 10, offset: 1 }}>
             <div className="registration-step-image-container"></div>
-            <h3>Step #3: Pay for It</h3>
-            <p>You don't pay until you get a confirmation number that you can verfiy with the resort's central reservations. We then request full payment. Payments can be made by credit card on our secure shopping cart, or by paypal or by check (checks are our favorite!).</p>
+            <h3>Step #3: Pay</h3>
+            <p>Pay once there’s a confirmation number that’s verifiable with resort's central reservations. Full payment is then due.  Payments - PayPal or check. </p>
           </Col>
           <Col className="registration-step-container" xl={{ size: 2, offset: 0 }} lg={{ size: 3, offset: 0 }} md={{ size: 10, offset: 1 }} sm={{ size: 10, offset: 1 }}>
           <div className="registration-step-image-container"></div>
-            <h3>Step #4: Enjoy It!!</h3>
-            <p>We provide all the paperwork and information to get there and to be treated as the guests of owners at the exclusive Mayan resorts. Your only job now is to remember your swimming suit.</p>
+            <h3>Step #4: Transportation</h3>
+            <p>Transportation and guest letter will be provided to you with free courtesy transportation to the resort where you will be treated as the guests of owners at the exclusive resort. </p>
           </Col>
         </ModalBody>
       </Modal >

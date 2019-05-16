@@ -3054,7 +3054,7 @@
             "es": ""
         },
           "flavor_text": {
-            "en": "**Needs Occupancy Info",
+            "en":"8 adults |and| 2 children under 12 years old_/_Three Bedrooms_/_Two Double-Size Beds_/_Three Bathrooms with Two Jacuzzi Tubs",
             "es": "**Needs Translation**"
         },
           "image": "three-bedroom-spa-suite-floorplan.jpg",
@@ -3138,7 +3138,7 @@
             "es": ""
         },
           "flavor_text": {
-            "en": "**Needs Occupancy Info",
+            "en":"8 adults |and| 2-4 children under 12 years old_/_Three Bedroom Loft_/_Two Double Beds_/_Four Full Bathrooms with Two Jacuzzi Tubs",
             "es": "**Needs Translation**"
         },
           "image": [
@@ -3233,7 +3233,7 @@
             "es": ""
         },
           "flavor_text": {
-            "en": "**Needs occupancy info **",
+            "en":"6 adults |and| 2-4 children under 12 years old_/_Two Bedrooms_/_Two King-Size Beds_/_Three Bathrooms with Two Jacuzzi Tubs",
             "es": "**Needs Translation**"
         },
           "image": [
@@ -3348,7 +3348,7 @@
             "es": ""
         },
           "flavor_text": {
-            "en": "**Needs Occupancy**",
+            "en":"12 adults_/_Four Bedrooms_/_Four Double Beds_/_Four Full Bathrooms - 2 with Two Jacuzzi Tubs | 1 Half Bathroom",
             "es": "**Needs Translation**"
         },
           "image": "four-bedroom-floorplan.jpg",
