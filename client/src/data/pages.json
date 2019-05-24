@@ -164,7 +164,64 @@
         }
       },
       "images": {
-        "gallery": [],
+        "gallery": [
+          {"src": "dining-1.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-2.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-3.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-4.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-5.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-6.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-7.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-8.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-9.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-10.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-11.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-12.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-13.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          },
+          {"src": "dining-14.jpg",
+            "altText": "dining image",
+            "folder": "dining"
+          }
+        ],
         "thumbnails": [
           {
             "image": "fine-dining-thumbnail.jpg",
@@ -232,8 +289,8 @@
           "name": "dining-intro",
           "tagline": "",
           "flavor_text": {
-            "en":"With over 40 restaurants and lounges to choose from, Vidanta Nuevo Vallarta gives guests the opportunity to dine however they like. Options range from high-end eateries to casual restaurants to authentic Mexican spots, and even a gourmet market filled with offerings from all over the world. One thing is for sure—an amazing culinary experience is always just a meal away at Vidanta Nuevo Vallarta.",
-            "es": "Con cerca de 40 restaurantes y lounges para elegir, Vidanta Nuevo Vallarta brinda a sus huéspedes la oportunidad de comer tal como les gusta. Las opciones incluyen desde lugares de clase mundial hasta sitios de comida mexicana auténtica e incluso un mercado gourmet lleno de ofertas de diversos lugares del mundo. Una cosa es segura: en Vidanta Nuevo Vallarta, una experiencia culinaria sorprendente está a un bocado de distancia."
+            "en":"Guests may choose to dine however they like in over 40 restaurants. Choose from a fast casual bite to eat on the go, a poolside culinary pampering or a fine dining experience. The food offerings are from all over the world including a gourmet market. Expect your taste buds to be delighted with flavors you’ll remember forever. Once you arrive browse through the inroom restaurant book to make your dining plans for the week. Contact the concierge for which restaurants require reservations and make your reservation early to guarantee your preferred day and time. ",
+            "es": "**Needs Translation**"
           },
           "image": "dining-billboard-0.jpg",
           "link": ""
@@ -2710,7 +2767,7 @@
       "images": {
         "gallery": [
           {"src": "two-bedroom-gallery-1.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/two-bedroom"
           },
           {"src": "two-bedroom-gallery-2.jpg",
@@ -2718,27 +2775,27 @@
             "folder": "rooms/two-bedroom"
           },
           {"src": "two-bedroom-gallery-3.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/two-bedroom"
           },
           {"src": "two-bedroom-gallery-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/two-bedroom"
           },
           {"src": "two-bedroom-gallery-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/two-bedroom"
           },
           {"src": "two-bedroom-gallery-6.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/two-bedroom"
           },
           {"src": "two-bedroom-gallery-7.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/two-bedroom"
           },
           {"src": "two-bedroom-gallery-8.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/two-bedroom"
           }
         ],
@@ -2786,7 +2843,7 @@
       "images": {
         "gallery": [
           {"src": "presidential-villa-1.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-2.jpg",
@@ -2794,35 +2851,35 @@
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-3.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-Villa"
           },
           {"src": "presidential-villa-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-6.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-6.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-7.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           }
         ],
@@ -2870,7 +2927,7 @@
       "images": {
         "gallery": [
           {"src": "presidential-villa-1.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-2.jpg",
@@ -2878,35 +2935,35 @@
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-3.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-Villa"
           },
           {"src": "presidential-villa-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-6.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-6.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           },
           {"src": "presidential-villa-7.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/presidential-villa"
           }
         ],
@@ -2954,7 +3011,7 @@
       "images": {
         "gallery": [
           {"src": "spa-suite-1.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/spa-suite"
           },
           {"src": "spa-suite-2.jpg",
@@ -2962,15 +3019,15 @@
             "folder": "rooms/spa-suite"
           },
           {"src": "spa-suite-3.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/spa-suite"
           },
           {"src": "spa-suite-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/spa-suite"
           },
           {"src": "spa-suite-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/spa-suite"
           }
         ],
@@ -3018,7 +3075,7 @@
       "images": {
         "gallery": [
           {"src": "spa-suite-1.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/spa-suite"
           },
           {"src": "spa-suite-2.jpg",
@@ -3026,15 +3083,15 @@
             "folder": "rooms/spa-suite"
           },
           {"src": "spa-suite-3.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/spa-suite"
           },
           {"src": "spa-suite-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/spa-suite"
           },
           {"src": "spa-suite-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/spa-suite"
           }
         ],
@@ -3082,7 +3139,7 @@
       "images": {
         "gallery": [
           {"src": "residence-loft-1.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-2.jpg",
@@ -3090,35 +3147,35 @@
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-3.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-6.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-7.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-8.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-9.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-10.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           }
         ],
@@ -3177,7 +3234,7 @@
       "images": {
         "gallery": [
           {"src": "residence-loft-1.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-2.jpg",
@@ -3185,35 +3242,35 @@
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-3.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-6.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-7.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-8.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-9.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           },
           {"src": "residence-loft-10.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/residence-loft"
           }
         ],
@@ -3276,59 +3333,59 @@
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-3.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-4.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-5.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-1.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-6.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-7.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-8.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-9.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-10.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-11.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-12.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-13.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-14.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           },
           {"src": "four-bedroom-15.jpg",
-            "altText": "two bedroom suites image",
+            "altText": "pool_image",
             "folder": "rooms/four-bedroom"
           }
         ],
@@ -3391,8 +3448,8 @@
             "es": ""
           },
           "flavor_text": {
-            "en":"Passports are required for anyone traveling to Mexico, including children._/_When you pass through Immigration, the officer will give you back a portion of your immigration form. Please keep this in a safe place—we recommend inside your passport—since you will need this upon departure from Mexico._/_We take great care to create safe, healthy environments for our members. We provide purified water and bottled water in all rooms and we use purified water in all of our restaurants.",
-            "es": "agua"
+            "en":"Passports are required for everyone traveling to Mexico, including children._/_As you pass through Immigration, the officer gives back a portion of the immigration form. You must keep this in a safe place. It is recommended to keep it inside your passport. You must show this portion of the immigration form to depart Mexico._/_The resort is vigilant in creating safe, healthy environments for its members. Purified water from the tap and bottled water are in all the rooms and in all of the restaurants water in all of our restaurants.",
+            "es": "**Needs Translation**"
           },
           "image": "",
           "link": ""
@@ -3423,8 +3480,8 @@
             "es": ""
           },
           "flavor_text": {
-            "en":"Guests can now arrive at the resort quicker than ever with our new entrance, which is located right after the bridge that crosses the Ameca River. Please note that our previous entrance is closed to all traffic.",
-            "es": "Disfrute de sus vacaciones con esta bebida fresca de Santuario, cuyo protagonista es el sabor ahumado del mezcal, que se mezcla con cítricos y jengibre para ofrecer un toque de intensidad."
+            "en":"The new entrance allows guests to arrive at the resort much quicker. It is located right after the bridge that crosses the Ameca River. The previous entrance is closed to all traffic.",
+            "es": "**Needs Translation**"
           },
           "image": "new-entrance-billboard.jpg",
           "link": ""
@@ -3449,12 +3506,12 @@
       },
       "text": {
         "description": {
-          "en":"Every day spent at Vidanta Nuevo Vallarta is an opportunity for guests of all ages to experience new things, explore the culture of Mexico, or just soak up the sun in paradise. The resort offers a wide variety of activities to try, as well as a variety of beautiful pools and water features to explore. Vidanta Nuevo Vallarta is also home to some of the best resort shopping in Mexico.",
-          "es": "Cada día en Vidanta Nuevo Vallarta se convierte en una oportunidad de experimentar cosas nuevas, explorar la cultura de México o simplemente tomar el sol en el paraíso. El resort ofrece diversas actividades para huéspedes de todas las edades, así como una gran variedad de hermosas piscinas y opciones acuáticas. En Vidanta Nuevo Vallarta también se pueden realizar algunas de las mejores compras de resort en México."
-          },
+          "en":"Guests of all ages can choose to spend each day at Grand Luxxe Resort differently or the same. There are many opportunities to have new experiences from Mexican cultural experiences to basking in this sunny paradise near the ocean or pool. The resort offers a vast number of activities to explore as well as multiple gorgeous pools and water featured landscapes of beauty. Grand Luxxe has exquisite resort shopping with products from Mexico and other countries around the world.",
+          "es": "**Needs Translation**"
+        },
         "header": {
-          "en":"Always an Adventure",
-          "es":"Siempre una aventura"
+          "en":"Awesome Adventures ",
+          "es":"**Needs Translation**"
         },
         "subheader": ""
       },
@@ -3476,8 +3533,8 @@
             "es":"Piscinas"
           },
           "flavor_text": {
-            "en":"With a host of different pools, an Aqua Park, and a Lazy River, this resort is a paradise for those who love spending their vacation at the pool.",
-            "es": "Como sede de variadas piscinas, un Parque Acuático y un Río Lento, este resort es un paraíso para aquellos que aman pasar sus vacaciones en el agua."
+            "en":"The variety of pools, a Lazy River, an Aqua Park, water fountains and waterfalls are all inviting to those that love the water or enjoy spending time at the pool. You can choose a different luxurious location every day. ",
+            "es": "**Needs Translation**"
             },
           "image": "punta-pool-east.jpg",
           "link": "pools"
@@ -3494,8 +3551,8 @@
             "es":"Actividades"
           },
           "flavor_text": {
-            "en":"Find an array of ways to spend your days with the resort activities, including options for kids, adults, and the whole family.",
-            "es": "Encuentre diversas maneras de divertirse cada día con las actividades del resort, que incluyen opciones para niños, adultos y toda la familia."
+            "en":"There are endless resort activities to enjoy your days for all ages from kids to adults.",
+            "es": "**Needs Translation**"
           },
           "image": "activities-billboard.jpg",
           "link": "activities"
@@ -3537,7 +3594,7 @@
       },
       "text": {
         "description": {
-          "en": "As a guest of Grande Luxxe Nuevo Vallarta, you have a vast selection of the most stunning pools in Mexico. You may choose a different pool each day; Grande Luxxe Exclusive pools, The Grande Bliss pools, The Grande Mayan pools, The Mayan Palace pools or The Sea Garden pools.",
+          "en": "As a guest of Grande Luxxe Nuevo Vallarta, you have a vast selection of the most stunning pools in Mexico. You may choose a different pool each day; Grand Luxxe Exclusive pools, The Grand Bliss pools, The Grand Mayan pools, The Mayan Palace pools or The Sea Garden pools.",
           "es":"Un tobogán en una pirámide maya. Un Río Lento que corre por el resort. Un Aqua Park con toboganes y piscinas de olas. Hermosas piscinas con jacuzzis, fuentes y cascadas. Vidanta Nuevo Vallarta ofrece unas vacaciones llenas de diversión y aventura para los huéspedes de todos los resorts. ¿Está listo para mojarse?"
         },
         "header": {
@@ -3547,7 +3604,52 @@
         "subheader": {"en":"","es":""}
       },
       "images": {
-        "gallery": [],
+        "gallery": [
+          {"src": "pools-1.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "pools"
+          },
+          {"src": "pools-2.jpg",
+            "altText": "two bedroom suitesimage",
+            "folder": "pools"
+          },
+          {"src": "pools-3.jpg",
+            "altText": "pool_image",
+            "folder": "pools"
+          },
+          {"src": "pools-4.jpg",
+            "altText": "pool_image",
+            "folder": "pools"
+          },
+          {"src": "pools-5.jpg",
+            "altText": "pool_image",
+            "folder": "pools"
+          },
+          {"src": "pools-1.jpg",
+            "altText": "pool_image",
+            "folder": "pools"
+          },
+          {"src": "pools-6.jpg",
+            "altText": "pool_image",
+            "folder": "pools"
+          },
+          {"src": "pools-7.jpg",
+            "altText": "pool_image",
+            "folder": "pools"
+          },
+          {"src": "pools-8.jpg",
+            "altText": "pool_image",
+            "folder": "pools"
+          },
+          {"src": "pools-9.jpg",
+            "altText": "pool_image",
+            "folder": "pools"
+          },
+          {"src": "pools-10.jpg",
+            "altText": "pool_image",
+            "folder": "rooms/pools"
+          }
+        ],
         "thumbnails": [
           {
             "image": "pools/circular-pool.jpg",
@@ -3659,12 +3761,12 @@
       },
       "text": {
         "description": {
-          "en":"With two of the region’s premier courses—The Nayar Course and the Norman Signature Course—plus the brand-new 10 hole, par-3 The Lakes Course, a world-class golf academy, a beautiful new restaurant, and the longest golf cart suspension bridge in the world, there really is no vacation getaway for golfers that compares to Vidanta Nuevo Vallarta..",
-          "es": "Con dos de los principales campos en la región: el Campo Nayar y el Campo Norman Signature, más The Lakes, un incomparable campo de 10 hoyos, par 3, una academia de golf de nivel internacional, un hermoso restaurante nuevo y el puente colgante para carritos de golf más largo del mundo, realmente no hay destino vacacional para golfistas que se compare con Vidanta Nuevo Vallarta."
+          "en":"The Norman Signature Course and The Nayar Course are home to two of Nuevo Vallarta’s champion courses. There is a newly opened 10 hole, par-3 course, The Jack Nicklaus Golf Academy along with an exquisite new restaurant and the longest golf cart suspension bridge in the world. This is a golfer’s haven of happiness like no other. ",
+          "es": "**Needs Translation**"
         },
         "header": {
-          "en": "A Golfer’s Paradise",
-          "es": "Un paraíso para los golfistas"
+          "en": "A Superb Golfing Architecture Landscape ",
+          "es": "**Needs Translation**"
         }
       },
       "images": {
@@ -3702,8 +3804,8 @@
           "title": "",
           "tagline": {"en": "The Nayar Course","es": "El Campo Nayar"},
           "flavor_text": {
-            "en": "A natural and technical masterpiece, this 18-hole, par 70 course is forgiving to beginners, but is rimmed with seven lakes and 49 strategically placed bunkers that can challenge the most experienced golfers.",
-            "es": "Es una obra maestra técnica y natural. Este campo de 18 hoyos, par 70 es generoso con los principiantes, pero está rodeado de siete lagos y 49 bunkers ubicados estratégicamente para desafiar a los golfistas más experimentados."
+            "en": "This 18-hole, par 70 naturally and architecturally enhanced notable wonder welcomes beginners to advance. The seven lakes and 49 selectably designed bunkers create quite the opposition for the skillful golfer.",
+            "es": "**Needs Translation**"
           },
           "image": "the-nayar-course-billboard.jpg",
           "link": "the nayar course"
@@ -3713,8 +3815,8 @@
           "title": "",
           "tagline": {"en": "The Norman Signature Course","es": "El Campo Norman Signature"},
           "flavor_text": {
-            "en": "The brand-new, 18-hole Norman Signature Course boasts a beautiful and enjoyable layout, which can only be accessed by the Ameca Bridge. This course features wall-to-wall paspalum and challenging shots around the greens.",
-            "es": "El Campo Norman Signature de 18 hoyos cuenta con un diseño hermoso. Solo se puede ingresar a él a través del Puente Ameca. Este campo cuenta con paspalum de pared a pared y permite tiros desafiantes alrededor de los greens."
+            "en": "The 18-hole Greg Norman Signature Course is newly completed with an alluring and gorgeous layout that can only be accessed by the Ameca Bridge; the longest golf cart bridge in the world. This course is nestled in the tall perennial Bahiagrasses and cleverly designed greens.",
+            "es": "**Needs Translation**"
           },
           "image": "the-norman-signature-course-billboard.jpg",
           "link": "the norman signature course"
@@ -3724,8 +3826,8 @@
           "title": "",
           "tagline": {"en": "The Lakes Course","es": "El Campo The Lakes"} ,
           "flavor_text": {
-            "en": "The newest addition to the golf offerings at Vidanta Nuevo Vallarta, this beautiful 10 hole, par-3 course showcases views of some of the resort’s most beloved landmarks while you play. It’s also the region’s only lit course, offering play until 11 PM.",
-            "es": "La última adición a la oferta de golf en Vidanta Nuevo Vallarta, es este hermoso campo de 10 hoyos, par 3, que ofrece vistas de algunos de los lugares más queridos del resort, mientras juega. También es el único campo iluminado de la región que ofrece juegos hasta las 11 p.m."
+            "en": "This magnificent 10 hole, par-3 course is the most recent development of golf offerings at the resort. It shines with the most breathtaking views of some of the resort’s most admired landmarks while you play. It uniquely offers night playing with a lighted golf course until 11pm.",
+            "es": "**Needs Translation**"
           },
           "image": "the-lakes-course-billboard.jpg",
           "link": ""
@@ -3744,8 +3846,8 @@
       },
       "text": {
         "description": {
-          "en": "Surrounded by lush jungle and the Sierra Madre Mountains on one side and the Pacific on the other, The Nayar Course is a joy for every player, from your low to high handicap. But with seven lakes, 49 strategically placed bunkers, and constant, strong crosswinds coming off of the ocean, this course always presents a challenge.",
-          "es": "Rodeado de una selva frondosa y de las montañas de la Sierra Madre por un lado y el Pacífico por otro, el Campo Nayar, es un placer para todos los jugadores que tengan de bajo a alto handicap. Con siete lagos, 49 bunkers ubicados estratégicamente y los fuertes y constantes vientos cruzados que vienen del mar, este campo siempre representa un gran desafío."
+          "en": "The Sierra Madre Mountains serve as a backdrop along with the emerald jungle nearby and the Pacific Ocean on the other side. The Nayar Course is a pleasure and a desired challenge for all golfers, from a low to high handicap. The seven lakes, 49 strategically placed bunkers and the strong ocean winds definitely create an experience to be remembered.",
+          "es": "**Needs Translation**"
         },
         "header": {
           "en":"The Nayar Course at Vidanta Nuevo Vallarta",
@@ -3829,14 +3931,6 @@
           {"src": "the-nayar-course-gallery-4.jpg",
             "altText": "nayar image",
             "folder": "golf/the-nayar-course"
-          },
-          {"src": "the-nayar-course-gallery-5.jpg",
-            "altText": "nayar image",
-            "folder": "golf/the-nayar-course"
-          },
-          {"src": "the-nayar-course-gallery-6.jpg",
-            "altText": "nayar image",
-            "folder": "golf/the-nayar-course"
           }
         ],
         "thumbnails": []
@@ -3855,11 +3949,11 @@
       },
       "text": {
         "description": {
-          "en": "The Norman Signature Course offers the finest in golf with unsurpassed course conditioning and wall-to-wall paspalum playing surfaces. The layout winds along the Ameca River, providing views of the Sierra Madres from every hole. Large landing areas off the tee give way to large undulating greens protected, in typical Norman fashion, by cavernous bunkers.",
-          "es": "El Campo Norman Signature ofrece lo mejor en golf en un campo inmejorable con superficies de juego de paspalum que van de pared a pared. El diseño se extiende a lo largo del Río Ameca y ofrece hermosas vistas de la Sierra Madre desde cada hoyo. Las grandes zonas de aterrizaje fuera del tee se dirigen a greens ondulados protegidos –con el típico estilo de Norman– por enormes bunkers."
+          "en": "The Norman Signature Course provides the golfer with a superior fairways and greens encounter that urges the player an unmatched appealing invitation. The sweeping Bahiagrass playing areas, the pleasant breezes of the Ameca River and the majestic Sierra Madre Mountain views offer sensory delights in every direction. This Norman inspired course gives expansive landing areas off the tee into generous rolling cavernous bunkers.",
+          "es": "**Needs Translation**"
         },
         "header": {
-          "en": "The Norman Signature Course at Vidanta Nuevo Vallarta",
+          "en": "The Norman Signature Course",
           "es": "El Campo Norman Signature en Vidanta Nuevo Vallarta"
         },
         "course_info" : {
@@ -3944,14 +4038,6 @@
             "folder": "golf/the-norman-signature-course"
           },
           {"src": "the-norman-signature-course-gallery-4.jpg",
-            "altText": "norman signature course image",
-            "folder": "golf/the-norman-signature-course"
-          },
-          {"src": "the-norman-signature-course-gallery-5.jpg",
-            "altText": "norman signature course image",
-            "folder": "golf/the-norman-signature-course"
-          },
-          {"src": "the-norman-signature-course-gallery-6.jpg",
             "altText": "norman signature course image",
             "folder": "golf/the-norman-signature-course"
           }
@@ -4266,7 +4352,7 @@
           "name": "activities intro",
           "tagline": {"en":"","es":""},
           "flavor_text": {
-            "en":"It’s your vacation, so why not spend it doing the types of things you love to do? At Vidanta Nuevo Vallarta, you’ll find a wide variety of activities, from sports tournaments and classes to arts and crafts or poolside trivia, all run by our amazing activities team, the Joy Squad.",
+            "en":"It’s your vacation, do what you love! At Grand Luxxe Nuevo Vallarta, choose from a variety of activities, Spanish classes, arts and crafts, games, sports tournaments, poolside trivia or special events all lead by the amazing activities team called the Joy Squad.",
             "es": "Son sus vacaciones... ¿Por qué no las pasa haciendo exactamente lo que le gusta? En Vidanta Nuevo Vallarta encontrará una gran variedad de actividades, desde torneos de deporte a clases de arte, así como juegos de trivia junto a la piscina. Todas son organizadas por nuestro increíble equipo de actividades, el Joy Squad."
             },
           "image": "activities-billboard-1.jpg",
@@ -4277,8 +4363,8 @@
           "name": "joy squad",
           "tagline": {"en":"Joy Squad","es":"Joy Squad"},
           "flavor_text": {
-            "en":"Throughout the resort you might recognize the bright shirts and warm smiles of our Joy Squad. They’re here to make sure your vacation is filled with fun, excitement, and new experiences. Stop by any Activities Stand to say hello and see what great adventures are on the schedule for the day!",
-            "es": "A través del resort comenzará a reconocer las brillantes camisetas y cálidas sonrisas que distinguen a nuestro Joy Squad. Ellos están aquí para asegurarse de que sus vacaciones estén llenas de diversión, emociones y nuevas experiencias. Acérquese a cualquier Stand de Actividades a saludar y descubra las grandes aventuras que tenemos agendadas para su día."
+            "en":"The resort has a group of people on staff just to make you happy. The Joy Squad can always be recognized by their bright smiling faces and readiness to help you. Their mission is to bring you joy, fun, excitement and new experiences. There are several Activities Stands. Be sure to visit them and get a schedule of what’s being offered each day. ",
+            "es": "**Needs Translation**"
          },
            "image": "activities-billboard-2.jpg",
            "link": ""
@@ -4290,7 +4376,7 @@
           "class": "flavor-text-bullets",
           "tagline": {"en":"","es":""},
           "flavor_text": {
-            "en": "Water Polo_/_Water Volleyball_/_Aqua Aerobics_/_Paddle Board Stretching Class_/_Spanish Class_/_Salsa Lessons_/_Arts & Crafts_/_Guacamole Making Class",
+            "en": "Water Polo_/_Water Volleyball_/_Aqua Aerobics_/_Paddle Board_/_Stretching Class_/_Spanish Class_/_Salsa Lessons_/_Arts & Crafts_/_Guacamole Making Class",
             "es": ""
           },
           "image": "activities-billboard-6.jpg",
@@ -4302,10 +4388,10 @@
           "class": "flavor-text-bullets",
           "tagline": {"en":"","es":""},
           "flavor_text": {
-            "en": "Soccer_/_Volleyball_/_Horsehoe Tournament_/_Bocce Ball_/_Beach Exploration_/_Treasure Hunts",
+            "en": "Volleyball_/_Horsehoe Tournament_/_Bocce Ball_/_Beach Exploration_/_Treasure Hunts",
             "es": ""
           },
-          "image": "activities-billboard-7.jpg",
+          "image": "activities-billboard-4.jpg",
           "link": "" },
         "4" : {
           "type": "image",
@@ -4337,10 +4423,10 @@
           "name": "kids club",
           "tagline": {"en":"Kid's Club","es":"Kid's Club"},
           "flavor_text": {
-            "en":"Kid’s Club is your vacation go-to for fun for the little ones! Located by The Grande Mayan wave pool, Kid’s Club offers an assortment of amazing activities, including water activities at the on-premise pool, for children ages 5 to 12. All of these activities are supervised by our expert staff. Kid’s Club also has weekly theme nights where, for an additional fee, you can drop off your children and enjoy an evening at the resort while they make new friends and try new things at events like Pirate Night or Pajama Party. There is also a Grande Luxxe-exclusive Kid’s Club located by Grande Luxxe Tower 4.",
-            "es": "El Kid's Club es su mejor opción durante las vacaciones para que los más pequeños ¡se diviertan en grande! Situado junto a la piscina de olas en el Grande Mayan, el Kid's Club ofrece una variedad de actividades asombrosas, incluyendo actividades acuáticas en la piscina para niños de 5 a 12 años. Todas estas actividades son supervisadas por nuestro personal experto. El Kid's Club también tiene noches temáticas semanales donde por un cargo adicional, puede dejar a sus hijos y disfrutar de una noche en el resort mientras hacen nuevos amigos y prueban cosas nuevas en eventos como La Noche de Piratas o la Fiesta de Pijamas. También contamos con un Kid's Club exclusivo situado en la Torre 4 del Grande Luxxe."
+            "en":"Kid’s Club is a great time for the kids!  The Kid’s Club is located by The Grand Mayan wave pool. There are many activities offered and of course water activities at the on-premise pool for children ages 5 to 12. The expert staff provides supervision during all activities. There are special week night theme activities like Pirate Night or Pajama Party for an additional charge. This is a time the adults can drop off the children and enjoy an evening at the resort knowing their children are having fun and well cared for. There is also a Grande Luxxe-exclusive Kid’s Club located by Grand Luxxe Tower 4.",
+            "es": "**Needs Translation**"
           },
-          "image": "activities-billboard-4.jpg",
+          "image": "activities-billboard-7.jpg",
           "link": "" },
         "7" : {
           "type": "image",
@@ -4348,8 +4434,8 @@
           "name": "off resort",
           "tagline": {"en":"Explore Mexico","es":"Explore México"},
           "flavor_text": {
-            "en":"For those looking for additional adventures, there are a variety of on- and off-resort experiences offered by outside companies. On the beach, you can try your hand at kayaking, stand-up paddle boarding, or surfing. Or you can explore the scenery of the Riviera Nayarit region with off-site excursions like zip-lining in the jungle, whale watching, or deep-sea fishing. Simply visit the travel concierge in your resort hotel lobby to coordinate one of these exciting day trips.",
-            "es": "Para aquellos que buscan un poco más de aventura, tenemos una gran variedad de experiencias dentro y fuera del resort disponibles por medio de compañías externas. En la playa puede probar remar un kayak, ponerse de pie sobre un paddle-board, o intentar surfear en las olas del Pacífico. Puede explorar los paisajes de la Riviera de Nayarit con excursiones que le dan un toque de adrenalina a sus vacaciones como colgarse de una tirolesa por la selva, avistamiento de ballenas o pescar en mar abierto. Simplemente visite a su Concierge del resort en el lobby del hotel para organizar cualquiera de estas emocionantes excursiones."
+            "en":"Want some unique adventures? On and off resort experiences are offered by outside companies. The beach offers stand-up paddle boarding, surfing and kayaking. For high adventure recreation and exploring the Riviera Nayarit area there is zip-lining in the jungle, horseback riding to the waterfall, speed boat riding, snorkeling or deep sea fishing. Visit the travel concierge in your resort hotel lobby to coordinate a plan. ",
+            "es": "**Needs Translation**"
           },
           "image": "activities-billboard-5.jpg",
           "link": "" }
