@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "05207f04066b69fd665e4c856e37a6ac",
-    "url": "/static/media/blue-nautique-bar-gallery.05207f04.jpg"
+    "revision": "4339c2ba7672e98db3ca0e078eb030fd",
+    "url": "/static/media/the-lakes-course-thumbnail.4339c2ba.jpg"
   },
   {
-    "revision": "aaf035650a2a5d4cc18f",
+    "revision": "60a23cd438b447db739b",
     "url": "/static/css/main.5a346199.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-9.b3db4716.jpg"
   },
   {
-    "revision": "381316caa0b27e1bb85a",
-    "url": "/static/js/2.058f9bb5.chunk.js"
+    "revision": "f1563b27672d3146e147",
+    "url": "/static/js/2.74c0328b.chunk.js"
   },
   {
     "revision": "23af5cab1c0536d7aedeb985f62276ea",
@@ -272,6 +272,10 @@ self.__precacheManifest = [
     "url": "/static/media/adults-only-pool.9dd975dc.jpg"
   },
   {
+    "revision": "ac8781a8308dbd049b0fed6821db04da",
+    "url": "/static/media/almaverde-billboard.ac8781a8.jpg"
+  },
+  {
     "revision": "68d06b4d60ed4de319c6c3385df11e13",
     "url": "/static/media/ameca-social-house-billboard.68d06b4d.jpg"
   },
@@ -320,6 +324,10 @@ self.__precacheManifest = [
     "url": "/static/media/dining-billboard-1.37502e66.jpg"
   },
   {
+    "revision": "c0517514b36ca5f7a5513431b988749c",
+    "url": "/static/media/entertainment-banner.c0517514.jpg"
+  },
+  {
     "revision": "520d42875a8acbeaf1eb905271ab814b",
     "url": "/static/media/epazote-billboard.520d4287.jpg"
   },
@@ -352,8 +360,8 @@ self.__precacheManifest = [
     "url": "/static/media/havana-moon-billboard.f3774a77.jpg"
   },
   {
-    "revision": "4d3df0620bee737706b43e95281775d1",
-    "url": "/static/media/holidays-billboard.4d3df062.jpg"
+    "revision": "03cee04ad5dd529d6555a499013fa624",
+    "url": "/static/media/holidays-billboard.03cee04a.jpg"
   },
   {
     "revision": "48c37c36962086db34b91397de86e469",
@@ -380,8 +388,8 @@ self.__precacheManifest = [
     "url": "/static/media/limon-y-sal-billboard.6005b2e7.jpg"
   },
   {
-    "revision": "d34859b22325224f30c86c247805f500",
-    "url": "/static/media/live-music-billboard.d34859b2.jpg"
+    "revision": "6a299db6766440ac59900ecfcc3a2a01",
+    "url": "/static/media/live-music-billboard.6a299db6.jpg"
   },
   {
     "revision": "cb5246eab21dafedef10b089b423d351",
@@ -448,8 +456,20 @@ self.__precacheManifest = [
     "url": "/static/media/santuario-billboard-4.31eeaf08.jpg"
   },
   {
-    "revision": "5b8fa50045e84d68cab5e42cc4e242cd",
-    "url": "/static/media/santuario-billboard.5b8fa500.jpg"
+    "revision": "b269ea04485e7a52430cc89a030f6201",
+    "url": "/static/media/santuario-billboard.b269ea04.jpg"
+  },
+  {
+    "revision": "81acc10acb9967e81f3c3e3b60e896fd",
+    "url": "/static/media/santuario-day-billboard.81acc10a.jpg"
+  },
+  {
+    "revision": "43bd31bcc0cfc5eed99d314bd036edd3",
+    "url": "/static/media/santuario-margarita-billboard.43bd31bc.jpg"
+  },
+  {
+    "revision": "528100cd60e2e3ab234e73d205180450",
+    "url": "/static/media/santuario-night-billboard.528100cd.jpg"
   },
   {
     "revision": "c6bb36a5285a65168d1dc561d10238eb",
@@ -504,6 +524,10 @@ self.__precacheManifest = [
     "url": "/static/media/temazcal-billboard.dccc03e9.jpg"
   },
   {
+    "revision": "a5c56e962b72d451d629d7a30c732d55",
+    "url": "/static/media/tequila-tour-billboard.a5c56e96.jpg"
+  },
+  {
     "revision": "f73da801af21d4a403d8cc5530bc02bc",
     "url": "/static/media/the-burger-custom-made-billboard.f73da801.jpg"
   },
@@ -524,8 +548,8 @@ self.__precacheManifest = [
     "url": "/static/media/the-norman-signature-course-billboard.416c7473.jpg"
   },
   {
-    "revision": "a05e93f17d7741e52d47d75f0c3825e5",
-    "url": "/static/media/theme-nights-billboard.a05e93f1.jpg"
+    "revision": "e72bf41beef4906fa3d4759aa964491d",
+    "url": "/static/media/theme-nights-billboard.e72bf41b.jpg"
   },
   {
     "revision": "286102554bdc9792c72cb1bb8371e24b",
@@ -584,12 +608,16 @@ self.__precacheManifest = [
     "url": "/static/media/wellness-billboard.2eeb7d1a.jpg"
   },
   {
+    "revision": "6496b1258eb5511e97eb44daa413f7a1",
+    "url": "/static/media/whats-new-banner.6496b125.jpg"
+  },
+  {
     "revision": "ed464b131b821f9798366d1f0ec2fd0e",
     "url": "/static/media/whats-new-billboard-1.ed464b13.jpg"
   },
   {
-    "revision": "e2235a66b46f41fcc70d8e5624aecbf3",
-    "url": "/static/media/whats-new-billboard-2.e2235a66.jpg"
+    "revision": "9f6f8bd03076ca142aa2bcca1808eb39",
+    "url": "/static/media/whats-new-billboard-2.9f6f8bd0.jpg"
   },
   {
     "revision": "4b7d4310174ab282f00f07304864f6dc",
@@ -812,8 +840,8 @@ self.__precacheManifest = [
     "url": "/static/media/shopping-thumbnail.c6bb36a5.jpg"
   },
   {
-    "revision": "4339c2ba7672e98db3ca0e078eb030fd",
-    "url": "/static/media/the-lakes-course-thumbnail.4339c2ba.jpg"
+    "revision": "60a23cd438b447db739b",
+    "url": "/static/js/main.edf4f4fb.chunk.js"
   },
   {
     "revision": "0b55236fee6996df4d435e147e1cb877",
@@ -824,8 +852,8 @@ self.__precacheManifest = [
     "url": "/static/media/the-norman-signature-course-thumbnail.8ee1174d.jpg"
   },
   {
-    "revision": "aaf035650a2a5d4cc18f",
-    "url": "/static/js/main.33e10390.chunk.js"
+    "revision": "05207f04066b69fd665e4c856e37a6ac",
+    "url": "/static/media/blue-nautique-bar-gallery.05207f04.jpg"
   },
   {
     "revision": "7c0e12d5acc47e9f0825ebaea37785c4",
@@ -1644,11 +1672,11 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-8.e2e7448e.jpg"
   },
   {
-    "revision": "381316caa0b27e1bb85a",
+    "revision": "f1563b27672d3146e147",
     "url": "/static/css/2.762604e3.chunk.css"
   },
   {
-    "revision": "4eaa6248039b2f42b778da72ea267614",
+    "revision": "9e2c8815819b076ebabf2b039e1abecf",
     "url": "/index.html"
   }
 ];
