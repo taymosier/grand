@@ -4048,7 +4048,6 @@
     }
   },
 
-
   "spa" : {
     "address": "/spa",
     "content": {
@@ -4059,10 +4058,10 @@
       },
       "text": {
         "description": {
-          "en":"Vacation is about restful and renewing relaxation. It’s about indulging in peace and taking a moment to enjoy the clarity of being removed from your busy home life. At Vidanta Nuevo Vallarta, we help you embrace that serenity and harness the revitalizing powers of paradise with two beautiful, well-appointed spas.",
-          "es": "Bríndese a usted mismo un espacio para experimentar una serenidad total. Encuentre la paz que le hace falta a su mente y la relajación que necesita su cuerpo en un mundo que fue creado para brindarle salud, felicidad y armonía. Además de ofrecerle lujosos tratamientos, también le daremos todo el placer que usted merece con una atención de alta calidad; instalaciones vanguardistas que combinan la naturaleza y la alta tecnología; y un equipo experto en revitalización y revigorización. Los spas en Vidanta Nuevo Vallarta son santuarios de serenidad que le permitirán explorar diversas maneras de relajarse."
+          "en":"Treat yourself to a pampering like no other. You deserve to be renewed and restored. Embrace the unique wellness treatments that will bring you peace and serenity from head to toe. The choice of two exquisite spas are ready to rejuvenate your body, mind and spirit to a new ecstasy. You will have the best spa experience of your life. ",
+          "es": "**Needs Translation"
           },
-        "header": {"en":"Pure Pampering","es":"Lo consentimos sin límites"}
+        "header": {"en":"Relaxation and Tranquility ","es":"**Needs Translation**"}
       },
       "images": {
         "gallery": [
@@ -4093,6 +4092,22 @@
           {"src": "spa-gallery-7.jpg",
             "altText": "spa image",
             "folder": "spa"
+          },
+          {"src": "spa-gallery-8.jpg",
+            "altText": "spa image",
+            "folder": "spa"
+          },
+          {"src": "spa-gallery-9.jpg",
+            "altText": "spa image",
+            "folder": "spa"
+          },
+          {"src": "spa-gallery-10.jpg",
+            "altText": "spa image",
+            "folder": "spa"
+          },
+          {"src": "spa-gallery-11.jpg",
+            "altText": "spa image",
+            "folder": "spa"
           }
         ],
         "thumbnails": []
@@ -4103,8 +4118,8 @@
           "title": {"en":"Brio","es":""} ,
           "tagline": {"en":"Brio Spa","es":""},
           "flavor_text": {
-            "en":"Open to all guests, Brio Spa is a sophisticated reimagining of the French approach to spas. Here you can luxuriate in an atmosphere of utter tranquility and unwind with lavish treatments formulated for relaxation.",
-            "es": "Brio Spa es una sofisticada versión del spa francés que está disponible para todos los huéspedes. Aquí usted puede deleitarse en una atmósfera de absoluta tranquilidad y relajarse con lujosos tratamientos diseñados para experimentar un descanso total."
+            "en":"Open to every guest. The Brio Spa has a French approach with a European flare. When you step through the door you will immediately feel the magical release of stress and feel relaxation cascade over you.",
+            "es": "**Needs Translation**"
             },
           "image": "brio-spa-billboard.jpg",
           "link": "brio spa"
@@ -4114,8 +4129,8 @@
           "title": {"en":"","es":""},
           "tagline": {"en":"Spatium","es":"Spatium"},
           "flavor_text": {
-            "en":"Available for the exclusive use of Grande Luxxe guests, Spatium elevates the spa experience to luxurious new heights with a gorgeous indoor/outdoor facility and the latest relaxation techniques and treatments.",
-            "es": "Disponible para el uso exclusivo de los huéspedes de Grande Luxxe, Spatium eleva la experiencia del spa a un nuevo nivel de lujo gracias a sus hermosas instalaciones y a las técnicas de relajación y los tratamientos más modernos."
+            "en":"This upscale spa is only for Grand Luxxe guests. The offerings at the Spatium exceeds any spa experience you have had before. The palatial Spatium soars the spa experience beyond your expectations or dreams. The opulent and breathtaking luxurious indoor and outdoor surroundings soothes your mind, body and spirit with the most current spa treatments and methods of relaxation.",
+            "es": "**Needs Translation**"
             },
           "image": "spatium-billboard.jpg",
           "link": "spatium"
@@ -4126,8 +4141,8 @@
           "title": {"en":"","es":""},
           "tagline": {"en":"The Wellness Program","es":"El Programa Wellness"},
           "flavor_text": {
-            "en":"Wellness isn’t just a state of being: it’s a transformative journey. We’re excited to offer guests at Vidanta Nuevo Vallarta the opportunity to embrace this journey with The Wellness Program, a comprehensive curriculum meant to usher in utter comfort and balance for the mind, body, and spirit. The program offers two different curated paths toward wellbeing—The Spa, Fitness & Nutrition Program and the Joy Squad Activities Program. Contact your concierge if you’d like to experience The Wellness Program on your next visit to Vidanta Nuevo Vallarta.",
-            "es": "El bienestar no solo es un estado deseable, también puede ser un viaje transformador. Nos complace ofrecerle a los huéspedes en Vidanta Nuevo Vallarta la oportunidad de iniciar su viaje con el Programa Wellness, un plan integral pensado para encontrar el equilibrio para el cuerpo, la mente y el espíritu. El programa ofrece dos diferentes rutas hacia el bienestar – el Programa de Spa, Fitness y Nutrición y el Programa de Actividades del Joy Squad. Póngase en contacto con su concierge si desea probar el Programa Wellness en su próxima visita a Vidanta Nuevo Vallarta."
+            "en":"Wellness is a choice that we can strive to achieve. Guests are offered a chance to embark on this health improving journey. The Wellness Program guides with steps to take to reach a greater harmony with the mind, body and spirit connection of living a more whole and joyful life. Contact your concierge for more information. ",
+            "es": "**Needs Translation**"
             },
           "image": "wellness-billboard.jpg",
           "link": ""
@@ -4150,8 +4165,8 @@
       },
       "text": {
         "description": {
-          "en":"Treatments at Spatium range from more traditional, holistic therapies, to one-of-a-kind themed spa journeys and treatment rituals, to breakthrough healing therapies incorporating indigenous ingredients.",
-          "es": "Ubicado en la frondosa selva que rodea a Grande Luxxe Residence Tower, Spatium combina la sanación ancestral y los tratamientos de belleza con instalaciones vanguardistas para consentirlo de la mejor manera. Su impecable ambiente incorpora los efectos relajantes de la naturaleza y un diseño único para crear este refugio de relajación –¡también conocido como un paraíso absoluto!"
+          "en":"There is a spectrum of luscious treatments in the categories of traditional, holistic and themes. Your journey can be the design of your choosing along with rituals and natural ingredients from Mexico. Let go, release and enjoy. You deserve it. ",
+          "es": "**Needs Translation**"
           },
         "header": {
           "en":"Treatments",
@@ -4174,8 +4189,8 @@
             "es":"spatium"
           },
           "flavor_text": {
-            "en":"Located in the lush jungle outside of Grande Luxxe Residence Tower, Spatium fuses ancient healing and beauty treatments with cutting-edge facilities to create a new, elevated experience in pampering. The environment seamlessly incorporates the innately relaxing effects of nature with its unique indoor and outdoor design, creating a haven of relaxation—also known as complete paradise!",
-            "es": "Ubicado en la frondosa selva que rodea a Grande Luxxe Residence Tower, Spatium combina la sanación ancestral y los tratamientos de belleza con instalaciones vanguardistas para consentirlo de la mejor manera. Su impecable ambiente incorpora los efectos relajantes de la naturaleza y un diseño único para crear este refugio de relajación –¡también conocido como un paraíso absoluto!"
+            "en":"Location is nestled in the emerald jungle at Grand Luxxe Residence Tower. Spatium blends treatments of beauty with natural cultural healing inside extravagant furnishings to enable you to feel more pampered than ever before. The lavish surroundings inside and outside bring deep relaxation and joy like heaven on earth.",
+            "es": "**NEeds Translation**"
             },
           "image": "spatium-billboard-1.jpg",
           "link": ""
@@ -4188,10 +4203,10 @@
             "es":"Anexo de Hidroterapia"
           },
           "flavor_text": {
-            "en":"Available for the exclusive use of Grande Luxxe guests, Spatium elevates the spa experience to luxurious new heights with a gorgeous indoor/outdoor facility and the latest relaxation techniques and treatments.",
-            "es": "Refúgiese del mundo en nuestro Anexo de Hidroterapia, un hermoso santuario que se encuentra al exterior, en donde los huéspedes pueden participar en un circuito revigorizante que se compone de jacuzzi, tina de agua fría, cuarto de vapor, sauna, baño de pies y una zona de relajación en la sombra. Le recomendamos participar en este refrescante ritual antes de recibir un masaje u otro tratamiento, ¡aunque también puede disfrutarse por sí solo!"
+            "en":"Open only to Grand Luxxe guests. Spatium soars the spa experience above all others with its unique luscious water therapy offerings in the midst of palm trees, dancing water fountains and billowy cushioned chairs. ",
+            "es": "**Needs Translation**"
             },
-          "image": "spatium-billboard.jpg",
+          "image": "hydrotherapy-billboard.jpg",
           "link": ""
         }
       }
@@ -4208,8 +4223,8 @@
       },
       "text": {
         "description": {
-          "en":"Brio offers a comprehensive menu of treatments that draws of a variety of techniques and reflects different philosophies from all over the world to provide healing and rejuvenating services.",
-          "es": "Brio ofrece un menú completo de tratamientos que se ha inspirado en diversas técnicas y que refleja diferentes filosofías de todo el mundo con el propósito de proveer servicios reparadores y de rejuvenecimiento."
+          "en":"Brio Spa provides you with a complete selection of treatments that taps into an array of authentic cultural methods from all over the world.  Embrace the healing and restoration that Brio Spa will offer you. ",
+          "es": "**Needs Translation**"
           },
         "header": {
           "en":"Treatments",
@@ -4226,8 +4241,8 @@
           "title": {"en":"","es":""},
           "tagline": {"en":"","es":""},
           "flavor_text": {
-            "en":"Located in The Grande Mayan, Brio takes the classic French art of spa and reimagines it into a space filled with unique architectural elements, offering a wide variety of revitalizing and therapeutic treatments for the face, body, and soul. Spa facilities include outdoor relaxation palapas, Jacuzzis, and cold plunge tubs to be enjoyed before or after treatments.",
-            "es": "Ubicado en The Grande Mayan, Brio toma el arte clásico francés y lo reinventa en un espacio lleno de elementos arquitectónicos únicos. Este spa ofrece una amplia variedad de tratamientos revitalizantes y terapéuticos para el rostro, el cuerpo y el alma. Las instalaciones incluyen palapas de relajación en el exterior, jacuzzis y tinas de agua fría que podrá disfrutar antes o después de los tratamientos."
+            "en":"Brio Spa location is in The Grand Mayan. It draws from the classic French art of pampering with exquisite architectural designs. Invite the mind, body and spirit to enjoy the choices of therapeutic treatments that will leave you as light as air. After your treatment, relax in the outdoor area under a palapa, submerge in the Jacuzzi or invigorate in the cold plunge. ",
+            "es": "**Needs Translation**"
             },
           "image": "brio-spa-billboard-1.jpg",
           "link": ""
@@ -4237,10 +4252,10 @@
           "title": {"en":"","es":""},
           "tagline": {"en":"The Healing Powers of the Temazcal","es":"Los poderes sanadores del temazcal"},
           "flavor_text": {
-            "en":"For those looking to embrace the cultural roots of Mexico in their wellness journey, Brio Nuevo Vallarta offers a truly singular experience: the purifying ritual of the Temazcal. According to traditional beliefs, this ancient sweat lodge allows one to remove impurities from their body and spirit during a Shaman-guided ritual. Contact Brio to schedule your Temazcal ritual.",
-            "es": "Para aquellos que buscan vivir en carne propia las raíces culturales de México en su travesía de bienestar, Brio Nuevo Vallarta ofrece una experiencia verdaderamente singular: el ritual purificador del Temazcal. De acuerdo con creencias tradicionales, esta cámara de sudoración antigua permite remover las impurezas del cuerpo y el espíritu durante un ritual guiado por un chamán. Contacte a Brio para agendar su temazcal."
+            "en":"Allow the purification ritual of the Temazcal, an ancient sweat lodge from the cultural roots of the Mexican Shaman guided ritual to help your body and soul detox and be set free. See the staff at Brio Spa to schedule this unique Temazcal experience. ",
+            "es": "**NEeds Translation**"
           },
-          "image": "brio-spa-billboard-1.jpg",
+          "image": "temazcal-billboard.jpg",
           "link": ""
         }
       }
