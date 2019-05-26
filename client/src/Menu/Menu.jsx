@@ -66,7 +66,7 @@ export class Menu extends Component {
 
   getMenuButtons(language){
     if(language === "en"){
-      return ["home","rooms", "getting here","dining","what to do","golf","spa","entertainment", "whats new"];
+      return ["Home","Rooms", "getting Here","Dining","what To Do","golf","spa","entertainment", "new Offerings"];
     }
     if(language === "es"){
       return ["inicio","habitaciones", "como llegar","gastronomia","que hacer","golf","spa","entretenimientio", "novedades"];

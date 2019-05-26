@@ -2463,10 +2463,10 @@
             "name": "santuario-day",
             "tagline": {"en":"Santuario by Day","es":"Santuario de día"},
             "flavor_text": {
-              "en": "At 7 AM, Santuario opens and guests can greet the day with strong coffee, fresh fruit smoothies, and yummy pastries on any of the lounges or terraces that fill the space. The structure is also the first place that greets most guests during their vacation, being the gateway to the parking area and taxi pick up and drop off.",
-              "es": "Santuario abre sus puertas a las 7 a.m. y los huéspedes pueden iniciar su día con un café fuerte, smoothies de fruta frescos y deliciosos postres de cualquiera de los lounges y terrazas que se encuentran alrededor. Este es el lugar que recibe a la mayoría de los huéspedes, ya que es la entrada a la zona de estacionamiento, así como de llegadas y salidas de taxis."
+              "en": "Smell the fresh coffee at Santuario each morning by 7am. There are decadent pastries and fresh smoothies to grace your palate while relaxing on the terraces and loungers taking in the gorgeous foliage and architecture around you. This location is a great place to meet your family and friends.",
+              "es": "**Needs Translation**"
             },
-            "image": "santuario-billboard-1.jpg",
+            "image": "santuario-day-billboard.jpg",
             "link": ""
           },
           "1" : {
@@ -2475,37 +2475,22 @@
             "name": "santuario-night",
             "tagline": {"en": "Santuario by Night","es":"Santuario de noche"},
             "flavor_text": {
-              "en":"Every night, Santuario boasts a different assortment of astounding acts, from traditional dance, to jazz, to singers, to acrobatics, and live art preparation. Guests can enjoy these performances on the main lounge, or relax with a drink prepared by Santuario’s expert mixologists on any of the many side lounges or terraces. And after the acts wrap up for the night, a DJ mixes live music until close. Acts change nightly, so see your concierge for a schedule of that evening’s performances.",
-              "es": "Cada noche, Santuario cuenta con una variedad de actuaciones asombrosas, como las danzas tradicionales, jazz, cantantes, acrobacias y arte en vivo. Los huéspedes pueden disfrutar de estas actuaciones en el lounge principal o relajarse con una bebida preparada por los expertos mixólogos de Santuario en cualquiera de los muchos lounges o terrazas. Una vez que las actuaciones concluyen por la noche, un DJ mezcla música en vivo hasta el cierre. Las actuaciones cambian cada noche, así que consulte a su concierge para conocer el programa del día."
+              "en":"Each night, Santuario comes alive with amazing showcases of talent; live art demonstrations, mesmerizing unique acts, tickling the ivory keys of a piano, strumming the guitar or playing other cultural instruments, traditional dance, jazz, singers and acrobatics. Sit up close and watch the show or hang back near the side lounges and request a professionally prepared drink from one of the award winning mixologists. For details about the evening show contact your concierge.",
+              "es": "**Needs Translation**"
             },
-            "image": "santuario-billboard-2.jpg",
+            "image": "santuario-night-billboard.jpg",
             "link": ""
           },
           "2" : {
             "type": "image",
-            "title": "",
-            "name": "text-out-of-bounds",
-            "tagline": {
-              "en":"Performer Profile: Oasis Brightens Your Nights",
-              "es":"Perfil del intérprete: Oasis ilumina sus noches"
-            },
-            "flavor_text": {
-              "en":"With its cool Cuban sounds and charismatic rhythms to get your whole body moving, Oasis is a favorite act at Santuario. This five-person band specializes in salsa music and other intoxicating beats of the Caribbean, and they’re known for getting their audiences up on their feet and dancing.","image": "santuario-billboard-3.jpg","link": "",
-              "es": "Con sus maravillosos sonidos y ritmos cubanos que lo harán mover todo el cuerpo, Oasis es una de las actuaciones favoritas en Santuario. Esta banda de cinco integrantes se especializa en salsa y otros ritmos del Caribe y es famosa por hacer que su público no dude ni un segundo en levantarse a la pista de baile."
-            },
-            "image": "santuario-billboard-3.jpg",
-            "link": ""
-            },
-          "3" : {
-            "type": "image",
-            "title": {"en": "Featured Cocktail", "es":"Cóctel destacad"},
+            "title": {"en": "Traditional Mexican Margarita on the Rocks or Frozen", "es":"**Needs Translation**"},
             "name": "cocktail",
             "tagline": "",
             "flavor_text": {
-              "en":"Embrace vacation with this zesty drink from Santuario, starring the smoky flavor of mezcal blended with citrus and ginger for a bit of a kick._/_-----_/_1.5 oz. mezcal_/_A splash of orange bitters_/_1 oz. fresh sours_/_.75 oz. agave syrup_/_1 oz. fresh lime juice_/_10 g. fresh ginger_/_-----_/_Mix all ingredients in a shaker with ice and shake vigorously. Serve strained into a chilled martini glass.",
-              "es": "Disfrute de sus vacaciones con esta bebida fresca de Santuario, cuyo protagonista es el sabor ahumado del mezcal, que se mezcla con cítricos y jengibre para ofrecer un toque de intensidad."
+              "en":"Each day there is a specialty featured cocktail that the talented award winning bartenders and drink designers create. Be sure to ask what the delicious offering is for the day.",
+              "es": "**Needs Translation**"
             },
-            "image": "santuario-billboard-4.jpg",
+            "image": "santuario-margarita-billboard.jpg",
             "link": ""
           }
         }
@@ -4272,10 +4257,10 @@
       },
       "text": {
         "description": {
-          "en":"As the evening settles in, that’s when Vidanta Nuevo Vallarta bursts to life. Intoxicating live music; vibrant displays of acrobatics, dance, clowning, and artistry; dazzling light shows utilizing the latest in digital effects; festive celebrations of food, culture, and fun—this is your vacation and this destination provides a myriad of ways to enrich and enliven every moment of it. It’s time to embrace the magic and marvels playing out all around you!",
-          "es": "Cuando llega el atardecer, Vidanta Nuevo Vallarta se llena de emociones. Aquí, usted encontrará música en vivo fascinante, exhibiciones de acrobacia vibrantes, danza, payasos y arte; shows de luz impactantes que utilizan los últimos efectos digitales; y celebraciones llenas de comida, cultura y diversión. Este destino le dará innumerables opciones para enriquecer y darle vida a cada momento. ¡Disfrute la magia y las maravillas que se manifiestan a su alrededor!"
+          "en":"As the evening approaches, that’s when the resort starts rocking with a variety of entertainment choices. Light shows that leave you speechless. Party celebrations with food, music, culture and fun. Professional entertainers: musicians, dancers, acrobatics, singers, clowning and unique artists’ offerings. It’s up to you which way you prefer to take on the night and have an amazing fun time.",
+          "es": "**Needs Translation**"
           },
-        "header": {"en": "Let the Show Begin", "es":"¡Que comience el show!"}
+        "header": {"en": "Nighttime Fun for All ", "es":"**Needs Translation**"}
       },
       "images": {
         "gallery": [],
@@ -4288,8 +4273,8 @@
           "name": "santuario",
           "tagline": {"en":"Santuario","es":"Santuario"},
           "flavor_text": {
-            "en":"At the heart of Vidanta Nuevo Vallarta is Santuario, a sprawling 75,000-square-foot, indoor-outdoor entertainment pavilion. Santuario offers a nightly lineup of acts for the whole family, including acrobatics, dance performances, musical acts, sand artists, and more. It also features multiple bars, lounges, and lounge decks, perfect for kicking back and enjoying the evening.",
-            "es": "En el corazón de Vidanta Nuevo Vallarta está Santuario, un extenso pabellón de espectáculos de casi 7 mil metros cuadrados. Santuario ofrece un programa nocturno de espectáculos para toda la familia que incluye acrobacia, danza, música, escultores de arena y más. También cuenta con múltiples bares, lounges y plataformas de lounge perfectas para recostarse y disfrutar del atardecer."
+            "en":"Watch in amazement at the expansive 75,000-square-foot, indoor-outdoor entertainment pavilion. Santuario offers a different show each night that the entire family will love: musical and dance performances, acrobatics, unique artists’ demonstrations plus even more. Sit back, relax and watch the show as you allow your taste buds to be tantalized with special drinks from the award winning bartenders and specialty drink designers.",
+            "es": "**Needs Translation**"
             },
           "image": "santuario-billboard.jpg",
           "link": "santuario"
@@ -4298,10 +4283,10 @@
           "type": "image",
           "title": {"en":"","es":""},
           "name": "lake-show",
-          "tagline": {"en":"Lake Show","es":"Lake Show"},
+          "tagline": {"en":"The Lake Show","es":"**Needs Translation"},
           "flavor_text": {
-            "en":"Add some dazzle to your stay at Vidanta Nuevo Vallarta by checking out The Lake Show. Every 30 minutes after sunset, the lake by La Cantina and Gong erupts in an amazing display of lights, fountains, special effects, and music. Plus, every show is different, so you can stop by night after night to enjoy the astounding sights.",
-            "es": "Brinde luz a su estancia en Vidanta Nuevo Vallarta con The Lake Show. Cada 30 minutos, después de la puesta de sol, el lago de La Cantina y Gong cuenta con una exhibición impresionante de luces, fuentes, efectos especiales y música. Además, cada show es diferente, así que puede venir noche tras noche a disfrutar de las espectaculares vistas."
+            "en":"Once the sun has set La Cantina and Gong begin their spectacular light show with glowing colors dancing to the music and glistening through the lake and fountains. No show is the same so you can be delightfully dazzled at the lake and light show every night.",
+            "es": "**Needs Translation**"
           },
           "image": "the-lake-show-billboard.jpg",
           "link": ""
@@ -4312,8 +4297,8 @@
           "name": "theme-nights",
           "tagline": {"en":"Theme Nights","es":""},
           "flavor_text": {
-            "en":"Experience Mexican culture, performances by local dancers and singers, and film nights for the whole family with the weekly Theme Nights at The Grande Bliss beach at Vidanta Nuevo Vallarta. Theme Nights vary by season, but a typical weekly lineup includes the live performances and buffet of Monday Beach Party, Mexican food and mariachi of Sabores de México, and Family Movie Night.",
-            "es": ""
+            "en":"Step into an evening of Mexican culture. Stunning local dancers and singers will capture your full attention. The entire family will love Theme Nights and Family Movie Nights. The Grand Bliss beach invites you to enjoy an evening beach party of authentic Mexican food flavors and mariachi band. You will hear the music and smell the amazing aromas before you even step onto the sand. The Family Movie Nights are often near one of the pools, contact activities for location. ",
+            "es": "**Needs Translation**"
             },
           "image": "theme-nights-billboard.jpg",
           "link": ""
@@ -4323,8 +4308,8 @@
           "title": {"en":"","es":""},
           "tagline": {"en":"Live Music","es":"Noches temáticas"},
           "flavor_text": {
-            "en":"Vidanta Nuevo Vallarta is proud to showcase the talents of some of Riviera Nayarit’s top musicians with live music throughout the resort. From jazz, to Cuban, to classical piano, to mariachi, you can find these acts performing at Santuario, Havana Moon, Azur, The Grande Lobby Bar, Luxxe Bar, and La Cantina. Ask your concierge for the schedule of live music during your stay.",
-            "es": "Vidanta Nuevo Vallarta se enorgullece de mostrar los talentos de algunos de los mejores músicos de Riviera Nayarit con música en vivo en todo el resort. Usted puede escuchar jazz, música cubana, piano clásico y mariachi, entre otros ritmos, en Santuario, Havana Moon, Azur, The Grande Lobby Bar, Luxxe Bar y La Cantina. Pregúntele a su concierge por el calendario de música en vivo durante su estancia."
+            "en":"Be entertained by the local sought after talented musicians in multiple locations around the resort. There are a variety of genres offered. One will certainly tickle your fancy: Cuban, mariachi, Jazz, classic piano, saxophone or other common and unique instruments. Be sure to visit The Grand Lobby Bar, Santuario, Azur, La Cantina or Havana Moon for a sound and visual experience to remember. Havana Moon performers often encourage and lead the guests in dancing fun. Contact your concierge for the schedule of musician performers. ",
+            "es": "**Needs Translation**"
             },
           "image": "live-music-billboard.jpg",
           "link": ""
@@ -4332,10 +4317,10 @@
         "4": {
           "type": "image",
           "title": {"en":"","es":""},
-          "tagline": {"en":"No Better Place to Celebrate", "es":"No hay un mejor lugar para celebrar"},
+          "tagline": {"en":"The Perfect Holiday Extravaganza", "es":"No hay un mejor lugar para celebrar"},
           "flavor_text": {
-            "en":"The Holidays are better at Vidanta! We’re always eager to make your stay as special as possible for you and your family, and holidays are no exception. At Nuevo Vallarta, we’re proud to host special events, activities, and celebrations for the following holidays:",
-            "es": "¡Los días festivos son mejores en Vidanta! Siempre deseamos hacer su estancia y la de su familia tan especial como sea posible y los días festivos no son la excepción. En Nuevo Vallarta, nos enorgullece contar con eventos especiales, actividades y celebraciones durante los siguientes días festivos:"
+            "en":"You are certain to experience a Holiday that you will forever remember. Invite your family and friends to share the most joyous Holiday of their life. The resort shines with delight during special occasions with Holiday theme honored activities, special events and celebrations. Be sure to contact your concierge for the schedule of Holiday offerings.",
+            "es": "**Needs Translation**"
             },
           "image": "holidays-billboard.jpg",
           "link": ""
@@ -4469,7 +4454,7 @@
       },
       "text": {
         "description": {"en":"","es":""},
-        "header": {"en":"the latest resort updates","es":"Últimas Novedades de los Resorts"}
+        "header": {"en":"New Delights to Try","es":"**Needs Translation**"}
       },
       "images": {
         "gallery": [],
@@ -4482,10 +4467,10 @@
           "name": "almaverde",
           "tagline": {"en":"Almaverde","es":"Almaverde"},
           "flavor_text": {
-            "en":"See where Vidanta Nuevo Vallarta sources its produce straight from the vine! This 40-acre farm yields over 65 types of fruits and vegetables that are used throughout the resort!",
-            "es": "¡Conozca el lugar del que Vidanta Nuevo Vallarta extrae sus productos directamente de la tierra! Esta huerta de 40 acres produce cerca de 65 tipos de frutas y vegetales que son utilizados en el resort."
+            "en":"Almaverde is a 40 acre farm that produces 65 types of vegetables and fruits that are used at all the resort restaurants. The resort proudly provides their guests with fresh farm to table produce. Contact your concierge to tour.",
+            "es": "**Needs Translation**"
           },
-          "image": "whats-new-billboard-1.jpg",
+          "image": "almaverde-billboard.jpg",
           "link": ""
         },
         "1" : {
@@ -4494,8 +4479,8 @@
           "name": "tower 5",
           "tagline": {"en":"Grande Luxxe Tower 5 & Quinto","es":"Torre 5 de Grande Luxxe y Quinto"},
           "flavor_text": {
-            "en":"This stunning new tower offers amazing views of the resort, Ameca River, Sierra Madres, and Banderas Bay from its brand-new rooftop restaurant",
-            "es": "Esta asombrosa torre ofrece vistas del resort, el Río Ameca, la Sierra Madre y la Bahía de Banderas que pueden contemplarse desde su nuevo restaurante ubicado en la parte superior."
+            "en":"This impressive new tower dazzles the eye with breathtaking views of the entire resort: the nearby Ameca River, the tranquil Banderas Bay and the Sierra Madre Mountains in the background. The rooftop Quinto Restaurant offers a morning brunch as well as food and drink poolside service with a smile. And of course the Joy Squad visits you by your lounge chair to clean your sunglasses and offer you a variety of flavors of Mexico popsicles.",
+            "es": "**Needs Translation**"
           },
           "image": "whats-new-billboard-2.jpg",
           "link": ""
@@ -4506,10 +4491,10 @@
           "name": "tequila tour",
           "tagline": {"en":"The Tequila Tour","es":"Tequila Tour"},
           "flavor_text": {
-            "en":"Become a tequila connoisseur and learn the finer points about Mexico’s national spirit in this fun outdoor tour offering a tequila tasting, cocktail lessons, and barbecue.",
-            "es": "Conviértase en un conocedor del tequila y descubra la información más importante sobre esta bebida mexicana en este divertido tour que ofrece una degustación, lecciones para hacer cócteles y una parrillada."
+            "en":"The professional mixologists teach you all about the history and types of tequila. This well known Mexican liquor has many levels of quality and variations in color. Your new acquired knowledge will help you discern the best tequila for every occasion.",
+            "es": "**Needs Translation**"
           },
-          "image": "whats-new-billboard-3.jpg",
+          "image": "tequila-tour-billboad.jpg",
           "link": ""
         }
       }
