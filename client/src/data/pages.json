@@ -4444,8 +4444,8 @@
     }
   },
 
-  "whats new" : {
-    "address": "/whats-new",
+  "new offerings" : {
+    "address": "/new-offerings",
     "content": {
       "banner": {
         "image": "whats-new-banner.jpg",
@@ -4494,7 +4494,7 @@
             "en":"The professional mixologists teach you all about the history and types of tequila. This well known Mexican liquor has many levels of quality and variations in color. Your new acquired knowledge will help you discern the best tequila for every occasion.",
             "es": "**Needs Translation**"
           },
-          "image": "tequila-tour-billboad.jpg",
+          "image": "tequila-tour-billboard.jpg",
           "link": ""
         }
       }

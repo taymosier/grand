@@ -49,6 +49,7 @@
   "/what-to-do" : "what to do",
   "/what-to-do/shopping" : "shopping",
   "/what-to-do/activities" : "/activities",
+  "/new-offerings" : "new offerings",
   "/pools" : "/pools",
   "/golf" : "/golf",
   "/golf/the-nayar-course" : "the nayar course",
@@ -64,7 +65,4 @@
   "/rooms/two-bedroom-residence-loft" : "two bedroom residence loft",
   "/rooms/three-bedroom-residence-loft" : "three bedroom presidential suite",
   "/rooms/four-bedroom-residence" : "four bedroom residence"
-
-
-
 }
