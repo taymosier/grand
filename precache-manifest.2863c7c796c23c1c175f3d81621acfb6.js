@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/the-lakes-course-thumbnail.4339c2ba.jpg"
   },
   {
-    "revision": "6d46af952476df514d76",
+    "revision": "f025f9a3880d3c3b569c",
     "url": "/static/css/main.5a346199.chunk.css"
   },
   {
@@ -840,8 +840,8 @@ self.__precacheManifest = [
     "url": "/static/media/shopping-thumbnail.c6bb36a5.jpg"
   },
   {
-    "revision": "6d46af952476df514d76",
-    "url": "/static/js/main.87e0dbd1.chunk.js"
+    "revision": "f025f9a3880d3c3b569c",
+    "url": "/static/js/main.25fe55a8.chunk.js"
   },
   {
     "revision": "0b55236fee6996df4d435e147e1cb877",
@@ -1676,7 +1676,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.762604e3.chunk.css"
   },
   {
-    "revision": "0872239604cf751d8a004242e27c7747",
+    "revision": "ea89dcadd3bb59b46578ab573d0e6c8e",
     "url": "/index.html"
   }
 ];
