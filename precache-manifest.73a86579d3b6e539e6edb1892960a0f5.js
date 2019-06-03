@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/the-lakes-course-thumbnail.4339c2ba.jpg"
   },
   {
-    "revision": "f025f9a3880d3c3b569c",
-    "url": "/static/css/main.5a346199.chunk.css"
+    "revision": "ebbc64a7c1e8e3298415",
+    "url": "/static/css/main.558c849e.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-9.b3db4716.jpg"
   },
   {
-    "revision": "f1563b27672d3146e147",
-    "url": "/static/js/2.74c0328b.chunk.js"
+    "revision": "5e851c9e4a753721f1ef",
+    "url": "/static/js/2.616e2be5.chunk.js"
   },
   {
     "revision": "23af5cab1c0536d7aedeb985f62276ea",
@@ -840,8 +840,8 @@ self.__precacheManifest = [
     "url": "/static/media/shopping-thumbnail.c6bb36a5.jpg"
   },
   {
-    "revision": "f025f9a3880d3c3b569c",
-    "url": "/static/js/main.25fe55a8.chunk.js"
+    "revision": "ebbc64a7c1e8e3298415",
+    "url": "/static/js/main.4731360e.chunk.js"
   },
   {
     "revision": "0b55236fee6996df4d435e147e1cb877",
@@ -1672,11 +1672,11 @@ self.__precacheManifest = [
     "url": "/static/media/spa-gallery-8.e2e7448e.jpg"
   },
   {
-    "revision": "f1563b27672d3146e147",
+    "revision": "5e851c9e4a753721f1ef",
     "url": "/static/css/2.762604e3.chunk.css"
   },
   {
-    "revision": "ea89dcadd3bb59b46578ab573d0e6c8e",
+    "revision": "912b2b27f20c99d0eb2dd8771328e3a3",
     "url": "/index.html"
   }
 ];
