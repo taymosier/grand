@@ -2506,14 +2506,17 @@ body, .menuButton, .registration-step-container {
 
   .page-description {
     padding: 10px 0 0 0;
-    font-size: 18px;
-    font-weight: 200;
-    letter-spacing: .95px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .55px;
+    line-height: 26px;
   }
 
   .page-description p {
-    padding: 5px 0 0 15px;
+    background: #E6F3FD;
+    padding: 10px;
     margin: 0 0 5px 0;
+    border: 2px solid ghostwhite;
   }
 
   .page-header {

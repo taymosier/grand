@@ -178,7 +178,7 @@ render() {
           }
           <Col
             xl={{ size: 8, offset: 0 }}
-            lg={{ size: 8, offset: 0 }}
+            lg={{ size: 7, offset: 0 }}
             md={{ size: 7, offset: 1 }}
           >
 

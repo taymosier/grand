@@ -221,65 +221,6 @@
             "altText": "dining image",
             "folder": "dining"
           }
-        ],
-        "thumbnails": [
-          {
-            "image": "fine-dining-thumbnail.jpg",
-            "text": {
-              "title": {
-                "en": "Fine Dining",
-                "es": "Alta Cocina"
-              },
-              "flavor": {
-                "en":"Choose from an array of gourmet restaurants helmed by some of the world’s best chefs.",
-                "es": "Elija entre una variedad de restaurantes gourmet dirigidos por algunos de los mejores chefs del mundo."
-              }
-            },
-            "link": "fine"
-          },
-          {
-            "image": "bars-thumbnails.jpg",
-            "text": {
-              "title": {
-                "en": "Bars and Lounges",
-                "es": "Bares y Lounges"
-              },
-              "flavor": {
-                "en": "From elegant lounges to lively bars with live music, find the right setting for your evening.",
-                "es": "Contamos con lounges elegantes, así como con bares animados con música en vivo. Encuentre el escenario que prefiera para pasar su noche."
-              }
-            },
-            "link": "bars"
-          },
-          {
-            "image": "in-room-thumbnail.jpg",
-            "text": {
-              "title": {
-                "en": "In-Room Dining",
-                "es": "Comida en la Habitación"
-              },
-
-              "flavor": {
-                "en": "Eat like royalty from the comfort of your own room thanks to our extensive room service menu.",
-                "es": "Coma como la realeza –desde la comodidad de su propia habitación– gracias a nuestro extenso menú con servicio a la habitación."
-              }
-            },
-            "link": "in room"
-          },
-          {
-            "image": "casual-dining-thumbnail.jpg",
-            "text": {
-              "title": {
-                "en": "Casual Dining",
-                "es": "Comida en la Habitación"
-              },
-              "flavor": {
-                "en":"Mexican, American, international—find the cuisine you crave from our wide selection of eateries.",
-                "es": "Mexicana, americana, internacional: elija la cocina que más se le antoje de nuestra amplia selección de restaurantes."
-                }
-            },
-            "link": "casual"
-          }
         ]
       },
       "billboards": {
@@ -294,24 +235,6 @@
           },
           "image": "dining-billboard-0.jpg",
           "link": ""
-        },
-        "1" : {
-          "type": "image",
-          "title": {
-            "en": "Must-Taste Dish",
-            "es": "Platillo Recomendado"
-          },
-          "name": "featured-restaurant",
-          "tagline": {
-            "en":"Tacos al pastor",
-            "es":"Tacos al pastor"
-          },
-          "flavor_text": {
-            "en":"Delight in the flavors of authentic Mexico with this Puebla-born dish, made with spit-roasted pork marinated with pineapple.",
-            "es": "Deléitese con los sabores del México auténtico con este platillo nacido en Puebla, hecho con puerco asado en espada y piña."
-            },
-          "image": "dining-billboard-1.jpg",
-          "link": "tacos break"
         }
       }
     }

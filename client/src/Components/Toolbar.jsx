@@ -71,7 +71,7 @@ export class Toolbar extends Component {
     return(
       <Col
         xl={{ size: 2, offset: 1 }}
-        lg={{ size: 2, offset: 1 }}
+        lg={{ size: 2, offset: 0 }}
         md={{ size: 3, offset: 1 }}
         sm={{ size: 12, offset: 0 }}
         xs={{ size: 12, offset: 0 }}
