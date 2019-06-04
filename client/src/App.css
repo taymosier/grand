@@ -2230,6 +2230,7 @@ body, .menuButton, .registration-step-container {
     width: fit-content;
     max-width: fit-content;
     margin: 0 auto;
+    visibility: visible; /* remove later */
     min-width: fit-content;
     padding: 0px 0;
     vertical-align: middle;
