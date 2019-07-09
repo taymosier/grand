@@ -6,10 +6,8 @@ import express from 'express';
 import generateHTML from './htmlGenerator'
 import cookieParser from 'cookie-parser'
 import bodyParser from 'body-parser'
-// import whatwgFetch from "whatwg-fetch"
 
-
-import App from '../src/App';
+import App from '../client/src/App';
 
 const PORT = 8080;
 const app = express();
@@ -17,7 +15,7 @@ const app = express();
 const router = express.Router()
 
 const serverRenderer = (req, res, next ) => {
-  fs.readFile(path.resolve('./build/index.html'), 'utf8', (err, data) => {
+  fs.readFile(path.resolve('./client/build/index.html'), 'utf8', (err, data) => {
     if( err ) {
       console.error(err);
       return res.status(500).send('An error occurred')
@@ -29,10 +27,7 @@ const serverRenderer = (req, res, next ) => {
 }
 app.use(cors());
 app.use(bodyParser.json())
-// app.use((whatwgFetch()))
-app.use(bodyParser.urlencoded({
-  extended: true
-}))
+app.use(bodyParser.urlencoded({extended: true}))
 app.post('/', (req, res) => {
   res.header("Access-Control-Allow-Origin", "*");
   try{
