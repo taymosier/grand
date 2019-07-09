@@ -29,8 +29,7 @@ class App extends Component {
       contactFormVisible: false,
       registrationFormVisible: false,
       menuModal: false,
-      thumbnail: null,
-      screenSize: helpers.determineScreenSize()
+      thumbnail: null
     };
     this.closeThumbnail = this.closeThumbnail.bind(this);
     this.viewThumbnail = this.viewThumbnail.bind(this);
