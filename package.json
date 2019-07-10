@@ -5,11 +5,17 @@
   "dependencies": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@babel/preset-react": "^7.0.0",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
     "esm": "^3.2.25",
+=======
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+>>>>>>> parent of 42d0f53... Committing because I'm about to go HAM on some SSR and things may get a little messy
 =======
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
